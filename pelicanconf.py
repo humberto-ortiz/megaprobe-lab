@@ -6,7 +6,7 @@ AUTHOR = u'Humberto Ortiz-Zuazaga'
 SITENAME = u'MegaProbe Lab'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Puerto_Rico'
 
 DEFAULT_LANG = u'en'
 
@@ -16,14 +16,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('CCOM', 'http://ccom.uprrp.edu/'),
+          ('HPCf', 'http://hpcf.upr.edu/'),
+          ('UPR-RP', 'http://www.uprrp.edu/'),)
+
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
