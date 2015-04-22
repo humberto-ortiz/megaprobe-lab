@@ -2,6 +2,7 @@ Title: Humberto Ortiz-Zuazaga
 Date: 2014-11-28
 Slug: humberto
 Category: People
+Tags: SalHUD
 
 Humberto Ortiz-Zuazaga, PhD
 

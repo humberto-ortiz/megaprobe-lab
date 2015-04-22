@@ -32,3 +32,8 @@ DEFAULT_PAGINATION = 10
 
 # Theme
 THEME="../pelican-themes/pelican-bootstrap3"
+BOOTSTRAP_THEME = 'cosmo'
+BOOTSTRAP_NAVBAR_INVERSE = True
+
+# License
+CC_LICENSE = "CC-BY-SA"

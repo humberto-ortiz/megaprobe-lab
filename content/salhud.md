@@ -1,6 +1,7 @@
 Title: SalHUD - A Heads Up Display for Public Health Data
 Date: 2014-11-28
 Slug: salhud
+Tags: SalHUD
 Category: Publications
 
 SalHUD is a prototype interactive display of years of potential life
