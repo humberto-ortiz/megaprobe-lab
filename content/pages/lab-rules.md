@@ -59,6 +59,11 @@ If you would prefer to privately report unacceptable behavior
 prefer, and otherwise work to resolve the problem in a way which keeps
 you safe and protects the community from unacceptable behavoior.
 
+# Noise
+* People that live in glass houses should not throw stones.
+* They should also keep the noise down. If I can year you in my office, you're too loud.
+* Please use headphones, and try to use your indoor voices.
+
 # General Guidelines
 
 * Talk to people and make friends. Part of the point of megaprobe is interpersonal interaction, and we want to meet you and learn about whatever cool project you're working on. It's amazing how often random discussions between people at megaprobe have turned into things that show up on the world stage.
