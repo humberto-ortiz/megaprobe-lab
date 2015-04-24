@@ -1,4 +1,6 @@
 Title: Lab Rules
+Date: 2015-04-23 10:23
+Modified: 2015-04-24 10:02
 
 The MegaProbe Lab is growing quickly, and we need some rules to ensure
 everyone can get their work done. Different spaces have different
