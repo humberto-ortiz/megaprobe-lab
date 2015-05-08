@@ -66,6 +66,13 @@ you safe and protects the community from unacceptable behavoior.
 * They should also keep the noise down. If I can year you in my office, you're too loud.
 * Please use headphones, and try to use your indoor voices.
 
+# Juggling
+
+* The lab has some juggling props, you may borrow them for less than a
+  day.
+* When juggling in the lab, you are allowed to drop one prop (see
+  Noise above), after that, you must practice outside.
+
 # General Guidelines
 
 * Talk to people and make friends. Part of the point of megaprobe is interpersonal interaction, and we want to meet you and learn about whatever cool project you're working on. It's amazing how often random discussions between people at megaprobe have turned into things that show up on the world stage.
