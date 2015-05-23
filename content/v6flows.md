@@ -1,4 +1,4 @@
-Title: Poster: Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows
+Title: Presentation: Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows
 Date: 2015-05-23
 Slug: v6flows
 Tags: Flows
