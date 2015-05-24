@@ -4,8 +4,6 @@ Slug: grace
 Category: People
 Tags: Flows
 
-supported by the National Science Foundation under Grant
-No. DUE-1438838.
 Hola!
 
 My name is Grace M. Rodriguez, I'm currently in Computerized
