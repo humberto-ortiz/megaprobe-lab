@@ -9,7 +9,7 @@ interactive display of years of potential life lost (YPLL) in each
 municipality in the island of Puerto Rico according to major causes of
 death.
 
-The project started as a collaboration beween hackers from 3 UPR
+The project started as a collaboration between hackers from 3 UPR
 campuses for the
 [First Puerto Rico Tech Summit Hackathon](https://www.hackerleague.org/hackathons/puerto-rico-tech-summit-hackathon)
 (Code For Puerto Rico) Jun 6th, 2013 in San Juan, Puerto Rico.
