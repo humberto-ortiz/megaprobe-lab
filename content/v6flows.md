@@ -10,5 +10,5 @@ the College of Natural Sciences.
 
 Colón-Rosado, Bianca; Rodríguez-Gómez, Grace; Ortiz-Zuazaga, Humberto
 (2015): Techniques for Anomaly Detection in IPv4 & IPv6 Network
-Flows. figshare.  http://dx.doi.org/10.6084/m9.figshare.1424486
+Flows. figshare.  <http://dx.doi.org/10.6084/m9.figshare.1424486>
 Retrieved 20:49, May 23, 2015 (GMT)
