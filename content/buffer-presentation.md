@@ -1,7 +1,7 @@
 Title: Presentation: Exploiting Buffer Overflows
 Date: 2015-05-23
 Slug: buffer-slides
-Tags: Cybersecurity, buffer overflow
+Tags: cybersecurity, buffer overflow
 Category: Publications
 
 Ayala, Abimael Carrasquillo; Ortiz-Zuazaga, Humberto (2015): Exploiting Buffer Overflows. figshare.

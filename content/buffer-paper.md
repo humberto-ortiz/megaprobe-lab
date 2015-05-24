@@ -1,7 +1,7 @@
 Title: Technical Report: Exploiting Buffer Overflows
 Date: 2015-05-23
 Slug: buffer-paper
-Tags: Cybersecurity, buffer overflow
+Tags: cybersecurity, buffer overflow
 Category: Publications
 
 
