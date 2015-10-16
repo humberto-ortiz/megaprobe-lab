@@ -1,0 +1,12 @@
+Hello!
+
+I am currently graduating from my B.S. of Computer Science, with a second concentration on Math. My research with Dr. Ortiz revolves around the open source project netoworkX, wich is  third party library for complex networks (Graphs). I also worked as Tutor of Computer Science courses Fundamental Structures, Intro. to Programming and Data structures. In the meantime, I enjoy helping new students and lab partners in learning programming (Python Rules!).
+
+Hobbies: Chess, Some first-person shotter games and learning new CS-related things! 
+
+If you are interested, you can see the programming labs that I developed for the first course of our CS department here: http://edwardo2013.github.io/CCOM_labs_python/LABS/IntroPython.html
+
+You can contact me at: edwardo.rivera11@gmail.com
+
+Happy coding!
+

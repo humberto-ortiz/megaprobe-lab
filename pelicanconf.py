@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Humberto Ortiz-Zuazaga'
 SITENAME = u'MegaProbe Lab'
+SITELOGO = "images/k-logo-tiny.png"
+SITELOGO_SIZE = 37
 SITEURL = ''
 
 TIMEZONE = 'America/Puerto_Rico'
