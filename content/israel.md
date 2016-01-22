@@ -4,6 +4,10 @@ Slug: israel
 Category: People
 Tags: de-novo
 
+Contact info:
+e-mail - israelodilan@gmail.com 
+Github - https://github.com/Omig12/
+
 Weekly UPDATE
 
 Week 1
