@@ -1,8 +1,8 @@
 Title: De Novo Sequencing Project
 Date: 2016-01-22
 Modified: 2016-01-22
-Slug: ivan, israel
-Category: Project
+Slug: de novo
+Category: Projects
 Tags: de novo, Flows, Bioinformatics, Python
 
 De Novo Sequencing Project
