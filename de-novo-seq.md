@@ -1,9 +1,9 @@
 Title: De Novo Sequencing Project
 Date: 2016-01-22
 Modified: 2016-01-22
-Slug: de novo
+Slug: de-novo-seq
 Category: Projects
-Tags: de novo, Flows, Bioinformatics, Python
+Tags: de-novo, Flows, Bioinformatics, Python
 
 De Novo Sequencing Project
 
