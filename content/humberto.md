@@ -13,3 +13,4 @@ microarrays under the supervision of Dr. Oscar Moreno de Ayala.
 A lot more information is available on
 [his home page](http://ccom.uprrp.edu/~humberto/).
 
+2016/01/22 - Accepted 8 students. Planned some projects. Meetings.
