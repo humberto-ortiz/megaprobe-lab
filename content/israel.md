@@ -4,11 +4,14 @@ Slug: israel
 Category: People
 Tags: de-novo
 
-Contact info:
-e-mail - israelodilan@gmail.com 
-Github - https://github.com/Omig12/
+## Contact info:
 
-Weekly UPDATE
+ - e-mail - <israelodilan@gmail.com>
+ - Github - <https://github.com/Omig12/>
 
-Week 1
-  Started reading up on de novo sequencing and familiarizing with the terms used around it. 
+## Weekly UPDATE
+
+### Week 1:
+
+Started reading up on de novo sequencing and familiarizing with the
+terms used around it.
