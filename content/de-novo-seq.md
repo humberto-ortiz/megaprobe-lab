@@ -3,7 +3,7 @@ Date: 2016-01-22
 Modified: 2016-01-22
 Slug: de-novo-project
 Category: Projects
-Tags: de-novo, Bioinformatics, Python
+Tags: de-novo, Bioinformatics, Python, sequence assembly
 
 Samples of DNA/RNA known as **sequences** can be used to understand
 the information of nucleotides in biological structures. Small
