@@ -25,4 +25,4 @@ This project is a collaboration between
 [Jose Agosto Rivera's Lab](https://www.researchgate.net/profile/Jose_Luis_Agosto),
 [Pittsburgh Supercomputing Center](http://psc.edu/),
 [RISE](http://brtcpr.com/rise/index.html), and
-[MegaProbe]({filename}/pages/about.md.
+[MegaProbe]({filename}/pages/about.md).
