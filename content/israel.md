@@ -5,30 +5,30 @@ Slug: israel
 Category: People
 Tags: de-novo
 
-### Israel O. Dilán Pantojas
+# Israel O. Dilán Pantojas
 
 ## Bio:
  
  I confess my crimes against humanity and Eleutherodactylus coqui races alike, for I have vanquished the furious lab frog.   
- "Now, I am become Death, the destroyer of worlds." - J.R. Oppenheimer
+ > Now, I am become Death, the destroyer of worlds.
+ >> - J.R. Oppenheimer
 
 ## Contact info:
 
  - e-mail - <israelodilan@gmail.com>
  - Github - <https://github.com/Omig12/>
 
-### Research Goals
+# Research Goals
 
   Create and Analyse correctly obtained De Bruijn graphs from de novo sequence assemblies utilizing mutual.
 
-### Weekly UPDATE
+## Weekly UPDATE
 
-# Week 1: (19-22/ene)
+### Week 1: (19-22/ene)
 
-Started reading up on de novo sequencing and familiarizing with the
-terms used around it.
+ - Started reading up on de novo sequencing and familiarizing with the terms used around it.
 
-# Week 2: (25-29/ene)
+### Week 2: (25-29/ene)
 
  - Installed required programs (velvet/oases) to test out mutual. 
  - Aquired Sample Data Set of Nematostella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
