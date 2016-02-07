@@ -23,4 +23,4 @@ Read and understand the paper Evaluating Real-time Anomaly Detection Algorithms 
 ## January 25, 2016 - January 29, 2016
 When we start installing in Hulk the initial requirements, using the anaconda module get an error of the version `GLIBCXX_3.4.18' when we try to install nupic. After several attemps, we got an SystemError: Cannot compile 'Python.h'. 
 ## February 1, 2016 - February 5, 2016
-We install [Vagrant + CoreOS + Docker](https://github.com/numenta/nupic/tree/master/coreos-vagrant) in my computer, to check if nupic work, and work. Now we can continue with the next steps.
+We install [Vagrant + CoreOS + Docker](https://github.com/numenta/nupic/tree/master/coreos-vagrant) in my computer, to check if nupic work, and work. The next step was to install NAB, we installed succesfully and then start running the full NAB. It would take many many hours to run.
