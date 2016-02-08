@@ -35,3 +35,14 @@ Tags: de-novo
  - Working on glossary of Bioinformatics related terms.
  - Continued reading up on de novo sequences, mutual/velvet/oases and De Bruijn graph assembly of short reads.
  - Test ran mutual.
+
+### Week 3: (1-5/feb)
+
+ - Initiated test running of mutual on local (DELL Inspiron 7548) machine, utilizing sample Sea Anemone Dataset. 
+ - Estimated run-time: 72 hour.
+ - Expected output: A transcript with very long contigs due to the high similarity of the two test organisms. 
+ - Results: Two empty output files. >:'(
+ - Possible issues: Computer might not meet requirements to performs such heavy work very efficiently.
+ - Path of action: Proceeded to move operations elsewhere, The University of Puerto Rico's Computer Science Department very own Hulk. 
+ - Rest of the week(get it?) due too health problems. 
+
