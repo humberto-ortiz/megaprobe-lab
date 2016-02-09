@@ -36,8 +36,8 @@ Tags: flows, network, anomaly
 
 # Research Goals
 
-  I'm hoping to gain some insight and experience with investigations by helping [Bianca Colón](https://github.com/BnkColon) and [Grace Rodríguez](https://github.com/gracemarod).
-  I'm hoping this experience will prepare me to pursue my own investigation with Prof. Humberto or Prof. J. Ortíz in a semester or two.  I aim to assist in any way I can by reading
+  I aim to gain some insight and experience with investigations by helping [Bianca Colón](https://github.com/BnkColon) and [Grace Rodríguez](https://github.com/gracemarod).
+  I'm hoping this experience will prepare me to pursue my own investigation with Prof. Humberto or Prof. J. Ortíz in a semester or two.  I will assist in any way I can by reading
   and searching for research material, providing any assistance by installing any necessary programs, etc.
 
 ## Weekly UPDATE
