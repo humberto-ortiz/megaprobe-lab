@@ -18,6 +18,10 @@ Tags: de-novo
  - e-mail - <israelodilan@gmail.com>
  - Github - <https://github.com/Omig12/>
 
+
+[![ENJOY!](http://img.youtube.com/vi/wZZ7oFKsKzY/0.jpg)](https://www.youtube.com/watch?v=wZZ7oFKsKzY) 
+ 
+
 # Research Goals
 
   Create and Analyse correctly obtained De Bruijn graphs from de novo sequence assemblies utilizing mutual.
