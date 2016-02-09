@@ -36,7 +36,7 @@ Tags: flows, network, anomaly
 
 # Research Goals
 
-  I aim to gain some insight and experience with investigations by helping [Bianca Colón](https://github.com/BnkColon) and [Grace Rodríguez](https://github.com/gracemarod).
+  Through reasearch, I aim to gain insight and experience with investigation workflow  by helping [Bianca Colón](https://github.com/BnkColon) and [Grace Rodríguez](https://github.com/gracemarod) in their current investigation "Techniques for anomaly detection in network flows".
   I'm hoping this experience will prepare me to pursue my own investigation with Prof. Humberto or Prof. J. Ortíz in a semester or two.  I will assist in any way I can by reading
   and searching for research material, providing any assistance by installing any necessary programs, etc.
 
