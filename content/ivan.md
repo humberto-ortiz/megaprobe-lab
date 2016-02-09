@@ -25,9 +25,20 @@ Tags: de-novo
 	- <https://github.com/NacroKill/dmel-ercc-diff>
 
  - The 2nd Semester 2016 workplan can be found at:
+
 	-  <https://github.com/NacroKill/dmel-ercc-diff/blob/master/ILJR_2016_RISE_Workplan.pdf>
 
-## Weekly UPDATE - 2nd Semester 2016
+## UPDATE - 1st Semester 2015-2016
+
+ - Finished cleaning original data sequences 
+ 	- (Code and description of cleaning process to be added later on...)
+ - Used new "clean" data to re-run reference based assembly 
+ 	- Finished running TopHat and Cufflinks programs
+ - Attempted to re-run denovo assembly using "clean" data:
+ 	- Finished running Trinity 
+ 		- Now moving on to RSEM and eXpress...
+
+## Weekly UPDATE - 2nd Semester 2015-2016
 
 ### Week 1: (18/Jan-24/Jan.):
 
