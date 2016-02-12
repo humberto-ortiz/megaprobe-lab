@@ -24,3 +24,39 @@ Read and understand the paper Evaluating Real-time Anomaly Detection Algorithms 
 When we start installing in Hulk the initial requirements, using the anaconda module get an error of the version `GLIBCXX_3.4.18' when we try to install nupic. After several attemps, we got an SystemError: Cannot compile 'Python.h'. 
 ## February 1, 2016 - February 5, 2016
 We install [Vagrant + CoreOS + Docker](https://github.com/numenta/nupic/tree/master/coreos-vagrant) in my computer, to check if nupic work, and work. The next step was to install NAB, we installed succesfully and then start running the full NAB. It would take many many hours to run.
+## February 8, 2016 - February 12,2016
+Results of NAB:
+``` 
+Optimizer found a max score of -33.2060596464 with anomaly threshold 0.803125.
+
+Running scoring step
+null detector benchmark scores written to /usr/local/src/NAB/results/null/null_reward_low_FP_rate_scores.csv
+null detector benchmark scores written to /usr/local/src/NAB/results/null/null_reward_low_FN_rate_scores.csv
+null detector benchmark scores written to /usr/local/src/NAB/results/null/null_standard_scores.csv
+numenta detector benchmark scores written to /usr/local/src/NAB/results/numenta/numenta_reward_low_FP_rate_scores.csv
+numenta detector benchmark scores written to /usr/local/src/NAB/results/numenta/numenta_reward_low_FN_rate_scores.csv
+numenta detector benchmark scores written to /usr/local/src/NAB/results/numenta/numenta_standard_scores.csv
+random detector benchmark scores written to /usr/local/src/NAB/results/random/random_reward_low_FP_rate_scores.csv
+random detector benchmark scores written to /usr/local/src/NAB/results/random/random_reward_low_FN_rate_scores.csv
+random detector benchmark scores written to /usr/local/src/NAB/results/random/random_standard_scores.csv
+skyline detector benchmark scores written to /usr/local/src/NAB/results/skyline/skyline_reward_low_FP_rate_scores.csv
+skyline detector benchmark scores written to /usr/local/src/NAB/results/skyline/skyline_reward_low_FN_rate_scores.csv
+skyline detector benchmark scores written to /usr/local/src/NAB/results/skyline/skyline_standard_scores.csv
+
+Running score normalization step
+Final score for 'null' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'null' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'null' detector on 'standard' profile = 0.00
+Final score for 'numenta' detector on 'reward_low_FP_rate' profile = 58.59
+Final score for 'numenta' detector on 'reward_low_FN_rate' profile = 69.38
+Final score for 'numenta' detector on 'standard' profile = 65.27
+Final score for 'random' detector on 'reward_low_FP_rate' profile = 5.76
+Final score for 'random' detector on 'reward_low_FN_rate' profile = 27.20
+Final score for 'random' detector on 'standard' profile = 17.66
+Final score for 'skyline' detector on 'reward_low_FP_rate' profile = 27.08
+Final score for 'skyline' detector on 'reward_low_FN_rate' profile = 44.48
+Final score for 'skyline' detector on 'standard' profile = 35.69
+Final scores have been written to /usr/local/src/NAB/results/final_results.json. 
+```
+
+We don't have the real time of this run because we stop the process a few times. We want to run it in Hulk to get that time. Our next step is to analize the way they use their Flows data in order to adapt our Benford's program to that data.
