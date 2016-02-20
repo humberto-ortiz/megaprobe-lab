@@ -5,6 +5,7 @@ Slug: israel
 Category: People
 Tags: de-novo
 
+
 # Israel O. Dilán Pantojas
 
 ## Bio:
@@ -19,8 +20,7 @@ Tags: de-novo
  - Github - <https://github.com/Omig12/>
 
 
-[![ENJOY!](http://img.youtube.com/vi/wZZ7oFKsKzY/0.jpg)](https://www.youtube.com/watch?v=wZZ7oFKsKzY) 
- 
+[![Seriously!](https://s-media-cache-ak0.pinimg.com/564x/2e/b4/63/2eb4631511b658d831ee851538d0673b.jpg)] 
 
 # Research Goals
 
@@ -37,16 +37,36 @@ Tags: de-novo
  - Installed required programs (velvet/oases) to test out mutual. 
  - Aquired Sample Data Set of Nematostella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
  - Working on glossary of Bioinformatics related terms.
- - Continued reading up on de novo sequences, mutual/velvet/oases and De Bruijn graph assembly of short reads.
+ - Continued reading up on de novo sequences, mutual/velvet/oases and de Bruijn Graph assembly of short reads.
  - Test ran mutual.
 
 ### Week 3: (1-5/feb)
 
  - Initiated test running of mutual on local (DELL Inspiron 7548) machine, utilizing sample Sea Anemone Dataset. 
- - Estimated run-time: 72 hour.
- - Expected output: A transcript with very long contigs due to the high similarity of the two test organisms. 
- - Results: Two empty output files. >:'(
- - Possible issues: Computer might not meet requirements to performs such heavy work very efficiently.
- - Path of action: Proceeded to move operations elsewhere, The University of Puerto Rico's Computer Science Department very own Hulk. 
+    - Estimated run-time: 72 hour.
+    - Expected output: A transcript with very long contigs due to the high similarity of the two test organisms. 
+    - Results: Two empty output files. >:'(
+    - Possible issues: Computer might not meet requirements to performs such heavy work very efficiently.
+    - Path of action: Proceeded to move operations elsewhere, The University of Puerto Rico's Computer Science Department very own Hulk. 
  - Rest of the week(get it?) due too health problems. 
 
+### Week 4: (8-12/feb)
+ - Setting up Hulk server to run mutual. (Still missing velvet)
+    - Battled with Hulk to run mutual. 
+    - Led to a crash :'( after two days of work.
+ - Finally got it down, ran mutual and got some output.
+ - Initiated analyzing phase, todo:
+    - Verify Mutual's output utilizing blast <http://blast.ncbi.nlm.nih.gov/Blast.cgi> and blastn <http://genome.jgi.doe.gov/pages/blast-query.jsf?db=Nemve1> 
+    - Clean up initial data by removing adapters using Sickle and Scythe <http://bioinformatics.ucdavis.edu/research-computing/software/>.
+    - Visualize mutual ouputs with the help of bandage <https://github.com/rrwick/Bandage>.
+ - Started working on a more readable and reproductible version of the documentation for this reasearch. 
+
+### Week 5: (15-20/feb)
+ - Worked on creating research documentation and a research log:
+    - Wrote FAQ to help ease the reproduction of this research.
+ - Experienced many issues syncing local and remote git repo.
+ - Verified Mutual's output using two different blast services both returned correctly identified nemastotella similarity.
+ - Verified Quality of input files using FastQC, file are very high quality reads.
+ - Todo:
+    - Visualize contigs using Bandage.
+    - Trim illumina adapters from input sequences.
