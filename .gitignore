@@ -5,5 +5,5 @@ pelican.pid
 pelicanconf.pyc
 publishconf.pyc
 srv.pid
-Mutual_Files/velvet/
-Mutual_Files/oases/
+/content/Mutual_Files/velvet/
+/content/Mutual_Files/oases/
