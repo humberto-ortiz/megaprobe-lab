@@ -39,6 +39,14 @@ This semester I want to concentrate more in using visualization  methods to help
 
 ##Week 2 (01/31/16 - 02/06/16)
 - Start reading papers to get more ideas on visualazing IP flow.
+- Got a new idea from looking at some projects. After I finish the cube of doom, I want to try and convert the IPv6 adresses to geoIP. With them, using Maxmind database, I want to is display all the ip addresses that connected to the UPR's network wihting a map.   
 
-##Week 3 (02/07/16 - 02/07/16)
+##Week 3 (02/07/16 - 02/14/16)
+- Donwloaded Maxmind's GeoIP of IPv6 cities and countries.
+- Went to Cheo's presentation on Friday where he explained how the Cube of Doom visualizes its flow data and 
+  the needed fields from a flow so the cube can display them. 
 
+##Week 4 (02/15/16 - 02/21/16)
+- Julio send me a json with ipv6 flow data.
+- After figuring how a json works in Python scrypt for a whi;e, I was able to display the desired data.
+- I want to display all the data in a table format, and be able to have the option to choose the fields you want to display.
