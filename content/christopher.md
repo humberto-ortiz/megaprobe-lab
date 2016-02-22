@@ -33,4 +33,7 @@ Began downloading packages in Hulk, but didnt have permissions for installing Br
 WEEK 3:
 After talking to Humberto we concluded it would be best to be connected directly in an ethernet cable to the Science DMZ and just install Bro in my Mac. It worked after many downloads and a few hours of installation. Finished the first tutorial which consisted of 7 challenges to learn how to use the bro language. It was pretty basic, using strings, split(), replace(), etc. 
 
+WEEK 4:
+At the end of week 3 Humberto told me to start working in an SSH detection first. I discovered on Tuesday that Bro Network had some tools already made for SSH detection. I spent all week trying to make it work with my network, learning how to use the events on the Bro language. Still working on it, hopefully for week 5 I will have results of SSH detection or maybe even more.
+
 
