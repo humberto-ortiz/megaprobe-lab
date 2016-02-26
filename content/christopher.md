@@ -36,4 +36,6 @@ After talking to Humberto we concluded it would be best to be connected directly
 WEEK 4:
 At the end of week 3 Humberto told me to start working in an SSH detection first. I discovered on Tuesday that Bro Network had some tools already made for SSH detection. I spent all week trying to make it work with my network, learning how to use the events on the Bro language. Still working on it, hopefully for week 5 I will have results of SSH detection or maybe even more.
 
+WEEK 5:
+After discovering the scripts that I needed for start network monitoring, I found some tutorials on how to start doing this but with virtual environments. Part of the tutorial mentioned to install Vagrant, which goes hand-by-hand with VirtualBox. With these environments of Ubuntu 12.04 LTS 64-bit we will start testing the scripts inside them. It was pretty easy to understand, pretty basic commands on how to set up an environment, how to destroy one, etc. At the beginning of the week, I was pretty lost because I have a very weak knowledge of networking and setting up an ssh-detection script was starting to get difficult. That's why I changed my approach to ask Google for help on how to start setting clusters on Broconctrol, learning the synxtax for this shell, etc. 
 
