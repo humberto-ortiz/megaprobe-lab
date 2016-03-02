@@ -20,9 +20,10 @@ Tags: de-novo
 
 ## Project DESCRIPTION:
 
- -  Includes weekly reports from Summer 2015 Internship at the Pittsburgh Supercomputing Center...
+ - 'Project site': <https://github.com/NacroKill/dmel-ercc-diff>
+ 
+ 	-  Includes weekly reports from Summer 2015 Internship at the Pittsburgh Supercomputing Center (PSC)...
 
-	- 'Project site': <https://github.com/NacroKill/dmel-ercc-diff>
 
  - The 2nd Semester 2016 workplan can be found at:
 
@@ -41,7 +42,7 @@ Tags: de-novo
 ## Weekly UPDATE - 2nd Semester 2015-2016
 
  	- DISCLAIMER: All programs mentioned below were ran on PSC's Greenfield (R.I.P. BLACKLIGHT)
- 		-  
+ 		- List of PSC hardware: https://www.psc.edu/index.php/data-exacell/hardware-infrastructure
 
 ### Week 1: (18/Jan-24/Jan.):
 
