@@ -83,4 +83,11 @@ Tags: de-novo
  - Reinstalled Ubuntu. :'D (So shinny!)
  - Updated Weekly.
  - Many a exams this week.
- - Began reading "A cartoon introduction to genetics" 
+ - Began reading "A cartoon guide to genetics" by. 
+ - Analyse best way to compare outputs from velvet/oases and mutual.
+    - Options:
+        - Find a way to graph mutuals output compare graphs with velvet's.
+            - Also posibly compare with output of other that does analysis between multiple organisms.
+        - Utilize blast to compare each contig.
+        - Utilize clustel to compare contig alingment.
+
