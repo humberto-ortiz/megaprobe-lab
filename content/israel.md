@@ -79,7 +79,7 @@ Tags: de-novo
  - Local Computer's Ubuntu OS broke  (RIP) :'(  Thankfully to prior advice given in a lab meeting, had created multiple back ups of research data.
  - Read a few more papers concerning bioinformatics and its history.
 
-[![{filename}images/contigs_graph.png]Bandage graph of velvet/oases output.]
+![Bandage graph of velvet/oases output.({filename}images/contigs_graph.png)]
 
 ### Week 7: (29/feb-4/Mar)
  - Reinstalled Ubuntu. :'D (So shinny!)
