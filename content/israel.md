@@ -90,4 +90,9 @@ Tags: de-novo
             - Also posibly compare with output of other that does analysis between multiple organisms.
         - Utilize blast to compare each contig.
         - Utilize clustel to compare contig alingment.
+ - Still to do:
+    - Remove Adapters with sickle.
+    - Trim edges with scythe. 
 
+### Week 8: (7-11/mar)
+ - Git repo is finally in order. :)
