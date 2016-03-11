@@ -6,13 +6,11 @@ Category: People
 Tags: de-novo
 
 
-# Israel O. Dilán Pantojas
+# Bio:
 
-## Bio:
- 
  I confess my crimes against humanity and Eleutherodactylus coqui races alike, for I have vanquished the furious lab frog.
  > Now, I am become Death, the destroyer of worlds.
- 	- J.R. Oppenheimer
+    J.R. Oppenheimer
 
 ## Contact info:
 
@@ -93,8 +91,19 @@ Tags: de-novo
         - Utilize blast to compare each contig.
         - Utilize clustel to compare contig alingment.
  - Still to do:
-    - Remove Adapters with sickle.
-    - Trim edges with scythe. 
+    - Remove Adapters with Scythe.
+    - Trim edges with Sickle.
 
 ### Week 8: (7-11/mar)
  - Git repo is finally in order. :)
+ - Finally got to quality trimming:
+    - Needed Illumina Adapters FASTA files to remove adapters, found them in Trimmomatic source code. <http://www.usadellab.org/cms/?page=trimmomatic>
+    - Helpfull note utilize FastQC to help determy how to quality control your reads. Especially figuring out the encoding.
+    - Apparently scythe supports gunzipped fastq files.
+ - Finally removed Adapters
+ - Finally trimmed Edges
+ - Created quality reports using FASTQC for each step.
+ - To do:
+    - Verify if quality can be further improved.
+    - Re-run mutual with clean data and graph outputs
+    - Close to source code examination.

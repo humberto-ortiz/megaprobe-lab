@@ -1,3 +1,11 @@
+Title: Frequently Asked Questions
+Date: 2016-02-23
+Modified: 2016-03-11
+Slug: FAQ
+Category: Projects
+Tags: de-novo
+
+
 FAQ:
 
 1. What is the aim of your research?
@@ -39,16 +47,23 @@ FAQ:
 		3. Visit the software developers website and try to figure out if anyone had the same issue before and how they solved it.
 		4. Write an email to megaprobe-lab, explaining the issue in detail, so that we can try to help. 
 
-7. What should I do first after everythings installed?
+8. What should I do first after everythings installed?
 	Get fastq files of your desired organisms to compare.
 		
-8. Where can I get them?
+9. Where can I get them?
 	There are actually a few 	
-9. Got the fastq files. What's next? 
+10. Got the fastq files. What's next? 
 	Run them through fastqc to check the quality of the reads.
 
-10. The reads are of good quality, now what?
-	Remove adapters and trim edges utilizing Sickle and Scythe.
+11. The reads are of good quality, now what?
+	Remove adapters and trim edges utilizing Scythe(Remove Adapters) and Sickle(Trim EDGES).
 
-11. 
+12. Which should I do first?
+    It's prefferable to fisrt remove adapters and then trim the edges.
+    In other words first run scythe and then run sickle.
 
+13. How can I go about runing scythe?
+    Understanding the quality of your input files is essential for this task, therefore run your input files through FASTQC.
+    Use the basic information to identify the adapter enconding an use it in your input for scythe.
+
+14. 
