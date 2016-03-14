@@ -50,3 +50,15 @@ This semester I want to concentrate more in using visualization  methods to help
 - Julio send me a json with ipv6 flow data.
 - After figuring how a json works in Python scrypt for a whi;e, I was able to display the desired data.
 - I want to display all the data in a table format, and be able to have the option to choose the fields you want to display.
+
+##Week 5 (02/29/16 - 03/04/16)
+- Tried to make my json reader script save the data neatly in a file but fail. I don't want to spend too much time on the script so I just print the data in the terminal and save it in file myself. I'll go back and try to fix it when I have more time.
+
+##Week 6 (03/03/16 - 03/11/16)
+- Really didn't got to do much becouse I was super busy with classes. And when I say "didn't go to fo much" I actually mean I haven't done anything this week.
+- Bianca told me I had to do the WyCiS poster for next Monday but I ignored her. I have the IOs bootcamp all weekened plus work so I barely have time to work on it and I want to be able to show the Cube on Doom in the poster. Sorry Bianca.
+
+##Week 7 (03/14/16 - 03/18/16)
+- Talk to Julio about how to display the 3D cube. He explain how his vizualization work, and he recommened me to ask Cheo about it.
+- Hoping there's a 3 day strike so I can catch to research and classes. "Huelga si, entrega no!"
+- I think this has become a weekly journal for the whole Megaprobe to see. 
