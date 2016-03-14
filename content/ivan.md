@@ -20,9 +20,10 @@ Tags: de-novo
 
 ## Project DESCRIPTION:
 
- -  Includes weekly reports from Summer 2015 Internship at the Pittsburgh Supercomputing Center...
+ - 'Project site': <https://github.com/NacroKill/dmel-ercc-diff>
+ 
+ 	-  Includes weekly reports from Summer 2015 Internship at the Pittsburgh Supercomputing Center (PSC)...
 
-	- <https://github.com/NacroKill/dmel-ercc-diff>
 
  - The 2nd Semester 2016 workplan can be found at:
 
@@ -40,6 +41,9 @@ Tags: de-novo
 
 ## Weekly UPDATE - 2nd Semester 2015-2016
 
+ 	- DISCLAIMER: All programs mentioned below were ran on PSC's Greenfield (R.I.P. BLACKLIGHT)
+ 		- List of PSC hardware: https://www.psc.edu/index.php/data-exacell/hardware-infrastructure
+
 ### Week 1: (18/Jan-24/Jan.):
 
 	- Finished first section of RSEM (abundance estimation)
@@ -54,4 +58,32 @@ Tags: de-novo
 
 	- Finished second section of RSEM (gene expression analysis), producing a heat map of 19 'new' differentially expressed genes
 	- Attempted abundance estimation and gene expression analysis using eXpress
+
+### Week 4: (8/Feb-14/Feb):
+
+	- Postponing eXpress analysis (after encountering several errors with the module and supporting perl scripts)
+	- Ran blastx searches of all 19 DE genes (later determined this to be the wrong BLAST program)
+		- Found Birnavirus and Xvirus genes again...
+		 		- Started working on old python script to determine if there are actual viral transcripts BLAST'ed DE genes
+
+### Week 5: (15/Feb-21/Feb):
+
+	- Ran blastx searches of all 19 DE genes (later determined this to be the wrong BLAST program)
+		- Added results to the 'project site'
+		 	- Found Birnavirus and Xvirus genes again...
+		 	 	- Converted my previous python script to determine if any of the 19 differentially expressed genes appear in Birnavirus and Xvirus genome
+		 	 		- Uploaded python script to project site, code can be found at:  <https://github.com/NacroKill/dmel-ercc-diff/blob/master/Tophat_Birnavirus_Confirmer_2.0.py>
+	- Ran nucleotide blast searches of all 19 DE genes 
+	 	- Added results to the 'project site'
+	- Re-read paper on synthetic spike-in standards ('original paper')
+		- Found at: <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166838/>
+
+
+### Week 6: (22/Feb-28/Feb):
+
+	- Meeting with Dr. Ricardo Gonzalez of the University of Puerto Rico, Medical Science Campus:
+		- Focusing now on the "control" of my experiment, going to try to reproduce the figures/results of referenced based assembly of 'original paper'
+	- Started online harvard course on statistics and learning the R programming language: 
+		- Looks fun: <https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x>
+
 

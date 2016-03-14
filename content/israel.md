@@ -6,13 +6,11 @@ Category: People
 Tags: de-novo
 
 
-# Israel O. Dilán Pantojas
+# Bio:
 
-## Bio:
- 
- I confess my crimes against humanity and Eleutherodactylus coqui races alike, for I have vanquished the furious lab frog.   
+ I confess my crimes against humanity and Eleutherodactylus coqui races alike, for I have vanquished the furious lab frog.
  > Now, I am become Death, the destroyer of worlds.
- >> - J.R. Oppenheimer
+    J.R. Oppenheimer
 
 ## Contact info:
 
@@ -28,11 +26,11 @@ Tags: de-novo
 
 ## Weekly UPDATE
 
-### Week 1: (19-22/ene)
+### Week 1: (19-22/Jan)
 
  - Started reading up on de novo sequencing and familiarizing with the terms used around it.
 
-### Week 2: (25-29/ene)
+### Week 2: (25-29/Jan)
 
  - Installed required programs (velvet/oases) to test out mutual. 
  - Aquired Sample Data Set of Nematostella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
@@ -40,7 +38,7 @@ Tags: de-novo
  - Continued reading up on de novo sequences, mutual/velvet/oases and de Bruijn Graph assembly of short reads.
  - Test ran mutual.
 
-### Week 3: (1-5/feb)
+### Week 3: (1-5/Feb)
 
  - Initiated test running of mutual on local (DELL Inspiron 7548) machine, utilizing sample Sea Anemone Dataset. 
     - Estimated run-time: 72 hour.
@@ -50,7 +48,7 @@ Tags: de-novo
     - Path of action: Proceeded to move operations elsewhere, The University of Puerto Rico's Computer Science Department very own Hulk. 
  - Rest of the week(get it?) due too health problems. 
 
-### Week 4: (8-12/feb)
+### Week 4: (8-12/Feb)
  - Setting up Hulk server to run mutual. (Still missing velvet)
     - Battled with Hulk to run mutual. 
     - Led to a crash :'( after two days of work.
@@ -61,7 +59,7 @@ Tags: de-novo
     - Visualize mutual ouputs with the help of bandage <https://github.com/rrwick/Bandage>.
  - Started working on a more readable and reproductible version of the documentation for this reasearch. 
 
-### Week 5: (15-20/feb)
+### Week 5: (15-20/Feb)
  - Worked on creating research documentation and a research log:
     - Wrote FAQ to help ease the reproduction of this research.
  - Experienced many issues syncing local and remote git repo.
@@ -70,3 +68,42 @@ Tags: de-novo
  - Todo:
     - Visualize contigs using Bandage.
     - Trim illumina adapters from input sequences.
+
+### Week 6: (22-26/Feb)
+ - Fougth with git and github's repos in an effort to sync files, failed.
+    - Switching strategy: Prioritizing some file to be copied and leaving other ones behind stored only locally in both hulk and personal machine.
+ - Installed Scythe and Sickle.
+ - Graphed Contigs from velvet's Lastgraph utilizing Bandage.
+ - Local Computer's Ubuntu OS broke  (RIP) :'(  Thankfully to prior advice given in a lab meeting, had created multiple back ups of research data.
+ - Read a few more papers concerning bioinformatics and its history.
+
+![Bandage graph of velvet/oases output.]({filename}images/contigs_graph.png)
+
+### Week 7: (29/feb-4/Mar)
+ - Reinstalled Ubuntu. :'D (So shinny!)
+ - Updated Weekly.
+ - Many a exams this week.
+ - Began reading "A cartoon guide to genetics" by. 
+ - Analyse best way to compare outputs from velvet/oases and mutual.
+    - Options:
+        - Find a way to graph mutuals output compare graphs with velvet's.
+            - Also posibly compare with output of other that does analysis between multiple organisms.
+        - Utilize blast to compare each contig.
+        - Utilize clustel to compare contig alingment.
+ - Still to do:
+    - Remove Adapters with Scythe.
+    - Trim edges with Sickle.
+
+### Week 8: (7-11/mar)
+ - Git repo is finally in order. :)
+ - Finally got to quality trimming:
+    - Needed Illumina Adapters FASTA files to remove adapters, found them in Trimmomatic source code. <http://www.usadellab.org/cms/?page=trimmomatic>
+    - Helpfull note utilize FastQC to help determy how to quality control your reads. Especially figuring out the encoding.
+    - Apparently scythe supports gunzipped fastq files.
+ - Finally removed Adapters
+ - Finally trimmed Edges
+ - Created quality reports using FASTQC for each step.
+ - To do:
+    - Verify if quality can be further improved.
+    - Re-run mutual with clean data and graph outputs
+    - Close to source code examination.
