@@ -177,3 +177,5 @@ RUN python setup.py install
 
 WORKDIR /home/docker
 ```
+## March 7, 2016 - March 11, 2016
+My poster, **Techniques for Anomaly Detection in Network Flows: Benford’s Law**, has been accepted to be presented in the [WiCyS 2016](https://www.csc.tntech.edu/wicys/) Poster session. I have been working on it.
