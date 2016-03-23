@@ -29,11 +29,16 @@ FAQ:
     FastQC: is used to verify quality of input data.
     Blastn: to validate our output.
     Bandage: to visually Graph contigs.
+    Scythe: 
+    Sickle: 
 
 6. Where can I get them or run them?
     Git clone the following repositories:
-        Oases:  <https://github.com/dzerbino/oases>
-        Velvet: <https://github.com/dzerbino/velvet>
+        Oases:  <https://github.com/dzerbino/oases.git>
+        Velvet: <https://github.com/dzerbino/velvet.git>
+        Bandage: <https://github.com/rrwick/Bandage.git>
+        Scythe: <https://github.com/vsbuffalo/scythe.git>
+        Sickle: <https://github.com/najoshi/sickle.git>
 
     Download and install:
         Blast:  <http://www.ncbi.nlm.nih.gov/guide/howto/run-blast-local/>
@@ -47,12 +52,14 @@ FAQ:
 		3. Visit the software developers website and try to figure out if anyone had the same issue before and how they solved it.
 		4. Write an email to megaprobe-lab, explaining the issue in detail, so that we can try to help. 
 
-8. What should I do first after everythings installed?
+8. What should I do first after everything is installed?
 	Get fastq files of your desired organisms to compare.
-		
+
 9. Where can I get them?
-	There are actually a few 	
-10. Got the fastq files. What's next? 
+	There are actually a few:
+    Starlet Sea Anemone: <https://darchive.mblwhoilibrary.org/handle/1912/5613>
+
+10. Got the fastq files. What's next?
 	Run them through fastqc to check the quality of the reads.
 
 11. The reads are of good quality, now what?
@@ -66,4 +73,4 @@ FAQ:
     Understanding the quality of your input files is essential for this task, therefore run your input files through FASTQC.
     Use the basic information to identify the adapter enconding an use it in your input for scythe.
 
-14. 
+14.
