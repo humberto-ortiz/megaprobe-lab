@@ -21,7 +21,7 @@ linkedin: http://pr.linkedin.com/in/dmrodz
   
 ### Research Goals  
 I'm interested in *de novo* sequencing assembly pipelines and how to tweak them into addressing problematic regions in the genome.  
-I am also interested in <span style:"font-size:larger;">Big Data</span>.  
+I am also interested in  <h1>Big Data.  
   
 ### Status  
 2016-03-24: waiting for department to make me official | writing a proposal
