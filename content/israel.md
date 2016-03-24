@@ -32,7 +32,7 @@ Tags: de-novo
 
 ### Week 2: (25-29/Jan)
 
- - Installed required programs (velvet/oases) to test out mutual. 
+ - Installed required programs (velvet/oases) to test out mutual.
  - Aquired Sample Data Set of Nematostella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
  - Working on glossary of Bioinformatics related terms.
  - Continued reading up on de novo sequences, mutual/velvet/oases and de Bruijn Graph assembly of short reads.
@@ -42,15 +42,15 @@ Tags: de-novo
 
  - Initiated test running of mutual on local (DELL Inspiron 7548) machine, utilizing sample Sea Anemone Dataset. 
     - Estimated run-time: 72 hour.
-    - Expected output: A transcript with very long contigs due to the high similarity of the two test organisms. 
+    - Expected output: A transcript with very long contigs due to the high similarity of the two test organisms.
     - Results: Two empty output files. >:'(
     - Possible issues: Computer might not meet requirements to performs such heavy work very efficiently.
     - Path of action: Proceeded to move operations elsewhere, The University of Puerto Rico's Computer Science Department very own Hulk. 
- - Rest of the week(get it?) due too health problems. 
+ - Rest of the week(get it?) due too health problems.
 
 ### Week 4: (8-12/Feb)
  - Setting up Hulk server to run mutual. (Still missing velvet)
-    - Battled with Hulk to run mutual. 
+    - Battled with Hulk to run mutual.
     - Led to a crash :'( after two days of work.
  - Finally got it down, ran mutual and got some output.
  - Initiated analyzing phase, todo:
@@ -78,12 +78,13 @@ Tags: de-novo
  - Read a few more papers concerning bioinformatics and its history.
 
 ![Bandage graph of velvet/oases output.]({filename}images/contigs_graph.png)
+![Starlet Sea Anemone for comparisson.] (http://www.kahikai.org/images/embryology_development/nv.jpg)
 
-### Week 7: (29/feb-4/Mar)
+### Week 7: (29/Feb-4/Mar)
  - Reinstalled Ubuntu. :'D (So shinny!)
  - Updated Weekly.
  - Many a exams this week.
- - Began reading "A cartoon guide to genetics" by. 
+ - Began reading "The Cartoon Guide To Genetics" by Larry Gonick & Mark Wheelis.
  - Analyse best way to compare outputs from velvet/oases and mutual.
     - Options:
         - Find a way to graph mutuals output compare graphs with velvet's.
@@ -94,11 +95,11 @@ Tags: de-novo
     - Remove Adapters with Scythe.
     - Trim edges with Sickle.
 
-### Week 8: (7-11/mar)
+### Week 8: (7-11/Mar)
  - Git repo is finally in order. :)
  - Finally got to quality trimming:
     - Needed Illumina Adapters FASTA files to remove adapters, found them in Trimmomatic source code. <http://www.usadellab.org/cms/?page=trimmomatic>
-    - Helpfull note utilize FastQC to help determy how to quality control your reads. Especially figuring out the encoding.
+    - Helpful note utilize FastQC to help determine how to quality control your reads. Especially figuring out the encoding.
     - Apparently scythe supports gunzipped fastq files.
  - Finally removed Adapters
  - Finally trimmed Edges
@@ -107,3 +108,18 @@ Tags: de-novo
     - Verify if quality can be further improved.
     - Re-run mutual with clean data and graph outputs
     - Close to source code examination.
+
+### Week 9: (14-18/Mar)
+ - Ran clean data through Velvet/Oases.
+ - Graphed Output of Organism A.
+    - Noticeable results on graph.
+ - Preparing to run files on mutual.
+ - Student assembly paralized work.
+
+![Bandage graph of velvet/oases output.]({filename}images/NewContigs_graph.png)
+
+### Week 10: (21-25/Mar)
+ - Holy Week/Spring break.
+
+### Week 11: (28/Mar-1/Apr)
+ -
