@@ -3,11 +3,12 @@ Title: Dania M. Rodriguez Date: 2016-03-24 Slug: dania Category: People Tags: de
 ### Dania M. Rodriguez, MSc  
   
 ## Bio  
-Work related:  
+**Work related:**  
   - I have a master's degree in biology and phylogenetics.  
   - I've been working with genomics and next generation sequencing for ~15 years (through the Resource Center for Science and Engineering of UPR).  
   - I am currently working at the [CDC](http://www.cdc.gov) as a Data Manager performing data cleaning and analysis (hopefully soon) using R.  
-Not work related & dani-rules:  
+  
+**Not work related & dani-rules:**  
   - I love gaming -- any gaming talk is welcome!  
   - I love D&D and related -- any D&D and related talk is welcome!  
   - I love movies -- any movies talk is also welcome!  
