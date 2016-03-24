@@ -14,16 +14,16 @@ Title: Dania M. Rodriguez Date: 2016-03-24 Slug: dania Category: People Tags: de
   - I love movies -- any movies talk is also welcome!  
   - You are NOT allowed to inquire about my age -- anyone who guesses will earn a quarter and must: *"keep it secret, keep it safe"*  
   
-### Contact Info  
+## Contact Info  
 e-mail: dania.rodriguez@upr.edu | alt: dmrodz@gmail.com  
 github: https://github.com/dmrodz  
 linkedin: http://pr.linkedin.com/in/dmrodz  
   
-### Research Goals  
+## Research Goals  
 I'm interested in *de novo* sequencing assembly pipelines and how to tweak them into addressing problematic regions in the genome.  
-I am also interested in  <h1>Big Data.  
+<h1>I am also interested in Big Data.</h1>  
   
-### Status  
+## Status  
 2016-03-24: waiting for department to make me official | writing a proposal
   
   
