@@ -184,6 +184,7 @@ The student assembly celebrated on March 15, 2016, decreed a strike of 72 hours,
 ## Week 10: March 21, 2016 - March 25, 2016
 Easter week.
 ## Week 11: March 28, 2016 - April 1, 2016
+Conference for Women in Cybersecurity 2016, Dallas, TX. 
 ## Week 12: April 4, 2016 - April 8, 2016
 ## Week 13: April 11, 2016 - April 15, 2016
 ## Week 14: April 18, 2016 - April 22, 2016
