@@ -186,7 +186,13 @@ Easter week.
 ## Week 11: March 28, 2016 - April 1, 2016
 Conference for Women in Cybersecurity 2016, Dallas, TX. 
 ## Week 12: April 4, 2016 - April 8, 2016
+Try to run the docker in Hulk, but Hulk is broked. I start fixing the vagrant in my computer but get some errors. 
+Need a Lab Meetig!!
 ## Week 13: April 11, 2016 - April 15, 2016
+We had a Lab Meeting! Christopher is guilty of breaking Hulk. 
+
+I start running NAB in my computer again because we lost the last results. And start the technical report. 
+
 ## Week 14: April 18, 2016 - April 22, 2016
 ## Week 15: April 25, 2016 - April 29, 2016
 ## Week 16: May 2, 2016 - May 6, 2016
