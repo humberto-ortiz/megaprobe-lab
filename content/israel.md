@@ -122,4 +122,27 @@ Tags: de-novo
  - Holy Week/Spring break.
 
 ### Week 11: (28/Mar-1/Apr)
- -
+ - Utilized Bandage to create a few graphs of interesting contiguous nodes.
+ - Experimented a few forms of output including GFA extensions to graph.
+ - Started reading up on parsers for fasta/fastq files. Using Bio (...) Guides  and Nacrokill's (...) parsers for referrence.
+ - Taking a bit of a break many exams this and the next week.
+
+### Week 12: (4-8/Apr)
+ - Many evaluations this week also :'(, worked mostly on preparing a bioinformatics presentation that aids in explaining Mutual's Heuristic Pairwise Alignment algorithm implementation.
+ - Was corrected by profesor need to parse Velvelt's lastgraph file (that is to say it's De-Bruijn graph), not the fasta/fastq file.
+ - Good news everyone! Found a lastgraph parser in writen Ruby. Bad news everyone! I don't understand ruby. :{
+ - Tried to ran Mutual but The Hulk(server) is down.
+ - To do:
+    - Turn to Velvet/Oases De-Bruijn parser.
+    - Need to run clean data on Hulk.
+
+### Week 13: (11-15/Apr)
+ - Hulk got back up (still has some fight left).
+ - Ran Mutual twice simultaneously:
+  - A) With the purpose of comparing organism's A (input velvet/oases output [velvetA]) De-Bruijn graph with organism's B (input velvet/oases output [velvetB]) De-Bruijn graph after the data had been cleaned with sickle and scythe.
+  - B) With the purpose of comparing organism's A with organism's A (self comparison) expecting duplicate output from Mutual (outputa.fa = outputb.fa).
+ - Created a database using Blast's formatdb on Mutual's output (outputa.fa) to compare other .fa files against it.
+ - Blasted through Mutual's output (outputa.fa) database against Velvet's ouput (contigs.fa)
+ - Blasted through Mutual's output (outputa.fa) database against Mutual's ouput (outputb.fa)
+ 
+### Week 14: (18-22/Apr)
