@@ -124,7 +124,7 @@ Tags: de-novo
 ### Week 11: (28/Mar-1/Apr)
  - Utilized Bandage to create a few graphs of interesting contiguous nodes.
  - Experimented a few forms of output including GFA extensions to graph.
- - Started reading up on parsers for fasta/fastq files. Using Bio (...) Guides  and Nacrokill's (...) parsers for referrence.
+ - Started reading up on parsers for fasta/fastq files. Using Biostars <https://www.biostars.org/p/710/> Guides  and Nacrokill's <https://github.com/NacroKill/dmel-ercc-diff/blob/master/Tophat_Birnavirus_Confirmer_2.0.py> parsers for referrence.
  - Taking a bit of a break many exams this and the next week.
 
 ### Week 12: (4-8/Apr)
@@ -146,3 +146,11 @@ Tags: de-novo
  - Blasted through Mutual's output (outputa.fa) database against Mutual's ouput (outputb.fa)
  
 ### Week 14: (18-22/Apr)
+ - Started working on LastGraph parser in python:
+    - Reads file
+    - Finds NODE
+        - Appends to list
+    - Finds ARC
+- To do:
+  - Write all contigs obtained from De-Bruijn
+  - Determine format for output
