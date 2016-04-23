@@ -150,8 +150,14 @@ Tags: de-novo
  - Started working on LastGraph parser in python:
     - Reads file
     - Finds NODE
-      - Appends to list
+    - Appends to list
     - Finds ARC
-- To do:
-  - Write all contigs obtained from De-Bruijn
-  - Determine format for output
+    -   To do:
+        - Write all contigs obtained from De-Bruijn
+        - Determine format for output
+ - Presumably got a working parser now.
+ - New to do:
+    - Corroborate parser works
+    - Keep improving it
+    - Initiate technical report
+
