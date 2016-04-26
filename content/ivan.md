@@ -83,7 +83,81 @@ Tags: de-novo
 
 	- Meeting with Dr. Ricardo Gonzalez of the University of Puerto Rico, Medical Science Campus:
 		- Focusing now on the "control" of my experiment, going to try to reproduce the figures/results of referenced based assembly of 'original paper'
-	- Started online harvard course on statistics and learning the R programming language: 
+	- Started taking the online harvard course on statistics and learning the R programming language: 
 		- Looks fun: <https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x>
+
+
+### Week 7: (29/Feb-6/March):
+
+	- Documenting correct ERCC.fa to be used...
+		- Found at: 
+			<https://raw.githubusercontent.com/ririzarr/encodeRNAseqEvaluation/master/spikein.fasta>
+				- Supplimentary tableS1 of original paper indicates: 
+					"[1] There were multiple disagreements between the GenBank entries and the resequenced RNAs.  See the supplementary alignment file for corrected sequences."
+						- The file that is being referenced can be found at: 
+							<http://genome.cshlp.org/content/suppl/2011/07/18/gr.121095.111.DC1/ERCC_genbank_alignments.txt>
+								- NOTE: Here we can see the result of running the genbank ERCC queries. The subjects (taken as results) are the "multiple disagreements" and are the ones used from here on out. The only diffence I found was with ERCC-00007...  
+		- Using a corresponding .gtf file for this ERCC_genome.fa file
+			- Found at:
+				<https://github.com/ririzarr/encodeRNAseqEvaluation/blob/master/spikein_gene.gtf>
+					- NOTE: When downloading this gtf file from the site, please note that additional genes that are not used in our project are added at the end of the file (phiX174, VATG3, etc.). It is important to note that we modified the file after downloading it to remove the lines that describe these genes (last line in our file is now describing ERCC-00171).
+					- CHANGE the 5th row of this gtf file to coincide with what was mentioned in the NOTE section above (length of ERCC-00007 was changed).
+		- Ran Bowtie/TopHat/Cufflinks for using ERCC_reference genome and gtf files.
+			- New parameter added: $ -g 1
+				- In the original paper's methodology "ran Bowtie with parameters: -m 1 -v 2"... but because we use Bowtie INSIDE TopHat implementing the --bowtie1 flag for TopHat, we must find and set the same flags/parameters. Following the documentation, the -v 2 parameter is set by default and the value passed through the -g parameter in TopHat sets is used in the -k and -m parameter for bowtie1.
+					- The -v parameter sets the possible mismatches allowed in the comparisons...
+					- "Specifying -m 3 instructs bowtie to refrain from reporting any alignments for reads having more than 3 reportable alignments."...
+						- This example was taken from: <http://bowtie-bio.sourceforge.net/manual.shtml#the-bowtie-aligner>
+	
+	- Finished Week1 of the online harvard course on statistics and learning the R programming language (Weeks 2-4 left).
+
+### Week 8: (7/March-13/March):
+
+	- Changed the supplimentary file containing the concentration information of ERCC genes: 
+		- The .csv file was edited through VI in Command Line:
+			- If viewed using Microsoft Office Excel, the first 2 lines changed:
+				- FROM: 
+					- ERCC,Subpool,GenBank[1],DNA,nt,%GC,MW,Pool 14,Pool 15^Mcontrol,,,,,,,nmol/µl,nmol/µl^MERCC-00012,A,DQ883670,Syn[2] ,994,51,"320,263",2.07E-05,2.07E-05^M
+				- TO:
+					- ERCC,Subpool,GenBank[1],DNA,nt,%GC,MW,Pool.14,Pool.15^MERCC-00012,A,DQ883670,Syn[2] ,994,51,"320,263",2.07E-05,2.07E-05^M
+
+### Week 9: (14/March-20/March):
+
+	- Used RStudio to develop some plots to attempt to reproduce the figures in Supplimentary data of the "paper". 
+	- Used last Tuxedo (TopHat/Cufflinks) DE gene counts data to reproduce Figure 1 plot C
+		- NOTE: x-axis is at a different range (10e-7 to 10e-1) and quite a lot of points are missing on our graph when compared to the original...
+
+### Week 10: (21/March-27/March):
+
+	- Spring break/Holy Week...  
+
+### Week 11: (28/March-3/April):
+
+	- Encountered some problems accesing my account on Greenfield. 
+	- Talked with Humberto about my "reproduced" plot and how to best replicate Figure 1 plot E if plot C was not exactly identical to the "paper's"...
+	- Deduced we are missing some DE genes in our referenced based assembly...
+
+### Week 12: (4/April-10/April):
+
+	- Denied access to Greenfield and emailed the PSC to address this issue.
+		- 2 weeks later and still waiting on them to reopen my account...
+	- Continuing my efforts to correctly establish the control of the experiment.
+		- Switching to the MegaProbe Lab's resource: the Hulk supercomputer 
+	- Developed some PBS scripts from memory on Hulk to pick up where I left off on Greenfield: reproducing the results from the "original paper".
+
+### Week 13: (11/April-17/April):
+
+	- On Hulk:
+		- Ran Scythe and Sickle on SRR039936.fastq
+		- Attempting to fix the amount of genes with abundance estimates discarded by TopHat-2.0.13 and Cufflinks-2.2.1...
+			- 26 genes missing in final plot: 6 missing in the .sam/.bam file after running TopHat, 20 in the FPKM's found to be significant after running Cufflinks)
+		- Successfully running some programs not yet made into modules:
+			- FastQC (no --help command for info on how to run and prints a java error if the binary is ran with no input file)
+			- SamTools
+			- Tuxedo suite (Bowtie, TopHat and Cufflinks - all 3 recent versions and the versions used in "original paper")
+			- RNA fastq/fasta quality filtering programs (Scythe and Sickle)
+
+### Week 14: (18/April-24/April):
+
 
 
