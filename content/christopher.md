@@ -2,7 +2,7 @@ Title: Christopher De Jesús Vélez
 Date: 2016-02-01
 Modified: 2016-02-01
 Tags: bro-network
-Category: people
+Category: People
 
 ## Bio:
  My name is Christopher De Jesus and im currently in my 5th year in college and 4th year as computer science major.
