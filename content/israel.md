@@ -145,14 +145,14 @@ Tags: de-novo
  - Blasted through Mutual's output (outputa.fa) database against Mutual's ouput (outputb.fa)
  - To do:
     - Analyse results see if comparisons results were accurate.
- 
+
 ### Week 14: (18-22/Apr)
  - Started working on LastGraph parser in python:
     - Reads file
     - Finds NODE
     - Appends to list
     - Finds ARC
-    -   To do:
+    - To done :)
         - Write all contigs obtained from De-Bruijn
         - Determine format for output
  - Presumably got a working parser now.
@@ -160,4 +160,17 @@ Tags: de-novo
     - Corroborate parser works
     - Keep improving it
     - Initiate technical report
+
+### Week 15: (25-19/Apr)
+ - Began corroboration of correct parsing of LastGraph file:
+    - Noticed wrong data being displayed in parser's GFA's output of Read Count.
+    - Noticed Problem in Link report reported from Bandage's output vs. Parsers output.
+    - Noticed Problem in reported Link's nodes orientation from Parser.
+ - Changed the way parser stored the data from first storing it in an array to now utilizing networkx's built-in structure for storing attribute.
+ - Fixed wrong read count report.
+ - Kinda theoretically fixed links being reported and node orientation.
+ - Parser is temporarily broken due to issues with networkx structure.
+ - To do:
+    - Fix issues that are preventing the parser from executing correctly.
+    - Continue technical report.
 
