@@ -4,8 +4,9 @@ Slug: bianca
 Category: People
 Tags: Flows
 
+#Biography:
+ 
 Hello! :)
-
 
 My name is Bianca I. Colón Rosado, I’m an 20 year old junior Computer Science student at the University of Puerto Rico, Río Piedras Campus. I'm doing a research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga since September 2014. 
 
@@ -14,6 +15,11 @@ I presented posters about my research in Women in CyberSecurity Conference  (WiC
 My career short term goals are to finish my degree in Computer Science and still doing undergraduate research. Furthermore, my long-term goals are to pursue graduate studies in computer science.
 
 My work is supported by the scholarship [Academics and Training for the Advancement of Cybersecurity Knowledge in Puerto Rico (ATACK-PR)](http://atackpr.ccom.uprrp.edu/) supported by the National Science Foundation under Grant No. DUE-1438838.
+
+##Contact Info:
+e-mail: bianca.colon1@upr.edu 
+
+Github: [https://github.com/BnkColon](https://github.com/BnkColon)
 
 #Project Goals
 ##First Semester 2014-2015
