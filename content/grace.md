@@ -62,3 +62,16 @@ This semester I want to concentrate more in using visualization  methods to help
 - Talk to Julio about how to display the 3D cube. He explain how his vizualization work, and he recommened me to ask Cheo about it.
 - Hoping there's a 3 day strike so I can catch to research and classes. "Huelga si, entrega no!"
 - I think this has become a weekly journal for the whole Megaprobe to see. 
+
+##Week 8 (03/21/16 - 03/25/16)
+- Easter Week. Spent some time practicing Javascript and reading code from TOA to try understand it better.
+- Started doing the Research poster for Women in Cybersecurity.
+
+##Week 9 (03/28/16 - 04/01/16)
+- Finished the poster for Wicys and send it to print.
+- Went to the Wicys conference from 30 to April 3rd. 
+- Presented research poster at Wicys with the title Using Visualization to improve Anomaly Detection in IPv6 Flows.
+- I learned new programming techniques and how to find different type of vulnerabilities in web apps. I also met a lot of professionals from both computer science and the cybersecurity fields which gave me advice in graduate studies and job interviews.
+
+
+
