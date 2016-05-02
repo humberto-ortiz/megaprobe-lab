@@ -191,9 +191,12 @@ Need a Lab Meetig!!
 ## Week 13: April 11, 2016 - April 15, 2016
 We had a Lab Meeting! Christopher is guilty of breaking Hulk. 
 
-I start running NAB in my computer again because we lost the last results. And start the technical report. 
-
+I start running NAB in my computer again because we lost the last results when the docker broke. I will left the docker running and start the technical report. 
 ## Week 14: April 18, 2016 - April 22, 2016
-elegant_pasteur
+The docker elegant_pasteur broke, again... and the docker machine of Hulk doesn't work. So for my mental peace I will continue with the technical report.
+
 ## Week 15: April 25, 2016 - April 29, 2016
+The step of executing our Benford's Law program at NAB is paused. We will work with the data provided by NAB in their github and adapt our program to receive those data.
+
 ## Week 16: May 2, 2016 - May 6, 2016
+
