@@ -4,8 +4,9 @@ Slug: bianca
 Category: People
 Tags: Flows
 
+#Biography:
+ 
 Hello! :)
-
 
 My name is Bianca I. Colón Rosado, I’m an 20 year old junior Computer Science student at the University of Puerto Rico, Río Piedras Campus. I'm doing a research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga since September 2014. 
 
@@ -14,6 +15,11 @@ I presented posters about my research in Women in CyberSecurity Conference  (WiC
 My career short term goals are to finish my degree in Computer Science and still doing undergraduate research. Furthermore, my long-term goals are to pursue graduate studies in computer science.
 
 My work is supported by the scholarship [Academics and Training for the Advancement of Cybersecurity Knowledge in Puerto Rico (ATACK-PR)](http://atackpr.ccom.uprrp.edu/) supported by the National Science Foundation under Grant No. DUE-1438838.
+
+##Contact Info:
+e-mail: bianca.colon1@upr.edu 
+
+Github: [https://github.com/BnkColon](https://github.com/BnkColon)
 
 #Project Goals
 ##First Semester 2014-2015
@@ -191,8 +197,12 @@ Need a Lab Meetig!!
 ## Week 13: April 11, 2016 - April 15, 2016
 We had a Lab Meeting! Christopher is guilty of breaking Hulk. 
 
-I start running NAB in my computer again because we lost the last results. And start the technical report. 
-
+I start running NAB in my computer again because we lost the last results when the docker broke. I will left the docker running and start the technical report. 
 ## Week 14: April 18, 2016 - April 22, 2016
+The docker elegant_pasteur broke, again... and the docker machine of Hulk doesn't work. So for my mental peace I will continue with the technical report.
+
 ## Week 15: April 25, 2016 - April 29, 2016
+The step of executing our Benford's Law program at NAB is paused. We will work with the data provided by NAB in their github and adapt our program to receive those data.
+
 ## Week 16: May 2, 2016 - May 6, 2016
+
