@@ -4,8 +4,9 @@ Slug: bianca
 Category: People
 Tags: Flows
 
+#Biography:
+ 
 Hello! :)
-
 
 My name is Bianca I. Colón Rosado, I’m an 20 year old junior Computer Science student at the University of Puerto Rico, Río Piedras Campus. I'm doing a research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga since September 2014. 
 
@@ -14,6 +15,11 @@ I presented posters about my research in Women in CyberSecurity Conference  (WiC
 My career short term goals are to finish my degree in Computer Science and still doing undergraduate research. Furthermore, my long-term goals are to pursue graduate studies in computer science.
 
 My work is supported by the scholarship [Academics and Training for the Advancement of Cybersecurity Knowledge in Puerto Rico (ATACK-PR)](http://atackpr.ccom.uprrp.edu/) supported by the National Science Foundation under Grant No. DUE-1438838.
+
+##Contact Info:
+e-mail: bianca.colon1@upr.edu 
+
+Github: [https://github.com/BnkColon](https://github.com/BnkColon)
 
 #Project Goals
 ##First Semester 2014-2015
@@ -41,15 +47,15 @@ The Benford’s Law was effective with our flows. An important advantage of this
 This semester, we want to implement [NAB](http://arxiv.org/pdf/1510.03336v4.pdf), so we can compare and evaluate different algorithms for detecting anomalies in streaming data. Also we want use NAB with our SiLK flows, and run our Bendford's Algorithms with their flows, that are already labeled with real anomalies.
 
 #Weekly Update
-## January 19, 2016 - January 22, 2016
+## Week 1: January 19, 2016 - January 22, 2016
 Read and understand the paper Evaluating Real-time Anomaly Detection Algorithms – the Numenta Anomaly Benchmark.
-## January 25, 2016 - January 29, 2016
+## Week 2: January 25, 2016 - January 29, 2016
 When we start installing in Hulk the initial requirements, using the anaconda module get an error of the version `GLIBCXX_3.4.18' when we try to install nupic. After several attemps, we got an SystemError: Cannot compile 'Python.h'. 
-## February 1, 2016 - February 5, 2016
+## Week 3: February 1, 2016 - February 5, 2016
 We install [Vagrant + CoreOS + Docker](https://github.com/numenta/nupic/tree/master/coreos-vagrant) in my computer, to check if nupic work, and work. The next step was to install [NAB](https://github.com/numenta/NAB).
 - We installed succesfully and then start running the full NAB. It would take many many hours to run.
 
-## February 8, 2016 - February 12, 2016
+## Week 4: February 8, 2016 - February 12, 2016
 Results of NAB:
 ``` 
 Optimizer found a max score of -33.2060596464 with anomaly threshold 0.803125.
@@ -85,7 +91,7 @@ Final scores have been written to /usr/local/src/NAB/results/final_results.json.
 ```
 
 We don't have the real time of this run because we stop the process a few times. We want to run it in Hulk to get that time. Our next step is to analize the way they use their Flows data in order to adapt our Benford's program to that data.
-## February 15, 2016 - February 19, 2016
+## Week 5: February 15, 2016 - February 19, 2016
 Analyzing the obtained results we found that
    - Their data is saved in .csv formatt containing the timestamp and value.
 ```
@@ -99,10 +105,10 @@ Analyzing the obtained results we found that
    numenta,reward_low_FN_rate,artificialNoAnomaly/art_daily_small_noise.csv,0.5,-0.11,0,3427,1,0,4032
    numenta,reward_low_FN_rate,realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,0.5,-0.338868818772,4,3022,1,401,4032
 ```
-## February 22, 2016 - February 26, 2016
+## Week 6: February 22, 2016 - February 26, 2016
 Start the installation of NAB in Hulk, but get an error building the docker.
 Make an issue report [(#3026)](https://github.com/numenta/nupic/issues/3026)
-## February 29, 2016 - March 4, 2016
+## Week 7: February 29, 2016 - March 4, 2016
 They respond our issue report [(#3026)](https://github.com/numenta/nupic/issues/3026). 
 
 In they recomendations we found a [Dockerfile](https://hub.docker.com/r/numenta/nupic/builds/bvwatcsdwfbzijajcj3t3qa/) (in a similar error) that we can use in [Docker Machine](https://docs.docker.com/machine/). We install Docker Machine in my [computer](https://docs.docker.com/engine/installation/mac/) to try it, if it work we will use that Dockerfile in Hulk.  
@@ -177,3 +183,26 @@ RUN python setup.py install
 
 WORKDIR /home/docker
 ```
+## Week 8: March 7, 2016 - March 11, 2016
+My poster, **Techniques for Anomaly Detection in Network Flows: Benford’s Law**, has been accepted to be presented in the [WiCyS 2016](https://www.csc.tntech.edu/wicys/) Poster session. I have been working on it.
+## Week 9: March 14, 2016 - March 18, 2016
+The student assembly celebrated on March 15, 2016, decreed a strike of 72 hours, starting on Tuesday, March 15, 2016 until Friday, March 18, 2016.
+## Week 10: March 21, 2016 - March 25, 2016
+Easter week.
+## Week 11: March 28, 2016 - April 1, 2016
+Conference for Women in Cybersecurity 2016, Dallas, TX. 
+## Week 12: April 4, 2016 - April 8, 2016
+Try to run the docker in Hulk, but Hulk is broked. I start fixing the vagrant in my computer but get some errors. 
+Need a Lab Meetig!!
+## Week 13: April 11, 2016 - April 15, 2016
+We had a Lab Meeting! Christopher is guilty of breaking Hulk. 
+
+I start running NAB in my computer again because we lost the last results when the docker broke. I will left the docker running and start the technical report. 
+## Week 14: April 18, 2016 - April 22, 2016
+The docker elegant_pasteur broke, again... and the docker machine of Hulk doesn't work. So for my mental peace I will continue with the technical report.
+
+## Week 15: April 25, 2016 - April 29, 2016
+The step of executing our Benford's Law program at NAB is paused. We will work with the data provided by NAB in their github and adapt our program to receive those data.
+
+## Week 16: May 2, 2016 - May 6, 2016
+
