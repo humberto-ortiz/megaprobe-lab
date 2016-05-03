@@ -86,7 +86,7 @@ This semester I want to concentrate more in using visualization  methods to help
 
 ##Week 13 (04/25/16 - 04/29/16)
 - Finally some results! Me and Julio (mostly Julio) managed to make the cube display static IPv6 data. 
-- ![Static Ipv6 Flow Data displayed in the Cube]({filename}images/Cube_Static_data.png)
+- ![Static Ipv6 Flow Data displayed in the Cube](images/Cube_Static_data.png "Static Data in Cube" )
 
 ##Week 13 (04/25/16 - 04/29/16)
 - 
