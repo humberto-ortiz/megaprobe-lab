@@ -86,10 +86,12 @@ This semester I want to concentrate more in using visualization  methods to help
 
 ##Week 13 (04/25/16 - 04/29/16)
 - Finally some results! Me and Julio (mostly Julio) managed to make the cube display static IPv6 data. 
-- ![Static Ipv6 Flow Data displayed in the Cube](images/Cube_Static_data.png "Static Data in Cube" )
+![Static Ipv6 Flow Data displayed in the Cube](images/Cube_Static_data.png "Static Data in Cube" )
 
-##Week 13 (04/25/16 - 04/29/16)
-- 
+##Week 14 (04/25/16 - 04/29/16)
+- I have been trying to understand the code in ctrpan.js (which is the one that renders the cube and displays the data as particules), but I'm still a bit confused with it.
+- I been trying to display the same result as Julio in my directory but alas no result. 
+<https://s-media-cache-ak0.pinimg.com/736x/69/07/a7/6907a7bab3e2a5bffc48892e9e85e97c.jpg>
 
 
 
