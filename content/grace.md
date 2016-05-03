@@ -84,14 +84,17 @@ This semester I want to concentrate more in using visualization  methods to help
 - Went to the Memory Forensics Workshop both Friday and Saturday.
 - Julio was able to implement the cube on his API so it could be seen in his web APP and scp me the code so I could also have access to the cube.
 
-##Week 13 (04/25/16 - 04/29/16)
+##Week 13 (04/18/16 - 04/22/16)
 - Finally some results! Me and Julio (mostly Julio) managed to make the cube display static IPv6 data. 
 ![Static Ipv6 Flow Data displayed in the Cube](images/Cube_Static_data.png "Static Data in Cube" )
 
 ##Week 14 (04/25/16 - 04/29/16)
 - I have been trying to understand the code in ctrpan.js (which is the one that renders the cube and displays the data as particules), but I'm still a bit confused with it.
-- I been trying to display the same result as Julio in my directory but alas no result.
+- I been trying to display the same result as Julio in my directory but alas no results.
 ![alt tag](https://s-media-cache-ak0.pinimg.com/736x/69/07/a7/6907a7bab3e2a5bffc48892e9e85e97c.jpg) 
 
+##Week 15 (04/02/16 - 04/06/16)
+- I scp all of the folders that Julio pass me into my directory in Wolverine to see if I could get some results. DID NOT get the same results, but I did managed to get some particles in the cube. Hoorray! Some data! However all of the particles seem to be in the same axis, so I have to see what the problem is. Humberto says that it might be because the x,y,z are returning all zereos. I have to check that but at least I can see that rate_pos is displaying some type of data. 
+![First Time displaying real time data](images/First_test.png "First Display of Ipv6 real time data." )
 
 
