@@ -161,7 +161,7 @@ Tags: de-novo
     - Keep improving it
     - Initiate technical report
 
-### Week 15: (25-19/Apr)
+### Week 15: (25-29/Apr)
  - Began corroboration of correct parsing of LastGraph file:
     - Noticed wrong data being displayed in parser's GFA's output of Read Count.
     - Noticed Problem in Link report reported from Bandage's output vs. Parsers output.
@@ -174,3 +174,14 @@ Tags: de-novo
     - Fix issues that are preventing the parser from executing correctly.
     - Continue technical report.
 
+### Week 16: (2/May-6/May)
+ - Worked Hard on fixing parser issues.
+ - Got some output, lightly checked/skimmed output for errors, did not find any.
+ - Continued working on technical report.
+ - To do:
+    - Finish technical report.
+
+### Week 17: (9/May-13/May)
+ - Got down to working on the technical report.
+ - Cleaned and updated the repo:
+    - Improved formatting on documents.

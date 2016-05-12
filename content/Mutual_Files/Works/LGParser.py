@@ -2,7 +2,10 @@
 #                                                                                        #
 # Copyright 2016 Megaprobe-Lab                                                           #
 #                                                                                        #
-# This is software created by the megaprobe lab under the GPL license.                   #
+# This is software created by the megaprobe lab under the GPL3 license.                  #
+#                                                                                        #
+# This program parses the LastGraph file produced by Velvet/Oases. To run the program, #
+# utilize the command: "Python2.7 LGParser.py LastGraph"                                 #
 #                                                                                        #
 ##########################################################################################
 
@@ -12,8 +15,8 @@ import fileinput
 import networkx as nx
 
 # Make output directory
-if not os.path.exists("Parser_output"):
-    os.mkdir("Parser_output")
+if not os.path.exists("Parser_Output"):
+    os.mkdir("Parser_Output")
 
 # Arrays to store Forward and reverse complement, Read Count and Orientation
 RCOUNT = []
@@ -50,12 +53,12 @@ for (line) in fileinput.input():
         state = 2
     # If NODE append next line to forward array
     elif (state == 2):
-        G[cur_node]['seq']= line
+        G.node[cur_node]['seq']=line
         # Set state to Read reverse
         state = 3
     # Append next line to reverse array
     elif (state == 3):
-        G[cur_node]['rev']= line
+        G.node[cur_node]['rev'] = line
         # Go back to searching NODE or ARC
         state = 0
     # First state check line for ARC
@@ -74,19 +77,8 @@ for (line) in fileinput.input():
         RCOUNT.append(fields[2])
 
 
-graph = nx.Graph()
-graph.nodes(G.nodes())
-graph.edges(G.edges())
-
-
 # Store all connected components in a list called CC
-CC = nx.connected_components(graph)
-
-with open('./CC.txt', 'w+') as test:
-    for i in CC:
-        test.write(str(i))
-test.close()
-
+CC = list(nx.connected_components(G))
 
 ############################################
 #                                          #
@@ -97,13 +89,15 @@ test.close()
 # For each connected component in CC write a new file with it's nodes.
 for i in range(0,len(CC)):
     # Store subgraph of connected component in list called Component
-    Component = nx.subgraph(graph,CC[i])
+    Component = nx.subgraph(G,CC[i])
     # Write current component to file
     with open('./Parser_output/Connected_Component'+str(i)+'.gfa', 'w+') as compo:
         # Write GFA File Header
-        compo.write("H\tVN:Z:1.1\n")
+        compo.write("H\tVN:Z:1.0\n")
         # Write each node in connected component to file
         for segName in Component.nodes():
+            print segName
+            print str(Component.node[segName]['seq'])
             compo.write("S\t" + str(segName) + "\t" + (str(Component.node[segName]['seq']).replace('\n', '').replace('\r', ''))  + "\tLN:i:" + str(len(Component.node[segName]['seq'])) + "\tRC:i:" + str(RCOUNT[int(segName)-1]) + "\n")
         # Write each link to file
         for segName1, segName2 in Component.edges_iter():
@@ -116,9 +110,9 @@ for i in range(0,len(CC)):
 
 # Stubs and drivers (uncomment to test)
 
-# print "Here's K-1: " + str(K)
+# print "CIGAR value: " + str(CIGAR)
 # print map(len, CC)
 # print "How many connected components: " + str(len(CC))
 # print list(nx.connected_components_subgraphs(G, False))
-# print "Edges: " + str(G.edges())
-# print "s: " + str(G.nodes())
+# print "All Edges: " + str(G.edges())
+# print "All Nodes: " + str(G.nodes())
