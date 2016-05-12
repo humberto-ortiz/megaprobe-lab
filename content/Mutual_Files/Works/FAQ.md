@@ -7,7 +7,7 @@ Tags: de-novo
 
 
 FAQ:
-
+----
 1. What is the aim of your research?
     The goals of our research are to validate and possibly improve Mutual's de Bruijn Graph comparison method to detect mutual contigs shared by two different organism.
 
