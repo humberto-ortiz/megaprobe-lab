@@ -4,8 +4,9 @@
 #                                                                                        #
 # This is software created by the megaprobe lab under the GPL3 license.                  #
 #                                                                                        #
-# This program parses the LastGraph file produced by Velvet/Oases. To run the program, #
-# utilize the command: "Python2.7 LGParser.py LastGraph"                                 #
+# This program parses the LastGraph file produced by Velvet/Oases. To run the program,   #
+# utilize the command: "Python2.7 LGParser.py LastGraph". The LastGraph file utilized    #
+# must be located on the same directory as the parser or full path must be specified.    #
 #                                                                                        #
 ##########################################################################################
 
@@ -91,13 +92,11 @@ for i in range(0,len(CC)):
     # Store subgraph of connected component in list called Component
     Component = nx.subgraph(G,CC[i])
     # Write current component to file
-    with open('./Parser_output/Connected_Component'+str(i)+'.gfa', 'w+') as compo:
+    with open('./Parser_Output/Connected_Component'+str(i)+'.gfa', 'w+') as compo:
         # Write GFA File Header
         compo.write("H\tVN:Z:1.0\n")
         # Write each node in connected component to file
         for segName in Component.nodes():
-            print segName
-            print str(Component.node[segName]['seq'])
             compo.write("S\t" + str(segName) + "\t" + (str(Component.node[segName]['seq']).replace('\n', '').replace('\r', ''))  + "\tLN:i:" + str(len(Component.node[segName]['seq'])) + "\tRC:i:" + str(RCOUNT[int(segName)-1]) + "\n")
         # Write each link to file
         for segName1, segName2 in Component.edges_iter():
