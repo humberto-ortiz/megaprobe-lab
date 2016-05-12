@@ -205,4 +205,9 @@ The docker elegant_pasteur broke, again... and the docker machine of Hulk doesn'
 The step of executing our Benford's Law program at NAB is paused. We will work with the data provided by NAB in their github and adapt our program to receive those data.
 
 ## Week 16: May 2, 2016 - May 6, 2016
+In the process to adapt our Benford's Law program to receive the data provided by NAB, we need to change some functions. I started making some changes but talking to my adviser I realized that I was complicating my code more than necessary.
 
+In order to mantein my coding skills updated, I decide make the code from scratch.
+
+## Week 17: May 9, 2016 - May 13, 2016
+I'm working in the code.
