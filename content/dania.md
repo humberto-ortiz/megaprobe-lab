@@ -33,7 +33,9 @@ I'm interested in *de novo* sequencing assembly pipelines and how to tweak them 
 ## Status  
 **2016-03-24:** waiting for department to make me official | writing a proposal  
 **2016-04-26:** proposal official draft 1 done & awaiting crucifiction | editing nonetheless | started research for review |  
-&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;still waiting for department decision
+&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;still waiting for department decision  
+**2016-05-31:** submitted proposal!! | reading up to write review  
+
   
   
   
