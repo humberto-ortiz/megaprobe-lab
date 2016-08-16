@@ -26,3 +26,9 @@ Tags: de-novo
     - Started to research on terms of bioinformatics.
     - Read Israel’s Technical Report.
     - Read Papers assigned by Humberto Ortiz.  
+
+### Week 2:
+    - Continue Reading Papers.
+    - Learning how Mutual Software works.
+    - Mutual uses Oases and Velvet, trying to install them. Uses a C compiler, installing it. 
+    - So far so good... I'll update again in 2 days... 
