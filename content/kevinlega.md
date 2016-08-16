@@ -22,7 +22,14 @@ Tags: de-novo
 ## Weekly Update:
 
 ### Week 1: (9-12/August)
-    - Gained access to megaprobe lab
-    - Started to research on terms of bioinformatics.
-    - Read Israel’s Technical Report.
-    - Read Papers assigned by Humberto Ortiz.  
+- Gained access to megaprobe lab
+- Started to research on terms of bioinformatics.
+- Read Israel’s Technical Report.
+- Read Papers assigned by Humberto Ortiz.  
+
+### Week 2: (15-19/August)
+- Download Velvet and Oases.
+- Trying to run Mutual on my computer.
+- Don't know why it doesn't run!
+- Installed a C compiler to see if that is the problem... still doesn't run.
+- More updates will come later this week. 
