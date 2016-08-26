@@ -5,7 +5,7 @@ Tags:de-novo
 
 # Bio:
 
-- Im really bored and someone told me I needed to write this since day one at week 3. To be filled later :-)
+- I'm a computer science student at the university. All i can say about my programing skills is that I can defend myself but I'm not an expert at any rate. I'm more interested at learning and expanding my repitour more than anything else. 
 
 ##Contact info:
 
@@ -14,7 +14,9 @@ Tags:de-novo
 
 #Research Goals:
 
-- Learn biological black juju.
+- Speed up transcriptome comparisons.
+- Learning about bioinformatics.
+- Learn how to understand RNA sequences.
 
 ## Weekly Updates:
 
