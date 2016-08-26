@@ -67,3 +67,8 @@ sudo /nsm/bro/bin/bro -Cr mycap.pcap/nsm/bro/share/bro/policy/protocols/ssh/dete
 
 
 After this, finally got the ssh.log that we wanted. In this file, there was evidence of brute-force of ssh with a lot of information available of the attack. It even gives us information of how the ssh is doing it, by giving us that it uses Paramiko for the connection. Useful information that can be used for restricting these types of connections that use Paramiko or simply, ban the IP for good. Something that the administrator can handle.
+
+
+Week 1 2nd Semester
+
+I started research about how to use these logs that were found when using the SSH-bruteforce script, and I've been trying to work out with the script inside the same folder, geo-data.bro, which gives the SSH logs various information based on location. I found this very interesting, since a way of understanding these types of attacks best is to actually extract data from their trace, the IP. I would like to use this information to actually make some type of visualization in which it tries to follow where the most attacks are occurring and how to analyze this data. The first steps of analizing were a failure, because when geo-data.bro was used, it gave null spaces where the location information should be appearing. I have 2 theories on why it doesnt work. The first one is that since it's the same localip trying to ssh, it does not get location information, in which if this is the case, I need to make my Vagrant a live host, or live bait. My second theory is that the script hides something or does something we still do not understand but plan to do. Probably next week, we will try and attack the first theory, which if it comes out true, we will get a lot of data from attacks all over the world, hopefully. 
