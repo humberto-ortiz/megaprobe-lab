@@ -45,7 +45,7 @@ FAQ:
     * FastQC: <http://www.bioinformatics.babraham.ac.uk/projects/fastqc/>
     * Mutual: <http://faculty.cse.tamu.edu/shsze/mutual/>
 
-7. ** What can I do if I encounter problems during installation?**
+7. **What can I do if I encounter problems during installation?**
     * There are a few things to try:
         1. Make sure to carefully follow the installation instructions in every readme file for each software. 
         2. Google the trouble or error code returned by the compiler.
