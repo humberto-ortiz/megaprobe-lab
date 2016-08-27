@@ -29,7 +29,7 @@ This Readme file is aimed at helping in the reproduction of the technical report
 - Install Blast
 ..- Specific Installation Instructions here: <http://blast.ncbi.nlm.nih.gov/Blast.cgi>
 
-###### _Instructions on how to run each stage of the process are in the [FAQ.md](./FAQ.md) document.
+###### Instructions on how to run each stage of the process are in the [FAQ.md](./FAQ.md) document.
 
 ### Useful scripts contained in repository:
 * data_prep.sh
