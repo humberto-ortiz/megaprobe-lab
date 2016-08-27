@@ -21,10 +21,10 @@ FAQ:
     ..- If you happen to encounter any problems during installation please suggest edits to the [Issues.md](https://github.com/humberto-ortiz/megaprobe-lab/blob/master/content/Mutual_Files/Works/Issues.md) file. _Include any steps taken to solve it._
 
 4. **What software bundle are you using?**
-    Mutual,  which also requires both Velvet and Oases.
-    We are also employing Bandage, Blast, Scythe, Sickle and FastQC.
+    * Mutual,  which also requires both Velvet and Oases. We are also employing Bandage, Blast, Scythe, Sickle and FastQC.
 
 5. **What is the role of each program?**
+
     **_Velvet & Oases_** are employed to hash and graph an RNA sequence.
     **_FastQC_** is used to verify quality of the data.
     **_Blast_** is used to validate our output and also to directly compare sequences.
@@ -33,33 +33,33 @@ FAQ:
     **_Sickle_** trims out the bases from the reads that are identified to be of poor quality by the sequencer.
 
 6. **Where can I get them or run them?**
-    Git clone the following repositories:
+
+   Git clone the following repositories:
     * Oases:  <https://github.com/dzerbino/oases.git>
     * Velvet: <https://github.com/dzerbino/velvet.git>
     * Bandage: <https://github.com/rrwick/Bandage.git>
     * Scythe: <https://github.com/vsbuffalo/scythe.git>
     * Sickle: <https://github.com/najoshi/sickle.git>
-
-    Download and install:
+   Download and install:
     * Blast:  <http://www.ncbi.nlm.nih.gov/guide/howto/run-blast-local/>
     * FastQC: <http://www.bioinformatics.babraham.ac.uk/projects/fastqc/>
     * Mutual: <http://faculty.cse.tamu.edu/shsze/mutual/>
 
 7.** What can I do if I encounter problems during installation?**
     * There are a few things to try:
-    ..1. Make sure to carefully follow the installation instructions in every readme file for each software. 
-    ..2. Google the trouble or error code returned by the compiler.
-    ..3. Visit the software developers website and try to figure out if anyone had the same issue before and how they solved it.
-    ..4. Write an email to megaprobe-lab, explaining the issue in detail, so that we can try to help. 
+      ..1. Make sure to carefully follow the installation instructions in every readme file for each software. 
+      ..2. Google the trouble or error code returned by the compiler.
+      ..3. Visit the software developers website and try to figure out if anyone had the same issue before and how they solved it.
+      ..4. Write an email to megaprobe-lab, explaining the issue in detail, so that we can try to help. 
 
 8. **What should I do first after everything is installed?**
     * Get read data files in ".fastq" file format of the organisms you want to compare.
 
 9. **Where can I get them?**
     * There are actually quite a few places where you can find RNA-Seq data, my suggestion is to google the name of the organism + "rna seq data".
-    ..* _This does not guarantee good quality reads nor good information of where the reads came from, so be sure to pick a source you trust._
+      ..* _This does not guarantee good quality reads nor good information of where the reads came from, so be sure to pick a source you trust._
     * The data utilized in this repo can be found in:
-    ..+ Starlet Sea Anemone: <https://darchive.mblwhoilibrary.org/handle/1912/5613>
+      ..+ Starlet Sea Anemone: <https://darchive.mblwhoilibrary.org/handle/1912/5613>
 
 10. **Got the fastq files. What's next?**
     * Make a copy of them, remember not to edit the original ones.
@@ -67,9 +67,9 @@ FAQ:
 
 11. **The reads are of acceptable quality, now what?**
     * Now you need to quality control them:
-    ..1. Remove adapters and trim edges utilizing Scythe(Remove Adapters) and Sickle(Trim EDGES).
-    ..2. Run them through FASTQC
-    ..3. Tweak paramenters and repeat until satisfied with the quality of the reads.
+      ..1. Remove adapters and trim edges utilizing Scythe(Remove Adapters) and Sickle(Trim EDGES).
+      ..2. Run them through FASTQC
+      ..3. Tweak paramenters and repeat until satisfied with the quality of the reads.
 
 12. **Which should I do first?**
     * It's prefferable to fisrt remove adapters and then trim the edges. In other words first run scythe and then run sickle.
@@ -86,7 +86,7 @@ FAQ:
 
 16. **So, how do I do that?**
     * You should read the documentation for the programs but you can also use the [data_prep.sh scripts](./data_prep.sh) in this repo.
-    ..* _If you encounter any problems please remember to report them in issues._
+      ..* _If you encounter any problems please remember to report them in issues._
 
 17. **Now I have a VelvetA & a VelvetB directories, and now Mutual right?**
     * Yes, again you should read the .... nevermind edit the [mutual.sh script](./mutual.sh) to your needs and then run it.
@@ -98,4 +98,4 @@ FAQ:
     * Congratulations! Check the outputa.fa and outputb.fa files for the results of the comparison. Analyze the data and keep on improving the methods.
 
 20. **Can I give any suggestions?**
-    * No!, well actually yes and please do. Any comments or suggestions will be greatly appreciated.
+    * No! Well actually yes and please do. Any comments or suggestions will be greatly appreciated.
