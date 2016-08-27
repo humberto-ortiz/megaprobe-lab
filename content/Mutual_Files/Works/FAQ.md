@@ -9,10 +9,10 @@ Tags: de-novo
 FAQ:
 ====
 
-1. **__What is the aim of your research?**
+1. **What is the aim of your research?**
     * The goals of our research are to validate and possibly improve Mutual's de Bruijn Graph comparison method to detect mutual contigs shared by two different organism.
 
-2. __What have you found out so far?__
+2. **What have you found out so far?**
     * Comparing two different reads (Fastq files) from the same organism (Starlet Sea Anemone) with Mutual and running it's output with __NCBI's Blast__ against _NCBI_ and _JGI_ databases revealed that the transcrips identified by Mutual as similar sequences found in both organisms were correctly identified as Nemastotella Venectis (Starlet Sea Anemone). So at least we know although we are utilizing _de novo_ method to assemble the transcrips at least some of the genomic data manages to retain it's integrity.
     ..- Read quality had not been checked, edges had not been trimmed and illumina adapters were still present, which messed up some of the output.
 
@@ -85,11 +85,11 @@ FAQ:
     * First run it through Velvet and Oases to create a De Bruijn graph for each organism you wish to compare.
 
 16. **So, how do I do that?**
-    * You should read the documentation for the programs but you can also use the [data_prep.sh scripts](../data_prep.sh) in this repo.
+    * You should read the documentation for the programs but you can also use the [data_prep.sh scripts](./data_prep.sh) in this repo.
     ..* _If you encounter any problems please remember to report them in issues._
 
 17. **Now I have a VelvetA & a VelvetB directories, and now Mutual right?**
-    * Yes, again you should read the .... nevermind edit the [mutual.sh script](../mutual.sh) to your needs and then run it.
+    * Yes, again you should read the .... nevermind edit the [mutual.sh script](./mutual.sh) to your needs and then run it.
 
 18. **Can I study the assembly, without running them through Mutual?**
     * Yes, just look through the files in VelvetA or VelvetB and maybe even graph them with Bandage.
