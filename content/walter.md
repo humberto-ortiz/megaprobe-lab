@@ -1,4 +1,7 @@
-Title: Walter Báez Laguna Date: 2016-09-02 Category: People Tags: Stacks, RADSeq, Bio Research
+Title: Walter Báez Laguna
+Date: 2016-09-02
+Category: People
+Tags: Stacks, RADSeq, Bio Research
 
 # Biography :memo:
 
