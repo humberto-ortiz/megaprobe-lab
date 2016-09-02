@@ -7,6 +7,7 @@ Tags: de-novo
 - My name is Kevin Legarreta González. I'm studying Computer Sciences in the University of Puerto Rico Rio Piedras campus. My goals are to graduate and be accepted in Boston University to complete a masters in Computer Sciences and Specialize in Cybersecurity or Digital Forensics. 
     
   ![alt tag](http://www.hippoquotes.com/img/computer-science-jokes-quotes/computer_science.jpg)
+
 ## Contact info:
 
   - e-mail - <kevinleglez@gmail.com>
@@ -14,9 +15,25 @@ Tags: de-novo
   
 # Reasearch goals:
 
-  - I intend to improve the way that mutual software is implemented. Making it more efficient. (To be continue...)
+  - Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
+   a faster run time. 
+  
   
 ## Weekly Update:
+
+### Week 4: (29/August - 2/September)
+
+### Week 3: (22-26/August)
+- Created a github project for the investigation (TrinihMer) 
+- Angel and I worked on uploading the mutual project on hulk to test it.
+- Is showing an error, will try to understang this weekend. 
+- Reading about Khmer Tools.
+- Uploaded a clean sequence to the hulk for the test of Mutual.
+- We are supposed to start writing code next week. 
+- Will contact Angel to see when can we meet to work on the program.
+- The data used to test Mutual is on the /tmp - hulk
+- Excited to start coding the transcriptome comparison code.
+- Created a workspace in hulk to have khmer and networkx, that way we will work on hulk.
 
 ### Week 2: (15-19/August)
 - Trying to run Mutual on my computer. 
