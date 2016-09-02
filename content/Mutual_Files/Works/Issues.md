@@ -1,26 +1,29 @@
-Some error encountered during install.
+# Some errors encountered during install.
 
-Boost:
+## Boost:
 lib dev
 
-Blast:
+## Blast:
 
-Velvet:
+## Velvet/Oases:
+_**Note:** Velvet now comes bundled with Oases._
+* If installing on Mac OS or Solaris check makefile for specific options.
 
-Oases:
+## Mutual:
 
-Mutual:
+## FastQC:
 
-FastQC:
-
-Bandage:
-# error: Unknown module(s) in QT: svg
+## Bandage:
+###### error: Unknown module(s) in QT: svg
  > sudo apt-get install libqt5svg5*
 
+## ODFG:
 
-ODFG:
+## Scythe:
 
-Scythe:
+## Sickle:
 
-Sickle:
+## data_prep.sh:
+
+## mutual.sh:
 
