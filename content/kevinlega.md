@@ -22,6 +22,11 @@ Tags: de-novo
 ## Weekly Update:
 
 ### Week 4: (29/August - 2/September)
+-Compiled oases, velvet and mutual on hulk.
+-Created a script to run the whole program.
+-Continue reading on khmer tools.
+-Tried to install blast, I can't.
+-Waiting to run Mutual.
 
 ### Week 3: (22-26/August)
 - Created a github project for the investigation (TrinihMer) 
