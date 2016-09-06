@@ -21,6 +21,12 @@ Tags:de-novo
 
 ## Weekly Updates:
 
+### Week 4:(29/08/16)-(02/09/16)
+
+- Successfully ran the example given by -http://khmer.readthedocs.io/en/v2.0/user/examples.html-. Khmertools work at the very least.
+- Read up on the FASTA and FASTQ formats. Khmer tools can read both. Khmer tools gives problems with large read samples. Best used for small Illumina output.
+- Unsuccessfully tried to generate a script to log the start and end date of mutuals run time. More focus needed.
+
 ### Week 3:(22/08/16)-(26/08/16)
 
 - Informed that I needed to now generate a De Bruijin graph from a given rna sequence.
