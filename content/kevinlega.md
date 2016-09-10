@@ -21,8 +21,14 @@ Tags: de-novo
   
 ## Weekly Update:
 
-### Week 5: (5-9/September)
-
+### Week 5: (5-10/September)
+- Mutual was running on hulk, but it felt.
+- Download Sea cucumbers transcriptomes from NCBI database
+- Download FastQC and Trimmomatic.
+- Run FastQC in one of the fastq before running Trimmomatic.
+- After trimming the data, ran FastQC on the clean data.
+- Reading Khmer tools, question have been present in the research. 
+- Coulnd't make it to meeting, health problems on thursday, lost all night in Hospital.
 
 ### Week 4: (29/August - 2/September)
 - Compiled oases, velvet and mutual on hulk.
