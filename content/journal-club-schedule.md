@@ -19,7 +19,7 @@ Here's the schedule of journal club presentations for this semester.
 | Oct 7 | David Ortiz | edgeR |
 | Oct 14 | Christopher de Jesus | BRO |
 | Oct 21 | Angel Sanquiche | trinity |
-| Oct 28 | Kevin Legarreta | ??? trimomatic, FastQC |
+| Oct 28 | Kevin Legarreta | mutual |
 | Nov 4 | Ivan Jimenez | cufflinks |
 
 # Papers
