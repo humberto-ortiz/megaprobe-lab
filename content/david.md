@@ -26,6 +26,23 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
   
 #Weekly Reports:
 
+###Week 3 (9th of September, 2016 to 16th of September, 2016)
+  
+  + Finally met with instructor (important).
+  + Took Trinity tutorial.
+  + I was given data and a reference script to start assembly.
+  + Created 7 scripts based on reference script and tinkering.
+  + Created additional script to download cavefish and surface fish data from SRA.
+  + Sadly, Trinity needs some plugins installed and SRA needs to be installed on Makaira
+     for me to be able to use my scripts.
+  + Weekly progress rating 30/100. 
+
+###Week 2 (2nd of September, 2016 to 9th of September, 2016)
+  
+  + Instructor was absent this week.
+  + Introduced to an Exon Capture project I'll be working on in the future.
+  + Sadly no progress (again).
+
 ###Week 1 (26th of August, 2016 to 2nd of September, 2016):
   
   + Recieved instructions to start gathering 'raw data' on different
@@ -33,7 +50,3 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
   + Obtained data from NCBI, currently waiting on confirmation from
       my instructor if it's correct to proceed with assembling.
   + Sadly no progress.
-      
-###Week 2 (2nd of September, 2016 to 9th of September, 2016)
-  
-  + (coming soon)
