@@ -21,6 +21,18 @@ Tags: de-novo
   
 ## Weekly Update:
 
+### Week 6: (12-17/September) 
+- Taking Trinity tutorial via a virtualbox.
+- Download Trinity, spacegraphscats. 
+- Reading on khmer tools.
+- Reading on Trinity.
+- Reading on spacegraphscats.
+- The output of Mutual data, was damaged by the crash. 
+- On Monday morning will start Mutual again, because of the maintenance.
+- Bought everthing for a "supercomputer" going to learn how to set it up.
+- Also need to build a bootable linux (ubuntu) usb.
+- Final I will learn how to open an ssh. 
+
 ### Week 5: (5-10/September)
 - Mutual was running on hulk, but it felt.
 - Download Sea cucumbers transcriptomes from NCBI database
