@@ -19,7 +19,8 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
-##Week 3: 9/05/16 - 9/09/16
+
+##Week 4: 9/12/16 - 9/16/16
 I set up the virtual machine with the necessary tools to run the assembly:
 
 * Downloaded git from https://git-scm.com/download/win
@@ -38,7 +39,11 @@ https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
       
       sudo pip install -U setuptools khmer==2.0 jupyter jupyter_client ipython pandas
       ```
-      
+
+##Week 3: 9/05/16 - 9/09/16
+I have been familiarizing myself with the project, reading what has been published on the matter by Mashanov *et. al.*:
+http://www.biomedcentral.com/1471-2164/15/357
+
 ##Week 2: 8/29/16 - 9/02/16
 Dr. Ortiz, Dr. García-Arrarás and I met to discuss the biological intrinciacies of the *de-novo* sequencing project.
 We discussed the biological aspects of the project and detailed the following goals for this semester:
