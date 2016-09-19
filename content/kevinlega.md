@@ -21,6 +21,13 @@ Tags: de-novo
   
 ## Weekly Update:
 
+### Week 7 (18-23/September):
+- Running Mutual. Hope for good results this time.
+- Tried to run Trinity, said something about perl. 
+- I'll email it.
+- Will compare Velvet/Oases run time vs Trinity on the same fastq file.
+- More later this week...
+
 ### Week 6: (12-17/September) 
 - Taking Trinity tutorial via a virtualbox.
 - Download Trinity, spacegraphscats. 
@@ -31,7 +38,7 @@ Tags: de-novo
 - On Monday morning will start Mutual again, because of the maintenance.
 - Bought everthing for a "supercomputer" going to learn how to set it up.
 - Also need to build a bootable linux (ubuntu) usb.
-- Final I will learn how to open an ssh. 
+- Final, I will learn how to open an ssh. 
 
 ### Week 5: (5-10/September)
 - Mutual was running on hulk, but it felt.
