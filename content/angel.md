@@ -21,6 +21,25 @@ Tags:de-novo
 
 ## Weekly Updates:
 
+### Week 7:(16/09/16)-(23/09/16)
+- TBD
+
+### Week 6:(12/09/16)-(16/09/16)
+- Had most of the data cut up.
+- Made a digital normalization script to work on the data.
+- Ran in thinking it would finish up promplty, it didnt.
+- Left the script working on all the data.
+- This update was made sept 20
+
+### Week 5:(05/09/16)-(09/09/16)
+- Finished the trimmomatic script, left it to run.
+- Found out some data didnt download correctly.
+- Hulk crashed something about the home directory being filled with sequences.
+- Re-download data and re ran trimmomatic on some files that required more cutting.
+- Hulk crashed atleast once more, maybe two times.
+- Gave up on progress till Hulk felt helpful.
+- This update was made sept 20
+
 ### Week 4:(29/08/16)-(02/09/16)
 
 - Successfully ran the example given by -http://khmer.readthedocs.io/en/v2.0/user/examples.html-. Khmertools work at the very least.
