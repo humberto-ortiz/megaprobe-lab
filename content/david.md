@@ -29,6 +29,18 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
   
 #Weekly Reports:
 
+###Week 5 (23th of September, 2016 to 30th of September, 2016)
+  
+  + Installed Trinity in my Makaira directory (with the help of Humberto) to avoid further problems.
+  + Weekly progress rating 20/100. 
+
+###Week 4 (16th of September, 2016 to 23th of September, 2016)
+  
+  + Makaira's Trinity kept encountering errors due to the lack of plugins.
+  + Managed to download 2 Astyanax and 4 Cave/Surface fish Transcriptome files for future work.
+  + Power outtage suspended all lab work after Wednesday.
+  + Weekly progress rating 20/100.
+
 ###Week 3 (9th of September, 2016 to 16th of September, 2016)
   
   + Finally met with instructor (important).
