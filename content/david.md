@@ -32,7 +32,8 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
 ###Week 5 (23th of September, 2016 to 30th of September, 2016)
   
   + Installed Trinity in my Makaira directory (with the help of Humberto) to avoid further problems.
-  + Weekly progress rating 20/100. 
+  + Moved cave/surface fish data to Hulk machine.
+  + Weekly progress rating 20/100.
 
 ###Week 4 (16th of September, 2016 to 23th of September, 2016)
   
