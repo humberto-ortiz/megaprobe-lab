@@ -26,9 +26,17 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
   
 #Weekly Reports:
 
+###Week 6 (30th of September, 2016 to 7th of October, 2016)
+  
+  + Ran first Trinity script in hulk using screen commands. It was somewhat a success.
+  + Started scripts for Individual02 & Individual03.
+  + More coming soon
+  + Weekly progress rating 50/100. 
+
 ###Week 5 (23th of September, 2016 to 30th of September, 2016)
   
   + Installed Trinity in my Makaira directory (with the help of Humberto) to avoid further problems.
+  + Moved my data to HULK.
   + Weekly progress rating 20/100. 
 
 ###Week 4 (16th of September, 2016 to 23th of September, 2016)
