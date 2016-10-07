@@ -21,12 +21,32 @@ Tags: de-novo
   
 ## Weekly Update:
 
+### Week 9 (1-8/October):
+- Trying to run Trinity on all the data. 
+- Found a spacegraphcats script that takes multiple De Bruijn Graphs and compares them.
+- Can't test the scrip[t yet. Can't find the graph output of Trinity.
+- Using all my might to be able to run Trinity by Saturday.
+- Searching for the graph to test the spacegraphcats script.
+
+### Week 8 (26-30/September):
+- Trinity was runned with the same file as Mutual.
+- Mutual output twice as much for no reason.
+- Reading on the art of khmer tools.
+- Trying to understand spacegraphcats.
+- Program here we go!
+
 ### Week 7 (18-23/September):
 - Running Mutual. Hope for good results this time.
 - Tried to run Trinity, said something about perl. 
-- I'll email it.
-- Will compare Velvet/Oases run time vs Trinity on the same fastq file.
-- More later this week...
+- Fixed perl problem, but still won't run.
+- Will compare Velvet/Oases run time vs Trinity on the same fastq file, but trinity doesn't run.
+- Do to the "Blackout, blackout" (see In the Heights musical) couldn't do much work.
+- Mutual was running error. Found out that if you don't erase corrupted will never run.
+- Also velvet had an update. Found out you should do a git pull once in a while.
+- run updatevelvet.sh, new update makefile of oases does make to velvet too.
+- Doing the make only on oases won't get velveth and velvetg.
+- Well during the blackout, all the parts for my computer came. 
+- Is up and running, its name is SPIDER....! ubuntu 16.04!
 
 ### Week 6: (12-17/September) 
 - Taking Trinity tutorial via a virtualbox.
