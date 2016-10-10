@@ -15,12 +15,13 @@ Here's the schedule of journal club presentations for this semester.
 | Sep 9 | Grace Rodriguez | Anomalies in IPv6 (poster) |
 | Sep 16 | Walter Baez | stacks |
 | Sep 23 | Travel to Washington DC
-| Sep 30 | Josefina Correa | pepino |
+| Sep 30 | Posponed
 | Oct 7 | David Ortiz | edgeR |
 | Oct 14 | Christopher de Jesus | BRO |
 | Oct 21 | Angel Sanquiche | trinity |
 | Oct 28 | Kevin Legarreta | mutual |
 | Nov 4 | Ivan Jimenez | cufflinks |
+| Nov 11 | Josefina Correa | pepino |
 
 # Papers
 
