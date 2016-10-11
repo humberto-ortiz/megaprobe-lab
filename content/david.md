@@ -29,6 +29,18 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
   
 #Weekly Reports:
 
+###Week 7 (7th of October, 2016 to 14th of October, 2016)
+  
+  + Started running script for individual 3 in new working directory /data/david.
+  + Prepared 4 scripts for tissue assembly.
+  + Proyected weekly progress rating 90/100.
+
+###Week 6 (30th of September, 2016 to 7th of October, 2016)
+  
+  + Ran my first 2 scripts successfuly for the first 2 individuals. Individual number 3 coming soon.
+  + Had data moved to /data/david.
+  + Weekly progress rating 60/100.
+
 ###Week 5 (23th of September, 2016 to 30th of September, 2016)
   
   + Installed Trinity in my Makaira directory (with the help of Humberto) to avoid further problems.
