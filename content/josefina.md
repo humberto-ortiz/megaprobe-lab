@@ -19,6 +19,63 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+##Week 8: 10/10/16- 10/14/16
+
+Set up a repository for the shiny app built for showing the heatmaps:   
+   * https://github.com/josefinacmenendez/Datatube_Heatmap   
+
+The shiny app is functional. However, the following issues will be addressed this week:
+   *  Parsing the full set of contigs into the selectizeInput list crashes the app
+   *  There are several error messages that should be substituted with prompt messages
+
+##Week 7: 10/3/16 - 10/7/16
+
+Worked on writing an R script for plotting heatmaps using differential gene expression for H. glaberrima data:
+The data is available on Hulk. I also spent some time becoming familiar with Shiny. I will be developing an app to view the heatmaps in a more user-friendly and interactive way.
+```
+#set the working directory to wherever the data is and read the three files accordingly.
+setwd("C:/Users/Josefina/Google Drive/Coursework/Megaprobe/Datatube")
+library(gplots)
+
+nvs2 <- read.csv("N_vs_day2_whole_list.csv")
+nvs12<- read.csv("N_vs_day12_whole_list.csv")
+nvs20<- read.csv("N_vs_day20_whole_list.csv")
+
+contig.number <- nvs2$id
+
+nvs2.log2Foldchange <- nvs2$log2FoldChange
+nvs12.log2Foldchange<- nvs12$log2FoldChange
+nvs20.log2Foldchange<- nvs20$log2FoldChange
+
+dge_pepino <- cbind(nvs2.log2Foldchange,nvs12.log2Foldchange,nvs20.log2Foldchange)
+dge_pepino <- as.matrix(toHeatmap)
+colnames(dge_pepino) <- c("Day2","Day12","Day20")
+rownames(dge_pepino) <- contig.number
+library(functional)
+#Remove "Inf", "-Inf", and "NA"
+dge_pepino <- dge_pepino[apply(dge_pepino, 1, Compose(is.finite, all)), , drop=FALSE]
+
+####GET ALL HEATMAPS####
+maxSize = dim(dge_pepino)[1]
+
+startPoint = 1
+endPoint = 20
+while(startPoint < maxSize)
+{
+  heatmap.2(dge_pepino[c(startPoint:endPoint),], trace = "none", col = redblue(20), main = startPoint);
+  startPoint = startPoint + 20;
+  endPoint = endPoint + 20;
+  if(endPoint > maxSize)
+  {
+    endPoint = maxSize;
+  };
+}
+
+write.csv(dge_pepino, "pepino_deg.csv", row.names = TRUE)
+```
+
+##Week 6: 9/26/16 - 9/30/16
+##Week 5: 9/19/16 - 9/23/16
 
 ##Week 4: 9/12/16 - 9/16/16
 I set up the virtual machine with the necessary tools to run the assembly:
