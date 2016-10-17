@@ -26,20 +26,32 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
   
 #Weekly Reports:
 
+###Week 8 (14th of October, 2016 to 21st of October, 2016)
+  
+  + Started running the remaining scripts + re-ran the first 2 individuals.
+  + Currently waiting on first individual assembly to finish.
+  + Re-Running fastq-dump scripts.
+  + Weekly progress rating 100/100 (My work here is done, everything else is frosting on the cake).
+
+###Week 7 (7th of October, 2016 to 14th of October, 2016)
+  
+  + Troubleshooting error with Individual03. Turns out that Trinity needed a large amount of RAM (256G).
+  + Started running the following scripts: Individual03, Tissue01.
+  + Weekly progress rating 70/100.
+
 ###Week 6 (30th of September, 2016 to 7th of October, 2016)
   
   + Ran first Trinity script in hulk using screen commands. It was somewhat a success.
-  + Started scripts for Individual02 & Individual03.
-  + More coming soon
-  + Weekly progress rating 50/100. 
+  + Started scripts for Individual02 & Individual03. Succeded only with Individual02.
+  + Weekly progress rating 30/100. 
 
-###Week 5 (23th of September, 2016 to 30th of September, 2016)
+###Week 5 (23rd of September, 2016 to 30th of September, 2016)
   
   + Installed Trinity in my Makaira directory (with the help of Humberto) to avoid further problems.
   + Moved my data to HULK.
   + Weekly progress rating 20/100. 
 
-###Week 4 (16th of September, 2016 to 23th of September, 2016)
+###Week 4 (16th of September, 2016 to 23rd of September, 2016)
   
   + Makaira's Trinity kept encountering errors due to the lack of plugins.
   + Managed to download 2 Astyanax and 4 Cave/Surface fish Transcriptome files for future work.
