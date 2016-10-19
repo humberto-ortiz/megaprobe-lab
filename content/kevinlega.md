@@ -21,6 +21,14 @@ Tags: de-novo
   
 ## Weekly Update:
 
+### Week 11 (17-21/October):
+- Was able to run multiples spacegraphcats scripts.
+- Modified a few scripts in spacegraphcats to see which works best.
+- Going to use gimme-dbg-nodes.py and gimme-reads.py and see what it gives.
+- I beleive this script hunting might be coming to an end. 
+- If it works will start to run a script that takes Trinity, spacegraphcats and gives the comparison.
+-More comming up.
+
 ### Week 10 (10-14/October): 
 - Fixed a bug in the spacegraphcats search-dbg.py script.
 - Try to do a search on a catlas for a contig inside my genome.
