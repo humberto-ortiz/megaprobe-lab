@@ -19,6 +19,13 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+##Week 9: 10/17/16- 10/21/16
+
+Made the following updates to Datatube_Heatmap at https://github.com/josefinacmenendez/Datatube_Heatmap:
+  * corrected error messages
+  * improved image scaling
+  * the full list of contigs can be accessed through R studio, but not through shinyapps.io; this will be fixed soon
+  
 ##Week 8: 10/10/16- 10/14/16
 
 Set up a repository for the shiny app built for showing the heatmaps:   
