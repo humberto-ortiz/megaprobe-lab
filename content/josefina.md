@@ -19,14 +19,22 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+
+##Week 9: 10/17/16- 10/21/16
+
+Made the following updates to Datatube_Heatmap at https://github.com/josefinacmenendez/Datatube_Heatmap:
+  * corrected error messages
+  * improved image scaling
+  * the full list of contigs can be accessed through R studio, but not through shinyapps.io; this will be fixed soon
+  
 ##Week 8: 10/10/16- 10/14/16
 
 Set up a repository for the shiny app built for showing the heatmaps:   
-   * https://github.com/josefinacmenendez/Datatube_Heatmap   
+* https://github.com/josefinacmenendez/Datatube_Heatmap   
 
 The shiny app is functional. However, the following issues will be addressed this week:
-   *  Parsing the full set of contigs into the selectizeInput list crashes the app
-   *  There are several error messages that should be substituted with prompt messages
+*  Parsing the full set of contigs into the selectizeInput list crashes the app
+*  There are several error messages that should be substituted with prompt messages
 
 ##Week 7: 10/3/16 - 10/7/16
 
@@ -87,9 +95,9 @@ https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
 
 * Used Git Bash to install the base image containing trimommatic and khmer tools using the following commands as detailed on http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/install.html
 
-    * Boot a recent Ubuntu on Amazon (wily 15.10 image or later)
-    * Log in as user ‘ubuntu’.
-    * Run the following commands:
+ * Boot a recent Ubuntu on Amazon (wily 15.10 image or later)
+ * Log in as user ‘ubuntu’.
+ * Run the following commands:
       ```
       sudo apt-get -y update && sudo apt-get -y install r-base python3-matplotlib libzmq3-dev python3.5-dev
       texlive-latex-extra texlive-latex-recommended python3-virtualenv trimmomatic fastqc python-pip python-dev bowtie samtools zlib1g-dev ncurses-dev
