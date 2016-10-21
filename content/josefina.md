@@ -22,17 +22,20 @@ I am also taking computer science courses with the goal of completing a dual con
 
 ##Week 9: 10/17/16- 10/21/16
 
-Made the following updates to Datatube_Heatmap at https://github.com/josefinacmenendez/Datatube_Heatmap:
-  * corrected error messages
-  * improved image scaling
-  * the full list of contigs can be accessed through R studio, but not through shinyapps.io; this will be fixed soon
+Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
+
+* corrected error messages
+* improved image scaling
+* the full list of contigs can be accessed through R studio, but not through shinyapps.io; this will be fixed soon
   
 ##Week 8: 10/10/16- 10/14/16
 
-Set up a repository for the shiny app built for showing the heatmaps:   
-* https://github.com/josefinacmenendez/Datatube_Heatmap   
+Set up a repository for the shiny app built for showing the heatmaps:
+
+* <https://github.com/josefinacmenendez/Datatube_Heatmap>
 
 The shiny app is functional. However, the following issues will be addressed this week:
+
 *  Parsing the full set of contigs into the selectizeInput list crashes the app
 *  There are several error messages that should be substituted with prompt messages
 
@@ -40,7 +43,7 @@ The shiny app is functional. However, the following issues will be addressed thi
 
 Worked on writing an R script for plotting heatmaps using differential gene expression for H. glaberrima data:
 The data is available on Hulk. I also spent some time becoming familiar with Shiny. I will be developing an app to view the heatmaps in a more user-friendly and interactive way.
-```
+```{R}
 #set the working directory to wherever the data is and read the three files accordingly.
 setwd("C:/Users/Josefina/Google Drive/Coursework/Megaprobe/Datatube")
 library(gplots)
@@ -88,30 +91,31 @@ write.csv(dge_pepino, "pepino_deg.csv", row.names = TRUE)
 ##Week 4: 9/12/16 - 9/16/16
 I set up the virtual machine with the necessary tools to run the assembly:
 
-* Downloaded git from https://git-scm.com/download/win
+* Downloaded git from <https://git-scm.com/download/win>
 
 * Created virtual machine with Ubuntu 16.04 OS following the instructions detailed on   
-https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
+<https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/>
 
-* Used Git Bash to install the base image containing trimommatic and khmer tools using the following commands as detailed on http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/install.html
+* Used Git Bash to install the base image containing trimommatic and khmer tools using the following commands as detailed on <http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/install.html>
 
- * Boot a recent Ubuntu on Amazon (wily 15.10 image or later)
- * Log in as user ‘ubuntu’.
- * Run the following commands:
-      ```
+    - Boot a recent Ubuntu on Amazon (wily 15.10 image or later)
+    - Log in as user ‘ubuntu’.
+    - Run the following commands:
+```
       sudo apt-get -y update && sudo apt-get -y install r-base python3-matplotlib libzmq3-dev python3.5-dev
       texlive-latex-extra texlive-latex-recommended python3-virtualenv trimmomatic fastqc python-pip python-dev bowtie samtools zlib1g-dev ncurses-dev
       
       sudo pip install -U setuptools khmer==2.0 jupyter jupyter_client ipython pandas
-      ```
+```
 
 ##Week 3: 9/05/16 - 9/09/16
 I have been familiarizing myself with the project, reading what has been published on the matter by Mashanov *et. al.*:
-http://www.biomedcentral.com/1471-2164/15/357
+<http://www.biomedcentral.com/1471-2164/15/357>
 
 ##Week 2: 8/29/16 - 9/02/16
 Dr. Ortiz, Dr. García-Arrarás and I met to discuss the biological intrinciacies of the *de-novo* sequencing project.
 We discussed the biological aspects of the project and detailed the following goals for this semester:
+
 * Use Vladimir's Databank as a database to search for homologies between other species 
 * Search for differential gene expression among reads
 * Produce a new assembly to expand the databank and include the transcriptome of reads for the regenerated and normal intestine of *H. glaberrima*
