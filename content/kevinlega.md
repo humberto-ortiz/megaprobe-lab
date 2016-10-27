@@ -21,6 +21,11 @@ Tags: de-novo
   
 ## Weekly Update:
 
+### Week 12 (4-28/October):
+- Writing the technical report... 
+- Going to present Mutual paper
+- More technical report...
+
 ### Week 11 (17-21/October):
 - Was able to run multiples spacegraphcats scripts.
 - Modified a few scripts in spacegraphcats to see which works best.
