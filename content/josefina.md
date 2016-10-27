@@ -20,6 +20,14 @@ I am also taking computer science courses with the goal of completing a dual con
 
 #Weekly Reports
 
+##Week 10: 10/24/16 - 10/28/16
+
+Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
+
+* The full list of contigs can be accessed on <https://josefinacmenendez.shinyapps.io/Datatube_Heatmap/> . To do so, type the contig name, or any letter that might be in that name (i.e. G for the Gypsy contigs).   
+* The generated heatmap can be exported as a pdf  
+* The differential expression data is now processed on global.R
+
 ##Week 9: 10/17/16- 10/21/16
 
 Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
