@@ -20,7 +20,7 @@ Tags:de-novo
 - Expand my repitoir of skills in any way really.
 
 ## Weekly Updates:
-### Week 12:(24/10/16)-(28/10/16)
+### Week 13:(24/10/16)-(28/10/16)
 - Compiled trinity from source.
 - Feed Nemastotella to the new trinity.
 - Feed Pepino to the normalizer.
