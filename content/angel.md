@@ -20,9 +20,29 @@ Tags:de-novo
 - Expand my repitoir of skills in any way really.
 
 ## Weekly Updates:
-- 
+### Week 12:(24/10/16)-(28/10/16)
+- Compiled trinity from source.
+- Feed Nemastotella to the new trinity.
+- Feed Pepino to the normalizer.
+- Prays it works
+
+### Week 12:(24/10/16)-(28/10/16)
+- Continued to have problems with the script
+- Managed to get the script working.
+- Normalized Nemastotella dataset.
+- Tried to run Trinity on Nemastotella unsuccesfully.
+- Ran the cucumber through normalization
+
+### Week 11:(17/10/16)-(21/10/16)
+- Spoke with proffesor about the error.
+- Fix the problem and began running the trimmer.
+- Began the normalizationn step.
 
 
+### Week 10:(10/10/16)-(14/10/16)
+- Commenced the pipeline on boqueron.
+- Re ran trimming unsuccesfully.
+- Spent the rest of the week troubleshooting.
 
 ### Week 9:(03/10/16)-(07/10/16)
 
