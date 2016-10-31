@@ -10,7 +10,7 @@ Hello! :)
 
 My name is Bianca I. Colón Rosado, I’m an 20 year old junior Computer Science student at the University of Puerto Rico, Río Piedras Campus. I'm doing a research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga since September 2014. 
 
-I presented posters about my research in Women in CyberSecurity Conference  (WiCyS) on March 2015, in Atlanta, GA and in the Computing Alliance of Hispanic-Serving Institutions Conference (CAHSI) on September 2015. Also participate in Malcon CTF 2015 with three partners and win first place.
+I presented posters about my research in Women in CyberSecurity Conference (WiCyS) on March 2015, in Atlanta, GA and in the Computing Alliance of Hispanic-Serving Institutions Conference (CAHSI) on September 2015. Also, participated in Malcon CTF 2015 teamed with a group of 3 and won first place.
 
 My career short term goals are to finish my degree in Computer Science and still doing undergraduate research. Furthermore, my long-term goals are to pursue graduate studies in computer science.
 
@@ -43,7 +43,7 @@ Another way to analyze our flows using the Benford’s law is comparing the same
 
 The Benford’s Law was effective with our flows. An important advantage of this method is that malware cannot easily adapt their communication pattern to conform to the logarithmic distribution of first digits. We need to validate the method with labeled or simulated data, and build an alerting system to notify of anomalies as soon as they are detected. Finding a general method for detecting anomalies in flows is hard. But with these techniques we can identify when we have real anomalies.
 
-##Second Semester 2015-2016
+##Second Semester 2015-2016: [Technical Report](https://ccom.uprrp.edu/~humberto/megaprobe/images/technicalReportBianca2sem2016.pdf)
 This semester, we want to implement [NAB](http://arxiv.org/pdf/1510.03336v4.pdf), so we can compare and evaluate different algorithms for detecting anomalies in streaming data. Also we want use NAB with our SiLK flows, and run our Bendford's Algorithms with their flows, that are already labeled with real anomalies.
 
 #Weekly Update
@@ -211,3 +211,19 @@ In order to mantein my coding skills updated, I decide make the code from scratc
 
 ## Week 17: May 9, 2016 - May 13, 2016
 I'm working in the code.
+
+## Results
+We start comparing the expected curve provided by Benford’s Law with the results obtained from the data labeled as no anomalies.
+We notice some differences that should not be there assuming the data don’t have anomalies. To find more information about this differences we search the deviations from the Benford theoretical curve.
+In the graph of the Deviations from the Benford Theoretical Curve, there’s a gap between the days from September 5 and some hours of September 9 in the provided data. We didn’t notice that until we make this graph.
+Also, looking the graph we need to find information to define the real anomalies. We want to prognosticate how close or far the deviation need to be from zero to be counted as a TP, FP, FN, TN.
+
+## Conclusion
+In order to prove that the Benford’s Law can detect anomalies in Network Flows we need to continue validating the algorithm with labeled data. NAB provide a lot of files with data, but we don’t get enought time to inspect all the files. Also we need to define when we classify the results of the Deviations from the Benford theorical curve as a real anomaly.
+An important advantage of this method is that malware cannot easily adapt their communication pattern to conform to the logarithmic distribution of first digits.
+
+## Future Work
+We want to analyze more the utility of this law, we want to compare the results of the Deviations from the Benford theorical curve with the octets in the same flows.
+Also, we will explore new approaches to find new techniques. Implement these techniques for anomaly detection to our collection of flows from UPR’s network, and compare results with the results of current techniques. If those techniques are effective we can use it in real time flow collection and build an alerting system to notify the anomalies as soon as they are detected.
+
+
