@@ -29,7 +29,7 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
 ###Week 10 (28th of October, 2016 to 4th of November, 2016)
 
   + Currently re-running all my scripts to avoid corrupted data.
-  + Suspected failu
+  + Suspected failur
 
 ###Week 9 (21st of October, 2016 to 28th of October, 2016)
   
