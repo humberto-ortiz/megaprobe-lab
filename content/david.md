@@ -29,6 +29,18 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
   
 #Weekly Reports:
 
+###Week 10 (28th of October, 2016 to 4th of November, 2016)
+
+  + Currently re-running all my scripts to avoid corrupted data.
+  + Suspected failure.
+
+###Week 9 (21st of October, 2016 to 28th of October, 2016)
+  
+  + Analyzed some read statistics withthe use of Transrate. Some flags popped up (low mapping percentege, size of largest contig).
+  + Technical report
+  + Website duty
+  
+
 ###Week 8 (14th of October, 2016 to 21st of October, 2016)
   
   + Started running the remaining scripts + re-ran the first 2 individuals.
