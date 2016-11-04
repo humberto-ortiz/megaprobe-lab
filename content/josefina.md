@@ -19,6 +19,19 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+##Week 11: 10/31/16 - 11/05/16
+
+Attempting to annotate H. glaberrima contigs from Vladimir's data:
+
+```{R}
+#Step 5
+#Ran the following commands and added the following script to /josefina/bin 
+cd ${HOME}/bin
+wget https://raw.githubusercontent.com/dib-lab/khmer/master/scripts/do-partition.py
+chmod u+x do-partition.py
+#do-partition.py requires khmer. 
+#I attempted to install khmer but the command 'apt-get' could not be found...
+```
 
 ##Week 10: 10/24/16 - 10/28/16
 
