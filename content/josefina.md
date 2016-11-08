@@ -19,6 +19,94 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+
+
+##Week 11: 10/31/16 - 11/06/16
+
+Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html
+I attempted to run this on Hulk by using the following commands:
+```
+[josefina@hulk khmer_venv]$ module load gcc
+[josefina@hulk khmer_venv]$ module load anaconda
+[josefina@hulk khmer_venv]$ conda create -n khmer python
+[josefina@hulk khmer_venv]$ . activate khmer
+(khmer)[josefina@hulk khmer_venv]$ pip install khmer
+```
+However, when running the script do-partition.py, the following error came up:
+
+```
+(khmer)[josefina@hulk khmer_venv]$ do-partition.py
+
+Traceback (most recent call last):
+  File "/home/josefina/.conda/envs/khmer/bin/do-partition.py", line 46, in <module>
+    import khmer
+  File "/home/josefina/.conda/envs/khmer/lib/python2.7/site-packages/khmer/__init__.py", line 42, in <module>
+    from khmer._khmer import Countgraph as _Countgraph
+ImportError: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/josefina/.conda/envs/khmer/lib/python2.7/site-packages/khmer/_khmer.so)
+```
+It seems there is some sort of incompatibility with the gcc version recquired to run this, and the gcc version installed on Hulk.
+
+```
+(khmer)[josefina@hulk khmer_venv]$ gcc --version
+gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-17)
+Copyright (C) 2010 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+However, it appears that the loaded gcc version is up to date:
+```
+(khmer)[josefina@hulk khmer_venv]$ module list
+Currently Loaded Modulefiles:
+  1) gcc/6.2.0   2) anaconda
+
+```
+I created a virtual environment locally and installed khmer as follows, and did not obtain the previous error when inputting 'do-partition.py':
+```
+josefina@josefina-Q552UB:~/virtual_environments$ sudo apt-get update
+josefina@josefina-Q552UB:~/virtual_environments$ sudo apt-get -y install screen git curl gcc make g++ python-dev \ > unzip default-jre pkg-config libncurses5-dev r-base-core r-cran-gplots python-matplotlib python-pip \   
+> python-virtualenv sysstat fastqc trimmomatic fastx-toolkit bowtie samtools blast2
+
+josefina@josefina-Q552UB:~/virtual_environments$ gcc --version
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+josefina@josefina-Q552UB:~/virtual_environments$ python2.7 -m virtualenv khmer_venv
+josefina@josefina-Q552UB:~/virtual_environments$ source khmer_venv/bin/activate
+(khmer_venv) josefina@josefina-Q552UB:~/virtual_environments$ pip install khmer
+(khmer_venv) josefina@josefina-Q552UB:~/virtual_environments$ do-partition.py
+|| This is the script do-partition.py in khmer.
+|| You are running khmer version 2.0
+|| You are also using screed version 0.9
+||
+|| If you use this script in a publication, please cite EACH of the following:
+||
+||   * MR Crusoe et al., 2015. http://dx.doi.org/10.12688/f1000research.6924.1
+||   * J Pell et al., http://dx.doi.org/10.1073/pnas.1121464109
+||
+|| Please see http://khmer.readthedocs.org/en/latest/citations.html for details.
+
+usage: do-partition.py [-h] [--version] [--ksize KSIZE] [--n_tables N_TABLES]
+                       [-U UNIQUE_KMERS] [--fp-rate FP_RATE]
+                       [--max-tablesize MAX_TABLESIZE | -M MAX_MEMORY_USAGE]
+                       [--threads THREADS] [--subset-size SUBSET_SIZE]
+                       [--no-big-traverse] [--keep-subsets] [-f]
+                       graphbase input_sequence_filename
+                       [input_sequence_filename ...]
+do-partition.py: error: too few arguments
+
+```
+
+##Week 10: 10/24/16 - 10/28/16
+
+Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
+
+* The full list of contigs can be accessed on <https://josefinacmenendez.shinyapps.io/Datatube_Heatmap/> . To do so, type the contig name, or any letter that might be in that name (i.e. G for the Gypsy contigs).   
+* The generated heatmap can be exported as a pdf  
+* The differential expression data is now processed on global.R
+
 ##Week 9: 10/17/16- 10/21/16
 
 Made the following updates to Datatube_Heatmap at https://github.com/josefinacmenendez/Datatube_Heatmap:
