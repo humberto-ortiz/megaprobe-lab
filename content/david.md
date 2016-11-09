@@ -29,16 +29,25 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
   
 #Weekly Reports:
 
+###Week 11 (4th of November, 2016 to 11th of November, 2016)
+
+  + Hopefully starting mapping using Bowtie-2, create the quantification table with RSEM, & visualize with edgeR.
+  + Proyected weekly progress rating 100/100. 
+
 ###Week 10 (28th of October, 2016 to 4th of November, 2016)
 
   + Currently re-running all my scripts to avoid corrupted data.
-  + Suspected failure.
+  + All scripts produced a Trinity.fasta file.
+  + Waiting on my instructor for further work.
+  + Some extra website work :(.
+  + Weekly progress rating 30/100.
 
 ###Week 9 (21st of October, 2016 to 28th of October, 2016)
   
   + Analyzed some read statistics withthe use of Transrate. Some flags popped up (low mapping percentege, size of largest contig).
   + Technical report
   + Website duty
+  + Weekly progress rating 45/100.
   
 
 ###Week 8 (14th of October, 2016 to 21st of October, 2016)
