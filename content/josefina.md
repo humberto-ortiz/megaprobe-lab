@@ -20,84 +20,93 @@ I am also taking computer science courses with the goal of completing a dual con
 
 #Weekly Reports
 
+##Week 12: 11/14/16 - 11/18/16
+
+Annotating transcript families
+
+The following protocol is being used: https://khmer-protocols.readthedocs.io/en/latest/mrnaseq/6-annotating-transcript-families.html
+
+```
+screen
+
+#Downloading from NCBI RefSeq Mouse database to /data/josefina/DATATUBE/mRNAseq/data/refSeqMouse/:
+
+for file in mouse.1.protein.faa.gz mouse.2.protein.faa.gz mouse.3.protein.faa.gz
+	do 
+	wget "ftp://ftp.ncbi.nlm.nih.gov/refseq/M_musculus/mRNA_Prot/${file}"
+	done
+  
+#decompressing files
+gunzip mouse.[123].protein.faa.gz
+cat mouse.[123].protein.faa > mouse.protein.faa
+
+#formating files using makeblastdb instead of formatdb:
+makeblastdb -in mouse.protein.faa -dbtype prot
+
+#Building a new DB, current time: 11/15/2016 12:29:19
+#New DB name:   mouse.protein.faa
+#New DB title:  mouse.protein.faa
+#Sequence type: Protein
+#Keep Linkouts: T
+#Keep MBits: T
+#Maximum file size: 1000000000B
+#Adding sequences from FASTA; added 76419 sequences in 6.85848 seconds.
+
+makeblastdb -in combined_transcripts_cleaned_renamed_pepino.fa -dbtype nucl
+
+Building a new DB, current time: 11/15/2016 13:51:19
+New DB name:   combined_transcripts_cleaned_renamed_pepino.fa
+New DB title:  combined_transcripts_cleaned_renamed_pepino.fa
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 63218 sequences in 8.16066 seconds.
+
+#running blastx
+blastx -db mouse.protein.faa -query combined_transcripts_cleaned_renamed_pepino.fa -evalue 1e-3 -num_threads 8 -num_descriptions 4 -num_alignments 4 -out pepino.x.mouse
+
+```
 
 ##Week 11: 10/31/16 - 11/06/16
 
-Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html
-I attempted to run this on Hulk by using the following commands:
+Building transcript families:
+
+Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html locally.
+Failed attempts to reproduce this protocol on Hulk were made and the following was learned:
+
+* gcc version 5.4.0 or greater is required
+* installing khmer using pip install khmer and running do-partition.py results in the following error:
 ```
-[josefina@hulk khmer_venv]$ module load gcc
-[josefina@hulk khmer_venv]$ module load anaconda
-[josefina@hulk khmer_venv]$ conda create -n khmer python
-[josefina@hulk khmer_venv]$ . activate khmer
-(khmer)[josefina@hulk khmer_venv]$ pip install khmer
+terminate called after throwing an instance of 'std::ios_base::failure'
+
+what(): basic_ios::clear
 ```
-However, when running the script do-partition.py, the following error came up:
+The following commands worked:
+```
+module load gcc/5.4.0
+module load anaconda
+conda create --name khmer_tools python
+source activate khmer_tools
+cd /home/josefina/.conda/envs/khmer_tools
+
+git clone https://github.com/dib-lab/khmer.git
+make install-dependencies
+make
+./setup.py install --user
+
+cd /data/josefina/DATATUBE/partitions_on_hulk
+
+python do-partition.py -x 8e9 -N 4 --threads ${THREADS:-1} pepino 
+
+combined_transcripts_cleaned_fasta_cap_contigs.fa.gz 
+rename-with-partitions.py pepino combined_transcripts_cleaned_fasta_cap_contigs.fa.gz.part
+
+mv combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta.gz \
+	combined_transcripts_renamed.fa.gz
 
 ```
-(khmer)[josefina@hulk khmer_venv]$ do-partition.py
 
-Traceback (most recent call last):
-  File "/home/josefina/.conda/envs/khmer/bin/do-partition.py", line 46, in <module>
-    import khmer
-  File "/home/josefina/.conda/envs/khmer/lib/python2.7/site-packages/khmer/__init__.py", line 42, in <module>
-    from khmer._khmer import Countgraph as _Countgraph
-ImportError: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/josefina/.conda/envs/khmer/lib/python2.7/site-packages/khmer/_khmer.so)
-```
-It seems there is some sort of incompatibility with the gcc version recquired to run this, and the gcc version installed on Hulk.
-
-```
-(khmer)[josefina@hulk khmer_venv]$ gcc --version
-gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-17)
-Copyright (C) 2010 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
-However, it appears that the loaded gcc version is up to date:
-```
-(khmer)[josefina@hulk khmer_venv]$ module list
-Currently Loaded Modulefiles:
-  1) gcc/6.2.0   2) anaconda
-
-```
-I created a virtual environment locally and installed khmer as follows, and did not obtain the previous error when inputting 'do-partition.py':
-```
-josefina@josefina-Q552UB:~/virtual_environments$ sudo apt-get update
-josefina@josefina-Q552UB:~/virtual_environments$ sudo apt-get -y install screen git curl gcc make g++ python-dev \ > unzip default-jre pkg-config libncurses5-dev r-base-core r-cran-gplots python-matplotlib python-pip \   
-> python-virtualenv sysstat fastqc trimmomatic fastx-toolkit bowtie samtools blast2
-
-josefina@josefina-Q552UB:~/virtual_environments$ gcc --version
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609
-Copyright (C) 2015 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-
-josefina@josefina-Q552UB:~/virtual_environments$ python2.7 -m virtualenv khmer_venv
-josefina@josefina-Q552UB:~/virtual_environments$ source khmer_venv/bin/activate
-(khmer_venv) josefina@josefina-Q552UB:~/virtual_environments$ pip install khmer
-(khmer_venv) josefina@josefina-Q552UB:~/virtual_environments$ do-partition.py
-|| This is the script do-partition.py in khmer.
-|| You are running khmer version 2.0
-|| You are also using screed version 0.9
-||
-|| If you use this script in a publication, please cite EACH of the following:
-||
-||   * MR Crusoe et al., 2015. http://dx.doi.org/10.12688/f1000research.6924.1
-||   * J Pell et al., http://dx.doi.org/10.1073/pnas.1121464109
-||
-|| Please see http://khmer.readthedocs.org/en/latest/citations.html for details.
-
-usage: do-partition.py [-h] [--version] [--ksize KSIZE] [--n_tables N_TABLES]
-                       [-U UNIQUE_KMERS] [--fp-rate FP_RATE]
-                       [--max-tablesize MAX_TABLESIZE | -M MAX_MEMORY_USAGE]
-                       [--threads THREADS] [--subset-size SUBSET_SIZE]
-                       [--no-big-traverse] [--keep-subsets] [-f]
-                       graphbase input_sequence_filename
-                       [input_sequence_filename ...]
-do-partition.py: error: too few arguments
-
-```
 
 ##Week 10: 10/24/16 - 10/28/16
 
