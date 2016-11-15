@@ -41,6 +41,7 @@ gunzip mouse.[123].protein.faa.gz
 cat mouse.[123].protein.faa > mouse.protein.faa
 
 #formating files using makeblastdb instead of formatdb:
+#files are in /data/josefina/DATATUBE/mRNAseq/annotations/
 makeblastdb -in mouse.protein.faa -dbtype prot
 
 #Building a new DB, current time: 11/15/2016 12:29:19
