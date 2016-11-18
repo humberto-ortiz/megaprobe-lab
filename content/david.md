@@ -35,7 +35,7 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
 ###Week 11 (4th of November, 2016 to 11th of November, 2016)
 
   + Mapping using Bowtie-2, created only 2 files (out of 5).
-  + Weekly progress rating 0/100. 
+  + Weekly progress rating 40/100. 
 
 ###Week 10 (28th of October, 2016 to 4th of November, 2016)
 
