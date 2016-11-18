@@ -26,10 +26,16 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
   
 #Weekly Reports:
 
+###Week 11 (11th of November, 2016 to 18th of November)
+
+  + Changing our current mapping/quantification method (hopefully for the best).
+  + Encountered problems with our mapping method for reasons unknown.
+  + Weekly progress rating 0/100. 
+  
 ###Week 11 (4th of November, 2016 to 11th of November, 2016)
 
-  + Hopefully starting mapping using Bowtie-2, create the quantification table with RSEM, & visualize with edgeR.
-  + Proyected weekly progress rating 100/100. 
+  + Mapping using Bowtie-2, created only 2 files (out of 5).
+  + Weekly progress rating 0/100. 
 
 ###Week 10 (28th of October, 2016 to 4th of November, 2016)
 
