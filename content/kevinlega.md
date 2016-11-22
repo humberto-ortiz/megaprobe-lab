@@ -21,7 +21,25 @@ Tags: de-novo
   
 ## Weekly Update:
 
-### Week 12 (4-28/October):
+### Week 15 (14-19/November):
+- Running Trinity again.
+- If it failes I will download a new file.
+- Download sourmash again to read the files.
+- Test on Abstract Algebra...
+
+### Week 14 (7-11/November):
+- Continuing reading on the catlas.
+- Re-read the Technical Report to see what can be improved.
+- Working on the Cache Lab.
+- Trinity failed when running.
+
+### Week 13 (1-5/November):
+- Reading more scripts on Spacegraphcats.
+- Lost the Fasta.fa from Hulk.
+- Download a file to run Trinity.
+- Trying to fully understand the ways of the catlas.
+
+### Week 12 (24-28/October):
 - Writing the technical report... 
 - Going to present Mutual paper
 - More technical report...
