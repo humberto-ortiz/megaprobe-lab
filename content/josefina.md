@@ -20,7 +20,160 @@ I am also taking computer science courses with the goal of completing a dual con
 
 #Weekly Reports
 
+##Week 14: 11/21/16 - 11/27/16
+
+I attempted the procedure using data from S. purpuratus, taken from ftp://ftp.ncbi.nih.gov/genomes/Strongylocentrotus_purpuratus/protein/ and obtained no hits. 
+
+I also attempted to run the tutorial using the canned blasts and the Nemastotella transcriptome, and yet obtained no hits.
+I downloaded the BLAST version 2.2.26 and used formatdb instead of makeblastdb to format the mouse and the nemastotella data.
+This BLAST version was downloaded from: https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.26/ and installed according to directions detailed on https://github.com/ctb/blastkit. Rather than using virtualenv, a conda environment (named blastkit) was used. However, no hits were obtained when annotating the transcripts. 
+
+##Weel 13: 11/14/16 - 11/20/16
+
+Annotating transcript families
+
+The following protocol is being used: https://khmer-protocols.readthedocs.io/en/latest/mrnaseq/6-annotating-transcript-families.html
+
+
+Downloading from NCBI RefSeq Mouse database to /data/josefina/DATATUBE/mRNAseq/data/refSeqMouse/:
+```
+(blastkit)[josefina@hulk annotations_2]$ for file in mouse.1.protein.faa.gz mouse.2.protein.faa.gz mouse.3.protein.faa.gz
+(blastkit)[josefina@hulk annotations_2]$ 	do 
+(blastkit)[josefina@hulk annotations_2]$ 	wget "ftp://ftp.ncbi.nlm.nih.gov/refseq/M_musculus/mRNA_Prot/${file}"
+(blastkit)[josefina@hulk annotations_2]$ 	done
+```
+decompressing files
+```
+(blastkit)[josefina@hulk annotations_2]$ gunzip mouse.[123].protein.faa.gz
+(blastkit)[josefina@hulk annotations_2]$ cat mouse.[123].protein.faa > mouse.protein.faa
+```
+formating files using makeblastdb instead of formatdb:
+files are in /data/josefina/DATATUBE/mRNAseq/annotations/
+```
+(blastkit)[josefina@hulk annotations_2]$ makeblastdb -in mouse.protein.faa -dbtype prot
+
+Building a new DB, current time: 11/15/2016 12:29:19
+New DB name:   mouse.protein.faa
+New DB title:  mouse.protein.faa
+Sequence type: Protein
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 76419 sequences in 6.85848 seconds.
+
+(blastkit)[josefina@hulk annotations_2]$ makeblastdb -in combined_transcripts_cleaned_renamed_pepino.fa -dbtype nucl
+
+Building a new DB, current time: 11/15/2016 13:51:19
+New DB name:   combined_transcripts_cleaned_renamed_pepino.fa
+New DB title:  combined_transcripts_cleaned_renamed_pepino.fa
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 63218 sequences in 8.16066 seconds.
+```
+running blastx
+```
+(blastkit)[josefina@hulk annotations_2]$ blastx -db mouse.protein.faa -query combined_transcripts_cleaned_renamed_pepino.fa \ -evalue 1e-3 -num_threads 8 -num_descriptions 4 -num_alignments 4 -out pepino.x.mouse
+
+```
+running tblastn
+```
+(blastkit)[josefina@hulk annotations_2]$ tblastn -db combined_transcripts_cleaned_renamed_pepino.fa -query \
+mouse.protein.faa -evalue 1e-3 -num_threads 8 -num_descriptions 4 -num_alignments 4 -out mouse.x.pepino
+```
+Several warnings were observed wen running tblastn due to short sequences in the mouse RNA-seq data:
+
+```
+Warning: lcl|Query_2936 gi|9256636|ref|NP_061348.1| 60S ribosomal protein L41 [Mus musculus]: Warning: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options
+
+(blastkit)[josefina@hulk annotations_2]$  grep -n "9256636" mouse.protein.faa
+18946:>gi|9256636|ref|NP_061348.1| 60S ribosomal protein L41 [Mus musculus]
+
+(blastkit)[josefina@hulk annotations_2]$  grep -A 1 "9256636" mouse.protein.faa
+>gi|9256636|ref|NP_061348.1| 60S ribosomal protein L41 [Mus musculus]
+MRAKWRKKRMRRLKRKRRKMRQRSK
+```
+The following commands use scripts from the eel-pond tutorial by Dr. Titus Brown.
+These scripts are available at: https://github.com/ctb/eel-pond.
+Screed was downloaded into the virutal environment using 'pip install screed'.
+
+Putative homology (best BLAST hit) and orthology (reciprocal best hits) were calculated:
+
+```
+(blastkit)[josefina@hulk annotations_2]$ python ../eelpond_scripts/make-uni-best-hits.py pepino.x.mouse pepino.x.mouse.homol
+(blastkit)[josefina@hulk annotations_2]$ python ../eelpond_scripts/make-reciprocal-best-hits.py pepino.x.mouse mouse.x.pepino pepino.x.mouse.ortho
+```
+
+The mouse RNA-seq data was re-formatted:
+```
+(blastkit)[josefina@hulk annotations_2]$ python ../eelpond_scripts/make-namedb.py mouse.protein.faa mouse.namedb
+(blastkit)[josefina@hulk annotations_2]$ python -m screed.fadbm mouse.protein.faa
+```
+Annotation was attempted using the following commands:
+```
+(blastkit)[josefina@hulk annotations_2]$ python ../eelpond_scripts/annotate-seqs.py \ combined_transcripts_cleaned_renamed_pepino.fa pepino.x.mouse.ortho pepino.x.mouse.homol 
+Scanning sequences -- first pass to gather info
+... 0
+... 25000
+... 50000
+second pass: annotating
+... x2 0
+... x2 25000
+... x2 50000
+----
+63217 sequences total
+0 annotated / ortho
+0 annotated / homol
+0 annotated / tr
+0 total annotated
+
+annotated sequences in FASTA format: combined_transcripts_cleaned_renamed_pepino.fa.annot
+annotation spreadsheet in: combined_transcripts_cleaned_renamed_pepino.fa.annot.csv
+annotation spreadsheet with sequences (warning: LARGE): combined_transcripts_cleaned_renamed_pepino.fa.annot.large.csv
+```
+
+##Week 12: 11/07/16 - 11/13/16
+
+Building transcript families:
+
+Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html locally.
+Failed attempts to reproduce this protocol on Hulk were made and the following was learned:
+
+* gcc version 5.4.0 or greater is required
+* installing khmer using pip install khmer and running do-partition.py results in the following error:
+```
+terminate called after throwing an instance of 'std::ios_base::failure'
+
+what(): basic_ios::clear
+```
+The following commands worked:
+```
+module load gcc/5.4.0
+module load anaconda
+conda create --name khmer_tools python
+source activate khmer_tools
+cd /home/josefina/.conda/envs/khmer_tools
+
+git clone https://github.com/dib-lab/khmer.git
+make install-dependencies
+make
+./setup.py install --user
+
+cd /data/josefina/DATATUBE/partitions_on_hulk
+
+python do-partition.py -x 8e9 -N 4 --threads ${THREADS:-1} pepino 
+
+combined_transcripts_cleaned_fasta_cap_contigs.fa.gz 
+rename-with-partitions.py pepino combined_transcripts_cleaned_fasta_cap_contigs.fa.gz.part
+
+mv combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta.gz \
+	combined_transcripts_renamed.fa.gz
+
+```
 ##Week 11: 10/31/16 - 11/06/16
+
+Building transcript families:
 
 Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html
 I attempted to run this on Hulk by using the following commands:
