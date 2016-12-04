@@ -22,19 +22,22 @@ I am also taking computer science courses with the goal of completing a dual con
 
 ##Week 15: 11/28/16 - 12/4/16
 
-I attempted the eel-pond procedure locally, but obtained no hits. 
+I attempted the eel-pond procedure locally, but obtained no hits when running annotate-seqs.py
 
 I also familiarized myself with using git hub via the command line.
 
 The following steps describe how to get started with git hub using the command line:
 
-1. Create a copy of the repository on a local directory
-2. Add a file
-3. Commit the file
-4. Push the file
-5. Check the status
+1. Configure the repository
+2. Create a copy of the repository on a local directory
+3. Add a file (also works for editing a file)
+4. Commit the file
+5. Push the file
+6. Check the status
 
 ```
+git config --global user.email "EMAIL"
+git config --global user.name "USERNAME"
 git clone http://github.com/USERNAME/REPOSITORY.git
 cd REPOSITORY
 git add FILENAME
