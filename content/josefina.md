@@ -20,6 +20,44 @@ I am also taking computer science courses with the goal of completing a dual con
 
 #Weekly Reports
 
+##Week 15: 11/28/16 - 12/4/16
+
+I attempted the eel-pond procedure locally, but obtained no hits. 
+
+I also familiarized myself with using git hub via the command line.
+
+The following steps describe how to get started with git hub using the command line:
+
+1. Create a copy of the repository on a local directory
+2. Add a file
+3. Commit the file
+4. Push the file
+5. Check the status
+
+```
+git clone http://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
+git add FILENAME
+git commit -m "MESSAGE"
+git push
+```
+
+To remove the file, input:
+
+```
+git pull FILENAME
+```
+
+To add all files in a directory:
+
+```
+git add . 
+```
+OR
+```
+git add -A
+```
+
 ##Week 14: 11/21/16 - 11/27/16
 
 I attempted the procedure using data from S. purpuratus, taken from ftp://ftp.ncbi.nih.gov/genomes/Strongylocentrotus_purpuratus/protein/ and obtained no hits. 
