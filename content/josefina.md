@@ -69,7 +69,7 @@ I also attempted to run the tutorial using the canned blasts and the Nemastotell
 I downloaded the BLAST version 2.2.26 and used formatdb instead of makeblastdb to format the mouse and the nemastotella data.
 This BLAST version was downloaded from: https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.26/ and installed according to directions detailed on https://github.com/ctb/blastkit. Rather than using virtualenv, a conda environment (named blastkit) was used. However, no hits were obtained when annotating the transcripts. 
 
-##Weel 13: 11/14/16 - 11/20/16
+##Week 13: 11/14/16 - 11/20/16
 
 Annotating transcript families
 
