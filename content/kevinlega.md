@@ -20,6 +20,18 @@ Tags: de-novo
   
   
 ## Weekly Update:
+### Week 18 and 19(5-15/December):
+- Work on the technical.
+
+### Week 17(28/November- 2/December):
+- Think I have a good plan for the next semester.
+- Going to do some research and I'll add it to the technical report.
+- Going to read to see what I can improve in the technical report.
+
+### Week 16 (21-23/November):
+- Humberto showed me the paper that Titus publish on searching.
+- Well lets face it, he has the best algorithm.
+- Now it up to make a plan for next semester.
 
 ### Week 15 (14-19/November):
 - Running Trinity again.
