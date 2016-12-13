@@ -19,6 +19,11 @@ I am also taking computer science courses with the goal of completing a dual con
 *TBA*
 
 #Weekly Reports
+##Week 16: 12/04/16 - 12/05/16
+
+annotate-seqs.py was fixed; the changes are documented on the forks humberto-ortiz/eel-pond and josefinacmenendez/eel-pond
+
+However, when attempted with the pepino data, no hits are found for the following reason: no orthologies or homologies are found. I found that on the previous step (building transcript families) rename-with-partitions.py was building a name with a space between > NAME instead of building it >NAME; I fixed this, but this did not correct the problem. It's as if blastparser is not parsing the data into make-uni-best-hits.py or make-reciprocal-best-hits.py.
 
 ##Week 15: 11/28/16 - 12/4/16
 
