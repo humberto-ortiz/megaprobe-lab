@@ -13,23 +13,40 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
 #Contact:
 
   + e-mail: david.ortiz11@upr.edu
-  + Github: https://github.com/davidjortiz
+  + Github: https://github.com/kytrnd
   
 #Research Goals:
   
-  + Branch out to other disciplines whilest applying what I know/learn in my studies.
-  + Obtain significant and concrete results to support my instructors hypothesis.
-  + (coming soon)
+  + Find if there is any gene convergence for 3 lineages of cave fishes (Stygi, Sino, Astyanax).
+  + Learn techniques used in philogeny/bioinformatics.
 
 #Research Description:
 
   + Find Diferential Expressions from different species of cave fishes through data obtained from
     transcriptomics.
-  + (coming soon)
   
 #Weekly Reports:
 
-###Week 11 (11th of November, 2016 to 18th of November)
+
+###Week 15 (2nd of December, 2016 to 9th of December, 2016)
+
+  + STILL have not heard from instructor on what will be my next step.
+  + Nothing.
+  + Weekly progress rating -100/100.
+
+###Week 14 (25th of November, 2016 to 2nd of December, 2016)
+
+  + Have not heard from instructor on what will be my next step.
+  + Nothing.
+  + Weekly progress rating -100/100.
+
+###Week 13 (18th of November, 2016 to 25th of November, 2016)
+
+  + Moved data to instructor's cluster for mapping and quantification using Bowtie-2 & RSEM.
+  + Tried some scripts, no luck. Waiting on problems to be investigated.
+  + Weekly progress rating 1/100.
+
+###Week 12 (11th of November, 2016 to 18th of November, 2016)
 
   + Changing our current mapping/quantification method (hopefully for the best).
   + Encountered problems with our mapping method for reasons unknown.
