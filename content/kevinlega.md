@@ -15,11 +15,23 @@ Tags: de-novo
   
 # Reasearch goals:
 
-  - Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
+  - With titus new comparison code, will develop a package that will normalize, trim, and compare any given data.
+  
+  - Last semester: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
    a faster run time. 
   
   
-## Weekly Update:
+# Weekly Update:
+
+## This semester:
+
+### Week 1(23-27/January):
+- Doing research on how to develop software packages.
+- Waiting on Hulk to grant me access.
+- Downloaded Trimmomatic, Sourmash, and Trinity.
+- Will upload them to Hulk.
+
+## Last semester:
 ### Week 18 and 19(5-15/December):
 - Work on the technical.
 
