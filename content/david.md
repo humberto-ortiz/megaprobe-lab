@@ -1,4 +1,4 @@
-Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes 
+Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: DGE, Transcriptomics, Exon Capture, Bio Research, Cave Fishes 
 
 #Short Bio:
   
@@ -10,23 +10,32 @@ Title: David John Ortiz Rivera Date: 2016-09-02 Category: People Tags: Transcrip
 #Contact:
 
   + e-mail: david.ortiz11@upr.edu
-  + Github: https://github.com/davidjortiz
+  + Github: https://github.com/kytrnd
   
 #Research Goals:
   
-  + Branch out to other disciplines whilest applying what I know/learn in my studies.
-  + Obtain significant and concrete results to support my instructors hypothesis.
-  + (coming soon)
+  + Complete a project
+  + Find DGE expression from different species.
 
 #Research Description:
 
   + Find Diferential Expressions from different species of cave fishes through data obtained from
     transcriptomics.
-  + (coming soon)
+  + Find Diferential Expression from... (TBD)
   
 #Weekly Reports:
 
-###Week 11 (11th of November, 2016 to 18th of November)
+###Week 18 (27th of January, 2017 to 3rd of February, 2017)
+
+  + Changing our current mapping/quantification method (hopefully for the best).
+  + Encountered problems with our mapping method for reasons unknown.
+  + Weekly progress rating 0/100. 
+
+###Week 13, 14, 15, 16, & 17 (18th of November, 2016 to 27th of January, 2017)
+
+  + Instructor has gone MIA.
+
+###Week 12 (11th of November, 2016 to 18th of November, 2016)
 
   + Changing our current mapping/quantification method (hopefully for the best).
   + Encountered problems with our mapping method for reasons unknown.
