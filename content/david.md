@@ -1,15 +1,13 @@
 Title: David John Ortiz Rivera
 Date: 2016-09-02
 Category: People
-Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes 
+Tags: DGE, RNA Seq, Bioinformatics, Cave Fishes, Salmon, EdgeR
 
 #Short Bio:
   
-   Greetings, my name is David John Ortiz Rivera. I was born one august day in Bayamon, Puerto Rico, but raised in Morovis (yes, we have electricity). 
-   Currently a 4th year undergrad student at the University of Puerto Rico, Rio Piedras. I'm primarily interested in programming, video games, music (except Bachata), films, and science (somewhat).
-   In the future I aspire to use what I learn from my undergrad (& grad) program to do something productive,
-   or at least relate it to any of my interests.
-  
+   Greetings, my name is David John Ortiz Rivera. I was born one august day in Bayamon, Puerto Rico, but raised in Morovis.
+   Currently a 4th year undergrad student at the University of Puerto Rico, Rio Piedras. I'm primarily interested in programming, video games, music, films, and science (somewhat).
+   In the future I like to be involved in the areas of hardware repair, cybersecurity, software engineering, videogame development, and web development.
 #Contact:
 
   + e-mail: david.ortiz11@upr.edu
@@ -18,15 +16,49 @@ Tags: Transcriptomics, Exon Capture, Bio Research, Cave Fishes
 #Research Goals:
   
   + Find if there is any gene convergence for 3 lineages of cave fishes (Stygi, Sino, Astyanax).
-  + Learn techniques used in philogeny/bioinformatics.
+  + Find DGE using RNAseq from Salmon
+  + Complete this semester's project
 
 #Research Description:
 
-  + Find Diferential Expressions from different species of cave fishes through data obtained from
-    transcriptomics.
+###Phylogeny Project description:
+
++ Working under the supervision of Prof. Humberto Ortiz Zuazaga, Ricardo Betancourt,
+  and Dahiana Arcila I was trying to find Diferential Expressions from different 
+  species of fishes (Astyanax, Styygicthys, Sinocheilus) through data obtained from transcriptomics 
+  to determine if there is any genetic convergence.
+
++ step 1 : de novo assembly on Stygicthys raw data files using Trinity.
++ step 2 : mapping our assembled files against 14,000 transcriptomes using bowtie2.
++ step 3 : obtain our sam output and convert it into quantification tables using RSEM.
++ step 4 : Visualize our DGE data to determine if there is any convergence between these species using eBseq or edgeR.
++ more on this here: https://github.com/kytrnd/Bioinformatics
+
+ + Quantification and Differential Expression of RNAseq with salmon (more on this soon):
+ ++ http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/quantification.html.
   
 #Weekly Reports:
 
+##Second Semester (2016-2017)
+
+###Week 18 (27th of January, 2017 to 3rd of February, 2017)
+
+  + Updated my markdown.
+  + Started reading Titus' workshop on DGE using Salmon.
+  + Installed Salmon
+  + Weekly progress rating 20/100.
+
+###Week 17 (20th of January, 2017 to 27th of January, 2017)
+
+  + Nothing.
+  + Weekly progress rating -100/100.
+
+###Week 16 (18th of January, 2017 to 20th of January, 2017)
+
+  + Nothing.
+  + Weekly progress rating -100/100.
+
+##First Semestre (2016-2017)
 
 ###Week 15 (2nd of December, 2016 to 9th of December, 2016)
 
