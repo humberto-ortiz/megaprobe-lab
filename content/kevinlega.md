@@ -25,6 +25,12 @@ Tags: de-novo
 
 ## This semester:
 
+### Week 2(30/January-3/Febuary):
+- Reading on Makefile
+- Working on Different Makefiles trial, non worked.
+- Reading and more Reading
+- Going to write description on references.
+
 ### Week 1(23-27/January):
 - Doing research on how to develop software packages.
 - Waiting on Hulk to grant me access.
