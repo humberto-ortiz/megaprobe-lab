@@ -16,10 +16,44 @@ Tags:de-novo
 
 - Learn things in general.
 - Comprehend what bioinformatics are.
-- By the time the semester is over, be able mto say im not wholly confused.
+- By the time the semester is over, be able mto say I'm not wholly confused.
 - Expand my repitoir of skills in any way really.
 
 ## Weekly Updates:
+
+## Spring 2017
+
+### Week 2:(27/01/17)-(03/02/17)
+- Managed to actually compare things, The samples say nemastotella is +90% the same as pepino
+- Tried to run Trinity on a bulkier machine..... if gave ultra cryptic error codes
+
+### Week 1:(23/01/17)-(27/01/17)
+- Read up on sourmash
+- Needed to figure out how to compute a so called 'sig' file
+
+## Fall 2016
+### Week 16:(25/11/16)-(02/12/16)
+- Read a bit on Sourmash for the comparisons
+- Reaserch put on hold for finals
+### Week 16:(18/11/16)-(25/11/16)
+- Trinity thoroughly chewd up both creatures and returned two beautiful fasta files
+### Week 16:(11/11/16)-(18/11/16)
+- Spoke to a lab member and we talked about doing a sample run for the sake of continuing forward until we got a better machine
+- Feed Trinity a sample of both Nemastotela and Pepino
+
+### Week 16:(11/11/16)-(18/11/16)
+- Appartently we need a bigger boat I mean computer
+- Spent a few days thinking of workarounds
+
+### Week 15:(04/11/16)-(11/11/16)
+- Trinity spat out Pepino due to lack of memory
+- Asked Humberto if there was a bigger machine available
+
+### Week 14:(28/11/16)-(04/11/16)
+- Trinity failed due to lack of memory
+- Pepino finished normalizing
+- Feed pepino to Trinity
+
 ### Week 13:(24/10/16)-(28/10/16)
 - Compiled trinity from source.
 - Feed Nemastotella to the new trinity.
