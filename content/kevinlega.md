@@ -15,7 +15,7 @@ Tags: de-novo
   
 # Reasearch goals:
 
-  - With titus new comparison code, will develop a package that will normalize, trim, and compare any given data.
+  - With titus new comparison code, I will develop a package that will normalize, trim, and compare any given data.
   
   - Last semester: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
    a faster run time. 
@@ -30,6 +30,8 @@ Tags: de-novo
 - Working on Different Makefiles trial, non worked.
 - Reading and more Reading
 - Going to write description on references.
+- On my profile I have a repository of the sketch of makefile
+- Reading this makefile tutorial: www.gnu.org/software/make/manual/make.html#Makefile-Contents
 
 ### Week 1(23-27/January):
 - Doing research on how to develop software packages.
