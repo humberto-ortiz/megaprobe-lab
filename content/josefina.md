@@ -16,9 +16,168 @@ I am also taking computer science courses with the goal of completing a dual con
 
 #Project Description
 
-*TBA*
+This project aims to assemble and annotate transcripts from H. glaberrima.
 
 #Weekly Reports
+##Second semester
+##Week 3: 1/30/17 - 2/5/17
+I am still attending to the manuscript. I hope to be able to map the contigs from two different assemblies to be able to compare their differential expression.
+
+##Week 2: 1/23/17 - 1/29/17
+I have been working on revising the initial submission of a manuscript that I helped write during last summer's internship at U. Pitt's DBMI.
+
+The original submission can be found here; I am listed in the acknowledgements section:
+
+```
+https://f1000research.com/articles/5-1919/v1
+```
+
+##Week 1: 1/16/17 - 1/22/17
+I re-ran The Eel-Pond mRNAseq Protocol on Hulk after the server was re-established. I made some adjustments to some scripts to annotate the contigs using the S. purpuratus ref-seq.
+The following commands were used:
+
+Make a virtual environment and installing the necessary tools to make transcript families and annotate the assembly
+```
+module load anaconda
+conda create -n eel-pond python=2.7
+source activate eel-pond
+```
+Install screed
+```
+cd /home/josefina/.conda/envs/eel-pond/share
+git clone https://github.com/ged-lab/screed.git
+cd screed
+git checkout protocols-v0.8.3
+python setup.py install
+```
+Install khmer
+```
+cd /home/josefina/.conda/envs/eel-pond/share
+git clone https://github.com/ged-lab/khmer.git
+cd khmer
+git checkout protocols-v0.8.3
+make
+echo 'export PYTHONPATH=$PYTHONPATH:/home/josefina/.conda/envs/eel-pond/share/khmer' >> ~/.bashrc
+source ~/.bashrc
+```
+Install Blast Legacy v 2.2.24
+```
+cd /home/josefina/.conda/envs/eel-pond/bin
+curl -O ftp://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.24/blast-2.2.24-x64-linux.tar.gz
+tar xzf blast-2.2.24-x64-linux.tar.gz
+cd bin
+mv blast-2.2.24 ../BLAST/
+mv blast-2.2.24-x64-linux.tar.gz ../BLAST/
+cd ../BLAST/
+cp blast-2.2.24/bin/* /home/josefina/.conda/envs/eel-pond/bin
+cp -r blast-2.2.24/data /home/josefina/.conda/envs/eel-pond/blast-data
+```
+
+Modify the path of some scripts:
+```
+cd share/eel-pond
+nano make-uni-best-hits.py
+nano make-reciprocal-best-hits.py
+echo 'added sys.path.inser(0, '/home/josefina/.conda/envs/eel-pond/blastkit/lib') to make-reciprocal-best-hits.py and make-uni-best-hits.py'
+```
+
+
+
+Build transcript families
+```
+echo 'Starting from step 5: Building Transcript Families using Blast2'
+python /home/josefina/.conda/envs/eel-pond/share/khmer/scripts/do-partition.py -x 1e9 -N 4 --threads 4 pepino combined_transcripts_cleaned_fasta_cap_contigs.fasta
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/rename-with-partitions.py pepino combined_transcripts_cleaned_fasta_cap_contigs.fasta.part
+```
+
+Blast the contigs
+```
+mv combined_transcripts_cleaned_fasta_cap_contigs.fasta.part.renamed.fasta.gz pepino_combined_transcripts_renamed.fasta.gz
+gunzip pepino_combined_transcripts_renamed.fasta.gz
+formatdb -i pepino_combined_transcripts_renamed.fasta -o T -p F
+for file in mouse.1.protein.faa.gz mouse.2.protein.faa.gz mouse.3.protein.faa.gz; do curl -O ftp://ftp.ncbi.nih.gov/refseq/M_musculus/mRNA_Prot/${file}; done
+gunzip mouse.[123].protein.faa.gz
+cat mouse.[123].protein.faa > mouse.protein.faa
+formatdb -i mouse.protein.faa -o T -p T
+```
+
+```
+screen -S BLASTALL_1
+Ctrl A D #to unattach screen
+blastall -i mouse.protein.faa -d pepino_combined_transcripts_renamed.fasta -e 1e-3 -p tblastn -o mouse.x.pepino -a 8 -v 4 -b 4
+```
+```
+screen -S BLASTALL_2
+blastall -i pepino_combined_transcripts_renamed.fasta -d mouse.protein.faa -e 1e-3 -p blastx -o pepino.x.mouse -a 8 -v 4 -b 4
+Ctrl A D #to unattach screen
+```
+```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py mouse.protein.faa mouse.namedb
+python -m screed.fadbm mouse.protein.faa
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.mouse pepino.x.mouse.homol
+```
+```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.mouse mouse.x.pepino pepino.x.mouse.ortho
+```
+
+```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/annotate-seqs.py pepino_combined_transcripts_renamed.fasta pepino.x.mouse.ortho pepino.x.mouse.homol
+```
+
+Blast the contigs against S. purpuratus ref-seq
+```
+cd ../pepino.on.purpuratus/
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/invertebrate/Strongylocentrotus_purpuratus/representative/GCF_000002235.4_Spur_4.2/GCF_000002235.4_Spur_4.2_protein.faa.gz
+gunzip GCF_000002235.4_Spur_4.2_protein.faa.gz
+formatdb -i GCF_000002235.4_Spur_4.2_protein.faa -o T -p T
+formatdb -i combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta -o T -p F
+
+screen -S BLASTX
+blastall -i combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta -d GCF_000002235.4_Spur_4.2_protein.faa -e 1e-3 -p blastx -o pepino.x.purpuratus -a 8 -v 4 -b 4
+Ctrl A D
+
+screen -S TBLASTN
+blastall -i GCF_000002235.4_Spur_4.2_protein.faa -d pepino_db -e 1e-3 -p tblastn -o purpuratus.x.pepino -a 8 -v 4 -b 4
+Ctrl A D
+
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
+
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
+
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
+
+python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
+```
+
+Obtain homologies and orthologies using the S. purpuratus ref-seq
+
+```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
+
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
+  
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py 
+```
+
+Edit the namedb.py script to allow for parsing purpuratus.namedb
+```
+nano /home/josefina/.conda/envs/eel-pond/share/eel-pond/namedb.py
+```
+
+Format GCF_000002235.4_Spur_4.2_protein.faa as purpuratus.namedb
+```
+GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
+```
+```
+python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
+```
+Annotate the sequences using the S. purpuratus ref-seq
+```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/annotate-seqs.py pepino_db pepino.x.purpuratus.ortho pepino.x.purpuratus.homol
+```
+
+
+##First semester
 ##Week 16: 12/04/16 - 12/05/16
 
 annotate-seqs.py was fixed; the changes are documented on the forks humberto-ortiz/eel-pond and josefinacmenendez/eel-pond
