@@ -30,6 +30,53 @@ The two assemblies are:
 
 Mapping contig ID's from two different assemblies from the same data:
 
+```
+import argparse
+from Bio import SeqIO
+
+parser = argparse.ArgumentParser(description = "reads two .fasta files")
+parser.add_argument("--fasta_1", help = ".fasta file 1", required = True)
+parser.add_argument("--fasta_2", help = ".fasta file 2", required = True)
+
+args = parser.parse_args()
+
+fasta_1 = args.fasta_1
+fasta_2 = args.fasta_2
+
+def get_contig_dict(fasta_file):
+        contig_dict = {}
+        with open(fasta_file, 'rU') as handle:
+                for record in SeqIO.parse(handle, 'fasta'):
+                        contig_dict[str(record.seq)] = record.id
+        return contig_dict
+
+def map_ids(dict1, dict2):
+        mapped_ids = []
+        differ_ids = 0
+        for key in dict1.keys():
+                if key in dict2.keys():
+                        mapped_ids.append( [dict1[key], dict2[key] ] )
+                        print mapped_ids
+                        if dict1[key] != dict2[key]:
+                                differ_ids += 1
+                else:
+                        mapped_ids.append( [dict1[key] , "NA" ] )
+
+        if differ_ids  == 0:
+                mapped_ids.insert( 0 , ['Different_Ids' , differ_ids] )
+        return mapped_ids
+
+contig_dict_1 = get_contig_dict(fasta_1)
+contig_dict_2 = get_contig_dict(fasta_2)
+mapped_contig_ids = map_ids(contig_dict_1, contig_dict_2)
+
+for item in mapped_contig_ids:
+        print item
+
+```
+
+
+
 I downloaded the assembled contigs from dx.doi.org/10.6070/H4PN93J1
 
 ##Week 2: 1/23/17 - 1/29/17
