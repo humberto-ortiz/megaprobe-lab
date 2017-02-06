@@ -26,7 +26,7 @@ I also worked on mapping the contigs from two different assemblies from the same
 
 The two assemblies are:     
 (1) combined_transcripts_cleaned_fasta_cap_contigs.fasta (assembled using The Eel-pond mRNA-seq Protocol)     
-(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by Vladimir Mashanov, DOI: 10.1186/1471-2164-15-357)     
+(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by Vladimir Mashanov, dx.doi.org/10.1186/1471-2164-15-357)     
 
 Mapping contig ID's from two different assemblies from the same data:
 
@@ -82,11 +82,7 @@ I downloaded the assembled contigs from dx.doi.org/10.6070/H4PN93J1
 ##Week 2: 1/23/17 - 1/29/17
 I have been working on revising the initial submission of a manuscript that I helped write during last summer's internship at U. Pitt's DBMI.
 
-The original submission can be found here; I am listed in the acknowledgements section:
-
-```
-https://f1000research.com/articles/5-1919/v1
-```
+The original submission can be found here; I am listed in the acknowledgements section: dx.doi.org/10.12688/f1000research.9364.1
 
 ##Week 1: 1/16/17 - 1/22/17
 I re-ran The Eel-Pond mRNAseq Protocol on Hulk after the server was re-established. I made some adjustments to some scripts to annotate the contigs using the S. purpuratus ref-seq.
