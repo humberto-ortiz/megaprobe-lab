@@ -20,13 +20,23 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 #Weekly Reports
 ##Second semester
+##Week 4: 2/6/14 - 2/12/17
+
+Installing shmlast
+
+```
+curl -O https://raw.githubusercontent.com/camillescott/shmlast/master/environment.txt
+conda create -n shmlast --file environment.txt 
+source activate shmlast
+pip install shmlast
+```
 ##Week 3: 1/30/17 - 2/5/17
 I spent some time this week working on the manuscript.
 I also worked on mapping the contigs from two different assemblies from the same transcriptome data to aid in comparing differential expression based on the Datatube GUI.
 
 The two assemblies are:     
 (1) combined_transcripts_cleaned_fasta_cap_contigs.fasta (assembled using The Eel-pond mRNA-seq Protocol)     
-(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by Vladimir Mashanov, DOI: 10.1186/1471-2164-15-357)     
+(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by Vladimir Mashanov, dx.doi.org/10.1186/1471-2164-15-357)     
 
 Mapping contig ID's from two different assemblies from the same data:
 
@@ -82,11 +92,7 @@ I downloaded the assembled contigs from dx.doi.org/10.6070/H4PN93J1
 ##Week 2: 1/23/17 - 1/29/17
 I have been working on revising the initial submission of a manuscript that I helped write during last summer's internship at U. Pitt's DBMI.
 
-The original submission can be found here; I am listed in the acknowledgements section:
-
-```
-https://f1000research.com/articles/5-1919/v1
-```
+The original submission can be found here; I am listed in the acknowledgements section: dx.doi.org/10.12688/f1000research.9364.1
 
 ##Week 1: 1/16/17 - 1/22/17
 I re-ran The Eel-Pond mRNAseq Protocol on Hulk after the server was re-established. I made some adjustments to some scripts to annotate the contigs using the S. purpuratus ref-seq.
