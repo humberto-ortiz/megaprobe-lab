@@ -14,6 +14,7 @@ can write articles and pages in
 format (I mostly use markdown). 
 
 Use the appropriate category for your document, for now, one of
+Journal Club,
 People, Projects or Publications. Tag the document with the name of
 the project(s).
 
