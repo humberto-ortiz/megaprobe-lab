@@ -20,6 +20,16 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 #Weekly Reports
 ##Second semester
+##Week 4: 2/6/14 - 2/12/17
+
+Installing shmlast
+
+```
+curl -O https://raw.githubusercontent.com/camillescott/shmlast/master/environment.txt
+conda create -n shmlast --file environment.txt 
+source activate shmlast
+pip install shmlast
+```
 ##Week 3: 1/30/17 - 2/5/17
 I spent some time this week working on the manuscript.
 I also worked on mapping the contigs from two different assemblies from the same transcriptome data to aid in comparing differential expression based on the Datatube GUI.
