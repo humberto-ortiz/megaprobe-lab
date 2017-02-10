@@ -218,7 +218,6 @@ python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py 
 
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
   
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py 
 ```
 
 Edit the namedb.py script to allow for parsing purpuratus.namedb
@@ -228,9 +227,7 @@ nano /home/josefina/.conda/envs/eel-pond/share/eel-pond/namedb.py
 
 Format GCF_000002235.4_Spur_4.2_protein.faa as purpuratus.namedb
 ```
-GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
-```
-```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
 python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
 ```
 Annotate the sequences using the S. purpuratus ref-seq
