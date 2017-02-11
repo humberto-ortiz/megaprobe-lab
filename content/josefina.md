@@ -176,12 +176,15 @@ Ctrl A D #to unattach screen
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py mouse.protein.faa mouse.namedb
 python -m screed.fadbm mouse.protein.faa
+```
+
+Calculate homologies and orthologies
+```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.mouse pepino.x.mouse.homol
-```
-```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.mouse mouse.x.pepino pepino.x.mouse.ortho
 ```
 
+Format the mouse refseq data
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/annotate-seqs.py pepino_combined_transcripts_renamed.fasta pepino.x.mouse.ortho pepino.x.mouse.homol
 ```
@@ -201,13 +204,10 @@ Ctrl A D
 screen -S TBLASTN
 blastall -i GCF_000002235.4_Spur_4.2_protein.faa -d pepino_db -e 1e-3 -p tblastn -o purpuratus.x.pepino -a 8 -v 4 -b 4
 Ctrl A D
+```
 
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
-
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
-
+```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
-
 python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
 ```
 
@@ -215,7 +215,6 @@ Obtain homologies and orthologies using the S. purpuratus ref-seq
 
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
-
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
   
 ```
@@ -224,7 +223,6 @@ Edit the namedb.py script to allow for parsing purpuratus.namedb
 ```
 nano /home/josefina/.conda/envs/eel-pond/share/eel-pond/namedb.py
 ```
-
 Format GCF_000002235.4_Spur_4.2_protein.faa as purpuratus.namedb
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
