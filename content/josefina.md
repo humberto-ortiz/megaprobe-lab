@@ -21,8 +21,9 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 #Weekly Reports
 ##Second semester
 ##Week 4: 2/6/14 - 2/12/17
+I edited the annotate-seqs.py script (now annotate_seqs.py) and the namedb.py scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
 
-Installing shmlast
+I also installed shmlast.
 
 ```
 curl -O https://raw.githubusercontent.com/camillescott/shmlast/master/environment.txt
