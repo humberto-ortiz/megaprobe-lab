@@ -1,5 +1,5 @@
 Title: Ilian Torres Trinidad
-Date: February 13,2017
+Date: 2017-02-14
 Slug: Ilian
 Category: People
 Tags: Network Flows
