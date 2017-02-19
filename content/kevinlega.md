@@ -25,6 +25,24 @@ Tags: de-novo
 
 ## This semester:
 
+### Week 5(20-25/February):
+
+
+### Week 4(13-17/February):
+- Finished the script
+- It allows you to specify the output folder.
+- Sums it into a file call GB.txt
+- Also added a not so pretty table call dictionary, but will leave it commented for the moment.
+- Presented the Lair paper! 
+- Did a shell script that will let you run the python scripts on all the files. 
+
+### Week 3(6-10/February):
+- Strated developing a script that will count the total of reads inside fasta and fastq files.
+- With this we can calculate how much GB are needed to process the data.
+- Reading on Biopython.
+- Makefile is comming along.
+- Given a lot of thought to the script! It seems imposible.
+
 ### Week 2(30/January-3/Febuary):
 - Reading on Makefile
 - Working on Different Makefiles trial, non worked.
