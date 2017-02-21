@@ -17,6 +17,18 @@ Tags: de-novo
 
 ## New Weekly UPDATE (Jan 2017 - May 2017)
 
+### Week 6: (20-24/Feb)
+- Very anxious this Week
+
+### Week 5: (13-17/Feb)
+- Did not work in the lab this week
+- Most time was spent studying
+
+### Week 4: (6-10/Feb)
+- Pipeline device resource detection script:
+  - Return available CPU cores
+  - Return available RAM free
+
 ### Week 3: (1-5/Feb)
 - Working on pipeline makefile.
 - Learning about Trinity
