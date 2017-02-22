@@ -5,7 +5,7 @@ Tags:cybersecurity, zero knowledge
 
 # Bio:
 
-- I study Computer Science at University of Puerto Rico Rio Piedras campus.
+- I study Computer Science at University of Puerto Rico, Rio Piedras campus.
 
 ##Contact info:
 
@@ -14,8 +14,9 @@ Tags:cybersecurity, zero knowledge
 
 #Research Goals:
 
-- Practice and learn to program.
+- Practice and learn to program in python and C++.
 - Understand the world out there.
+- Reasearch about anomaly detection in network flows.
 
 ## Weekly Updates:
 
@@ -24,5 +25,14 @@ Tags:cybersecurity, zero knowledge
 ### Week 1:(2/8/17)
 
 - Finally, I have my Megaprobe page!
-- I'm trying to understand the papers and searching for motivation to read them.
+- I'm trying to understand the papers about zero-knowledge proofs, and looking for motivation to read them.  
 - I am currently adapting my schedule, hope to keep it up.
+
+### Week 1:(2/15/17)
+
+ - This week I realized that I want to change the invastigation.
+ - Now I will be reasearching about anomaly detection in network flows.
+ 
+### Week 1:(2/22/17)
+
+- I read the papers of Anomaly Detection in Network Flows Benford’s Law by Bianca I. Colo´n Rosado and Techniques for Anomaly Detection in Network Flows by Iva´n O. Garc´ıa
