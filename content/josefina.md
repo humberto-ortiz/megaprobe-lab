@@ -21,8 +21,36 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 #Weekly Reports
 ##Second semester
 ##Week 4: 2/6/14 - 2/12/17
+I edited the annotate-seqs.py script (now annotate_seqs.py) and the namedb.py scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
 
-Installing shmlast
+annotate_seqs.py now takes three more arguments:
+
+```
+parser.add_argument('file_name') #i.e. purpuratus.namedb
+parser.add_argument('full_name') #i.e. purpuratus.namedb.fullname
+parser.add_argument('refseq')    #i.e. purpuratus.protein.faa
+...
+file_name =str(args.file_name)
+full_name =str(args.full_name)
+refseq = str(args.refseq)
+```
+These files are inherited and parsed by namedb.py by importing annotate_seqs.py as a module; the pararsed files are then passed to annotate_seqs.py as needed.
+```
+import annotate_seqs as annotate
+mouse_namedb = annotate.file_name
+mouse_namedb_fullname = annotate.full_name
+mouse_protein_faa = annotate.refseq
+fp = open('mouse.namedb')
+is_ncbi = cPickle.load(fp)
+mouse_names = cPickle.load(fp)
+fp.close()
+
+mouse_fullname = cPickle.load(open('mouse.namedb.fullname'))
+mouse_seqs = screed.ScreedDB('mouse.protein.faa')
+```
+namedb.py could be incorporated into annotate_seqs.py; however, this short script is likely also used by other scripts in the eel-pond tutorial and therefore inheritance usage is useful.
+
+I also installed shmlast on Hulk.
 
 ```
 curl -O https://raw.githubusercontent.com/camillescott/shmlast/master/environment.txt
@@ -176,12 +204,15 @@ Ctrl A D #to unattach screen
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py mouse.protein.faa mouse.namedb
 python -m screed.fadbm mouse.protein.faa
+```
+
+Calculate homologies and orthologies
+```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.mouse pepino.x.mouse.homol
-```
-```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.mouse mouse.x.pepino pepino.x.mouse.ortho
 ```
 
+Format the mouse refseq data
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/annotate-seqs.py pepino_combined_transcripts_renamed.fasta pepino.x.mouse.ortho pepino.x.mouse.homol
 ```
@@ -201,13 +232,10 @@ Ctrl A D
 screen -S TBLASTN
 blastall -i GCF_000002235.4_Spur_4.2_protein.faa -d pepino_db -e 1e-3 -p tblastn -o purpuratus.x.pepino -a 8 -v 4 -b 4
 Ctrl A D
+```
 
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
-
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
-
+```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
-
 python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
 ```
 
@@ -215,22 +243,17 @@ Obtain homologies and orthologies using the S. purpuratus ref-seq
 
 ```
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-uni-best-hits.py pepino.x.purpuratus pepino.x.purpuratus.homol
-
 python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-reciprocal-best-hits.py pepino.x.purpuratus purpuratus.x.pepino pepino.x.purpuratus.ortho
   
-python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py 
 ```
 
 Edit the namedb.py script to allow for parsing purpuratus.namedb
 ```
 nano /home/josefina/.conda/envs/eel-pond/share/eel-pond/namedb.py
 ```
-
 Format GCF_000002235.4_Spur_4.2_protein.faa as purpuratus.namedb
 ```
-GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
-```
-```
+python /home/josefina/.conda/envs/eel-pond/share/eel-pond/make-namedb.py GCF_000002235.4_Spur_4.2_protein.faa purpuratus.namedb
 python -m screed.fadbm GCF_000002235.4_Spur_4.2_protein.faa
 ```
 Annotate the sequences using the S. purpuratus ref-seq
@@ -522,7 +545,7 @@ do-partition.py: error: too few arguments
 
 Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
 
-* The full list of contigs can be accessed on <https://josefinacmenendez.shinyapps.io/Datatube_Heatmap/> . To do so, type the contig name, or any letter that might be in that name (i.e. G for the Gypsy contigs).   
+* The list of contigs can be accessed on <https://josefinacmenendez.shinyapps.io/Datatube_Heatmap/> . To do so, type the contig name, or any letter that might be in that name (i.e. G for the Gypsy contigs).   
 * The generated heatmap can be exported as a pdf  
 * The differential expression data is now processed on global.R
 
