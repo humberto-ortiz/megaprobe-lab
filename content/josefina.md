@@ -26,10 +26,14 @@ Current task: get the contig ids given a file with new ids and the corresponding
 I created a new script: [get_contig_names.py](https://github.com/josefinacmenendez/eel-pond/blob/master/get_contig_names.py). 
 This script takes as input two .fasta files, one with the contig ids and another one with the new names. It uses SeqIO to parse the files and generates two dictionaries. The dictionary with the contig ids has as keys the contig ids and the transcripts as values. The dictionary with the new names has the transcripts as keys and the new names as values. This can be done because the relation between the set of names and the set of transcripts is one-to-one. The script then fetches the corresponding new name given a contig as key by searching through common transcript sequences. It generates as output a table with the new names in the first column and the corresponding contig ids in the second column. 
 
+Note: the length of the output file is equal to the length of the input file with the new ids.
+
 ##Week 5: 2/13/17 - 2/19/17
 Current task: get the contig ids given a file with new ids and the corresponding transcript.  
   
 I edited [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py) to fetch the contig ids after blasting the annotated transcripts against the original assembly (which only has the contig ids and the transcript). I will be working on improving this implementation of blast during the next week.
+
+I also edited a local copy of rename-with-partitions.py on the server to create new names that have the contig names. However, this may not be the best solution to the problem.
 
 ##Week 4: 2/6/14 - 2/12/17
 I edited the annotate-seqs.py script (now [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py)) and the [namedb.py](https://github.com/josefinacmenendez/eel-pond/blob/master/namedb.py) scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
