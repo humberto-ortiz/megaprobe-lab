@@ -20,8 +20,23 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 #Weekly Reports
 ##Second semester
+##Week 6: 2/20/17 - 2/26/17
+Current task: get the contig ids given a file with new ids and the corresponding transcript.  
+  
+I created a new script: [get_contig_names.py](https://github.com/josefinacmenendez/eel-pond/blob/master/get_contig_names.py). 
+This script takes as input two .fasta files, one with the contig ids and another one with the new names. It uses SeqIO to parse the files and generates two dictionaries. The dictionary with the contig ids has as keys the contig ids and the transcripts as values. The dictionary with the new names has the transcripts as keys and the new names as values. This can be done because the relation between the set of names and the set of transcripts is one-to-one. The script then fetches the corresponding new name given a contig as key by searching through common transcript sequences. It generates as output a table with the new names in the first column and the corresponding contig ids in the second column. 
+
+Note: the length of the output file is equal to the length of the input file with the new ids.
+
+##Week 5: 2/13/17 - 2/19/17
+Current task: get the contig ids given a file with new ids and the corresponding transcript.  
+  
+I edited [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py) to fetch the contig ids after blasting the annotated transcripts against the original assembly (which only has the contig ids and the transcript). I will be working on improving this implementation of blast during the next week.
+
+I also edited a local copy of rename-with-partitions.py on the server to create new names that have the contig names. However, this may not be the best solution to the problem.
+
 ##Week 4: 2/6/14 - 2/12/17
-I edited the annotate-seqs.py script (now annotate_seqs.py) and the namedb.py scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
+I edited the annotate-seqs.py script (now [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py)) and the [namedb.py](https://github.com/josefinacmenendez/eel-pond/blob/master/namedb.py) scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
 
 annotate_seqs.py now takes three more arguments:
 
@@ -64,7 +79,7 @@ I also worked on mapping the contigs from two different assemblies from the same
 
 The two assemblies are:     
 (1) combined_transcripts_cleaned_fasta_cap_contigs.fasta (assembled using The Eel-pond mRNA-seq Protocol)     
-(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by Vladimir Mashanov, dx.doi.org/10.1186/1471-2164-15-357)     
+(2) Hglaberrima_RNC_transcriptome_Contigs.fasta.zip (assembled by [Vladimir Mashanov](dx.doi.org/10.1186/1471-2164-15-357))     
 
 Mapping contig ID's from two different assemblies from the same data:
 
@@ -115,12 +130,12 @@ for item in mapped_contig_ids:
 
 
 
-I downloaded the assembled contigs from dx.doi.org/10.6070/H4PN93J1
+The assembled contigs were downloaded from [this paper](dx.doi.org/10.6070/H4PN93J1).
 
 ##Week 2: 1/23/17 - 1/29/17
 I have been working on revising the initial submission of a manuscript that I helped write during last summer's internship at U. Pitt's DBMI.
 
-The original submission can be found here; I am listed in the acknowledgements section: dx.doi.org/10.12688/f1000research.9364.1
+The original submission can be found [here](dx.doi.org/10.12688/f1000research.9364.1). I am listed in the acknowledgements section.
 
 ##Week 1: 1/16/17 - 1/22/17
 I re-ran The Eel-Pond mRNAseq Protocol on Hulk after the server was re-established. I made some adjustments to some scripts to annotate the contigs using the S. purpuratus ref-seq.
@@ -316,13 +331,13 @@ I attempted the procedure using data from S. purpuratus, taken from ftp://ftp.nc
 
 I also attempted to run the tutorial using the canned blasts and the Nemastotella transcriptome, and yet obtained no hits.
 I downloaded the BLAST version 2.2.26 and used formatdb instead of makeblastdb to format the mouse and the nemastotella data.
-This BLAST version was downloaded from: https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.26/ and installed according to directions detailed on https://github.com/ctb/blastkit. Rather than using virtualenv, a conda environment (named blastkit) was used. However, no hits were obtained when annotating the transcripts. 
+This [BLAST version](https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.26/) was installed according to directions detailed [here](https://github.com/ctb/blastkit). Rather than using virtualenv, a conda environment (named blastkit) was used. However, no hits were obtained when annotating the transcripts. 
 
 ##Week 13: 11/14/16 - 11/20/16
 
 Annotating transcript families
 
-The following protocol is being used: https://khmer-protocols.readthedocs.io/en/latest/mrnaseq/6-annotating-transcript-families.html
+[The Eel Pond mRNAseq Protocol](https://khmer-protocols.readthedocs.io/en/latest/mrnaseq/6-annotating-transcript-families.html) was used.
 
 
 Downloading from NCBI RefSeq Mouse database to /data/josefina/DATATUBE/mRNAseq/data/refSeqMouse/:
@@ -384,8 +399,8 @@ Warning: lcl|Query_2936 gi|9256636|ref|NP_061348.1| 60S ribosomal protein L41 [M
 >gi|9256636|ref|NP_061348.1| 60S ribosomal protein L41 [Mus musculus]
 MRAKWRKKRMRRLKRKRRKMRQRSK
 ```
-The following commands use scripts from the eel-pond tutorial by Dr. Titus Brown.
-These scripts are available at: https://github.com/ctb/eel-pond.
+The following commands use scripts from the [The Eel Pond mRNAseq Protocol](https://github.com/ctb/eel-pond) by Dr. Titus Brown.
+
 Screed was downloaded into the virutal environment using 'pip install screed'.
 
 Putative homology (best BLAST hit) and orthology (reciprocal best hits) were calculated:
@@ -427,7 +442,7 @@ annotation spreadsheet with sequences (warning: LARGE): combined_transcripts_cle
 
 Building transcript families:
 
-Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html locally.
+Ran the fifth step of [The Eel Pond mRNAseq Protocol](https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html) locally.
 Failed attempts to reproduce this protocol on Hulk were made and the following was learned:
 
 * gcc version 5.4.0 or greater is required
@@ -465,7 +480,7 @@ mv combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta.gz \
 
 Building transcript families:
 
-Ran the fifth step of The Eel Pond mRNAseq Protocol from https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html
+Ran the fifth step of [The Eel Pond mRNAseq Protocol](https://khmer-protocols.readthedocs.io/en/mrnaseq/index.html).
 I attempted to run this on Hulk by using the following commands:
 ```
 [josefina@hulk khmer_venv]$ module load gcc
@@ -543,7 +558,7 @@ do-partition.py: error: too few arguments
 
 ##Week 10: 10/24/16 - 10/28/16
 
-Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
+Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmenendez/Datatube_Heatmap):
 
 * The list of contigs can be accessed on <https://josefinacmenendez.shinyapps.io/Datatube_Heatmap/> . To do so, type the contig name, or any letter that might be in that name (i.e. G for the Gypsy contigs).   
 * The generated heatmap can be exported as a pdf  
@@ -551,7 +566,7 @@ Made the following updates to Datatube_Heatmap at <https://github.com/josefinacm
 
 ##Week 9: 10/17/16- 10/21/16
 
-Made the following updates to Datatube_Heatmap at <https://github.com/josefinacmenendez/Datatube_Heatmap>:
+Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmenendez/Datatube_Heatmap):
 
 * corrected error messages
 * improved image scaling
