@@ -24,9 +24,18 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+### Week 6(27/Febuary - 3/March):
+- Tested all the scripts I have so far, they all seem to work.
+- Was doing improvements on the scripts to divide fasta from fastq.
+- On Thursday I finished dividing the files, but Israel and I decided to convert the fastq files to fasta
+- After this I was going to eliminate all the fastq division I had.
+- But got Asthmatic Bronchitis. Haven't been able to do much work after Thursday evening.
 
 ### Week 5(20-25/February):
-
+- Bad week with only one day of class:
+- work on the final touches of the Trinity script.
+- Talk to Israel thinking of upgrading all scripts to a python script.
+- Worked on concatenating file names, did it, had to read from unix book.
 
 ### Week 4(13-17/February):
 - Finished the script
