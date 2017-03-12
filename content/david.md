@@ -40,6 +40,31 @@ Tags: DGE, RNA Seq, Bioinformatics, Cave Fishes, Salmon, EdgeR
 
 ##Second Semester (2016-2017)
 
+###Week 24 (10th of March, 2017 to 17th of March, 2017)
+
+  + Re-trimmed data.
+  + Hopefully normalizing by tuesday & assembling by wednesday.
+  + Weekly progress rating 0/100.
+
+###Week 23 (3rd of March, 2017 to 10th of March, 2017)
+
+  + Still troubleshooting pipeline.
+  + Normalizing script seems to be the most troublesome.
+  + Weekly progress rating 0/100.
+
+###Week 22 (24th of February, 2017 to 3rd of March, 2017)
+
+  + Gave my paper presentation.
+  + Recieved pipeline, started modifying it for our data but it didn't work.
+  + Troubleshooting pipeline, no luck.
+  + Weekly progress rating 0/100.
+
+###Week 21 (17th of February, 2017 to 24th of February, 2017)
+  
+  + Reading Salmon paper.
+  + Waiting on partner to create a pipeline for the data.
+  + Weekly progress rating 0/100.
+
 ###Week 20 (10th of February, 2017 to 17th of February, 2017)
 
   + Downloaded multiple versions of the raw data (12 files in total, around 83GB).
