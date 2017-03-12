@@ -24,13 +24,40 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+### Week 6(27/Febuary - 3/March):
+- Tested all the scripts I have so far, they all seem to work.
+- Was doing improvements on the scripts to divide fasta from fastq.
+- On Thursday I finished dividing the files, but Israel and I decided to convert the fastq files to fasta
+- After this I was going to eliminate all the fastq division I had.
+- But got Asthmatic Bronchitis. Haven't been able to do much work after Thursday evening.
+
+### Week 5(20-25/February):
+- Bad week with only one day of class:
+- work on the final touches of the Trinity script.
+- Talk to Israel thinking of upgrading all scripts to a python script.
+- Worked on concatenating file names, did it, had to read from unix book.
+
+### Week 4(13-17/February):
+- Finished the script
+- It allows you to specify the output folder.
+- Sums it into a file call GB.txt
+- Also added a not so pretty table call dictionary, but will leave it commented for the moment.
+- Presented the Lair paper! 
+- Did a shell script that will let you run the python scripts on all the files. 
+
+### Week 3(6-10/February):
+- Strated developing a script that will count the total of reads inside fasta and fastq files.
+- With this we can calculate how much GB are needed to process the data.
+- Reading on Biopython.
+- Makefile is comming along.
+- Given a lot of thought to the script! It seems imposible.
 
 ### Week 2(30/January-3/Febuary):
 - Reading on Makefile
 - Working on Different Makefiles trial, non worked.
 - Reading and more Reading
 - Going to write description on references.
-- On my profile I have a repository of the sketch of makefile
+- On my profile I have a repository of the sketch of makefile. Link: https://github.com/Kevinlega/Wechangethenamelater
 - Reading this makefile tutorial: www.gnu.org/software/make/manual/make.html#Makefile-Contents
 
 ### Week 1(23-27/January):

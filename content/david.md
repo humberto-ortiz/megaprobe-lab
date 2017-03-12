@@ -32,14 +32,28 @@ Tags: DGE, RNA Seq, Bioinformatics, Cave Fishes, Salmon, EdgeR
 + step 2 : mapping our assembled files against 14,000 transcriptomes using bowtie2.
 + step 3 : obtain our sam output and convert it into quantification tables using RSEM.
 + step 4 : Visualize our DGE data to determine if there is any convergence between these species using eBseq or edgeR.
-+ more on this here: https://github.com/kytrnd/Bioinformatics
-
- + Quantification and Differential Expression of RNAseq with salmon (more on this soon):
- ++ http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/quantification.html.
++ more on this here: https://github.com/kytrnd/Bioinformatics .
++ Quantification and Differential Expression of RNAseq with salmon (more on this soon):
+++ http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/quantification.html.
   
 #Weekly Reports:
 
 ##Second Semester (2016-2017)
+
+###Week 20 (10th of February, 2017 to 17th of February, 2017)
+
+  + Downloaded multiple versions of the raw data (12 files in total, around 83GB).
+  + Suspicious size between the data that was in NCBI and the one downloaded on hulk.
+  + Trimmed all 12 files, only reduced the total size to 80GB. Not sure if it's good or bad.
+  + Waiting on lab partner for data normalizing scripts.
+  + Dissecting the salmon paper as we speak.
+  + Weekly progress rating 60/100.
+
+###Week 19 (3rd of February, 2017 to 10th of February, 2017)
+
+  + Completed the Titus' tutorial on Salmon.
+  + Started reading Salmon titled Salmon: Accurate, Versatile and Ultrafast Quantification from RNA-seq Data using Lightweight-Alignment.
+  + Weekly progress rating 20/100.
 
 ###Week 18 (27th of January, 2017 to 3rd of February, 2017)
 
@@ -58,7 +72,7 @@ Tags: DGE, RNA Seq, Bioinformatics, Cave Fishes, Salmon, EdgeR
   + Nothing.
   + Weekly progress rating -100/100.
 
-##First Semestre (2016-2017)
+##First Semester (2016-2017)
 
 ###Week 15 (2nd of December, 2016 to 9th of December, 2016)
 

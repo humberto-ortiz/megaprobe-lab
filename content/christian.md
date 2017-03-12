@@ -1,5 +1,5 @@
 Title: Christian A. Avila Taveras
-Date: feb/7/2017
+Date: 07-02-2017
 Category: People
 Tags: de-novo
 
@@ -13,12 +13,15 @@ avoid insults for not really enjoying watching movies. My favorite word is "bubb
  - e-mail - <cavilatav@gmail.com>
  - Github - <https://github.com/christian/>
  
- # Research Goals
- - This semester I plan to read a lot of papers, actually understand them, learn how to code, make mamma proud.
+# Research Goals
+
+ - This semester I plan to read a lot of papers, actually understand
+   them, learn how to code, make mamma proud.
 
 #Weekly Reports
 
 ##Week one (Jan 29, 2017 - Feb, 4 2017)
  - Started and completed the Command Line course on Code Cademy.
  - Started the Python course on Code Cademy.
- - Read (but not fully analyzed) Israel O. Dilan Pantoja's paper "Analysis of Mutual's output and some contributions".
+ - Read (but not fully analyzed) Israel O. Dilan Pantoja's paper
+   "Analysis of Mutual's output and some contributions".
