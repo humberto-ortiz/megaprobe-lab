@@ -20,6 +20,15 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 #Weekly Reports
 ##Second semester
+
+##Week 8: 3/6/17 - 3/12/17
+
+Since transcript families group transcripts by their shared sequence, I have been reading papers about de-brujin graphs to understand CTB's methos for creating transcript families.
+
+##Week 7: 2/27/17 - 3/5/17
+
+I have been preparing the shmlast presentation for the journal club.
+
 ##Week 6: 2/20/17 - 2/26/17
 Current task: get the contig ids given a file with new ids and the corresponding transcript.  
   
