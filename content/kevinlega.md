@@ -24,6 +24,19 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+
+### Week 8(20-24/March):
+- Found diginorm problem, was giving it more 60 GB of RAM xD hulk ain't got that power.
+- Trying to divise a way to compute how much diginorm needs.
+- Trying... 
+- Trying ..., ..., ..., still, ..., *Inserts windows xp loading sound*....
+
+### Week 7(6-10/March):
+- Made all the scripts in my part, to now start to move them to Snakemake.
+- Had problems testing diginorm Im stuck here!!!
+- Found how o convert files from fatsq to fasta in BioPython.
+- Have a dummy-converter.py still doesn't run.
+
 ### Week 6(27/Febuary - 3/March):
 - Tested all the scripts I have so far, they all seem to work.
 - Was doing improvements on the scripts to divide fasta from fastq.
