@@ -18,8 +18,24 @@ I am also taking computer science courses with the goal of completing a dual con
 
 This project aims to assemble and annotate transcripts from H. glaberrima.
 
-#Weekly Reports
-##Second semester
+#Weekly Reports	  	
+##Second semester		
+
+##Week 9: 3/13/17 - 3/19/17
+
+I ran shmlast's conditional reciprocal best hits against both mouse and *S. purpuratus* databases as follows:
+```
+module load anaconda
+source activate shmlast
+
+shmlast crbl -q combined_transcripts_cleaned_fasta_cap_contigs.fasta -d purpuratus.protein.faa --n_threads 8
+
+shmlast crbl -q combined_transcripts_cleaned_fasta_cap_contigs.fasta -d mouse.protein.faa --n_threads 8
+```
+
+The output is available at /data/josefina/shmlast
+
+The output includes the contig ID and a unique identifier. I will be using the contig ID to fetch the corresponding transcript, since the output does not include the transcript. Since the output annotates the transcripts, this can serve as a supplementary annotation database to the one already in blastkit. I'd have to see which ones are already included in the previous annotations.
 
 ##Week 8: 3/6/17 - 3/12/17
 
