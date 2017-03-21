@@ -17,8 +17,9 @@ journal club presentations for this semester.
 | Feb 28 | David Ortiz | salmon |
 | Mar 7 | Ivan Jimenez | Huang et al |
 | Mar 14 | Josefina Correa | SHMlast |
-| Mar 21 | Walter Baez | kallisto |
-| Mar 28 | Paola Figueroa | cap3 |
+| Mar 21 | **Student Assembly** | **No Lab Meeting** |
+| Mar 28 | Walter Baez | kallisto |
+| Apr 4  | Paola Figueroa | cap3 |
 
 # Papers
 
