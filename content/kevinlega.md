@@ -30,11 +30,19 @@ Tags: de-novo
 - Trying to divise a way to compute how much diginorm needs.
 - Trying... 
 - Trying ..., ..., ..., still, ..., *Inserts windows xp loading sound*....
+- Have a perfect idea on dividing diginorm RAM needed, will discuss it with Israel and Humberto on Thursday.
+- Made the converter tested it. 
+- The file size from fastq to fasta decreases. Don't know why.
+- Tested all scripts. They all work. 
+- Don't know if the decrease is normal still looking. 
+- Re-reading Snakemake, and start to move what we have in the makefile to Snakemake.
+- Israel and I will write the comparison part and difference, but will wait for the other to finish.
+- Let's get to work.
 
 ### Week 7(6-10/March):
 - Made all the scripts in my part, to now start to move them to Snakemake.
 - Had problems testing diginorm Im stuck here!!!
-- Found how o convert files from fatsq to fasta in BioPython.
+- Found how to convert files from fatsq to fasta in BioPython.
 - Have a dummy-converter.py still doesn't run.
 
 ### Week 6(27/Febuary - 3/March):
