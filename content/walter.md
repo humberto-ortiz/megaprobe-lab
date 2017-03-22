@@ -1,7 +1,7 @@
 Title: Walter Báez Laguna
 Date: 2016-09-02
 Category: People
-Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus
+Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus, Salmon, Differential Expression, Sea Cucumber
 
 # Biography :memo:
 Konichiwa! My name is Walter Báez Laguna and I'm currently an undergraduate student at the University of Puerto Rico, Río Piedras Campus. 
@@ -23,12 +23,20 @@ email: walter.baez1@upr.edu | alt: baez.laguna@gmail.com
 github: https://github.com/Hallech
 
 # Research Goals :microscope:
+- Have a nice group dynamic and work everything well.
+- Actually proccess some useful data.
+- Learn Salmon and how to use edgeR.
+-------------------------------------------------------------------------------------------
 - Learn more about Stack and how to use it properly.
 - Understand more about RADSeq data.
 - Have a successful outcome out of the research. 
 - Produce a relevant denovo_map to conclude the genomic comparison. 
 
 # Research Description :open_file_folder:
+- I'm working on a new a project with David Ortiz focused on differential expression. 
+- We are going to be using the tools Salmon and edgeR for this project.
+- The data we are working on is from the Sea Cucumber.
+-------------------------------------------------------------------------------------------
 - Use Stack to analyze RADSeq data to find SNPs across the Species Red Snappers.
 - Conlude if lutjanus campechanus or purpureus are different species or the same one.
 - Make Stack's pipeline work for once.
@@ -40,7 +48,21 @@ github: https://github.com/Hallech
 - We are going to be using the tools Salmon and edgeR for this project.
 - The first thing we did was go through the Titus Quantification and Differential Expression of RNAseq
   workshop: http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/quantification.html
+  
+### Week 1 & 2 (March 10, 2017 to March 22, 2017) :clock1:
+- I was told to work on a script for Salmon. It has to build the index so we can run the matching progess
+  afterwards. 
+- I also added the matching script right after the index one to speed up the proccess. 
 
+### Week 1 & 2 (February 24, 2017 to March 10, 2017) :clock1:
+- My partner was working with the data on Trinity while I was waiting for whatever he needed me to work on.
+- I was told to search the web for a way to make an enviroment available to everyone with the kmer tools and
+  any other tools we would need. 
+
+### Week 1 & 2 (February 10, 2017 to Febraury 24, 2017) :clock1:
+- During these weeks I tried to do a full pipeline to run all the steps on Titus workshop from one
+  bash script.
+- We needed all the kmer tools installed in an enviroment and my partnert was working on that.
 
 ## Last Semester (Fall 2016):
 ### Week 16 (December 9, 2016 to December 16, 2016) :clock1:
