@@ -17,8 +17,23 @@ Tags: de-novo
 
 ## New Weekly UPDATE (Jan 2017 - May 2017)
 
+### Week 9: (13-17/Mar)
+- Starting to write Python Makefile [Snakemake tutorial](http://slides.com/johanneskoester/snakemake-tutorial-2016#/18)
+- [Snakemake documentation](https://snakemake.readthedocs.io/en/stable/snakefiles/writing_snakefiles.html)
+
+### Week 8: (6-10/Mar)
+- Professor suggested utilizing [SnakeMake](!https://snakemake.readthedocs.io/en/stable/) so far it's a really good prospect.
+- Read [this SnakeMake](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bts480) paper for more info.
+
+### Week 7: (27/Feb-3/Mar)
+- Found a more pythonic way of finding information about device resources while reading up on the python standard library documentation.
+- Found interesting alternative to make called [Do-it](http://pydoit.org/).
+
+
 ### Week 6: (20-24/Feb)
 - Very anxious this Week
+- Student strike
+- Got sick :'(
 
 ### Week 5: (13-17/Feb)
 - Did not work in the lab this week
