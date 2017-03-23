@@ -25,7 +25,7 @@ Tags: de-novo
 
 ## This semester:
 
-### Week 8(20-24/March):
+### Week 8 (20-24/March):
 - Found diginorm problem, was giving it more 60 GB of RAM xD hulk ain't got that power.
 - Trying to divise a way to compute how much diginorm needs.
 - Trying... 
@@ -38,6 +38,7 @@ Tags: de-novo
 - Re-reading Snakemake, and start to move what we have in the makefile to Snakemake.
 - Israel and I will write the comparison part and difference, but will wait for the other to finish.
 - Let's get to work.
+- Snakemake tutorial on the way: https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html#tutorial
 
 ### Week 7(6-10/March):
 - Made all the scripts in my part, to now start to move them to Snakemake.
