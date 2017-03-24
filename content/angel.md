@@ -23,6 +23,38 @@ Tags:de-novo
 
 ## Spring 2017
 
+
+### Week 7:(17/03/17)-(2403/17)
+- Trying alternative by brute force comparing every sequence in both organisms using sourmash.
+- If it compares in less than two days Ill call it a success.
+- Fun note university is going on strike soon. Heres hoping they dont burn the buildings to the ground. 
+
+### Week 7:(10/03/17)-(17/03/17)
+- Work put on backburner for Assignmet on other classes. Programing hardware is fun..... said no one.
+- Also laptop charger magicaly stayed at home.
+
+### Week 7:(03/03/17)-(10/03/17)
+- New problem have to modify sourmash to return the name of the sequence that has a correspondence greater than 99.5%.
+- New problem sourmash is actually a python wrapper for C.
+- I am terrified.
+
+### Week 6:(24/02/17)-(03/03/17)
+- Comparison worked. Found sequences that were 99.9% similar on both files. Problem I dont know which sequences those are.
+
+### Week 5:(17/02/17)-(24/02/17)
+- Huzaaaa trinity didnt explode
+- Have two ~150MB files with data. Still assuming this is the data I want.
+- Tweeking comparing script to work with the data.
+
+### Week 4:(10/02/17)-(17/02/17)
+- Trinity is finally behaving.
+- Setting up scripts for final run with some tools to check the actual run time and the total cpu time.
+- Queued trinity to run over the weekend
+
+### Week 3:(03/02/17)-(10/02/17)
+- Requested a java update on loretta since trinity demanded it.
+- A bit more tweaking needed for the commands to run correctly.
+
 ### Week 2:(27/01/17)-(03/02/17)
 - Managed to actually compare things, The samples say nemastotella is +90% the same as pepino
 - Tried to run Trinity on a bulkier machine..... if gave ultra cryptic error codes
