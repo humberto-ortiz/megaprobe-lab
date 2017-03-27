@@ -3,25 +3,47 @@ Date: 2016-08-26
 Category: People 
 Tags: de-novo
 
-#Biography
+# Biography
 
 My name is Josefina Correa. I am an undergraduate Biology major at the University of Puerto Rico, Rio Piedras campus; 
 I am also taking computer science courses with the goal of completing a dual concentration. I am a member of the IDI-BD2K program
 (Increasing Diversity in Big Data to Knowledge), an initiative that seeks to train students in the adequate use of large quantities of data for producing coherent quantiative analysis within the context of Biomedical Informatics. This semester I will be working with Dr. Ortiz and Dr. García-Arrarás on a project pertaining to *de-novo* sequencing.
 
-#Contact
+# Contact
 
 * e-mail: josefina.correa@upr.edu
 * Github: https://github.com/josefinacmenendez
 
-#Project Description
+# Project Description
 
 This project aims to assemble and annotate transcripts from H. glaberrima.
 
-#Weekly Reports	  	
-##Second semester		
+# Weekly Reports	  	
+## Second semester		
+## Week 10: 3/20/17 - 3/26/17
 
-##Week 9: 3/13/17 - 3/19/17
+I wrote a python script, [map_contigs.py](https://github.com/josefinacmenendez/de-novo-seq/blob/master/map_contigs.py), to parse .fasta and .csv files, and to extract the sequence from a .fasta file and append it to a .csv file. This script was necessary because shmlast does not include the sequence in its output, it only includes the contig name. The script can also be used to parse other .fasta files with transcript IDs (such as those produced by the Eel-Pond protocol), and fetch the corresponding ID.
+
+Usage:
+
+```
+python map_contigs.py --fasta_1 combined_transcripts_cleaned_fasta_cap_contigs.fasta --csv_file combined_transcripts_cleaned_fasta_cap_contigs.fasta.x.mouse.protein.faa.crbl.csv 
+
+```
+Output:
+
+```
+combined_transcripts_cleaned_fasta_cap_contigs.fasta.x.purpuratus.protein.faa.seq.csv
+```
+
+This output can be parsed for fetching the corresponding transcript ids:
+
+```
+python map_contigs.py --fasta_1 pepino_on_mouse.fasta.annot --csv_file combined_transcripts_cleaned_fasta_cap_contigs.fasta.x.purpuratus.protein.faa.seq.csv
+
+```
+
+## Week 9: 3/13/17 - 3/19/17
 
 I ran shmlast's conditional reciprocal best hits against both mouse and *S. purpuratus* databases as follows:
 ```
@@ -37,15 +59,15 @@ The output is available at /data/josefina/shmlast
 
 The output includes the contig ID and a unique identifier. I will be using the contig ID to fetch the corresponding transcript, since the output does not include the transcript. Since the output annotates the transcripts, this can serve as a supplementary annotation database to the one already in blastkit. I'd have to see which ones are already included in the previous annotations.
 
-##Week 8: 3/6/17 - 3/12/17
+## Week 8: 3/6/17 - 3/12/17
 
 Since transcript families group transcripts by their shared sequence, I have been reading papers about de-brujin graphs to understand CTB's methos for creating transcript families.
 
-##Week 7: 2/27/17 - 3/5/17
+# Week 7: 2/27/17 - 3/5/17
 
 I have been preparing the shmlast presentation for the journal club.
 
-##Week 6: 2/20/17 - 2/26/17
+## Week 6: 2/20/17 - 2/26/17
 Current task: get the contig ids given a file with new ids and the corresponding transcript.  
   
 I created a new script: [get_contig_names.py](https://github.com/josefinacmenendez/eel-pond/blob/master/get_contig_names.py). 
@@ -53,14 +75,14 @@ This script takes as input two .fasta files, one with the contig ids and another
 
 Note: the length of the output file is equal to the length of the input file with the new ids.
 
-##Week 5: 2/13/17 - 2/19/17
+## Week 5: 2/13/17 - 2/19/17
 Current task: get the contig ids given a file with new ids and the corresponding transcript.  
   
 I edited [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py) to fetch the contig ids after blasting the annotated transcripts against the original assembly (which only has the contig ids and the transcript). I will be working on improving this implementation of blast during the next week.
 
 I also edited a local copy of rename-with-partitions.py on the server to create new names that have the contig names. However, this may not be the best solution to the problem.
 
-##Week 4: 2/6/14 - 2/12/17
+## Week 4: 2/6/14 - 2/12/17
 I edited the annotate-seqs.py script (now [annotate_seqs.py](https://github.com/josefinacmenendez/eel-pond/blob/master/annotate_seqs.py)) and the [namedb.py](https://github.com/josefinacmenendez/eel-pond/blob/master/namedb.py) scripts to allow for parsing relevant file-names of different organisms for annotation. Prior to this, the 'mouse.namedb' filename was built-in to namedb.py. This scripts are on Hulk and also on my fork of the eel-pond repository.
 
 annotate_seqs.py now takes three more arguments:
@@ -98,7 +120,7 @@ conda create -n shmlast --file environment.txt
 source activate shmlast
 pip install shmlast
 ```
-##Week 3: 1/30/17 - 2/5/17
+## Week 3: 1/30/17 - 2/5/17
 I spent some time this week working on the manuscript.
 I also worked on mapping the contigs from two different assemblies from the same transcriptome data to aid in comparing differential expression based on the Datatube GUI.
 
@@ -157,7 +179,7 @@ for item in mapped_contig_ids:
 
 The assembled contigs were downloaded from [this paper](dx.doi.org/10.6070/H4PN93J1).
 
-##Week 2: 1/23/17 - 1/29/17
+## Week 2: 1/23/17 - 1/29/17
 I have been working on revising the initial submission of a manuscript that I helped write during last summer's internship at U. Pitt's DBMI.
 
 The original submission can be found [here](dx.doi.org/10.12688/f1000research.9364.1). I am listed in the acknowledgements section.
@@ -302,14 +324,14 @@ python /home/josefina/.conda/envs/eel-pond/share/eel-pond/annotate-seqs.py pepin
 ```
 
 
-##First semester
-##Week 16: 12/04/16 - 12/05/16
+## First semester
+## Week 16: 12/04/16 - 12/05/16
 
 annotate-seqs.py was fixed; the changes are documented on the forks humberto-ortiz/eel-pond and josefinacmenendez/eel-pond
 
 However, when attempted with the pepino data, no hits are found for the following reason: no orthologies or homologies are found. I found that on the previous step (building transcript families) rename-with-partitions.py was building a name with a space between > NAME instead of building it >NAME; I fixed this, but this did not correct the problem. It's as if blastparser is not parsing the data into make-uni-best-hits.py or make-reciprocal-best-hits.py.
 
-##Week 15: 11/28/16 - 12/4/16
+## Week 15: 11/28/16 - 12/4/16
 
 I attempted the eel-pond procedure locally, but obtained no hits when running annotate-seqs.py
 
@@ -350,7 +372,7 @@ OR
 git add -A
 ```
 
-##Week 14: 11/21/16 - 11/27/16
+## Week 14: 11/21/16 - 11/27/16
 
 I attempted the procedure using data from S. purpuratus, taken from ftp://ftp.ncbi.nih.gov/genomes/Strongylocentrotus_purpuratus/protein/ and obtained no hits. 
 
@@ -358,7 +380,7 @@ I also attempted to run the tutorial using the canned blasts and the Nemastotell
 I downloaded the BLAST version 2.2.26 and used formatdb instead of makeblastdb to format the mouse and the nemastotella data.
 This [BLAST version](https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy/2.2.26/) was installed according to directions detailed [here](https://github.com/ctb/blastkit). Rather than using virtualenv, a conda environment (named blastkit) was used. However, no hits were obtained when annotating the transcripts. 
 
-##Week 13: 11/14/16 - 11/20/16
+## Week 13: 11/14/16 - 11/20/16
 
 Annotating transcript families
 
@@ -463,7 +485,7 @@ annotation spreadsheet in: combined_transcripts_cleaned_renamed_pepino.fa.annot.
 annotation spreadsheet with sequences (warning: LARGE): combined_transcripts_cleaned_renamed_pepino.fa.annot.large.csv
 ```
 
-##Week 12: 11/07/16 - 11/13/16
+## Week 12: 11/07/16 - 11/13/16
 
 Building transcript families:
 
@@ -501,7 +523,7 @@ mv combined_transcripts_cleaned_fasta_cap_contigs.renamed.fasta.gz \
 	combined_transcripts_renamed.fa.gz
 
 ```
-##Week 11: 10/31/16 - 11/06/16
+## Week 11: 10/31/16 - 11/06/16
 
 Building transcript families:
 
@@ -581,7 +603,7 @@ do-partition.py: error: too few arguments
 
 ```
 
-##Week 10: 10/24/16 - 10/28/16
+## Week 10: 10/24/16 - 10/28/16
 
 Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmenendez/Datatube_Heatmap):
 
@@ -589,7 +611,7 @@ Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmen
 * The generated heatmap can be exported as a pdf  
 * The differential expression data is now processed on global.R
 
-##Week 9: 10/17/16- 10/21/16
+## Week 9: 10/17/16- 10/21/16
 
 Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmenendez/Datatube_Heatmap):
 
@@ -597,7 +619,7 @@ Made the following updates to [Datatube_Heatmap](https://github.com/josefinacmen
 * improved image scaling
 * the full list of contigs can be accessed through R studio, but not through shinyapps.io; this will be fixed soon
   
-##Week 8: 10/10/16- 10/14/16
+## Week 8: 10/10/16- 10/14/16
 
 Set up a repository for the shiny app built for showing the heatmaps:
 
@@ -608,7 +630,7 @@ The shiny app is functional. However, the following issues will be addressed thi
 *  Parsing the full set of contigs into the selectizeInput list crashes the app
 *  There are several error messages that should be substituted with prompt messages
 
-##Week 7: 10/3/16 - 10/7/16
+## Week 7: 10/3/16 - 10/7/16
 
 Worked on writing an R script for plotting heatmaps using differential gene expression for H. glaberrima data:
 The data is available on Hulk. I also spent some time becoming familiar with Shiny. I will be developing an app to view the heatmaps in a more user-friendly and interactive way.
@@ -654,10 +676,10 @@ while(startPoint < maxSize)
 write.csv(dge_pepino, "pepino_deg.csv", row.names = TRUE)
 ```
 
-##Week 6: 9/26/16 - 9/30/16
-##Week 5: 9/19/16 - 9/23/16
+## Week 6: 9/26/16 - 9/30/16
+## Week 5: 9/19/16 - 9/23/16
 
-##Week 4: 9/12/16 - 9/16/16
+## Week 4: 9/12/16 - 9/16/16
 I set up the virtual machine with the necessary tools to run the assembly:
 
 * Downloaded git from <https://git-scm.com/download/win>
@@ -677,11 +699,11 @@ I set up the virtual machine with the necessary tools to run the assembly:
       sudo pip install -U setuptools khmer==2.0 jupyter jupyter_client ipython pandas
 ```
 
-##Week 3: 9/05/16 - 9/09/16
+## Week 3: 9/05/16 - 9/09/16
 I have been familiarizing myself with the project, reading what has been published on the matter by Mashanov *et. al.*:
 <http://www.biomedcentral.com/1471-2164/15/357>
 
-##Week 2: 8/29/16 - 9/02/16
+## Week 2: 8/29/16 - 9/02/16
 Dr. Ortiz, Dr. García-Arrarás and I met to discuss the biological intrinciacies of the *de-novo* sequencing project.
 We discussed the biological aspects of the project and detailed the following goals for this semester:
 
@@ -689,6 +711,6 @@ We discussed the biological aspects of the project and detailed the following go
 * Search for differential gene expression among reads
 * Produce a new assembly to expand the databank and include the transcriptome of reads for the regenerated and normal intestine of *H. glaberrima*
 
-##Week 1: 8/22/16 - 8/26/16
+## Week 1: 8/22/16 - 8/26/16
 
 First lab meeting today. I am excited to learn more about my project.
