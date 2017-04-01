@@ -18,8 +18,9 @@ journal club presentations for this semester.
 | Mar 7 | Ivan Jimenez | Huang et al |
 | Mar 14 | Josefina Correa | SHMlast |
 | Mar 21 | **Student Assembly** | **No Lab Meeting** |
-| Mar 28 | Walter Baez | kallisto |
-| Apr 4  | Paola Figueroa | cap3 |
+| Mar 28 | **Student strike** | |
+| ??? ?? | Walter Baez | kallisto |
+| ??? ?? | Paola Figueroa | cap3 |
 
 # Papers
 
