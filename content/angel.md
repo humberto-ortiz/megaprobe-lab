@@ -23,13 +23,20 @@ Tags:de-novo
 
 ## Spring 2017
 
+### Week 10:(24/03/17)-(31/03/17)
+- Went to see the power rangers movie wasnt a complete dissapointment to my childhood.
+- Since rewriting the code for sourmash wouldve been rather imposible for my level of skill decided to do something more crude.
+- Finished a working version of the comparing script https://github.com/Angelsan720/RandomThings/blob/master/sourmash-compare-v1.2.py
+- Planning on adding some more funtionality but for now this will do.
+- Reached an existential crisis and dont know what to do.
+- For now staying at home while the angry mobs manifest themselves.
 
-### Week 7:(17/03/17)-(2403/17)
+### Week 9:(17/03/17)-(24/03/17)
 - Trying alternative by brute force comparing every sequence in both organisms using sourmash.
 - If it compares in less than two days Ill call it a success.
 - Fun note university is going on strike soon. Heres hoping they dont burn the buildings to the ground. 
 
-### Week 7:(10/03/17)-(17/03/17)
+### Week 8:(10/03/17)-(17/03/17)
 - Work put on backburner for Assignmet on other classes. Programing hardware is fun..... said no one.
 - Also laptop charger magicaly stayed at home.
 
