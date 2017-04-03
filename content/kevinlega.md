@@ -25,7 +25,15 @@ Tags: de-novo
 
 ## This semester:
 
-### Week 8 (20-24/March):
+## Week 9(27-31/March):
+- Read the snakemake tutorial. Understood almost all.
+- Started getting my code to the snakemake. See it at: https://github.com/Kevinlega/Pipeline/blob/master/snakemake.py
+- With angel done with his part, I added his code first.
+- I'm developing a try.py to see how the snakemake works with input and output.
+- It's not finished because that gave me a hard time. Going to try and find another tutorial.
+- If can't find any decent tutorial, going to retake the one before.
+
+### Week 8(20-24/March):
 - Found diginorm problem, was giving it more 60 GB of RAM xD hulk ain't got that power.
 - Trying to divise a way to compute how much diginorm needs.
 - Trying... 
