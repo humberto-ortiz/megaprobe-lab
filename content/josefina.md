@@ -20,6 +20,21 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 # Weekly Reports	  	
 ## Second semester
+
+## Week 13: 4/10/17 - 4/16/17
+
+I assembled the transcript families and I am re-running BLAST on both directions; I added a parameter to specify the output to be in XML format, which can be parsed using BioPython:
+
+```
+from Bio.Blast import NCBIXML
+blast_records = NCBIXML.parse(result_handle)
+```
+
+## Week 12: 4/3/17 - 4/9/17
+
+I am working on figuring out a way to parse the blast2.6 output and be able to determine the homologies and orthologies.
+This [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc93) will be useful.
+
 ## Week 11: 3/27/17 - 4/2/17
 
 I created a conda environment and installed the latest version of blast:
