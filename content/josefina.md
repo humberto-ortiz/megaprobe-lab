@@ -19,7 +19,36 @@ I am also taking computer science courses with the goal of completing a dual con
 This project aims to assemble and annotate transcripts from H. glaberrima.
 
 # Weekly Reports	  	
-## Second semester		
+## Second semester
+## Week 11: 3/27/17 - 4/2/17
+
+I created a conda environment and installed the latest version of blast:
+
+```
+module load anaconda
+conda create -n blast2.6 python=2.7
+source activate blast2.6
+cd /home/josefina/.conda/envs/blast2.6/
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.6.0+-x64-linux.tar.gz
+tar zxvpf ncbi-blast-2.6.0+-x64-linux.tar.gz
+cp ncbi-blast-2.6.0+/bin/* bin/
+```
+
+I formatted the contigs and the mouse reference sequences as databases:
+
+```
+makeblastdb -in mouse.protein.faa -dbtype prot -out mouse.protein.faa
+makeblastdb -in combined_transcripts_cleaned_fasta_cap_contigs.fasta -dbtype nucl -out combined_transcripts_cleaned_fasta_cap_contigs.fasta 
+```
+
+I used the following commands to run blast on both directions:
+
+```
+tblastn -query mouse.protein.faa -db combined_transcripts_cleaned_fasta_cap_contigs.fasta -evalue 1e-3 -num_threads 8 -out mouse.x.pepino
+blastx -query combined_transcripts_cleaned_fasta_cap_contigs.fasta -db mouse.protein.faa -evalue 1e-3 -num_threads 8 -out pepino.x.mouse
+```
+The aligned sequences can be found in /data/josefina/blast2.6/
+
 ## Week 10: 3/20/17 - 3/26/17
 
 I wrote a python script, [map_contigs.py](https://github.com/josefinacmenendez/de-novo-seq/blob/master/map_contigs.py), to parse .fasta and .csv files, and to extract the sequence from a .fasta file and append it to a .csv file. This script was necessary because shmlast does not include the sequence in its output, it only includes the contig name. The script can also be used to parse other .fasta files with transcript IDs (such as those produced by the Eel-Pond protocol), and fetch the corresponding ID.
