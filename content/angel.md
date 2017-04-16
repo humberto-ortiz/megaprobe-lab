@@ -23,6 +23,17 @@ Tags:de-novo
 
 ## Spring 2017
 
+### Week 11:(07/04/17)-(14/04/17)
+- Progress is still minimal.
+- Decided to pick up an old personal project in the mean time. Its nature might very well help me understand what I need to do.
+
+
+### Week 11:(31/03/17)-(07/04/17)
+- Tried to add the tweak for the script (ran into a near exponential growth problem).
+- Talked to kevin about how he was to use the script.
+- Usage of the script "$ python sourmash-compare-v1.2.py file_A file_B" and outputs a file named "file_A-in-file_B.txt".
+- Still in my existencial crisis though I still will try and modify the original code.
+
 ### Week 10:(24/03/17)-(31/03/17)
 - Went to see the power rangers movie wasnt a complete dissapointment to my childhood.
 - Since rewriting the code for sourmash wouldve been rather imposible for my level of skill decided to do something more crude.
