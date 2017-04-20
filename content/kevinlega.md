@@ -24,6 +24,26 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+# Week 12(17-21/April):
+- Gave up on input and output. 
+- Still don't know what wrong with that.
+- Finally found something usefull on handling RNA-sequences with Snakemake.
+- Been reading this article: http://www.annotathon.org/courses/ABD/practical/snakemake/snake_intro.html
+- Helped a lot.
+- Going to fix my code to what I have learned.
+# Week 11(10-14/April):
+- Been sick, haven't done work.
+- Messing around with my snakemake file on my own.
+- Finally got it to run. 
+- Doesn't seem to detect my dataset!
+- Trying to convert just one fastq to fasta file, to test it.
+- Didin't have much luck with it.
+
+# Week 10(3-7/April):
+- Been testing the dummy snakefile I have.
+- Downloaded a tutorial snakemake files call kids, sandwiches from: https://github.com/leipzig/SandwichesWithSnakemake
+- Worked around with it. 
+- Too simple to actually work.
 
 ## Week 9(27-31/March):
 - Read the snakemake tutorial. Understood almost all.
