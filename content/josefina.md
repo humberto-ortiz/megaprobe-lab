@@ -21,6 +21,18 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 # Weekly Reports	  	
 ## Second semester
 
+## Week 16: 5/1/17 - 5/7/17
+
+I am still working on building the ranked list. It should be up shortly. 
+
+## Week 15: 4/24/17 - 4/31/17
+
+I have been working on building a ranked list of differential expression to be able to find contigs with a great degree of differential expression more easily.
+
+## Week 14: 4/17/17 - 4/23/17
+
+Inspired by Dr. Corrada-Bravo's talk, I have been working on improving Datatube's visualization components to include the differential expression number on each color block.
+
 ## Week 13: 4/10/17 - 4/16/17
 
 I assembled the transcript families and I am re-running BLAST on both directions; I added a parameter to specify the output to be in XML format, which can be parsed using BioPython:
