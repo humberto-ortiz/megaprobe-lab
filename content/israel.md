@@ -5,17 +5,38 @@ Slug: israel
 Category: People
 Tags: de-novo
 
-# Bio(2):
-
- I have respawned :) Muahahahahhah! No but for real, I'm back, doing research at the Megaprobe-Lab in the hopes of expanding my knowledge of bioinformatics, and general programing.
-
-
 ## Contact info:
 
  - e-mail - <israelodilan@gmail.com>
  - Github - <https://github.com/Omig12/>
 
+# Bio(3):
+
+## New-New Weekly update:
+#### _iBRIC summer internship at University of Pittsburgh, it's gonna be a blast and i'll keep you posted._
+
+### Week 1: (22-26/May)
+- Was asssigned to Dr. Gregory Cooper's Lab at the Pitt Department of Bio-Medical Infomatics in the Center for Causal Discovery.
+- **Research topic**:
+  - Causal Discovery utilizing Causal Bayesian Networks Algorithms
+- Started reading up on all the required statistics and graph theory required to work with the topic.
+- Currently reading the first chapter of: 
+> [Glymour, C. N., & Cooper, G. F. (Eds.). (1999). Computation, causation, and discovery. Aaai Press.](http://fitelson.org/269/Cooper_Intro.pdf)
+
+---------------------------------------------
+
+# Bio(2):
+
+ I have respawned :) Muahahahahhah! No but for real, I'm back, doing research at the Megaprobe-Lab in the hopes of expanding my knowledge of bioinformatics, and general programing.
+
 ## New Weekly UPDATE (Jan 2017 - May 2017)
+
+### Week 11-19:
+- Classes still interrupted.
+
+### Week 10: (20-27/Mar)
+- Campus went on strike protesting budget cuts.
+- Classes suspended till further notice.
 
 ### Week 9: (13-17/Mar)
 - Starting to write Python Makefile [Snakemake tutorial](http://slides.com/johanneskoester/snakemake-tutorial-2016#/18)
@@ -29,15 +50,14 @@ Tags: de-novo
 - Found a more pythonic way of finding information about device resources while reading up on the python standard library documentation.
 - Found interesting alternative to make called [Do-it](http://pydoit.org/).
 
-
 ### Week 6: (20-24/Feb)
-- Very anxious this Week
-- Student strike
+- Very anxious this Week.
+- Student strike.
 - Got sick :'(
 
 ### Week 5: (13-17/Feb)
-- Did not work in the lab this week
-- Most time was spent studying
+- Did not work in the lab this week.
+- Most time was spent studying.
 
 ### Week 4: (6-10/Feb)
 - Pipeline device resource detection script:
@@ -46,11 +66,11 @@ Tags: de-novo
 
 ### Week 3: (1-5/Feb)
 - Working on pipeline makefile.
-- Learning about Trinity
+- Learning about Trinity.
 
 ### Week 2: (25-29/Jan)
 - Started work on pipeline makefile.
-- Looking at Diginorm
+- Looking at Diginorm.
 
 ### Week 1: (19-22/Jan)
 - Started reading up on the [khmer paper!](https://f1000research.com/articles/4-900/v1)
