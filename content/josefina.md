@@ -24,6 +24,8 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 
 ## Week 20: 5/29/17- 5/4/17
 
+I modified DatatubeV2's color scheme to red-black-green.
+The code has been updated in [global.R](https://github.com/josefinacmenendez/DatatubeV2/commit/7e0fd12f8f4c750e1c97b3554ab8174a4d79f542). 
 
 ## Week 19: 5/22/17- 5/28/17
 
