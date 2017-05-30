@@ -21,6 +21,22 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 # Weekly Reports	  	
 ## Second semester
 
+
+## Week 20: 5/29/17- 5/4/17
+
+
+## Week 19: 5/22/17- 5/28/17
+
+The new version of Datatube is ready. The code can be found [here](https://github.com/josefinacmenendez/DatatubeV2).
+
+## Week 18: 5/15/17- 5/21/17
+
+I finished building the ranked list and am updating Datatube_Heatmap's code to add new features.
+
+## Week 17: 5/8/17 - 5/14/17
+
+*Ibid*, week 16.
+
 ## Week 16: 5/1/17 - 5/7/17
 
 I am still working on building the ranked list. It should be up shortly. 
