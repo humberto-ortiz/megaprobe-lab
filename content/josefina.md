@@ -21,6 +21,34 @@ This project aims to assemble and annotate transcripts from H. glaberrima.
 # Weekly Reports	  	
 ## Second semester
 
+
+## Week 20: 5/29/17- 5/4/17
+
+
+## Week 19: 5/22/17- 5/28/17
+
+The new version of Datatube is ready. The code can be found [here](https://github.com/josefinacmenendez/DatatubeV2).
+
+## Week 18: 5/15/17- 5/21/17
+
+I finished building the ranked list and am updating Datatube_Heatmap's code to add new features.
+
+## Week 17: 5/8/17 - 5/14/17
+
+*Ibid*, week 16.
+
+## Week 16: 5/1/17 - 5/7/17
+
+I am still working on building the ranked list. It should be up shortly. 
+
+## Week 15: 4/24/17 - 4/31/17
+
+I have been working on building a ranked list of differential expression to be able to find contigs with a great degree of differential expression more easily.
+
+## Week 14: 4/17/17 - 4/23/17
+
+Inspired by Dr. Corrada-Bravo's talk, I have been working on improving Datatube's visualization components to include the differential expression number on each color block.
+
 ## Week 13: 4/10/17 - 4/16/17
 
 I assembled the transcript families and I am re-running BLAST on both directions; I added a parameter to specify the output to be in XML format, which can be parsed using BioPython:
