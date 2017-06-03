@@ -40,7 +40,18 @@ Tags: DGE, RNA Seq, Bioinformatics, Cave Fishes, Salmon, EdgeR
 
 ## Second Semester (2016-2017)
 
-### Week 25, 26, 27, 28 (17th of March, 2017 to 14th of April, 2017)
+### Weeks 29, 30, 31, 32, 33, 34, 35, & 36 (14th of April, 2017 to 9th of June, 2017)
+  
+  + Walter's script didn't work.
+  + Managed to produce the MA plots for 2D, 6D & 20D post injury VS uninjured (norm)
+    by creating my own scripts.
+  + All that is left is to analyze my results, make sure that this is all I need to write my official report.
+  + Started to write my draft report, will be done in a week or two.
+  + Met with Dahiana to see if we could finish our fish project, but have not heard any more from her.
+  + Have not yet met with my PI, will figure that out very soon. 
+  + Weekly progress for the 8 weeks, I'd say about 20/100.
+
+### Weeks 25, 26, 27, & 28 (17th of March, 2017 to 14th of April, 2017)
 
   + Data was normalized. Size went from 80G to 26G while using k = 20.
   + Single-end assembly using Trinity, done.
