@@ -13,14 +13,49 @@ Tags: de-novo
 # Bio(3):
 
 ## New-New Weekly update:
-#### _iBRIC summer internship at University of Pittsburgh, it's gonna be a blast and i'll keep you posted._
+#### _iBRIC summer internship at University of Pittsburgh, it's gonna be a blast and I'll keep you posted._
+
+------------------------------
+![Causal Bayesian Networks!](http://www.abiomics.eu/media/images/oksagi.jpg)
+
+<h4> Image taken from Google </h4>
+
+-------------------------------
+
+### Week 4: (12-16/Jun)
+- Center for Causal Discovery short course
+- Main topics Discussed:
+  - Causal Networks
+  - Bayesian Statistics
+  - Bayesian Causal Networks
+  - Tetrad Causal Discovery Software
+- Datathon Thursday
+- Journal Club Meeting on Friday
+
+### Week 3: (5-9/Jun)
+- During this week, I was instructed to do the following:
+  - Get the Tetrad software up and running in my computer
+  - Read up on and understand the [(Peter Spirtes and Clark Glymour) PC Algorithm](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)  
+  - Observational Data Representation within causal networks
+  - Experimental Data Representation within causal networks
+  - Ethics Forum Group presentation on Michael A. Ballesies Case _Arming America_ coming soon.
+- **Research topic update**:
+ - _Methods for integrating both Observational and Experimental Data in Constraint-Based Causal Discovery Algorithms_ for Causal Discovery in Causal Bayesian Networks.  
+
+### Week 2: (30/May-2/Jun)
+- During this week we have been asked to write a brief proposal due Friday 2nd.
+  -  [Proposal](https://docs.google.com/document/d/1gj9t59rjuQFGE9DD3b8DEYTxMYyrs9QruzyrLgozMGE/edit?usp=sharing)
+- Reading a lot of literature in order to understand Causal Bayesian Networks, d-separation and the Causal Markov condition.
 
 ### Week 1: (22-26/May)
-- Was asssigned to Dr. Gregory Cooper's Lab at the Pitt Department of Bio-Medical Infomatics in the Center for Causal Discovery.
+- Was assigned to Dr. Gregory Cooper's Lab at the Pitt Department of Biomedical Informatics in the Center for Causal Discovery.
+- Was required to complete ethics in research training modules.
+  - Responsible Conduct of Research
+  - Biomedical Informatics Research ethics
 - **Research topic**:
   - Causal Discovery utilizing Causal Bayesian Networks Algorithms
 - Started reading up on all the required statistics and graph theory required to work with the topic.
-- Currently reading the first chapter of: 
+- Currently reading the first chapter of:
 > [Glymour, C. N., & Cooper, G. F. (Eds.). (1999). Computation, causation, and discovery. Aaai Press.](http://fitelson.org/269/Cooper_Intro.pdf)
 
 ---------------------------------------------
@@ -87,7 +122,7 @@ J.R. Oppenheimer
 
 # Research Goals
 
-Create and Analyse correctly obtained De Bruijn graphs from de novo sequence assemblies utilizing mutual.
+Create and analyze correctly obtained De Bruijn graphs from de-novo sequence assemblies utilizing mutual.
 
 ## Weekly UPDATE (Jan 2016 - May 2016)
 
@@ -189,12 +224,12 @@ Create and Analyse correctly obtained De Bruijn graphs from de novo sequence ass
  - Updated Weekly.
  - Many a exams this week.
  - Began reading "The Cartoon Guide To Genetics" by Larry Gonick & Mark Wheelis.
- - Analyse best way to compare outputs from velvet/oases and mutual.
+ - Analyze best way to compare outputs from velvet/oases and mutual.
  - Options:
    - Find a way to graph mutuals output compare graphs with velvet's.
-   - Also posibly compare with output of other that does analysis between multiple organisms.
+   - Also possibly compare with output of other that does analysis between multiple organisms.
    - Utilize blast to compare each contig.
-   - Utilize clustel to compare contig alingment.
+   - Utilize clustel to compare contig alignment.
   - Still to do:
     - Remove Adapters with Scythe.
     - Trim edges with Sickle.
@@ -244,12 +279,12 @@ Create and Analyse correctly obtained De Bruijn graphs from de novo sequence ass
 ### Week 2: (25-29/Jan)
 
 - Installed required programs (velvet/oases) to test out mutual.
-- Aquired Sample Data Set of Nematostella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
+- Acquired Sample Data Set of Nemastotella Embryonic Transcriptome (Starlet sea anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
 - Working on glossary of Bioinformatics related terms.
-- Continued reading up on de novo sequences, mutual/velvet/oases and de Bruijn Graph assembly of short reads.
+- Continued reading up on de-novo sequences, mutual/velvet/oases and De-Bruijn Graph assembly of short reads.
 - Test ran mutual.
 
 
 ### Week 1: (19-22/Jan)
 
-- Started reading up on de novo sequencing and familiarizing with the terms used around it.
+- Started reading up on de-novo sequencing and familiarizing with the terms used around it.
