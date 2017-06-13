@@ -203,7 +203,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
  - Preparing to run files on mutual.
  - Student assembly paralyzed work.
 
-![Bandage graph of velvet/oases output.]({filename}images/NewContigs_graph.png)
+![Bandage graph of velvet/oases output.](/content/images/NewContigs_graph.png)
 
 
 ### Week 8: (7-11/Mar)
@@ -243,8 +243,8 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
 - Local Computer's Ubuntu OS broke  (RIP) :'(  Thankfully to prior advice given in a lab meeting, had created multiple back ups of research data.
   - Read a few more papers concerning bioinformatics and its history.
 
-  ![Bandage graph of velvet/oases output.]({filename}images/contigs_graph.png)
-  ![Starlet Sea Anemone for comparisson.] (http://www.kahikai.org/images/embryology_development/nv.jpg)
+  ![Bandage graph of velvet/oases output](/content/images/contigs_graph.png)
+  ![Starlet Sea Anemone for comparisson](http://www.kahikai.org/images/embryology_development/nv.jpg)
 
 ### Week 5: (15-20/Feb)
 - Worked on creating research documentation and a research log:
