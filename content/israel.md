@@ -3,7 +3,7 @@ Date: 2016-01-22
 Modified: 2017-02-07
 Slug: israel
 Category: People
-Tags: de-novo
+Tags: de-novo research-pipeline causal-networks
 
 ## Contact info:
 
@@ -16,6 +16,7 @@ Tags: de-novo
 #### _iBRIC summer internship at University of Pittsburgh, it's gonna be a blast and I'll keep you posted._
 
 ------------------------------
+
 ![Causal Bayesian Networks!](http://www.abiomics.eu/media/images/oksagi.jpg)
 
 <h4> Image taken from Google </h4>
