@@ -35,15 +35,15 @@ Tags: de-novo
 - At least all the rules are basically done, only need minor adjustments.
 - https://github.com/Kevinlega/Pipeline/blob/master/Snakefile
 - Was able to work input only on rule all. On the others it didnt enter. It ran it said: 
-Provided cores: 1
-Rules claiming more threads will be scaled down.
-Job counts:
-	count	jobs
-	1	all
-	1
-rule all:
-	input: OB/Hour1.fastq, OB/Hour2.fastq, OB/Hour3.fastq, OA/Hour1.fastq, OA/Hour2.fastq, OA/Hour3.fastq
-Hello
+
+<br>Provided cores: 1 <br>
+Rules claiming more threads will be scaled down. <br>
+Job counts:<br>
+	count	jobs <br>
+	1	all <br>
+	1 <br>
+rule all: <br>
+	input: OB/Hour1.fastq, OB/Hour2.fastq, OB/Hour3.fastq, OA/Hour1.fastq, OA/Hour2.fastq, OA/Hour3.fastq <br>
 1 of 1 steps (100%) done
 
 
