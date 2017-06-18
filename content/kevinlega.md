@@ -24,6 +24,29 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+
+# Week 13(12-18/June):
+- Huelga done back to buisness.
+- Put the Snakefile all together.
+- Main issue on the file is the input and the output.
+- Still don't understand how to handle input.
+- Everything is in the file, but can't test it until I understand input.
+- I will begin to do the input and output next week.
+- At least all the rules are basically done, only need minor adjustments.
+- https://github.com/Kevinlega/Pipeline/blob/master/Snakefile
+- Was able to work input only on rule all. On the others it didnt enter. It ran it said: 
+
+<br>Provided cores: 1 <br>
+Rules claiming more threads will be scaled down. <br>
+Job counts:<br>
+	count	jobs <br>
+	1	all <br>
+	1 <br>
+rule all: <br>
+	input: OB/Hour1.fastq, OB/Hour2.fastq, OB/Hour3.fastq, OA/Hour1.fastq, OA/Hour2.fastq, OA/Hour3.fastq <br>
+1 of 1 steps (100%) done
+
+
 # Week 12(17-21/April):
 - Gave up on input and output. 
 - Still don't know what wrong with that.
