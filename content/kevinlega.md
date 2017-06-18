@@ -24,6 +24,17 @@ Tags: de-novo
 # Weekly Update:
 
 ## This semester:
+
+# Week 13(12-18/June):
+- Huelga done back to buisness.
+- Put the Snakefile all together.
+- Main issue on the file is the input and the output.
+- Still don't understand how to handle input.
+- Everything is in the file, but can't test it until I understand input.
+- I will begin to do the input and output next week.
+- At least all the rules are basically done, only need minor adjustments.
+- https://github.com/Kevinlega/Pipeline/blob/master/Snakefile
+
 # Week 12(17-21/April):
 - Gave up on input and output. 
 - Still don't know what wrong with that.
