@@ -24,9 +24,14 @@ Tags:de-novo
 ## Spring 2017
 
 ### Week 11:(07/04/17)-(14/04/17)
-- Progress is still minimal.
+- Progress is still minimal..
 - Decided to pick up an old personal project in the mean time. Its nature might very well help me understand what I need to do.
 
+### Week 12?:(12-06-17)-(16-06-16)
+- World is back to normal.
+- Started technical report and cleaning up work.
+- uploaded everything to github and updated previous link.(https://github.com/Angelsan720/RandomThings/tree/master/research%20winter%202016%20-%20summer%202017)
+- Looking into future work to keep myself busy
 
 ### Week 11:(31/03/17)-(07/04/17)
 - Tried to add the tweak for the script (ran into a near exponential growth problem).
@@ -37,7 +42,7 @@ Tags:de-novo
 ### Week 10:(24/03/17)-(31/03/17)
 - Went to see the power rangers movie wasnt a complete dissapointment to my childhood.
 - Since rewriting the code for sourmash wouldve been rather imposible for my level of skill decided to do something more crude.
-- Finished a working version of the comparing script https://github.com/Angelsan720/RandomThings/blob/master/sourmash-compare-v1.2.py
+- Finished a working version of the comparing script https://github.com/Angelsan720/RandomThings/blob/master/research%20winter%202016%20-%20summer%202017/sourmash-compare-v1.2.py
 - Planning on adding some more funtionality but for now this will do.
 - Reached an existential crisis and dont know what to do.
 - For now staying at home while the angry mobs manifest themselves.
