@@ -23,6 +23,18 @@ Tags: de-novo research-pipeline causal-networks
 
 -------------------------------
 
+### Week 5: (19-23/Jun)
+- Reference and Citation management talk
+- Ethics Forum presentation at Duquesne University:
+  - [Michael A. Bellesiles Ethics Case](bit.ly/bellesiles)
+- Weekly meeting with graduate student mentor
+  - Talked about representing experimental data in causal software
+  - Currently playing with his code for interventional data in Tetrad than can be found in his repository  
+    - [Bryan Andrews' Tetrad Branch](https://github.com/cmu-phil/tetrad/tree/bryan)
+- Working on unterstanding the relevance and implications of separating interventional/experimental data from observational data on the causal models.
+- Reading section 5.4.2 from [Causation, Prediction, and Search by Peter Sprites et al.](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)
+ to better understand the PC Algorithm.
+ 
 ### Week 4: (12-16/Jun)
 - Center for Causal Discovery short course
 - Main topics Discussed:
