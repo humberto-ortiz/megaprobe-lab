@@ -25,6 +25,14 @@ Tags: de-novo
 
 ## This semester:
 
+# Week 14(19-23/June):
+- Work out input on all rules.
+- tested each rule individually.
+- Was a lot of work. Can't seem to find any paper on input in snakemake.
+- Started re-reading all my references to see if I miss something.
+- And started making quick summaries on them.
+- Will start technical report next week with or without input fixed. 
+
 # Week 13(12-18/June):
 - Huelga done back to buisness.
 - Put the Snakefile all together.
