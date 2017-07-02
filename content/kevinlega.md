@@ -25,6 +25,12 @@ Tags: de-novo
 
 ## This semester:
 
+# Week 15(26-30/June):
+- Making a configuration file. To make the interaction simpler.
+- Trying to make the rule all continue with all the rules.
+- Going to make a Menu for the rules. This way if you have multiple organism it will handle all of them before comparing.
+- Still working on the menu and config file. 
+
 # Week 14(19-23/June):
 - Work out input on all rules.
 - tested each rule individually.
