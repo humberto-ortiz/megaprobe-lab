@@ -23,11 +23,14 @@ Tags: de-novo research-pipeline causal-networks
 
 -------------------------------
 
+### Week 7: (3-7/July)
+- Coming Soon
+
 ### Week 6: (26-30/June)
- - Watching most BD2K [video resources](https://www.youtube.com/channel/UCKIDQOa0JcUd3K9C1TS7FLQ) on working with statistics, big data, & causal modeling
- - Found [this awesome paper/primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963499/) by Chris J Needham, James R Bradford, Andrew J Bulpitt, and David R Westhead, Fran Lewitter (Editor) to aid me in the task of understanding and explaining causal discovery research
- - The date for the presentation of the abstract approaches
- - Research round-table coming up this Week
+- Watching most BD2K [video resources](https://www.youtube.com/channel/UCKIDQOa0JcUd3K9C1TS7FLQ) on working with statistics, big data, & causal modeling
+- Found [this awesome paper/primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963499/) by Chris J Needham, James R Bradford, Andrew J Bulpitt, and David R Westhead, Fran Lewitter (Editor) to aid me in the task of understanding and explaining causal discovery research
+- The date for the presentation of the abstract approaches, an early draft can be found [here](https://docs.google.com/document/d/1YSySBattVrfQ82OIaBkGO-f5Mti5_vG6ApTLRApRHRc/edit?usp=sharing)
+- Research round-table came up this Week, it went great, through constant discussion of my research topic I am able to refine my understanding of my work and it's importance, which in turns helps me a lot in presenting and advancing it
 
 ### Week 5: (19-23/June)
 - Reference and Citation management talk
@@ -35,11 +38,11 @@ Tags: de-novo research-pipeline causal-networks
   - [Michael A. Bellesiles Ethics Case](bit.ly/bellesiles)
 - Weekly meeting with graduate student mentor
   - Talked about representing experimental data in causal software
-  - Currently playing with his code for interventional data in Tetrad than can be found in his repository  
+  - Currently playing with his code for interventional data in Tetrad than can be found in his repository
     - [Bryan Andrews' Tetrad Branch](https://github.com/cmu-phil/tetrad/tree/bryan)
 - Working on understanding the relevance and implications of separating interventional/experimental data from observational data on the causal models.
 - Reading section 5.4.2 from [Causation, Prediction, and Search by Peter Sprites et al.](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)
- to better understand the PC Algorithm.
+ to better understand the PC Algorithm
 
 ### Week 4: (12-16/June)
 - Center for Causal Discovery short course
