@@ -23,19 +23,28 @@ Tags: de-novo research-pipeline causal-networks
 
 -------------------------------
 
-### Week 5: (19-23/Jun)
+### Week 7: (3-7/July)
+- Coming Soon
+
+### Week 6: (26-30/June)
+- Watching most BD2K [video resources](https://www.youtube.com/channel/UCKIDQOa0JcUd3K9C1TS7FLQ) on working with statistics, big data, & causal modeling
+- Found [this awesome paper/primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963499/) by Chris J Needham, James R Bradford, Andrew J Bulpitt, and David R Westhead, Fran Lewitter (Editor) to aid me in the task of understanding and explaining causal discovery research
+- The date for the presentation of the abstract approaches, an early draft can be found [here](https://docs.google.com/document/d/1YSySBattVrfQ82OIaBkGO-f5Mti5_vG6ApTLRApRHRc/edit?usp=sharing)
+- Research round-table came up this Week, it went great, through constant discussion of my research topic I am able to refine my understanding of my work and it's importance, which in turns helps me a lot in presenting and advancing it
+
+### Week 5: (19-23/June)
 - Reference and Citation management talk
 - Ethics Forum presentation at Duquesne University:
   - [Michael A. Bellesiles Ethics Case](bit.ly/bellesiles)
 - Weekly meeting with graduate student mentor
   - Talked about representing experimental data in causal software
-  - Currently playing with his code for interventional data in Tetrad than can be found in his repository  
+  - Currently playing with his code for interventional data in Tetrad than can be found in his repository
     - [Bryan Andrews' Tetrad Branch](https://github.com/cmu-phil/tetrad/tree/bryan)
-- Working on unterstanding the relevance and implications of separating interventional/experimental data from observational data on the causal models.
+- Working on understanding the relevance and implications of separating interventional/experimental data from observational data on the causal models.
 - Reading section 5.4.2 from [Causation, Prediction, and Search by Peter Sprites et al.](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)
- to better understand the PC Algorithm.
- 
-### Week 4: (12-16/Jun)
+ to better understand the PC Algorithm
+
+### Week 4: (12-16/June)
 - Center for Causal Discovery short course
 - Main topics Discussed:
   - Causal Networks
@@ -45,17 +54,17 @@ Tags: de-novo research-pipeline causal-networks
 - Datathon Thursday
 - Journal Club Meeting on Friday
 
-### Week 3: (5-9/Jun)
+### Week 3: (5-9/June)
 - During this week, I was instructed to do the following:
   - Get the Tetrad software up and running in my computer
   - Read up on and understand the [(Peter Spirtes and Clark Glymour) PC Algorithm](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)  
   - Observational Data Representation within causal networks
   - Experimental Data Representation within causal networks
-  - Ethics Forum Group presentation on Michael A. Ballesies Case _Arming America_ coming soon.
+  - Ethics Forum Group presentation on Michael A. Bellesiles Case _Arming America_ coming soon.
 - **Research topic update**:
  - _Methods for integrating both Observational and Experimental Data in Constraint-Based Causal Discovery Algorithms_ for Causal Discovery in Causal Bayesian Networks.  
 
-### Week 2: (30/May-2/Jun)
+### Week 2: (30/May-2/June)
 - During this week we have been asked to write a brief proposal due Friday 2nd.
   -  [Proposal](https://docs.google.com/document/d/1gj9t59rjuQFGE9DD3b8DEYTxMYyrs9QruzyrLgozMGE/edit?usp=sharing)
 - Reading a lot of literature in order to understand Causal Bayesian Networks, d-separation and the Causal Markov condition.
