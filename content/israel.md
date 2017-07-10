@@ -22,9 +22,20 @@ Tags: de-novo research-pipeline causal-networks
 <h4> Image taken from Google </h4>
 
 -------------------------------
+### Week 8: (10-14/July)
+- Still polishing abstract
 
 ### Week 7: (3-7/July)
-- Coming Soon
+- Read part of a paper suggested by my graduate student mentor
+  - [Joint Causal Inference from Observational and Experimental Datasets (Magliacane, Sara et.al.)](https://arxiv.org/pdf/1611.10351.pdf)
+- Worked on the abstract because it's due next Wednesday, July 12th
+- Created some graphs that'll hopefully be useful for the poster
+- Broke my operating systems graphical user interface (Ubuntu 16.04.02 LTS) by messing with the drivers
+  - Nvidia 304 Driver broken package
+    - Unistall the package and reinstall Ubuntu-Desktop
+  - Used "$ startx" which changes the ownership of the xserver to root so noone else can use it :(
+    - "sudo chown $USER:USER .Xauthority" should fix it
+- Fixed it on the weekend
 
 ### Week 6: (26-30/June)
 - Watching most BD2K [video resources](https://www.youtube.com/channel/UCKIDQOa0JcUd3K9C1TS7FLQ) on working with statistics, big data, & causal modeling
