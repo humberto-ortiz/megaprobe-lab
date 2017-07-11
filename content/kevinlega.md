@@ -25,7 +25,7 @@ Tags: de-novo
 
 ## This semester:
 
-# Week 16(3-9/June):
+# Week 16(3-9/July):
 - Nailed the config file!
 - Trimmomatic doens't work on .fasta files
 - After trying new softwares decided to go with:
@@ -34,6 +34,7 @@ Tags: de-novo
 - The rule all takes the input to be the last output of the last rule.
 - On June 10 will run on hulk the new changes on a fasta file alone, then with the same file, and last run the comparison code on the same file. 
 - This will be the end of the process. 
+- Accidentally deleted everything from hulk D: good thing I had back ups!
 
 # Week 15(26-30/June):
 - Making a configuration file. To make the interaction simpler.
