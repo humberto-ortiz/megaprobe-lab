@@ -25,14 +25,22 @@ Tags: de-novo
 
 ## This semester:
 
-# Week 16(3-9/June):
+# Week 17(10-16/July):
+- Modified the snakefile to be very friendly.
+- Made README.md
+- Modified the config file, documented it
+- Changed rules and recovered from problems with hulk
+- On July 16 going to run the Snakefile on a sample from Holothuroidea (Sea cucumber)
+- Next week will start with technical and will run comparison on both Holothuroidea and Nemastostella (provided by Angel)
+
+# Week 16(3-9/July):
 - Nailed the config file!
 - Trimmomatic doens't work on .fasta files
 - After trying new softwares decided to go with:
 - Instead of changing software and convert from .fastq to .fasta I will go from .fasta to .fastq
 - Made the changes. Hulk seems to be down. 
 - The rule all takes the input to be the last output of the last rule.
-- On June 10 will run on hulk the new changes on a fasta file alone, then with the same file, and last run the comparison code on the same file. 
+- On July 10 will run on hulk the new changes on a fasta file alone, then with the same file, and last run the comparison code on the same file. 
 - This will be the end of the process. 
 
 # Week 15(26-30/June):
