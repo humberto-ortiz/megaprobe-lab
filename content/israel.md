@@ -22,8 +22,33 @@ Tags: de-novo research-pipeline causal-networks
 <h4> Image taken from Google </h4>
 
 -------------------------------
+### Week 10: (24-28/July)
+- Mock presentations due monday and tuesday
+- Poster due Wednesday
+- Research presentation due Wednesday
+- Poster presentation @Symposium due Friday
+
+### Week 9: (17-21/July)
+- Finally got some data on the comparison of the algorithms
+  - Data seems to favor our hypothesis
+  - Some errors where pointed out running analysis again
+- Final Poster Crunch time
+- Research presentation Crunch time
+- Weekly meeting with my mentors, we discussed:
+  - Preliminary results
+  - The poster draft
+  - Due to time constrains we won't be working with the Sachs data
+- **EVERYTHING IS DUE NEXT WEEK _EEEKKK_**
+
 ### Week 8: (10-14/July)
-- Still polishing abstract
+- **Research topic update:**
+  - _Enabling Constraint-Based Causal Discovery Algorithms to obtain more information from observational and experimental data by performing interventions._
+- Research round-table #2 went great.
+- Polished and submitted abstract
+  - [Modeling interventions in causal networks to enrich constraint-based causal search](https://docs.google.com/document/d/1zCEnbvz_gUAkILY3NkbWBU6XPjkgOOXsd0W_dzvcvAk/edit?usp=sharing)
+- Weekly meeting with one of my mentors, we discussed:
+  - Relevant hurdles we need to address to improve the effectiveness of the algorithms
+  - Research direction for the next few weeks
 
 ### Week 7: (3-7/July)
 - Read part of a paper suggested by my graduate student mentor
