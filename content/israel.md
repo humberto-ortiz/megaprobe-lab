@@ -24,7 +24,8 @@ Tags: de-novo research-pipeline causal-networks
 -------------------------------
 ### Week 10: (24-28/July)
 - Mock presentations due monday and tuesday
-- Poster due Wednesday
+- [Presentation](https://docs.google.com/presentation/d/1ljes12O8C_aNPOIhzOrsZ2Mb6iXY2Xc-z4xD7DB_5Es/edit?usp=sharing) to Department of Biomedical Informatics on Wednesday
+- [Poster](https://drive.google.com/open?id=0BxQJo3Y9OfigQmN6V2trbHQ5ZDlwb3g0U3VpeTNnQ2NGbjhn) due Wednesday
 - Research presentation due Wednesday
 - Poster presentation @Symposium due Friday
 
