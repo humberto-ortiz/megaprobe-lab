@@ -25,6 +25,17 @@ Tags: de-novo
 
 ## This semester:
 
+# Week 20(1-7/August):
+- Going to add the results to the technical report.
+- The Comparison ended on August 2nd.
+- Only missing Angel Readme of the code's output. 
+- Will finish the technical and I'm done with the pipeline. 
+
+# Week 18 & 19(17-31/July):
+- Worked on writing the technical report.
+- Ran the pipeline twice, for the file stated week 17.
+- Comparison still hadn't ended.
+
 # Week 17(10-16/July):
 - Modified the snakefile to be very friendly.
 - Made README.md
