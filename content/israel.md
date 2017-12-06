@@ -1,6 +1,6 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2017-02-07
+Modified: 2017-12-06
 Slug: israel
 Category: People
 Tags: de-novo research-pipeline causal-networks
@@ -9,6 +9,35 @@ Tags: de-novo research-pipeline causal-networks
 
  - e-mail - <israelodilan@gmail.com>
  - Github - <https://github.com/Omig12/>
+
+# Bio(4):
+
+> Guess who's back, back again
+> Shady's back, tell a friend
+
+- Slim Shaddy
+
+## NEW-New-new weekly weekly
+- Man I wanted to say that!
+
+#### During this semester we'll be working on a shared transcript discovery tool that observes the de-bruijn graph obtained from different transcripts in order to analyze differential expression based on reads from sea cucumber RNA, in order to study the parts of it's genome that are related to it's ability to regenerate some of it's tissue.
+
+### Week 2: (4-8/Dec)
+- Started reading up on the Sea cucumber paper
+  - [Transcriptomic changes during regeneration of
+the central nervous system in an echinoderm](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-357)
+- Started tinkering with the previously mentioned algorithm goals:
+  - Add counting methods to algorithm
+  - Evaluate possibility of parallelization
+
+### Week 1: (27/Nov-1/Dec)
+- Had an unofficial first meeting with collaborators
+- Drew project goals
+- Discussed possible approaches for the study
+  - Partially analyzed the code in [pmelsted de-bruijn graph generator](https://github.com/pmelsted/dbg)
+
+
+------------------------------
 
 # Bio(3):
 
@@ -23,7 +52,7 @@ Tags: de-novo research-pipeline causal-networks
 
 -------------------------------
 ### Week 10: (24-28/July)
-- Mock presentations due monday and tuesday
+- Mock presentations due Monday and Tuesday
 - [Presentation](https://docs.google.com/presentation/d/1ljes12O8C_aNPOIhzOrsZ2Mb6iXY2Xc-z4xD7DB_5Es/edit?usp=sharing) to Department of Biomedical Informatics on Wednesday
 - [Poster](https://drive.google.com/open?id=0BxQJo3Y9OfigQmN6V2trbHQ5ZDlwb3g0U3VpeTNnQ2NGbjhn) due Wednesday
 - Research presentation due Wednesday
@@ -248,7 +277,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
 ### Week 11: (28/Mar-1/Apr)
   - Utilized Bandage to create a few graphs of interesting contiguous nodes.
   - Experimented a few forms of output including GFA extensions to graph.
-  - Started reading up on parsers for fasta/fastq files. Using Biostars <https://www.biostars.org/p/710/> Guides  and Nacrokill's <https://github.com/NacroKill/dmel-ercc-diff/blob/master/Tophat_Birnavirus_Confirmer_2.0.py> parsers for referrence.
+  - Started reading up on parsers for fasta/fastq files. Using Biostars <https://www.biostars.org/p/710/> Guides  and Nacrokill's <https://github.com/NacroKill/dmel-ercc-diff/blob/master/Tophat_Birnavirus_Confirmer_2.0.py> parsers for reference.
   - Taking a bit of a break many exams this and the next week.
 
 ### Week 10: (21-25/Mar)
