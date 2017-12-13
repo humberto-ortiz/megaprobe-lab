@@ -3,7 +3,7 @@ Date: 12-13-2017
 Modified: 12-13-2017
 Slug: louis
 Category: People
-Tags: de-novo research-pipeline causal-networks
+Tags: de-novo de-bruijn
 
 ## Contact info:
 
@@ -19,7 +19,7 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 ## Weekly's For 2017
 
 
-#### During this semester we'll be working on a shared transcript discovery tool that observes the de-bruijn graph obtained from different transcripts in order to analyze differential expression based on reads from sea cucumber RNA, in order to study the parts of it's genome that are related to it's ability to regenerate some of it's tissue.
+### During this semester we'll be working on a shared transcript discovery tool that observes the de-bruijn graph obtained from different transcripts in order to analyze differential expression based on reads from sea cucumber RNA, in order to study the parts of it's genome that are related to it's ability to regenerate some of it's tissue.
 
 ### Week 2: (4-8/Dec)
 
