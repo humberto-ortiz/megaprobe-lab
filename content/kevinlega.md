@@ -25,6 +25,14 @@ Tags: de-novo
 
 ## This semester:
 
+# Week 2(28/November-1/December):
+- First actual lab meeting
+
+# Week 1/2(13-24/November):
+- Reading papers
+
+## Second semester:
+
 # Week 17(10-16/July):
 - Modified the snakefile to be very friendly.
 - Made README.md
@@ -171,7 +179,7 @@ rule all: <br>
 - Downloaded Trimmomatic, Sourmash, and Trinity.
 - Will upload them to Hulk.
 
-## Last semester:
+## First semester:
 ### Week 18 and 19(5-15/December):
 - Work on the technical.
 
