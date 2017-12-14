@@ -15,15 +15,29 @@ Tags: de-novo
   
 # Reasearch goals:
 
-  - With titus new comparison code, I will develop a package that will normalize, trim, and compare any given data.
+- This semester: Use Mutual technique to implement a good de bruijn graph to do deferential expression.
+
+- Second semester: With titus new comparison code, I will develop a package that will normalize, trim, and compare any given data.
   
-  - Last semester: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
+- First semester: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
    a faster run time. 
   
   
 # Weekly Update:
 
 ## This semester:
+
+# Week 4(11-15/December):
+- Not yet done.
+
+# Week 3(4-8/December):
+- Verified the DBG.py we will be using with 3 tests. The tests were:
+-	With the same file
+-	With an almost identical file 
+-	With a completely different file
+- With this conclude that the dbg.py is doing the same graph, and doing them correctly.
+- In our lab meeting on Friday we discussed our goal moving forward and our strategy.
+- Decreed that we all would read on GFA format by next lab meeting.
 
 # Week 2(28/November-1/December):
 - First actual lab meeting
