@@ -23,6 +23,9 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 
 ### Week 2: (11-14/Dec)
 - Add kmer count to output file.
+-[gfalint](https://github.com/sjackman/gfalint)
+-[gfapy](https://github.com/ggonnella/gfapy)
+-[exampple gfa 2](https://github.com/sjackman/gfalint/blob/master/examples/big1.gfa)
 
 ### Week 2: (4-8/Dec)
 - Modify [dbg](https://github.com/pmelsted/dbg) to accept two files and check for contigs correctness.
