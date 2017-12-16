@@ -27,12 +27,22 @@ Tags: de-novo
 
 ## Fall 2017:
 
+### Week 5(18-22/December):
+   - Not done yet.
+
 ### Week 4(11-15/December):
    - Will implement on the dbg.py correct way to take one or more files for two organism.
-   - Implemented the GFA with the fragments under the segment.
-   - I impemented the write to file for the dbg.py 
-   - Reading on gfapy, to see if it's to much work to re-implement with this library.
+   - Implemented the GFA with the fragments under the segment. On Israel github, we have a working implementation of this: https://github.com/Omig12/Mutual-pepino
+   - I impemented the write to file for the dbg.py, but later change it to use GFApy library that has this implemented in a function. 
+   - Reading on GFApy, to see if it's to much work to re-implement with this library.
    - Used bandage to see our test in the new format, it gave us some random error, we dont know why.
+   - Implemented a argument parser for the program to take one or more file for two organisms. If more may be needed is in the comments on how to do it. Can be seen at: https://github.com/Kevinlega/DBGDE
+   - Examples on GFA1 and GFA2: https://github.com/medvedevgroup/TwoPaCo/tree/master/example
+   - Implemented GFApy on the dbg.py, documentation: http://gfapy.readthedocs.io/en/latest/
+   - Decided that GFA1 was more helpfull. Used GFA1 with GFAPY to get the output to work with bandage.
+   - Picture of GFA1 with GFApy working implementation with all the kmers of all the contings:
+
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.gfa.png?raw=true)
 
 ### Week 3(4-8/December):
    - Verified the DBG.py we will be using with 3 tests. The tests were:
