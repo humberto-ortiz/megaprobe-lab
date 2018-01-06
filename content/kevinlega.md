@@ -27,8 +27,14 @@ Tags: de-novo
 
 ## Fall 2017:
 
-### Week 5(18-22/December):
-   - Not done yet.
+### Week 5,6,7(December/18/2017-January/5/2018):
+   - On these weeks I've been working on fixing the dbg.py to detect the kmers to be a kmer as a whole.
+   - After trying to change the code by our fellow provider, decided to change the tactic and finally have a belived working copy.
+   - I have the believed working copy here: https://github.com/Kevinlega/DBGDE
+   - I did try it between the same file and we have this image from bandage:
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.gfa.png?raw=true)
+  
+   - Next week will finally see my instructor and get the thumbs up; will also talk moving foward.
 
 ### Week 4(11-15/December):
    - Will implement on the dbg.py correct way to take one or more files for two organism.
