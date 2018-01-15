@@ -27,12 +27,31 @@ Tags: de-novo
 
 ## Fall 2017:
 
+### Week 8(7-14/January):
+   - Added differential expresion to the dbg.py on file named dbgDif.py.
+   - Also seperated the Differential Expression and the graph creater in two files.
+   - We can find the graph creator at dbg.py and the DE at Second_program.py
+   - What we do is:
+   ![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/node.png)
+   - Take the # from each node and substract them, and add the absolute value of both nodes.
+```
+   To check if it meets the Threshold (coverage):
+  	if |node1.A# - node1.B#| + |node2.A# - node2.B#| < threshold
+		delete link
+	else
+		keep it
+	
+```
+   - While at the lab meeting Israel talked about that our approach to splitting the contig is bad because we are duplicating the data in size. 
+   - My next step is to try to send every Kmer count as a comment in GFA1, instead of kmer; also send the complete contig, and the original links. With a parser decide what to remove and what not to remove without splitting into millions of kmers.
+   	
+
 ### Week 5,6,7(December/18/2017-January/5/2018):
    - On these weeks I've been working on fixing the dbg.py to detect the kmers to be a kmer as a whole.
    - After trying to change the code by our fellow provider, decided to change the tactic and finally have a belived working copy.
    - I have the believed working copy here: https://github.com/Kevinlega/DBGDE
    - I did try it between the same file and we have this image from bandage:
-![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.gfa.png?raw=true)
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/belived-to-be-correct-bandage.png)
   
    - Next week will finally see my instructor and get the thumbs up; will also talk moving foward.
 
@@ -48,7 +67,7 @@ Tags: de-novo
    - Decided that GFA1 was more helpfull. Used GFA1 with GFAPY to get the output to work with bandage.
    - Picture of GFA1 with GFApy working implementation with all the kmers of all the contings:
 
-![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.gfa.png?raw=true)
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/first-implementation/Bandage-output.gfa.png)
 
 ### Week 3(4-8/December):
    - Verified the DBG.py we will be using with 3 tests. The tests were:
