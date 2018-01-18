@@ -8,18 +8,20 @@ Tags: Flows
  
 Hello! :)
 
-My name is Bianca I. Colón Rosado, I’m an 20 year old junior Computer Science student at the University of Puerto Rico, Río Piedras Campus. I'm doing a research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga since September 2014. 
+My name is Bianca I. Colón Rosado, I’m a Computer Science student at the University of Puerto Rico, Río Piedras Campus. I did research on Techniques for Anomaly Detection in IPv4 & IPv6 Network Flows with Dr. Humberto Ortiz-Zuazaga from September 2014 to May 2016.
 
-I presented posters about my research in Women in CyberSecurity Conference  (WiCyS) on March 2015, in Atlanta, GA and in the Computing Alliance of Hispanic-Serving Institutions Conference (CAHSI) on September 2015. Also participate in Malcon CTF 2015 with three partners and win first place.
+I presented posters about my research in Women in CyberSecurity Conference (WiCyS) on March 2015, in Atlanta, GA. My poster was about the installation and adaptation of a new tool that supports the efficient collection, storage, and analysis of network flow data. This helps us to be able to capture more types of data for our research.  Also participate in Malcon CTF 2015 with three partners and win first place. Also in the Computing Alliance of Hispanic-Serving Institutions Conference (CAHSI) on September 2015 and in Women in CyberSecurity Conference (WiCyS) in March 2016, Dallas, TX. These posters were about the implementation of the Benford’s law in Network Flows. This law helps us to detect any type of anomalies affecting Transmission Control Protocol (TCP)  flows, including intentional intrusions or unintended faults and network failures in general. Those anomalies can be detected by investigating the first-digit distributions of the inter-arrival times of TCP synchronise (SYN) packets. 
 
-My career short term goals are to finish my degree in Computer Science and still doing undergraduate research. Furthermore, my long-term goals are to pursue graduate studies in computer science.
+My career short-term goals are to finish my degree in Computer Science, in May 2018. Furthermore, my long-term goals are to pursue graduate studies in Cybersecurity.
 
 My work is supported by the scholarship [Academics and Training for the Advancement of Cybersecurity Knowledge in Puerto Rico (ATACK-PR)](http://atackpr.ccom.uprrp.edu/) supported by the National Science Foundation under Grant No. DUE-1438838.
 
 ## Contact Info:
 e-mail: bianca.colon1@upr.edu 
 
-Github: [https://github.com/BnkColon](https://github.com/BnkColon)
+Github: [github.com/BnkColon](https://github.com/BnkColon)
+
+Twitter: [@BiancaIvelisse1](https://twitter.com/BiancaIvelisse1)
 
 # Project Goals
 ## First Semester 2014-2015
