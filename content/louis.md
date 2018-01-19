@@ -1,6 +1,6 @@
 Title: Louis F. Gil Acevedo 
 Date: 12-13-2017
-Modified: 12-13-2017
+Modified: 1-18-2017
 Slug: louis
 Category: People
 Tags: de-novo de-bruijn
@@ -21,7 +21,11 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 
 ### During this semester we'll be working on a shared transcript discovery tool that creates a de-bruijn graph from different transcripts in order to analyze differential expression.
 
-### Week 2: (11-14/Dec)
+###
+### Week 6 (7-12):
+- Add Diferential Expresion to current vertion. Such that by a user set cuttoff point, links with a lower score than this will be deleted. 
+
+### Week 3: (11-14/Dec)
 - Add kmer count to output file.
 -[gfalint](https://github.com/sjackman/gfalint)
 -[gfapy](https://github.com/ggonnella/gfapy)
