@@ -32,7 +32,7 @@ Tags: de-novo
    - Also seperated the Differential Expression and the graph creater in two files.
    - We can find the graph creator at dbg.py and the DE at Second_program.py
    - What we do is:
-   ![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/node.png)
+   ![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/node.png?raw=true)
    - Take the # from each node and substract them, and add the absolute value of both nodes.
 ```
    To check if it meets the Threshold (coverage):
@@ -51,7 +51,7 @@ Tags: de-novo
    - After trying to change the code by our fellow provider, decided to change the tactic and finally have a belived working copy.
    - I have the believed working copy here: https://github.com/Kevinlega/DBGDE
    - I did try it between the same file and we have this image from bandage:
-![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/belived-to-be-correct-bandage.png)
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/belived-to-be-correct-bandage.png?raw=true)
   
    - Next week will finally see my instructor and get the thumbs up; will also talk moving foward.
 
