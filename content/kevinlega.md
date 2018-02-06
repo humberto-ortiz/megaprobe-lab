@@ -7,7 +7,7 @@ Tags: de-novo
    - My name is Kevin Legarreta González. I'm studying Computer Sciences in the University of Puerto Rico Rio Piedras campus. My goals are to graduate and be accepted in Boston University to complete a masters in Computer Sciences and Specialize in Cybersecurity or Digital Forensics. 
     
 # Humor of the week:
-   ![alt tag](https://s-media-cache-ak0.pinimg.com/originals/c3/e2/91/c3e2914ed1987d5692a118385072b897.jpg)
+   ![alt tag](https://imgs.xkcd.com/comics/tasks_2x.png)
 
 # Contact info:
 
@@ -26,6 +26,13 @@ Tags: de-novo
 # Weekly Update:
 
 ## Fall 2017:
+
+### Week 9-14(15/January-20/February):
+   - Fixed the code so that the memory usage isn't increasing exponentially. 
+   - Both dbg.py and Parser.py don't use GFAPY anymore.
+   - The parser eliminates links below coverage and segments with no links.
+   - Tested the parser and with a 2.1 gb output file from dbg.py used 1.79 gb of RAM.
+   - Have been working on the technical report.
 
 ### Week 8(7-14/January):
    - Added differential expresion to the dbg.py on file named dbgDif.py.
@@ -67,7 +74,7 @@ Tags: de-novo
    - Decided that GFA1 was more helpfull. Used GFA1 with GFAPY to get the output to work with bandage.
    - Picture of GFA1 with GFApy working implementation with all the kmers of all the contings:
 
-![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/first-implementation/Bandage-output.gfa.png)
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.png?raw=true)
 
 ### Week 3(4-8/December):
    - Verified the DBG.py we will be using with 3 tests. The tests were:
