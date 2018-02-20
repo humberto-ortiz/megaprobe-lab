@@ -1,6 +1,6 @@
 Title: Louis F. Gil Acevedo 
 Date: 12-13-2017
-Modified: 1-18-2017
+Modified: 2-19-2017
 Slug: louis
 Category: People
 Tags: de-novo de-bruijn
@@ -22,6 +22,17 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 ### During this semester we'll be working on a shared transcript discovery tool that creates a de-bruijn graph from different transcripts in order to analyze differential expression.
 
 ###
+
+###
+### Week 9:
+-Modifing the diferential expresion formula. Found to many outliars that the original formula was going to miss and miss repeent hence not only false negatives but false positives. The formula was adapted to the (kmer_A1-kmer_B1)+(kmer_A2-kmer_B2)/(kmer_A1+kmer_B1+kmer_A2+kmer_B2). The other aproach that was concluded for future work, was to test each node for diferential expression and using the treshold cut those off, this method may be very quick since it can be done from the creation of the graph.
+
+### Week 8 :
+-Corecting error made in the creation of the test files. I cut the fasta file instead of the transcipt file.
+
+### Week 7 :
+-Creating test file for testing diferential expression and treshold. Using flux simulator created two similar yeast derived organisms. This was done by using the crhomosome 4 of the yeast transcript file and the fasta file corespondin to the chromosome. The I created the similar organism by cuting half of the fasta file and re runing the fluxsimulator in order to create the second fastq file.
+
 ### Week 6 (7-12):
 - Add Diferential Expresion to current vertion. Such that by a user set cuttoff point, links with a lower score than this will be deleted. 
 
