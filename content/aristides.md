@@ -4,25 +4,31 @@ Category: People
 Tags: TCGA
 
 # Bio: 
-   - Hello! I'm Arístides, and I am extreemly passioante about personal and social health.  I have a studied different complementary 
+   - Hello! I'm Arístides, and I am extremely passionate about personal and social health.  I have a studied different complementary 
    health practices and am currently a pre-med student in the University of Puerto Rico - Rio Piedras campus.  My long term goals are 
    to become a family medicine practitioner, and fuse said practice with complementary practices.
     
 # Humor of the week:
 
+   ![I find this Humerus](http://chriskavas.com/wp-content/uploads/2011/07/i-find-this-humerus-pun.jpg)
+
 # Contact info:
 
    - e-mail - <info.aridavid10@gmail.com>
-   - Github - <https://github.com/aridavid5>
+   - GitHub - <https://github.com/aridavid5>
   
-# Reasearch goals:
+# Research goals:
 
-   - Fall 2017: Learn more about TCGA
+## Spring 2018:
+   
+   - Learn more about The Cancer Genome Atlas (TCGA) Project
+   - Research glioblastoma multiforme (GBM)
   
 # Weekly Update:
 
 ## Spring 2018:
 
-### Week 1: (16-17/Febrero)
-- Gained access to megaprobe lab
-- Started to research on TCGA. 
+#### Week 1: (16-17/February)
+   - Gained access to MegaProbe Lab
+   - Started to learn about TCGA
+   - Started research on GBM   
