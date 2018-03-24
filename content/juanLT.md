@@ -8,7 +8,7 @@ Tags: TBA
 # Bio:
 -  Hi, I'm Juan Lugo-Torres, a level 4 Computer Wizardry Student of the University of Puerto Rico - Rio Piedras. I recently discovered the arcane teachings of Cybersecurity, and have dabbled, cautiously, in these turbulent arts since. Now I find myself under the tutelage of the Great Wizard Humberto Ortiz-Zuazaga, and through effort, knowledge, and will-power I shall ascend the ranks to become a renowned wizard myself.
 
-# Current Tabletop RPG Indulgement:
+# Tabletop RPG Spotlight:
 ![alt tag](http://kotohi.com/ryuutama/wp-content/uploads/2013/10/ryuutama_cover1.jpg)
 
 # Contact info:
