@@ -1,31 +1,100 @@
 Title: Kevin Legarreta González
-Date: 10/08/2016
+Date: 12/15/2017
 Category: People
 Tags: de-novo
 
-# Bio:
-- My name is Kevin Legarreta González. I'm studying Computer Sciences in the University of Puerto Rico Rio Piedras campus. My goals are to graduate and be accepted in Boston University to complete a masters in Computer Sciences and Specialize in Cybersecurity or Digital Forensics. 
+# Bio: 
+   - My name is Kevin Legarreta González. I'm studying Computer Sciences in the University of Puerto Rico Rio Piedras campus. My goals are to graduate and be accepted in Boston University to complete a masters in Computer Sciences and Specialize in Cybersecurity or Digital Forensics. 
     
-  ![alt tag](http://www.hippoquotes.com/img/computer-science-jokes-quotes/computer_science.jpg)
+# Humor of the week:
+   ![alt tag](https://imgs.xkcd.com/comics/tasks_2x.png)
 
-## Contact info:
+# Contact info:
 
-  - e-mail - <kevinleglez@gmail.com>
-  - Github - <https://github.com/Kevinlega>
+   - e-mail - <kevinleglez@gmail.com>
+   - Github - <https://github.com/Kevinlega>
   
 # Reasearch goals:
 
-  - With titus new comparison code, I will develop a package that will normalize, trim, and compare any given data.
+   - Fall 2017: Use Mutual technique to implement a good de bruijn graph to do deferential expression.
+
+   - Spring 2017: With titus new comparison code, I will develop a package that will normalize, trim, and compare any given data.
   
-  - Last semester: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have
-   a faster run time. 
+   - Fall 2016: Angel and I intend to implement the transcriptome comparison, that Mutual does, using Khmer Tools. To make it have a faster run time. 
   
   
 # Weekly Update:
 
-## This semester:
+## Fall 2017:
 
-# Week 17(10-16/July):
+### Week 9-14(15/January-20/February):
+   - Fixed the code so that the memory usage isn't increasing exponentially. 
+   - Both dbg.py and Parser.py don't use GFAPY anymore.
+   - The parser eliminates links below coverage and segments with no links.
+   - Tested the parser and with a 2.1 gb output file from dbg.py used 1.79 gb of RAM.
+   - Have been working on the technical report.
+
+### Week 8(7-14/January):
+   - Added differential expresion to the dbg.py on file named dbgDif.py.
+   - Also seperated the Differential Expression and the graph creater in two files.
+   - We can find the graph creator at dbg.py and the DE at Second_program.py
+   - What we do is:
+   ![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/node.png?raw=true)
+   - Take the # from each node and substract them, and add the absolute value of both nodes.
+```
+   To check if it meets the Threshold (coverage):
+  	if |node1.A# - node1.B#| + |node2.A# - node2.B#| < threshold
+		delete link
+	else
+		keep it
+	
+```
+   - While at the lab meeting Israel talked about that our approach to splitting the contig is bad because we are duplicating the data in size. 
+   - My next step is to try to send every Kmer count as a comment in GFA1, instead of kmer; also send the complete contig, and the original links. With a parser decide what to remove and what not to remove without splitting into millions of kmers.
+   	
+
+### Week 5,6,7(December/18/2017-January/5/2018):
+   - On these weeks I've been working on fixing the dbg.py to detect the kmers to be a kmer as a whole.
+   - After trying to change the code by our fellow provider, decided to change the tactic and finally have a belived working copy.
+   - I have the believed working copy here: https://github.com/Kevinlega/DBGDE
+   - I did try it between the same file and we have this image from bandage:
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/belived-to-be-correct-bandage.png?raw=true)
+  
+   - Next week will finally see my instructor and get the thumbs up; will also talk moving foward.
+
+### Week 4(11-15/December):
+   - Will implement on the dbg.py correct way to take one or more files for two organism.
+   - Implemented the GFA with the fragments under the segment. On Israel github, we have a working implementation of this: https://github.com/Omig12/Mutual-pepino
+   - I impemented the write to file for the dbg.py, but later change it to use GFApy library that has this implemented in a function. 
+   - Reading on GFApy, to see if it's to much work to re-implement with this library.
+   - Used bandage to see our test in the new format, it gave us some random error, we dont know why.
+   - Implemented a argument parser for the program to take one or more file for two organisms. If more may be needed is in the comments on how to do it. Can be seen at: https://github.com/Kevinlega/DBGDE
+   - Examples on GFA1 and GFA2: https://github.com/medvedevgroup/TwoPaCo/tree/master/example
+   - Implemented GFApy on the dbg.py, documentation: http://gfapy.readthedocs.io/en/latest/
+   - Decided that GFA1 was more helpfull. Used GFA1 with GFAPY to get the output to work with bandage.
+   - Picture of GFA1 with GFApy working implementation with all the kmers of all the contings:
+
+![alt tag](https://github.com/Kevinlega/DBGDE/blob/master/Bandage-output.png?raw=true)
+
+### Week 3(4-8/December):
+   - Verified the DBG.py we will be using with 3 tests. The tests were:
+   - With the same file
+   - With an almost identical file 
+   - With a completely different file
+   - With this conclude that the dbg.py is doing the same graph, and doing them correctly.
+   - In our lab meeting on Friday we discussed our goal moving forward and our strategy.
+   - Decreed that we all would read on GFA format by next lab meeting from: https://github.com/GFA-spec/GFA-spec
+
+### Week 2(28/November-1/December):
+   - First actual lab meeting. 
+   - We decided to use dbg.py taken from: https://github.com/pmelsted/dbg/blob/master/dbg.py
+
+### Week 1/2(13-24/November):
+   - Reading papers
+
+## Spring 2017:
+
+### Week 17(10-16/July):
 - Modified the snakefile to be very friendly.
 - Made README.md
 - Modified the config file, documented it
@@ -33,7 +102,7 @@ Tags: de-novo
 - On July 16 going to run the Snakefile on a sample from Holothuroidea (Sea cucumber)
 - Next week will start with technical and will run comparison on both Holothuroidea and Nemastostella (provided by Angel)
 
-# Week 16(3-9/July):
+### Week 16(3-9/July):
 - Nailed the config file!
 - Trimmomatic doens't work on .fasta files
 - After trying new softwares decided to go with:
@@ -43,13 +112,13 @@ Tags: de-novo
 - On July 10 will run on hulk the new changes on a fasta file alone, then with the same file, and last run the comparison code on the same file. 
 - This will be the end of the process. 
 
-# Week 15(26-30/June):
+### Week 15(26-30/June):
 - Making a configuration file. To make the interaction simpler.
 - Trying to make the rule all continue with all the rules.
 - Going to make a Menu for the rules. This way if you have multiple organism it will handle all of them before comparing.
 - Still working on the menu and config file. 
 
-# Week 14(19-23/June):
+### Week 14(19-23/June):
 - Work out input on all rules.
 - tested each rule individually.
 - Was a lot of work. Can't seem to find any paper on input in snakemake.
@@ -57,7 +126,7 @@ Tags: de-novo
 - And started making quick summaries on them.
 - Will start technical report next week with or without input fixed. 
 
-# Week 13(12-18/June):
+### Week 13(12-18/June):
 - Huelga done back to buisness.
 - Put the Snakefile all together.
 - Main issue on the file is the input and the output.
@@ -67,26 +136,27 @@ Tags: de-novo
 - At least all the rules are basically done, only need minor adjustments.
 - https://github.com/Kevinlega/Pipeline/blob/master/Snakefile
 - Was able to work input only on rule all. On the others it didnt enter. It ran it said: 
-
-<br>Provided cores: 1 <br>
-Rules claiming more threads will be scaled down. <br>
-Job counts:<br>
-	count	jobs <br>
-	1	all <br>
-	1 <br>
-rule all: <br>
-	input: OB/Hour1.fastq, OB/Hour2.fastq, OB/Hour3.fastq, OA/Hour1.fastq, OA/Hour2.fastq, OA/Hour3.fastq <br>
+```
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs 
+	1		all 
+	1 
+rule all: 
+	input: OB/Hour1.fastq, OB/Hour2.fastq, OB/Hour3.fastq, OA/Hour1.fastq, OA/Hour2.fastq, OA/Hour3.fastq
 1 of 1 steps (100%) done
+```
 
-
-# Week 12(17-21/April):
+### Week 12(17-21/April):
 - Gave up on input and output. 
 - Still don't know what wrong with that.
 - Finally found something usefull on handling RNA-sequences with Snakemake.
 - Been reading this article: http://www.annotathon.org/courses/ABD/practical/snakemake/snake_intro.html
 - Helped a lot.
 - Going to fix my code to what I have learned.
-# Week 11(10-14/April):
+
+### Week 11(10-14/April):
 - Been sick, haven't done work.
 - Messing around with my snakemake file on my own.
 - Finally got it to run. 
@@ -94,13 +164,13 @@ rule all: <br>
 - Trying to convert just one fastq to fasta file, to test it.
 - Didin't have much luck with it.
 
-# Week 10(3-7/April):
+### Week 10(3-7/April):
 - Been testing the dummy snakefile I have.
 - Downloaded a tutorial snakemake files call kids, sandwiches from: https://github.com/leipzig/SandwichesWithSnakemake
 - Worked around with it. 
 - Too simple to actually work.
 
-## Week 9(27-31/March):
+### Week 9(27-31/March):
 - Read the snakemake tutorial. Understood almost all.
 - Started getting my code to the snakemake. See it at: https://github.com/Kevinlega/Pipeline/blob/master/snakemake.py
 - With angel done with his part, I added his code first.
@@ -121,7 +191,7 @@ rule all: <br>
 - Re-reading Snakemake, and start to move what we have in the makefile to Snakemake.
 - Israel and I will write the comparison part and difference, but will wait for the other to finish.
 - Let's get to work.
-- Snakemake tutorial on the way: https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html#tutorial
+- Snakemake tutorial on the way: https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html###tutorial
 
 ### Week 7(6-10/March):
 - Made all the scripts in my part, to now start to move them to Snakemake.
@@ -163,7 +233,7 @@ rule all: <br>
 - Reading and more Reading
 - Going to write description on references.
 - On my profile I have a repository of the sketch of makefile. Link: https://github.com/Kevinlega/Wechangethenamelater
-- Reading this makefile tutorial: www.gnu.org/software/make/manual/make.html#Makefile-Contents
+- Reading this makefile tutorial: www.gnu.org/software/make/manual/make.html###Makefile-Contents
 
 ### Week 1(23-27/January):
 - Doing research on how to develop software packages.
@@ -171,7 +241,8 @@ rule all: <br>
 - Downloaded Trimmomatic, Sourmash, and Trinity.
 - Will upload them to Hulk.
 
-## Last semester:
+## Fall 2016:
+
 ### Week 18 and 19(5-15/December):
 - Work on the technical.
 
@@ -306,5 +377,3 @@ rule all: <br>
 - Started to research on terms of bioinformatics.
 - Read Israel’s Technical Report.
 - Read Papers assigned by Humberto Ortiz.  
-
-
