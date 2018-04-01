@@ -1,34 +1,118 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2017-12-06
+Modified: 2018-31-03
 Slug: israel
 Category: People
-Tags: de-novo research-pipeline causal-networks
+Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
 
 ## Contact info:
 
- - e-mail - <israelodilan@gmail.com>
- - Github - <https://github.com/Omig12/>
+ - Academic e-mail - <israel.dilan@upr.edu>
+ - Personal e-mail - <israelodilan@gmail.com>
+ - Github username - <https://github.com/Omig12/>
+
+# Bio(5): 
+> "War... war never changes!"  
+> \- Ron Perlman
+
+# Another weekly-ish update:
+
+#### This time around we'll be working with something a bit non-bioinformatics, this trimester (u_u) we'll be working with some cybersecurity. The project will focus on analysing the encryption and protocol for private gossip on the awesomely decent(ralized) scuttlebutt network.
+
+
+### Week 3: (26-28/Mar)
+- Studying Python program [chunk.py!](https://github.com/humberto-ortiz/ssbtraf/blob/master/chunk.py) provided by [Prof. Humberto Ortiz](https://github.com/humberto-ortiz)
+- Tried to analyze a fragment of private feed, no dice
+
+### Week 2: (19-23/Mar)
+- Reading up a lot on private box 
+- Explored around Scuttlebutt's Installation and possibly usefull files
+
+### Week 1: (12-16/Mar)
+- Reading up on scuttlebutt in general  
+- Found out about private box and encrytion hash convention used by scuttlebut
+
+----------------------------------------
 
 # Bio(4):
 
-> Guess who's back, back again
-> Shady's back, tell a friend
+> Guess who's back, back again <br>
+> Shady's back, tell a friend  <br>
+> \- Slim Shaddy
 
-- Slim Shaddy
-
-## NEW-New-new weekly weekly
+## NEW-New-new weekly weekly update:
 - Man I wanted to say that!
 
-#### During this semester we'll be working on a shared transcript discovery tool that observes the de-bruijn graph obtained from different transcripts in order to analyze differential expression based on reads from sea cucumber RNA, in order to study the parts of it's genome that are related to it's ability to regenerate some of it's tissue.
+##### During this semester we'll be working on a shared transcript discovery tool that observes the de-bruijn graph obtained from different transcripts in order to analyze differential expression based on reads from sea cucumber RNA, in order to study the parts of it's genome that are related to it's ability to regenerate some of it's tissue.
+
+
+#### *Sea Cucumber or Holothuria glaberrima Selenka*
+![Holothuria glaberrima Selenka!](http://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1471-2164-15-357/MediaObjects/12864_2014_Article_7051_Fig1_HTML.jpg)
+<h4> Image taken from BMC genomics [article](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-357)  </h4>
+
+
+### Week 14: (26-30/Feb)
+- Classes have oficially ended
+- Software and report have been disscussed, reviewed, and finalized
+
+### Week 13: (19-23/Feb)
+- Last lab meeting of this semester
+- We dicussed the technical report
+- We dicussed the final details of the modifications to the algorithm and programs
+
+### Week 12: (12-16/Feb)
+- Verified optimized algorithms
+- Discussed future directions for the software created and the research
+
+### Week 11: (5-9/Feb)
+- Discussed possible approach for future research goals
+    - Approach to comparing sequences utilizing a Differential Expression Coefficient 
+- Implemented some optimizations to algorithm (Python generators anyone)
+- Went over technical report with Kevin
+
+### Week 10: (29-2/Jan-Feb)
+- Talked about trouble with generating sample data for validation
+- Looking for possible optimizations to algorithms 
+
+### Week 9: (22-26/Jan)
+- Missed meeting due to work
+
+### Week 8: (15-19/Jan)
+- Missed meeting due to work
+
+### Week 7: (8-12/Jan)
+- Meeting suspended this week
+
+### Week 6: (1-5/Jan)
+- Meeting suspended this week
+
+### Week 5: (25-29/Dec)
+- First birthday ever spent in school such a weird feeling, thanks to everyone who took part in making it a special day.
+
+### Week 4: (18-22/Dec)
+- Branched the program for possible GFA2 adaptation
+- Dicussed possible approaches to differential expression on this software
+  - Biological significance of data vs. memory efficiency and performace (time complexity)
+  - Ease of interpretations of results
+  - Future uses of data generate, to log or to garbage collect that is the question 
+
+### Week 3: (11-15/Dec)
+- Settled on using GFA-1 format specifications for output
 
 ### Week 2: (4-8/Dec)
 - Started reading up on the Sea cucumber paper
   - [Transcriptomic changes during regeneration of
 the central nervous system in an echinoderm](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-357)
 - Started tinkering with the previously mentioned algorithm goals:
-  - Add counting methods to algorithm
+  - Add some counting methods to algorithm - WE GOT IT
   - Evaluate possibility of parallelization
+Files that will prove useful:
+  - [Gist for work in progress](https://gist.github.com/Omig12/37c000b100d67c568dd7b30e903f62a5)
+  - [GFA file format specification](https://github.com/GFA-spec/GFA-spec)
+  - [Bandage for vizualizating the de-bruijn graph](https://github.com/rrwick/Bandage/blob/master/README.md)
+  - [De-bruijn graph by pmelsted](https://pmelsted.wordpress.com/2013/11/23/naive-python-implementation-of-a-de-bruijn-graph/)
+  - [Edge cases of De-bruijn graph by pmelsted](https://pmelsted.wordpress.com/2014/01/17/edge-cases-in-de-bruijn-graphs/)
+  - [Debuggin De-bruijn graph by pmelsted](https://pmelsted.wordpress.com/2014/02/24/debugging-de-bruijn-graphs/) 
 
 ### Week 1: (27/Nov-1/Dec)
 - Had an unofficial first meeting with collaborators
