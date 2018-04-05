@@ -1,6 +1,6 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2018-31-03
+Modified: 2018-03-31
 Slug: israel
 Category: People
 Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
