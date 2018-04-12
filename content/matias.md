@@ -35,4 +35,12 @@ Tags: megaprobelab
 - To set up this module I went to wireshark went to Analyze ->Decode As...-> 
 added a new protocol with '+' button and added the following paremeters:
 Field	Value	Current
-UDP		5158	Fc00
+'UDP		5158	Fc00'
+
+### Week 9-12/April
+-Was able to capture traffic on the two interfaces: "tun0" and "enp3s0" by control clicking both interfaces when wireshark is sudo started and then hitting on the top menu "Capture" -> "Start"
+I used the following wireshark display filter:
+"frame.interface_name == tun0 or udp.port ==5158"
+to only see traffic in the network interface tun0 or see udp packets that go to the port 5158 (these are encrypted packets that are going to hulk through the physical enp3s0 interface through hyperboria). 
+
+- My next goal is to try to obtain clues about the source/destination and/or content of the hyperboria packets which are encrypted and sent inside over UDP packets, as to relate encrypted hyperboria packets to their un-encrypted version after passing through the cjdns module.
