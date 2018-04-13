@@ -37,3 +37,13 @@ Tags: TBA
  - Kali Linux: <https://www.kali.org/downloads/> 
  - Metasploitable: <https://sourceforge.net/projects/metasploitable/>
  - Configured them to run on VirtualBox
+ 
+ ## Week #4:
+- Started Explotability Guide tutorial
+- Metasploitable 2 Explotability Guide: <https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide>
+- Other tutorial links:
+-- <http://www.amanhardikar.com/mindmaps/Practice.html>
+-- <https://www.checkmarx.com/2015/04/16/15-vulnerable-sites-to-legally-practice-your-hacking-skills/>
+
+## Week #5:
+- Nothing to report
