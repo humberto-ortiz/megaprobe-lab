@@ -28,3 +28,19 @@ Tags: megaprobelab
 - Started to research on IPv6 networks.
 - Did a wireshark scan of hulk.ccom.uprrp.edu and saved the log   
 - Observed traffic from fca4:5cd6:1637:308:e167:7a08:3563:3745 (hozpi) to fcc7:e680:8435:51a2:a5bd:ac68:880e:660d (hulk.ccom.uprrp.edu). The traffic was pings every 10 seconds.
+
+### Week 4: (2-6/April)
+- Updated wireshark to version 2.4.4-1 that includes the cjdns/fc00 module to analyze hyperboria packets
+
+- To set up this module I went to wireshark went to Analyze ->Decode As...-> 
+added a new protocol with '+' button and added the following paremeters:
+Field	Value	Current
+'UDP		5158	Fc00'
+
+### Week 9-12/April
+-Was able to capture traffic on the two interfaces: "tun0" and "enp3s0" by control clicking both interfaces when wireshark is sudo started and then hitting on the top menu "Capture" -> "Start"
+I used the following wireshark display filter:
+"frame.interface_name == tun0 or udp.port ==5158"
+to only see traffic in the network interface tun0 or see udp packets that go to the port 5158 (these are encrypted packets that are going to hulk through the physical enp3s0 interface through hyperboria). 
+
+- My next goal is to try to obtain clues about the source/destination and/or content of the hyperboria packets which are encrypted and sent inside over UDP packets, as to relate encrypted hyperboria packets to their un-encrypted version after passing through the cjdns module.

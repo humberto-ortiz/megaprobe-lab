@@ -29,3 +29,21 @@ Tags: TBA
 ## Week #2:
 - Forked Megaprobe repository.
 - Made .md File
+
+ ***You have been locked in combat with the mechanical behemoth for what seems like days and minutes at the same time. It has dealt you considerable damage, and your condition starts to worsen. You clutch your spellbook, the room is in shambles, your breath ragged, yet the battle carries on...***
+ 
+ ## Week #3:
+ - Downloaded Kali Linux and Metasploitable
+ - Kali Linux: <https://www.kali.org/downloads/> 
+ - Metasploitable: <https://sourceforge.net/projects/metasploitable/>
+ - Configured them to run on VirtualBox
+ 
+ ## Week #4:
+- Started Explotability Guide tutorial
+- Metasploitable 2 Explotability Guide: <https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide>
+- Other links:
+  - <http://www.amanhardikar.com/mindmaps/Practice.html>
+  - <https://www.checkmarx.com/2015/04/16/15-vulnerable-sites-to-legally-practice-your-hacking-skills/>
+
+## Week #5:
+- Nothing to report
