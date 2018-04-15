@@ -1,24 +1,37 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2018-31-03
+Modified: 2018-03-04
 Slug: israel
 Category: People
 Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
 
 ## Contact info:
-
  - Academic e-mail - <israel.dilan@upr.edu>
  - Personal e-mail - <israelodilan@gmail.com>
  - Github username - <https://github.com/Omig12/>
 
 # Bio(5): 
-> "War... war never changes!"  
+> "War... war never changes!"
 > \- Ron Perlman
 
 # Another weekly-ish update:
 
 #### This time around we'll be working with something a bit non-bioinformatics, this trimester (u_u) we'll be working with some cybersecurity. The project will focus on analysing the encryption and protocol for private gossip on the awesomely decent(ralized) scuttlebutt network.
 
+### Week 5: (16-20/Apr)
+- Should get something meaningful graphed.
+
+### Week 5: (9-13/Apr)
+- Still wrapping my head around Fourier Transforms in the context of this research, althought it is more clearer now.
+- Should learn a lot more about Fourier Transforms.
+- Added [Reasearch.md](https://github.com/Omig12/ssbtraf/blob/master/research.md) to help clarify research goals.
+- Added [sbotcli_usage.md](https://github.com/Omig12/ssbtraf/blob/master/sbotcli_usage.md) as a guide for using sbot to navigate the gossip.
+
+### Week 4: (2-6/Apr)
+- Finally got sbot installed following [this guide](https://ssbc.github.io/docs/scuttlebot/install.html).
+  - npm is very problematic sometimes
+  - Do not remove python3 from your ubuntu box it might (probably will) break it 
+- Discussed possible implementations of [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) analysis in intended research setting. 
 
 ### Week 3: (26-28/Mar)
 - Studying Python program [chunk.py!](https://github.com/humberto-ortiz/ssbtraf/blob/master/chunk.py) provided by [Prof. Humberto Ortiz](https://github.com/humberto-ortiz)
@@ -26,10 +39,10 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
 
 ### Week 2: (19-23/Mar)
 - Reading up a lot on private box 
-- Explored around Scuttlebutt's Installation and possibly usefull files
+- Explored around Scuttlebutt's Installation and possibly useful files
 
 ### Week 1: (12-16/Mar)
-- Reading up on scuttlebutt in general  
+- Reading up on scuttlebutt in general, [ScuttleButt-Protocol Guide](https://ssbc.github.io/scuttlebutt-protocol-guide/)
 - Found out about private box and encrytion hash convention used by scuttlebut
 
 ----------------------------------------
