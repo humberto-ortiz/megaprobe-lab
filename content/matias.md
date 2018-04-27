@@ -44,3 +44,13 @@ I used the following wireshark display filter:
 to only see traffic in the network interface tun0 or see udp packets that go to the port 5158 (these are encrypted packets that are going to hulk through the physical enp3s0 interface through hyperboria). 
 
 - My next goal is to try to obtain clues about the source/destination and/or content of the hyperboria packets which are encrypted and sent inside over UDP packets, as to relate encrypted hyperboria packets to their un-encrypted version after passing through the cjdns module.
+
+### Week 23-26/April
+-Read the cjdns whitepaper (https://docs.meshwith.me/Whitepaper.html) and discovered that there are five different type of packets used by the cjdns module specialle by the "The CryptoAuth" mechanism. The five different type of packets are identified on the first 4 bytes of the packet's header: 
+1) Connect To Me - Used to start a session without knowing the other node's key | First 4 byte is bitwise complement of 0.
+2) Hello Packet - The first message in beginning a session | If it is 0, 1 or 2 bytes.
+3) Key Packet - The second message in a session | If it is 3 or 4.
+4) Data Packet - A normal traffic packet. Bigger than 4 bytes is a Data Packet if it is past the handshake phase. 
+5) Authenticated - A traffic packet with Poly1305 authentication. Bigger than 4 bytes if before the handshake phase.
+
+- Wireshark does not identify these packet bytes sequences into the five different packet types above, so my goal now is to create a program/Wireshark-extension that would be able to do so.
