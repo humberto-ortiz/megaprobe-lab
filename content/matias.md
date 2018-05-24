@@ -54,3 +54,38 @@ to only see traffic in the network interface tun0 or see udp packets that go to 
 5) Authenticated - A traffic packet with Poly1305 authentication. Bigger than 4 bytes if before the handshake phase.
 
 - Wireshark does not identify these packet bytes sequences into the five different packet types above, so my goal now is to create a program/Wireshark-extension that would be able to do so.
+
+### Week 14-17/May
+- I designed the following Tshark terminal code:
+
+sudo tshark -r /home/matias/tshark/cjdnsdown.pcapng -T fields -e frame.number -e ip.src -e ip.dst -e eth.src -e eth.dst -e frame.time -e fc00.session_state -E header=y -E separator=, -E quote=d -E occurrence=f > /home/matias/tshark/megaprobe.csv
+
+This code generates a file called megaprobe.csv (Comma Separated Value table), in which the expressions (they are indicated by the -e flag) are frame.number (the packets unique frame identifier), ip.src (source ip), ip.dst (destination ip), eth.src (source Network Card Mac Address), eth.dst (destination Network Card Mac Address), frame.time (time log), fc00.session_state (number which represents one the five Hyperboria packet types [described above], also referred to as a nuance. We ran the previous Tshark code on May 15, 2018 at 1pm AST, while we were resetting the Cjdns virtual network card "Tun0" in order to see a connection being established from scratch to hulk.ccom.uprrp.edu and represented by 'Hello Packets'. 
+This are the results we got, which was sorted by the column 'fc00.session_state':
+
+| frame.number|	ip.src	|ip.dst|	eth.src|	eth.dst|	frame.time|	fc00.session_state|
+5239	136.145.231.10	44.131.22.48	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:48.322843648 AST	0
+5240	136.145.231.10	198.58.100.240	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:48.323943443 AST	0
+5438	198.58.100.240	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:48.433078232 AST	2
+5454	44.131.22.48	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:48.529487742 AST	2
+5469	44.131.22.48	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:48.717727841 AST	3
+1	198.58.100.240	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.757444072 AST	
+2	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.757828051 AST	
+3	136.145.231.10	136.145.181.62	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:39.757861850 AST	
+4	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.757904373 AST	
+5			00:25:90:8e:b6:1c	ff:ff:ff:ff:ff:ff	May 15, 2018 13:02:39.760154001 AST	
+6	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772274059 AST	
+7	136.145.231.10	136.145.181.62	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:39.772306587 AST	
+8	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772315015 AST	
+9	136.145.231.10	136.145.181.62	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:39.772332489 AST	
+10	136.145.231.10	136.145.181.62	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:39.772365424 AST	
+11	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772377093 AST	
+12	136.145.231.10	136.145.181.62	a0:36:9f:23:e9:04	d0:c7:89:a9:48:80	May 15, 2018 13:02:39.772386619 AST	
+13	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772418334 AST	
+14	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772423995 AST	
+15	136.145.181.62	136.145.231.10	d0:c7:89:a9:48:80	a0:36:9f:23:e9:04	May 15, 2018 13:02:39.772441420 AST	
+
+We can see that we got two '0' packets which are Hello Packets; two '2' packets which are "Repeated Hello Packets"; and a Key Packet represented by the by the byte '3'. We noted that the cjdns/fc00 Wireshark module was not identifying: Data Packets, Authenticated Packets, and Connect to Me Packets with the filter fc00.session_state, but it did identify them with another separate filter called fc00.session_nonce after we questioned where the rest of the unidentified packets where.
+
+### Week 21-24/May
+- Discusssed with Dr. Humberto Ortiz new future ideas for the lab research. Since the cjdns/fc00 module identified all the Hyperboria packets with a nuance and only some with their name, we thought about modifying my previous Tshark script which uses the given Wireshark-field called "fc00.session_state" to generate the .csv files -- to not use this and rather use the byte locations of the nuance in a packet which is always in a fixed offset (from the Hyperboria Whitepaper and observed on the previous results). To do this I would utilize Python (probably with the 'Scapy' packet manipulation module) to check these given offsets at each given packet, in order to identify the nuance bytes in an automated way and being able to further customize what we can do with these results (Wireshark does no support this); e.g. pass it to another Python program or HTML webserver, in which we could do further operations on the data. Additionally, this Python program would work on any version of Wireshark as it would read the packets directly from the pcapng file as RAW data.
