@@ -1,5 +1,5 @@
 Title: Roberto C. López-Rivera
-Date: 2019-25-01
+Date: 2019-01-25
 Category: People
 Tags: DNA-seq, bioinformatics, diff-hash
   
@@ -16,12 +16,13 @@ doing research with Humberto. This will be edited later on when I have cool thin
 + I'm trying to find what I want to do with my life, so I'm always open to new ideas. 
 + If you see me in person you will probably see me smiling, at this point it's not even that I'm happy it's just muscle memory.
 + If you need help with anything you can ask me and we will both google the solution. 
++ Friends call me Gibby.
 
 ## Contact Info 
 
-phone: (787) 718-2752
-e-mail: <paola.figueroa2@upr.edu> | alt: <paolafigueroadelgado@gmail.com>  
-github: <https://github.com/paolavfigueroa>  
+phone: (787) 249-5940
+e-mail: <roberto.lopez16@upr.edu> | alt: <rclr0325@gmail.com>  
+github: <https://github.com/RLopez18>  
   
 ## Research Goals
 
@@ -29,4 +30,4 @@ github: <https://github.com/paolavfigueroa>
   
   
 ## Status  
-**2019.25.01** Reading scientific journals for reference.
+**2019.01.25** Reading scientific journals for reference.
