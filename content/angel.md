@@ -1,18 +1,18 @@
 Title:Angel A. Sanquiche Sanchez
 Date: 2016/08/25
 Category:People
-Tags:de-novo
+Tags:de-novo diffhash pepino erizo
 
 # Bio:
 
 - I'm a computer science student at the University of Puerto Rico Rio Piedras campus. As far as my programing skills are concerened I'm by no means an expert but at the very least I can say I can defend my self. I'm also a quiet person when in a conversation I'm not intricately knowledgeable about, but when I am I can speak volumes about it.
 
-##Contact info:
+## Contact info:
 
 - email - <angelsan720@gmail.com>
 - github - <https://github.com/Angelsan720>
 
-#Research Goals:
+# Research Goals:
 
 - Learn things in general.
 - Comprehend what bioinformatics are.
@@ -20,6 +20,14 @@ Tags:de-novo
 - Expand my repitoir of skills in any way really.
 
 ## Weekly Updates:
+
+## Spring 2018
+
+### Week 2:(21/01/19)-(25/01/19)
+- I'm no longer a total stranger to julia and the project isn't too complexicated. Goals for next week is to make sure the code runs to completion and then generalize and paralelize the code.
+
+### Week 1:(14/01/19)-(18/01/19)
+- I'll be working of diffhash https://github.com/humberto-ortiz/diffhash seems to be a very interesting peice of code. According to the proffesor the main its interesting is that its written in julia and, according to Humberto, since julia 1.0 came out not long ago this is the perfect chance to try it out.
 
 ## Spring 2017
 
