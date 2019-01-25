@@ -21,6 +21,16 @@ Tags:de-novo
 
 ## Weekly Updates:
 
+
+
+## Spring 2018
+
+### Week 2:(21/01/19)-(25/01/19)
+- I'm no longer a total stranger to julia and the project isn't too complexicated. Goals for next week is to make sure the code runs to completion and then generalize and paralelize the code.
+
+### Week 1:(14/01/19)-(18/01/19)
+- I'll be working of diffhash https://github.com/humberto-ortiz/diffhash seems to be a very interesting peice of code. According to the proffesor the main its interesting is that its written in julia and, according to Humberto, since julia 1.0 came out not long ago this is the perfect chance to try it out.
+
 ## Spring 2017
 
 ### Week 11:(07/04/17)-(14/04/17)
