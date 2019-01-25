@@ -3,7 +3,7 @@ Date: 2019-1-25
 Category: People
 Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus, Salmon, Differential Expression, Sea Cucumber, Kallisto, transcriptome, segmentation, yanagi, splicing, differential gene-level expression
 
-# Biography :memo 
+# Biography :memo:
 My name is Walter Báez Laguna and I'm currently an undergraduate student at the University of Puerto Rico, Río Piedras Campus. 
 I major in Computer Sciences and I'm also a former cheerleader for the UPRRP Cheerleading Team. My goal for this semester is to finsih my classes so I can graduate this year. (づ｡◕‿‿◕｡)づ 
 
