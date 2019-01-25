@@ -7,25 +7,25 @@ Tags: coffee, naps
 
 #Bio:
 
-  -Likes to nap.
-  -Gamer, from tabletop games to videogames.
-  -Learning the ways of Cybersecurity, taking naps in between.
-  -Coffee is life
+  - Likes to nap.
+  - Gamer, from tabletop games to videogames.
+  - Learning the ways of Cybersecurity, taking naps in between.
+  - Coffee is life
   
 #Contact info:
 
-  -email: <hcamacho94@gmail.com>
+  - email: <hcamacho94@gmail.com>
   
 #Research goals:
 
-  -Monitor network flows and use machine learning to detect cyber attacks
-  -Learn techniques to better monitor networks
-  -Learn machine learning techniques
+  - Monitor network flows and use machine learning to detect cyber attacks
+  - Learn techniques to better monitor networks
+  - Learn machine learning techniques
 
 #Weekly report:
 
 ##Week 1:
 
-  -Introduced to Megaprobe lab
-  -Learned the git jargon and made profile in Megaprobe
-  -Cleared up my doubts about my research goals
+  - Introduced to Megaprobe lab
+  - Learned the git jargon and made profile in Megaprobe
+  - Cleared up my doubts about my research goals
