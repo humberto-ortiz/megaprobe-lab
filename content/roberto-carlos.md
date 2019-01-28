@@ -29,4 +29,4 @@ github: <https://github.com/RLopez18>
   
   
 ## Status  
-**2019.25.01** Reading scientific journals for reference.
+**2019.28.01** Reading scientific journals for my lab meeting presentation feb 22,2019
