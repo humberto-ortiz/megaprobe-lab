@@ -1,5 +1,5 @@
 Title: Roberto C. López-Rivera
-Date: 2019-25-01
+Date: 2019-01-25
 Category: People
 Tags: DNA-seq, bioinformatics, diff-hash
   
