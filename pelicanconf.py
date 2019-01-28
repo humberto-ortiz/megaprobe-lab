@@ -41,7 +41,13 @@ BOOTSTRAP_NAVBAR_INVERSE = True
 CC_LICENSE = "CC-BY-SA"
 
 # Plugins, especially for IPython notebooks and mathjax
-PLUGIN_PATH = "../pelican-plugins"
+PLUGIN_PATHS = ["../pelican-plugins"]
 
 ## bootswatch-markdown applies table class to tables (much nicer)
-PLUGINS = ["bootswatch_markdown_css"]
+PLUGINS = ["bootswatch_markdown_css", 'i18n_subsites']
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
+DISPLAY_PAGES_ON_MENU = True
