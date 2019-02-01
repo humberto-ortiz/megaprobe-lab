@@ -14,8 +14,9 @@ journal club presentations for this semester.
 |------|--------|-------|
 | Feb 1 | Walter Baez | Yanagi |
 | Feb 8 | Angel Sanquiche | Axolotl |
-| Feb 15 | ??? | Oshlack |
+| Feb 15 | Louis Gil | Oshlack |
 | Feb 22 | Roberto Lopez | Streams |
+| Mar 1 | Israel Dilan | Next-gen Sequence Assembly |
 
 # Papers
 
@@ -41,3 +42,6 @@ Streams
 : Zhang Q, Awad S, Brown CT. 2015. Crossing the streams: a framework
 for streaming analysis of short DNA sequencing reads. PeerJ PrePrints
 3:e890v1 https://doi.org/10.7287/peerj.preprints.890v1
+
+Next-Generation Sequence Assembly
+: El-Metwally S, Hamza T, Zakaria M, Helmy M (2013) Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges. PLoS Comput Biol 9(12): e1003345. https://doi.org/10.1371/journal.pcbi.1003345
