@@ -12,11 +12,11 @@ journal club presentations for this semester.
 
 | Date | Person | Paper |
 |------|--------|-------|
-| Feb 1 | Walter Baez | Yanagi |
 | Feb 8 | Angel Sanquiche | Axolotl |
 | Feb 15 | Louis Gil | Oshlack |
 | Feb 22 | Roberto Lopez | Streams |
 | Mar 1 | Israel Dilan | Next-gen Sequence Assembly |
+| Mar 8 | Walter Baez | Yanagi |
 
 # Papers
 
