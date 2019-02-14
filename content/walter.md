@@ -3,7 +3,7 @@ Date: 2019-1-25
 Category: People
 Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus, Salmon, Differential Expression, Sea Cucumber, Kallisto, transcriptome, segmentation, yanagi, splicing, differential gene-level expression
 
-# Biography :memo 
+# Biography :memo: 
 My name is Walter Báez Laguna and I'm currently an undergraduate student at the University of Puerto Rico, Río Piedras Campus. 
 I major in Computer Sciences and I'm also a former cheerleader for the UPRRP Cheerleading Team. My goal for this semester is to finsih my classes so I can graduate this year. (づ｡◕‿‿◕｡)づ 
 
@@ -70,7 +70,14 @@ github: https://github.com/Hallech
 # Weekly Updates :date:
 
 ## Research 3 (Spring 2019):
-
+### Week 3 & 4 (January 26, 2019 to February 9, 2019)
+- During this time I got sick so I got behind in my classes schedule. I had a lot of projects
+  and homework to turn in so I did not get much time to work in the research. 
+- I have the two papers I'm going to start reading in order to design the project I'll be working 
+  on.
+- Next week I'll sit with my mentor and discuss how to start and what is the approach of the new
+  research, of course after reading the papers that will give me the background. 
+  
 ### Week 1 & 2 (January 14, 2019 to January 25, 2019) :clock1:
 - After a while out of the research enviroment I'm coming back again to research how to eleminate
   false positive after running a sequence of differential expressions using kmers. 
