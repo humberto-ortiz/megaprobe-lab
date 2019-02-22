@@ -13,15 +13,13 @@ journal club presentations for this semester.
 | Date | Person | Paper |
 |------|--------|-------|
 | Feb 8 | Angel Sanquiche | Axolotl |
-| Feb 15 | Louis Gil | Oshlack |
-| Feb 22 | Roberto Lopez | Streams |
+| Feb 15 | | *cancelled* |
+| Feb 22 | Louis Gil / Roberto Lopez | Oshlack / Streams |
 | Mar 1 | Israel Dilan | Next-gen Sequence Assembly |
-| Mar 8 | Walter Baez | Yanagi |
-| Mar 15 | ?? | Kmers |
-| Mar 22 | ?? | Kevlar |
-| Mar 29 | ?? | order min hash |
-| Apr 5 | ?? | mapping |
-| Apr 12 | Heriberto | subspace |
+| Mar 8 | Walter Baez | kalisto / Yanagi |
+| Mar 15 | ?? / ?? | Kmers / Kevlar |
+| Mar 22 | ?? / ?? | OMH / mapping |
+| Mar 29 | Heriberto | subspace |
 
 # Papers
 
