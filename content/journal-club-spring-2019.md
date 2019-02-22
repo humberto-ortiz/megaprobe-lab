@@ -17,6 +17,10 @@ journal club presentations for this semester.
 | Feb 22 | Roberto Lopez | Streams |
 | Mar 1 | Israel Dilan | Next-gen Sequence Assembly |
 | Mar 8 | Walter Baez | Yanagi |
+| Mar 15 | ?? | Kmers |
+| Mar 22 | ?? | Kevlar |
+| Mar 29 | ?? | order min hash |
+| Apr 5 | ?? | mapping |
 
 # Papers
 
@@ -45,3 +49,24 @@ for streaming analysis of short DNA sequencing reads. PeerJ PrePrints
 
 Next-Generation Sequence Assembly
 : El-Metwally S, Hamza T, Zakaria M, Helmy M (2013) Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges. PLoS Comput Biol 9(12): e1003345. <https://doi.org/10.1371/journal.pcbi.1003345>
+
+Kevlar
+:  Kevlar: a mapping-free framework for accurate discovery of de novo variants
+Daniel S Standage, C Titus Brown, Fereydoun Hormozdiari
+bioRxiv 549154; doi: <https://doi.org/10.1101/549154>
+
+kmers
+: Zhang, Q., Pell, J., Canino-Koning, R., Howe, A. C., & Brown,
+C. T. (2014). These are not the k-mers you are looking for: efficient
+online k-mer counting using a probabilistic data structure. PloS one,
+9(7), e101271. <https://doi.org/10.1371/journal.pone.0101271>
+
+mapping
+: Rahman, A., Hallgrímsdóttir, I., Eisen, M., & Pachter,
+L. (2018). Association mapping from sequencing reads using
+k-mers. eLife, 7, e32920 <https://dx.doi.org/10.7554%2FeLife.32920>
+
+order min hash
+:  Locality sensitive hashing for the edit distance
+Guillaume Marcais, Dan DeBlasio, Prashant Pandey, Carl Kingsford
+bioRxiv 534446; doi: <https://doi.org/10.1101/534446> 
