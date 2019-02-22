@@ -21,6 +21,7 @@ journal club presentations for this semester.
 | Mar 22 | ?? | Kevlar |
 | Mar 29 | ?? | order min hash |
 | Apr 5 | ?? | mapping |
+| Apr 12 | Heriberto | subspace |
 
 # Papers
 
@@ -70,3 +71,9 @@ order min hash
 :  Locality sensitive hashing for the edit distance
 Guillaume Marcais, Dan DeBlasio, Prashant Pandey, Carl Kingsford
 bioRxiv 534446; doi: <https://doi.org/10.1101/534446> 
+
+subspace
+: Lakhina, Anukool, Mark Crovella, and Christiphe
+Diot. "Characterization of network-wide anomalies in traffic flows."
+Proceedings of the 4th ACM SIGCOMM conference on Internet
+measurement. ACM, 2004. <https://doi.org/10.1145/1028788.1028813>
