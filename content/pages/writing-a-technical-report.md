@@ -36,7 +36,7 @@ A technical report should at a minimum contain the following:
 
 ## Veteran students
 
-If you have decent results, emphasize your new results, the mefhods
+If you have decent results, emphasize your new results, the methods
 you used, and enough introduction to comprehend the methods and
 results.
 

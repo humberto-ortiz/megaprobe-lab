@@ -23,6 +23,15 @@ Tags:de-novo diffhash pepino erizo
 
 ## Spring 2018
 
+### Week 4:(04/02/19)-(08/02/19)
+- I merged showhash and diffhash since they are meant to run concurrently. This reduces the sample run time significantly since the biosequences package is only loaded once.
+- Next weeks goal is to add filter-reads to the execution line and run with our non trivial test data at the machine in the lab
+
+### Week 3:(25/01/19)-(01/02/19)
+- I'm continuing reading up on julia and testing it out. IMO julia is still a bit undercooked but it still seems fun.
+- I've set up a development branch for the code to push independant of the original origin branch.
+- The code runs to comletion independant of one another.
+
 ### Week 2:(21/01/19)-(25/01/19)
 - I'm no longer a total stranger to julia and the project isn't too complexicated. Goals for next week is to make sure the code runs to completion and then generalize and paralelize the code.
 

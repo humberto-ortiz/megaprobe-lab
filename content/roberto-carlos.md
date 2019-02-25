@@ -1,5 +1,5 @@
 Title: Roberto C. López-Rivera
-Date: 2019-25-01
+Date: 2019-01-25
 Category: People
 Tags: DNA-seq, bioinformatics, diff-hash
   
@@ -29,4 +29,4 @@ github: <https://github.com/RLopez18>
   
   
 ## Status  
-**2019.25.01** Reading scientific journals for reference.
+**2019.28.01** Reading scientific journals for my lab meeting presentation feb 22,2019
