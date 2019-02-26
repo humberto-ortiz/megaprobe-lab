@@ -71,6 +71,15 @@ github: https://github.com/Hallech
 # Weekly Updates :date:
 
 ## Research 3 (Spring 2019):
+
+### Week 5 & 6 (February 10, 2019 to February 23, 2019)
+- After reading the papers I have a bit of more knowledge and the idea of how to start working
+  with the research. Yanagi is a very extensive paper, I still have some doubts on how it works
+   exactly.
+- I need to have a meeting with my mentor to design the work I'll be doing in the next few weeks.
+- It's been a while since I worked in a bioinformatics research so I'm a bit lost again, I remember
+  lots of things but some concepts are a bit confusing. 
+
 ### Week 3 & 4 (January 26, 2019 to February 9, 2019)
 - During this time I got sick so I got behind in my classes schedule. I had a lot of projects
   and homework to turn in so I did not get much time to work in the research. 
