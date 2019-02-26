@@ -1,24 +1,79 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2018-03-31
+Modified: 2019-02-26
 Slug: israel
 Category: People
-Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
+Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomics genomics
 
 ## Contact info:
-
  - Academic e-mail - <israel.dilan@upr.edu>
  - Personal e-mail - <israelodilan@gmail.com>
  - Github username - <https://github.com/Omig12/>
+ - Linked-in - <https://www.linkedin.com/in/israel-o-dilán-pantojas-77042096>
+
+# Bio(6): 
+> "Motivational note. Craig McGill crash-landed in the acid swamps of Boreal 9, fought off arachnid kidney-poachers, and hijacked a tame starwhal. If he can do all that, you can survive one more day."
+> \- Subnautica PDA
+
+# Another another weekly-ish update:
+
+##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
+
+### Week 7: (25-01/Feb)
+- Journal Presentationa due this week, i'm pretty excited to show you guys what i've been reading up on. The paper I will be presenting on is the following: [Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003345)
+
+### Week 6: (18-22/Feb)
+- Topics in Biology: Big Data to Biology - First research sprint is due could not work on research this week.  
+
+### Week 5: (11-15/Feb)
+- Fixed the ViewSonic Secondary display in the lab. :)
+- Started Reading the paper I was assigned for the journal club.
+
+### Week 4: (4-8/Feb)
+- Behind on Compilers Class Lexer assingment must catch up ot it, no research done this week.
+
+### Week 3: (28-01/Jan-Feb)
+- Performed a search for possible papers to present during journal club
+
+### Week 2: (21-25/Jan)
+- Disscused Possible reasearch topics
+- Possible Pojects:
+  + De-nove Genome Assembly of Sea Cuecumber
+  + Genomic Sequencing pipeline development
+  + Butterfly multiple data integration software approach:
+    + Gene expresion, RNA-Seq, Chip-Seq & Transcription Factors
+
+### Week 1: (14-18/Jan)
+- Joined Megraprobe
+
+----------------------------------------
+
 
 # Bio(5): 
-> "War... war never changes!"  
+> "War... war never changes!"
 > \- Ron Perlman
 
 # Another weekly-ish update:
 
 #### This time around we'll be working with something a bit non-bioinformatics, this trimester (u_u) we'll be working with some cybersecurity. The project will focus on analysing the encryption and protocol for private gossip on the awesomely decent(ralized) scuttlebutt network.
 
+### Week 7: (23-08/Jun)
+- Due to unforeseen and undue events I made the hard decision of discontinuing my attempt of researching this trimester.
+
+### Week 6: (16-20/Apr)
+- Should get something meaningful graphed.
+
+### Week 5: (9-13/Apr)
+- Still wrapping my head around Fourier Transforms in the context of this research, althought it is more clearer now.
+- Should learn a lot more about Fourier Transforms.
+- Added [Reasearch.md](https://github.com/Omig12/ssbtraf/blob/master/research.md) to help clarify research goals.
+- Added [sbotcli_usage.md](https://github.com/Omig12/ssbtraf/blob/master/sbotcli_usage.md) as a guide for using sbot to navigate the gossip.
+
+### Week 4: (2-6/Apr)
+- Finally got sbot installed following [this guide](https://ssbc.github.io/docs/scuttlebot/install.html).
+  - npm is very problematic sometimes
+  - Do not remove python3 from your ubuntu box it might (probably will) break it 
+- Discussed possible implementations of [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) analysis in intended research setting. 
 
 ### Week 3: (26-28/Mar)
 - Studying Python program [chunk.py!](https://github.com/humberto-ortiz/ssbtraf/blob/master/chunk.py) provided by [Prof. Humberto Ortiz](https://github.com/humberto-ortiz)
@@ -26,10 +81,10 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
 
 ### Week 2: (19-23/Mar)
 - Reading up a lot on private box 
-- Explored around Scuttlebutt's Installation and possibly usefull files
+- Explored around Scuttlebutt's Installation and possibly useful files
 
 ### Week 1: (12-16/Mar)
-- Reading up on scuttlebutt in general  
+- Reading up on scuttlebutt in general, [ScuttleButt-Protocol Guide](https://ssbc.github.io/scuttlebutt-protocol-guide/)
 - Found out about private box and encrytion hash convention used by scuttlebut
 
 ----------------------------------------
