@@ -1,13 +1,12 @@
 Title: Walter Báez Laguna
-Date: 2016-09-02
+Date: 2019-1-25
 Category: People
-Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus, Salmon, Differential Expression, Sea Cucumber
+Tags: Stacks, RADSeq, Bio Research, Red Snappers, lutjanus, Salmon, Differential Expression, Sea Cucumber, Kallisto, transcriptome, segmentation, yanagi, splicing, differential gene-level expression
 
 # Biography :memo:
-Konichiwa! My name is Walter Báez Laguna and I'm currently an undergraduate student at the University of Puerto Rico, Río Piedras Campus. 
-I major in Computer Sciences and also cheer for the Cheerleading Team at the Campus. My short term goal is to finsih my career with the
-neccesary tools and accomplishments to suffice my future company or corporation. Currently, I'm still quite a novice but I'm working
-to change that with the learning experience I get from my classes and my new investigation using Stack to find SNPs in RADSeq. (づ｡◕‿‿◕｡)づ 
+
+My name is Walter Báez Laguna and I'm currently an undergraduate student at the University of Puerto Rico, Río Piedras Campus. 
+I major in Computer Sciences and I'm also a former cheerleader for the UPRRP Cheerleading Team. My goal for this semester is to finsih my classes so I can graduate this year. (づ｡◕‿‿◕｡)づ 
 
 ## Hobbies :space_invader:
 - I love video games! All different kinds, from MOBAs to Shooters, RPGs and MMOs, everything honestly. :video_game:
@@ -15,7 +14,7 @@ to change that with the learning experience I get from my classes and my new inv
 - Sleep and eating should count as hobbies. :pizza:
 - Some sports are fun to do like swimming, volleyball and of course Cheerleading. :swimmer:
 - Science Fiction and Fantasy books are life to me :books:
-- Last but not least spend some time browsing the internet finding new projects and interesting codes. :ghost:
+- Last, but not least spend some time browsing the internet finding new projects and interesting codes. :ghost:
 
 # Contact Info :black_nib:
 email: walter.baez1@upr.edu | alt: baez.laguna@gmail.com
@@ -23,48 +22,109 @@ email: walter.baez1@upr.edu | alt: baez.laguna@gmail.com
 github: https://github.com/Hallech
 
 # Research Goals :microscope:
+
+## Research 3
+
+- Learn Kallisto and Yanagi.
+- Be able to find and eleminate the false positives. 
+- More goals will come as I get more familiar with the topics. 
+
+-------------------------------------------------------------------------------------------
+## Research 2
+
 - Have a nice group dynamic and work everything well.
 - Actually proccess some useful data.
 - Learn Salmon and how to use edgeR.
+
 -------------------------------------------------------------------------------------------
+## Research 1
+
 - Learn more about Stack and how to use it properly.
 - Understand more about RADSeq data.
 - Have a successful outcome out of the research. 
 - Produce a relevant denovo_map to conclude the genomic comparison. 
 
+-------------------------------------------------------------------------------------------
+
 # Research Description :open_file_folder:
+
+## Research 3
+
+- Awaiting Design.
+
+-------------------------------------------------------------------------------------------
+## Research 2
+
 - I'm working on a new a project with David Ortiz focused on differential expression. 
 - We are going to be using the tools Salmon and edgeR for this project.
 - The data we are working on is from the Sea Cucumber.
--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+## Research 1
+
 - Use Stack to analyze RADSeq data to find SNPs across the Species Red Snappers.
 - Conlude if lutjanus campechanus or purpureus are different species or the same one.
 - Make Stack's pipeline work for once.
 
+--------------------------------------------------------------------------------------------
+
 # Weekly Updates :date:
-## This Semester (Spring  2017):
+
+## Research 3 (Spring 2019):
+
+### Week 5 & 6 (February 10, 2019 to February 23, 2019)
+- After reading the papers I have a bit of more knowledge and the idea of how to start working
+  with the research. Yanagi is a very extensive paper, I still have some doubts on how it works
+   exactly.
+- I need to have a meeting with my mentor to design the work I'll be doing in the next few weeks.
+- It's been a while since I worked in a bioinformatics research so I'm a bit lost again, I remember
+  lots of things but some concepts are a bit confusing. 
+
+### Week 3 & 4 (January 26, 2019 to February 9, 2019)
+- During this time I got sick so I got behind in my classes schedule. I had a lot of projects
+  and homework to turn in so I did not get much time to work in the research. 
+- I have the two papers I'm going to start reading in order to design the project I'll be working 
+  on.
+- Next week I'll sit with my mentor and discuss how to start and what is the approach of the new
+  research, of course after reading the papers that will give me the background. 
+  
+### Week 1 & 2 (January 14, 2019 to January 25, 2019) :clock1:
+- After a while out of the research enviroment I'm coming back again to research how to eleminate
+  false positive after running a sequence of differential expressions using kmers. 
+- For the upcoming weeks I'll be reading the two papers assigned to this topics (Kallisto and the 
+  paper by Hector Corrada).
+- Once the readings are done the next step will be trying to see how to approach the problem using 
+  the techniques my lab is using.
+
+--------------------------------------------------------------------------------------------
+
+## Reserch 2 (Spring  2017):
+
+### Week 7 & 8 (March 10, 2017 to March 22, 2017) :clock1:
+- I was told to work on a script for Salmon. It has to build the index so we can run the matching progess
+  afterwards. 
+- I also added the matching script right after the index one to speed up the proccess. 
+
+### Week 5 & 6 (February 24, 2017 to March 10, 2017) :clock1:
+- My partner was working with the data on Trinity while I was waiting for whatever he needed me to work on.
+- I was told to search the web for a way to make an enviroment available to everyone with the kmer tools and
+  any other tools we would need. 
+
+### Week 3 & 4 (February 10, 2017 to Febraury 24, 2017) :clock1:
+- During these weeks I tried to do a full pipeline to run all the steps on Titus workshop from one
+  bash script.
+- We needed all the kmer tools installed in an enviroment and my partnert was working on that.
+
 ### Week 1 & 2 (January 30, 2017 to February 10, 2017) :clock1:
 - I'm going to begin working on a new a project with David Ortiz focused on differential expression. 
 - We are going to be using the tools Salmon and edgeR for this project.
 - The first thing we did was go through the Titus Quantification and Differential Expression of RNAseq
   workshop: http://2016-aug-nonmodel-rnaseq.readthedocs.io/en/latest/quantification.html
   
-### Week 1 & 2 (March 10, 2017 to March 22, 2017) :clock1:
-- I was told to work on a script for Salmon. It has to build the index so we can run the matching progess
-  afterwards. 
-- I also added the matching script right after the index one to speed up the proccess. 
+--------------------------------------------------------------------------------------------
 
-### Week 1 & 2 (February 24, 2017 to March 10, 2017) :clock1:
-- My partner was working with the data on Trinity while I was waiting for whatever he needed me to work on.
-- I was told to search the web for a way to make an enviroment available to everyone with the kmer tools and
-  any other tools we would need. 
+## Research 1 (Fall 2016):
 
-### Week 1 & 2 (February 10, 2017 to Febraury 24, 2017) :clock1:
-- During these weeks I tried to do a full pipeline to run all the steps on Titus workshop from one
-  bash script.
-- We needed all the kmer tools installed in an enviroment and my partnert was working on that.
-
-## Last Semester (Fall 2016):
 ### Week 16 (December 9, 2016 to December 16, 2016) :clock1:
 - The VM is still not set up and we are stuck once again.
 

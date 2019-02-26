@@ -1,14 +1,53 @@
 Title: Israel O. Dilán Pantojas
 Date: 2016-01-22
-Modified: 2018-03-04
+Modified: 2019-02-26
 Slug: israel
 Category: People
-Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
+Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomics genomics
 
 ## Contact info:
  - Academic e-mail - <israel.dilan@upr.edu>
  - Personal e-mail - <israelodilan@gmail.com>
  - Github username - <https://github.com/Omig12/>
+ - Linked-in - <https://www.linkedin.com/in/israel-o-dilán-pantojas-77042096>
+
+# Bio(6): 
+> "Motivational note. Craig McGill crash-landed in the acid swamps of Boreal 9, fought off arachnid kidney-poachers, and hijacked a tame starwhal. If he can do all that, you can survive one more day."
+> \- Subnautica PDA
+
+# Another another weekly-ish update:
+
+##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
+
+### Week 7: (25-01/Feb)
+- Journal Presentationa due this week, i'm pretty excited to show you guys what i've been reading up on. The paper I will be presenting on is the following: [Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003345)
+
+### Week 6: (18-22/Feb)
+- Topics in Biology: Big Data to Biology - First research sprint is due could not work on research this week.  
+
+### Week 5: (11-15/Feb)
+- Fixed the ViewSonic Secondary display in the lab. :)
+- Started Reading the paper I was assigned for the journal club.
+
+### Week 4: (4-8/Feb)
+- Behind on Compilers Class Lexer assingment must catch up ot it, no research done this week.
+
+### Week 3: (28-01/Jan-Feb)
+- Performed a search for possible papers to present during journal club
+
+### Week 2: (21-25/Jan)
+- Disscused Possible reasearch topics
+- Possible Pojects:
+  + De-nove Genome Assembly of Sea Cuecumber
+  + Genomic Sequencing pipeline development
+  + Butterfly multiple data integration software approach:
+    + Gene expresion, RNA-Seq, Chip-Seq & Transcription Factors
+
+### Week 1: (14-18/Jan)
+- Joined Megraprobe
+
+----------------------------------------
+
 
 # Bio(5): 
 > "War... war never changes!"
@@ -18,7 +57,10 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt
 
 #### This time around we'll be working with something a bit non-bioinformatics, this trimester (u_u) we'll be working with some cybersecurity. The project will focus on analysing the encryption and protocol for private gossip on the awesomely decent(ralized) scuttlebutt network.
 
-### Week 5: (16-20/Apr)
+### Week 7: (23-08/Jun)
+- Due to unforeseen and undue events I made the hard decision of discontinuing my attempt of researching this trimester.
+
+### Week 6: (16-20/Apr)
 - Should get something meaningful graphed.
 
 ### Week 5: (9-13/Apr)
