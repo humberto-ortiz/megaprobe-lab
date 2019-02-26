@@ -12,14 +12,13 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
  - Linked-in - <https://www.linkedin.com/in/israel-o-dilán-pantojas-77042096>
 
 # Bio(6): 
-> "Motivational note. Craig McGill crash-landed in the acid swamps of Boreal 9, fought off arachnid kidney-poachers, and hijacked a tame starwhal. If he can do all that, you can survive one more day."
-> \- Subnautica PDA
+> "Motivational note. Craig McGill crash-landed in the acid swamps of Boreal 9, fought off arachnid kidney-poachers, and hijacked a tame starwhal. If he can do all that, you can survive one more day." \- Subnautica PDA
 
 # Another another weekly-ish update:
 
 ##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
 
-### Week 7: (25-01/Feb)
+### Week 7: (25-01/Feb-Mar)
 - Journal Presentationa due this week, i'm pretty excited to show you guys what i've been reading up on. The paper I will be presenting on is the following: [Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003345)
 
 ### Week 6: (18-22/Feb)
@@ -41,7 +40,7 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
   + De-nove Genome Assembly of Sea Cuecumber
   + Genomic Sequencing pipeline development
   + Butterfly multiple data integration software approach:
-    + Gene expresion, RNA-Seq, Chip-Seq & Transcription Factors
+    * Gene expresion, RNA-Seq, Chip-Seq & Transcription Factors
 
 ### Week 1: (14-18/Jan)
 - Joined Megraprobe
