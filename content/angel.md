@@ -5,23 +5,40 @@ Tags:de-novo diffhash pepino erizo
 
 # Bio:
 
-- I'm a computer science student at the University of Puerto Rico Rio Piedras campus. As far as my programing skills are concerened I'm by no means an expert but at the very least I can say I can defend my self. I'm also a quiet person when in a conversation I'm not intricately knowledgeable about, but when I am I can speak volumes about it.
+- I'm a computer science student at the University of Puerto Rico Rio Piedras campus. As far as my programing skills are concerened I'm by no means an expert but at the very least I can say I can defend my self. I'm also a quiet person when in a conversation I'm not intricately knowledgeable about, but when I am I can speak volumes about it. Recently i've noticed I bite more than I can chew at times but I see those bites as a challange to edge out a win.
 
 ## Contact info:
 
 - email - <angelsan720@gmail.com>
+- institution email <angel.sanquiche@upr.com>
 - github - <https://github.com/Angelsan720>
 
 # Research Goals:
 
 - Learn things in general.
-- Comprehend what bioinformatics are.
-- By the time the semester is over, be able mto say I'm not wholly confused.
+- ~~Comprehend what bioinformatics are.~~ Learn more about bioinformatics (specially the bio part).
+- Read up some explanatory papers in my free time
+- Use free time to figure out how to get more free time.
+- ~~By the time the semester is over, be able mto say I'm not wholly confused.~~ I'm only partially confused now.
 - Expand my repitoir of skills in any way really.
 
 ## Weekly Updates:
 
-## Spring 2018
+## Spring 2019
+
+### Week 6:(18/02/19)-(22/02/19)
+- Too busy studying for statistics and doing the statistics proyect.
+
+### Week 6:(18/02/19)-(22/02/19)
+- Finished the patchwork run on the non-trivial data.
+- Wrapped the code to run in sequence.
+- Initial results show a size reduction of an order of magnitud when switching between the any filter and the all filter.
+- Next goal clean up the code formalize a benchmark and parralelize.
+
+### Week 5:(11/02/19)-(15/02/19)
+- Started to rewrite diffhash to utilize a dataframe because its apparently usefull.
+- I'm starting to believe the meme posted on the lab door about code working when the proffesor is in proximity of the terminal. I copied the same block of text from stackoverflow
+- Further testing will be pushed to next week. Stuff happened.
 
 ### Week 4:(04/02/19)-(08/02/19)
 - I merged showhash and diffhash since they are meant to run concurrently. This reduces the sample run time significantly since the biosequences package is only loaded once.
