@@ -1,9 +1,9 @@
 Title: Louis F. Gil Acevedo 
 Date: 12-13-2017
-Modified: 2-19-2017
+Modified: 3-1-2019
 Slug: louis
 Category: People
-Tags: de-novo de-bruijn
+Tags: Cancer diff-hash de-novo de-bruijn
 
 ## Contact info:
 
@@ -13,30 +13,55 @@ Tags: de-novo de-bruijn
 # Bio:
 Hi Im Louis Im a Computer Science undergraduate student. Im interested in the beautiful merger of computer science and biology. It all started with [the fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number).
 
-> Insert Quotes here
+> Insert Quotes here Please!!!
 
 
 # Weekly Updates
 
+## Predicting cancer outcome using kmer differential expression
+
+###
+
+
+### Week 7 (25-1/Feb)
+-Very intensive test and project week no progress
+
+### Week 6 (18-22/Feb)
+-Recieved response from titus & contacted me with Sasha from the Personal Genome Proyect. I now have [data](https://my.pgp-hms.org/profile/huDCD45D).
+
+### Week 5 (11-15/Feb)
+-Prepare power point for presentation/Review of "Fast and accurate differential transcript usage by testing equivalence class counts"
+
+-Ask Titus if he knows of any publicly available human cancer raw data (Tumor & Germline)
+
+-Learn to use Deseq2
+
+### Week 3 (28-1/Jan)
+-Ran diff-hash on defaulf
+
+### Week 1&2 (14-25/Jan)
+-Establish what to do researsh on and read papers to back in shape
+
+-Try to find publicly available raw fastq's of cancer patients
+
+-Ir al workshop de Hector Corrada
 
 ### During this semester we'll be working on a shared transcript discovery tool that creates a de-bruijn graph from different transcripts in order to analyze differential expression.
-
+___
 ###
-
-###
-### Week 9:
+### Week 9 (14-19/Feb):
 -Modifing the diferential expresion formula. Found to many outliars that the original formula was going to miss and miss repeent hence not only false negatives but false positives. The formula was adapted to the (kmer_A1-kmer_B1)+(kmer_A2-kmer_B2)/(kmer_A1+kmer_B1+kmer_A2+kmer_B2). The other aproach that was concluded for future work, was to test each node for diferential expression and using the treshold cut those off, this method may be very quick since it can be done from the creation of the graph.
 
-### Week 8 :
+### Week 8 (21-26/Feb):
 -Corecting error made in the creation of the test files. I cut the fasta file instead of the transcipt file.
 
-### Week 7 :
+### Week 7 (14-19/Feb):
 -Creating test file for testing diferential expression and treshold. Using flux simulator created two similar yeast derived organisms. This was done by using the crhomosome 4 of the yeast transcript file and the fasta file corespondin to the chromosome. The I created the similar organism by cuting half of the fasta file and re runing the fluxsimulator in order to create the second fastq file.
 
-### Week 6 (7-12):
+### Week 6 (7-12/Feb):
 - Add Diferential Expresion to current vertion. Such that by a user set cuttoff point, links with a lower score than this will be deleted. 
 
-### Week 3: (11-14/Dec)
+### Week 3: (11-15/Dec)
 - Add kmer count to output file.
 -[gfalint](https://github.com/sjackman/gfalint)
 -[gfapy](https://github.com/ggonnella/gfapy)
