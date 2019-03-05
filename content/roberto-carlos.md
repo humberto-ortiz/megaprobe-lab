@@ -34,4 +34,15 @@ github: <https://github.com/RLopez18>
 : Reading scientific journals for my lab meeting presentation feb 22,2019
 
 2019.25.02
-: Learning how to use Julia and working with the polyester with Briknie Baez
+: Learning how to use Julia and working with the polyester libary with Briknie Baez
+
+2019.05.03
+: I'll change from specific day status update to a weekly better structured type of update.
+
+### Week Mar 4 - Mar 8/2019
++ Almost finished reading "The Cartoon Guide to Genetics" with hopes that it will help me understand better the biology part of the research. 
++ Started doing the escambron protocols tutorial.
++ Will follow Angel's advice on setting a goal each week.
++ Current goal: Finish atleast the second part of the tutorial. 
+
+
