@@ -19,6 +19,19 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 
 ##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
 
+### Week 8: (04-08/Mar)
+- Had an interesting idea that formalized to possibly creating a Generative Adversarial Network based genome assembler.
+    + Found this recent paper on the emerging field that utilize similar approaches: [Machine Learning metagenome assembly](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bby072/5074612)
+    + Possible Starting point: [GANs from Scratch 1: A deep introduction. With code in PyTorch and TensorFlow](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f)
+- **Skimmed** a few papers this week, here's a list:
+    + [De Novo Assembly of the Sea Cucumber Apostichopus japonicus Hemocytes Transcriptome to Identify miRNA Targets Associated with Skin Ulceration Syndrome](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0073506)
+    + [Trinity: reconstructing a full-length transcriptome without a genome from RNA-Seq data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3571712/)
+    + [De Novo Genome Assembly for Illumina Data](https://www.melbournebioinformatics.org.au/tutorials/tutorials/assembly/assembly-protocol/)
+    + [Whole genome de-novo assembly and annotation protocol for Apostichopus japonicus genome](https://www.protocols.io/view/whole-genome-de-novo-assembly-and-annotation-proto-gmabu2e)
+    + [Ten steps to get started in Genome Assembly and Annotation [version 1; referees: 2 approved]](https://f1000research.com/articles/7-148/v1)
+
+
+
 ### Week 7: (25-01/Feb-Mar)
 - Journal Presentationa due this week, i'm pretty excited to show you guys what i've been reading up on. The paper I will be presenting on is the following: [Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003345)
 
@@ -29,7 +42,7 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 - Fixed the ViewSonic Secondary display in the lab. :)
 - Started Reading the paper I was assigned for the journal club.
 
-### Week 4: (4-8/Feb)
+### Week 4: (04-08/Feb)
 - Behind on Compilers Class Lexer assingment must catch up ot it, no research done this week.
 
 ### Week 3: (28-01/Jan-Feb)
@@ -63,13 +76,13 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 ### Week 6: (16-20/Apr)
 - Should get something meaningful graphed.
 
-### Week 5: (9-13/Apr)
+### Week 5: (09-13/Apr)
 - Still wrapping my head around Fourier Transforms in the context of this research, althought it is more clearer now.
 - Should learn a lot more about Fourier Transforms.
 - Added [Reasearch.md](https://github.com/Omig12/ssbtraf/blob/master/research.md) to help clarify research goals.
 - Added [sbotcli_usage.md](https://github.com/Omig12/ssbtraf/blob/master/sbotcli_usage.md) as a guide for using sbot to navigate the gossip.
 
-### Week 4: (2-6/Apr)
+### Week 4: (02-06/Apr)
 - Finally got sbot installed following [this guide](https://ssbc.github.io/docs/scuttlebot/install.html).
   - npm is very problematic sometimes
   - Do not remove python3 from your ubuntu box it might (probably will) break it 
@@ -119,13 +132,13 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 - Verified optimized algorithms
 - Discussed future directions for the software created and the research
 
-### Week 11: (5-9/Feb)
+### Week 11: (05-09/Feb)
 - Discussed possible approach for future research goals
     - Approach to comparing sequences utilizing a Differential Expression Coefficient 
 - Implemented some optimizations to algorithm (Python generators anyone)
 - Went over technical report with Kevin
 
-### Week 10: (29-2/Jan-Feb)
+### Week 10: (29-02/Jan-Feb)
 - Talked about trouble with generating sample data for validation
 - Looking for possible optimizations to algorithms 
 
@@ -135,10 +148,10 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 ### Week 8: (15-19/Jan)
 - Missed meeting due to work
 
-### Week 7: (8-12/Jan)
+### Week 7: (08-12/Jan)
 - Meeting suspended this week
 
-### Week 6: (1-5/Jan)
+### Week 6: (01-05/Jan)
 - Meeting suspended this week
 
 ### Week 5: (25-29/Dec)
@@ -154,7 +167,7 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 ### Week 3: (11-15/Dec)
 - Settled on using GFA-1 format specifications for output
 
-### Week 2: (4-8/Dec)
+### Week 2: (04-08/Dec)
 - Started reading up on the Sea cucumber paper
   - [Transcriptomic changes during regeneration of
 the central nervous system in an echinoderm](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-357)
@@ -169,7 +182,7 @@ Files that will prove useful:
   - [Edge cases of De-bruijn graph by pmelsted](https://pmelsted.wordpress.com/2014/01/17/edge-cases-in-de-bruijn-graphs/)
   - [Debuggin De-bruijn graph by pmelsted](https://pmelsted.wordpress.com/2014/02/24/debugging-de-bruijn-graphs/) 
 
-### Week 1: (27/Nov-1/Dec)
+### Week 1: (27/Nov-01/Dec)
 - Had an unofficial first meeting with collaborators
 - Drew project goals
 - Discussed possible approaches for the study
@@ -219,7 +232,7 @@ Files that will prove useful:
   - Relevant hurdles we need to address to improve the effectiveness of the algorithms
   - Research direction for the next few weeks
 
-### Week 7: (3-7/July)
+### Week 7: (03-07/July)
 - Read part of a paper suggested by my graduate student mentor
   - [Joint Causal Inference from Observational and Experimental Datasets (Magliacane, Sara et.al.)](https://arxiv.org/pdf/1611.10351.pdf)
 - Worked on the abstract because it's due next Wednesday, July 12th
@@ -259,7 +272,7 @@ Files that will prove useful:
 - Datathon Thursday
 - Journal Club Meeting on Friday
 
-### Week 3: (5-9/June)
+### Week 3: (05-09/June)
 - During this week, I was instructed to do the following:
   - Get the Tetrad software up and running in my computer
   - Read up on and understand the [(Peter Spirtes and Clark Glymour) PC Algorithm](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/scottd/fullbook.pdf)  
@@ -269,7 +282,7 @@ Files that will prove useful:
 - **Research topic update**:
  - _Methods for integrating both Observational and Experimental Data in Constraint-Based Causal Discovery Algorithms_ for Causal Discovery in Causal Bayesian Networks.  
 
-### Week 2: (30/May-2/June)
+### Week 2: (30/May-02/June)
 - During this week we have been asked to write a brief proposal due Friday 2nd.
   -  [Proposal](https://docs.google.com/document/d/1gj9t59rjuQFGE9DD3b8DEYTxMYyrs9QruzyrLgozMGE/edit?usp=sharing)
 - Reading a lot of literature in order to understand Causal Bayesian Networks, d-separation and the Causal Markov condition.
@@ -304,7 +317,7 @@ Files that will prove useful:
 - Starting to write Python Makefile [Snakemake tutorial](http://slides.com/johanneskoester/snakemake-tutorial-2016#/18)
 - [Snakemake documentation](https://snakemake.readthedocs.io/en/stable/snakefiles/writing_snakefiles.html)
 
-### Week 8: (6-10/Mar)
+### Week 8: (06-10/Mar)
 - Professor suggested utilizing [SnakeMake](!https://snakemake.readthedocs.io/en/stable/) so far it's a really good prospect.
 - Read [this SnakeMake](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bts480) paper for more info.
 
@@ -321,12 +334,12 @@ Files that will prove useful:
 - Did not work in the lab this week.
 - Most time was spent studying.
 
-### Week 4: (6-10/Feb)
+### Week 4: (06-10/Feb)
 - Pipeline device resource detection script:
   - Return available CPU cores
   - Return available RAM free
 
-### Week 3: (1-5/Feb)
+### Week 3: (01-05/Feb)
 - Working on pipeline makefile.
 - Learning about Trinity.
 
@@ -353,19 +366,19 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
 
 ## Weekly UPDATE (Jan 2016 - May 2016)
 
-### Week 17: (9/May-13/May)
+### Week 17: (09/May-13/May)
 - Got down to working on the technical report.
 - Cleaned and updated the repo:
   - Improved formatting on documents.
 
-### Week 16: (2/May-6/May)
+### Week 16: (02/May-6/May)
 - Worked Hard on fixing parser issues.
 - Got some output, lightly checked/skimmed output for errors, did not find any.
 - Continued working on technical report.
 - To do:
   - Finish technical report.
 
-### Week 15: (25-29/Apr)
+### Week 15: (025-29/Apr)
 - Began corroboration of correct parsing of LastGraph file:
 - Noticed wrong data being displayed in parser's GFA's output of Read Count.
 - Noticed Problem in Link report reported from Bandage's output vs. Parsers output.
@@ -404,7 +417,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
 - To do:
   - Analyse results see if comparisons results were accurate.
 
-### Week 12: (4-8/Apr)
+### Week 12: (04-08/Apr)
 - Many evaluations this week also :'(, worked mostly on preparing a bioinformatics presentation that aids in explaining Mutual's Heuristic Pairwise Alignment algorithm implementation.
 - Was corrected by professor need to parse Velvelt's LastGraph file (that is to say it's De-Bruijn graph), not the fasta/fastq file.
 - Good news everyone! Found a LastGraph parser in written Ruby. Bad news everyone! I don't understand ruby. :{
@@ -413,7 +426,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
   - Turn to Velvet/Oases De-Bruijn parser.
   - Need to run clean data on Hulk.
 
-### Week 11: (28/Mar-1/Apr)
+### Week 11: (28/Mar-01/Apr)
   - Utilized Bandage to create a few graphs of interesting contiguous nodes.
   - Experimented a few forms of output including GFA extensions to graph.
   - Started reading up on parsers for fasta/fastq files. Using Biostars <https://www.biostars.org/p/710/> Guides  and Nacrokill's <https://github.com/NacroKill/dmel-ercc-diff/blob/master/Tophat_Birnavirus_Confirmer_2.0.py> parsers for reference.
@@ -432,7 +445,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
 ![Bandage graph of velvet/oases output.](/content/images/NewContigs_graph.png)
 
 
-### Week 8: (7-11/Mar)
+### Week 8: (07-11/Mar)
  - Git repo is finally in order. :)
  - Finally got to quality trimming:
  - Needed Illumina Adapters FASTA files to remove adapters, found them in Trimmomatic source code. <http://www.usadellab.org/cms/?page=trimmomatic>
@@ -482,7 +495,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
   - Visualize contigs using Bandage.
   - Trim Illumina adapters from input sequences.
 
-### Week 4: (8-12/Feb)
+### Week 4: (08-12/Feb)
 - Setting up Hulk server to run mutual. (Still missing velvet)
 - Battled with Hulk to run mutual.
 - Led to a crash :'( after two days of work.
@@ -493,7 +506,7 @@ Create and analyze correctly obtained De Bruijn graphs from de-novo sequence ass
   - Visualize mutual outputs with the help of bandage <https://github.com/rrwick/Bandage>.
   - Started working on a more readable and reproducible version of the documentation for this research.
 
-### Week 3: (1-5/Feb)
+### Week 3: (01-05/Feb)
 
 - Initiated test running of mutual on local (DELL Inspiron 7548) machine, utilizing sample Sea Anemone Dataset.
 - Estimated run-time: 72 hour.
