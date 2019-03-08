@@ -18,7 +18,7 @@ journal club presentations for this semester.
 | Mar 1 | Israel Dilan | Next-gen Sequence Assembly |
 | Mar 8 | Walter Baez | kalisto / Yanagi |
 | Mar 15 | Briknie / Omar | Kmers / Kevlar |
-| Mar 22 | ?? / ?? | OMH / mapping |
+| Mar 22 | Humberto / Miguel | OMH / mapping |
 | Mar 29 | Heriberto | subspace |
 
 # Papers
