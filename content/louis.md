@@ -1,6 +1,6 @@
 Title: Louis F. Gil Acevedo 
 Date: 12-13-2017
-Modified: 3-1-2019
+Modified: 4-11-2019
 Slug: louis
 Category: People
 Tags: Cancer diff-hash de-novo de-bruijn
@@ -20,7 +20,9 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 
 ## Predicting cancer outcome using kmer differential expression
 
-###
+### Week 8 (3-8/March)
+-Converted bam files to fastq
+-Modifing diffhash to see if there are kmers that apear in the tumor sample (changed the reader to fastq)
 
 
 ### Week 7 (25-1/Feb)
