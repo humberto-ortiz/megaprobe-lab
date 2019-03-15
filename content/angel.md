@@ -26,7 +26,18 @@ Tags:de-novo diffhash pepino erizo
 
 ## Spring 2019
 
-### Week 6:(18/02/19)-(22/02/19)
+### Week 9:(11/03/19)-(15/03/19)
+- Since Trinity doesnt want to play ball I'll try getting diff hash working in boqueron.
+- Compiling R is a pain.
+- OK Trinity worked, dont ask me why cause I dont know why nor how but it works.
+- Next week to complete the protocol.
+
+### Week 8:(04/03/19)-(08/03/19)
+- Moving some data to boqueron to run escambron protocol to get data to compare to the output of diffhash.
+- Starting escambron protocol and the working pipeline is a bit broken.
+- Oh Trinity my old friend is causing problems.
+
+### Week 7:(25/02/19)-(01/03/19)
 - Too busy studying for statistics and doing the statistics proyect.
 
 ### Week 6:(18/02/19)-(22/02/19)
