@@ -19,6 +19,16 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 
 ##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
 
+### Week 9: (11-15/Mar)
+- Too many evaluations this week, here's a list:
+    + General Biology 1 - Exam
+    + Mini-review presentation
+    + Mini-review written report
+    + Fermentation Lab Report
+    + Compilers Assingment 
+    + Big Data to Biology - Exam
+- Not much research done, if any. :(
+
 ### Week 8: (04-08/Mar)
 - Had an interesting idea that formalized to possibly creating a Generative Adversarial Network based genome assembler.
     + Found this recent paper on the emerging field that utilize similar approaches: [Machine Learning metagenome assembly](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bby072/5074612)
