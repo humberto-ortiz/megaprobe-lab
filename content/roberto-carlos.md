@@ -45,4 +45,7 @@ github: <https://github.com/RLopez18>
 + Will follow Angel's advice on setting a goal each week.
 + Current goal: Finish atleast the second part of the tutorial. 
 
-
+### Week Mar 11 - 15/2019
++ Finished "The Cartoon Guide to Genetics" 
++ Studying for Abstract Algebras exam next week
++ Boqueron is tripping :cry: :cry: :cry:
