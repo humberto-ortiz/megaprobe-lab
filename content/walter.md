@@ -27,7 +27,8 @@ github: https://github.com/Hallech
 
 - Learn Kallisto and Yanagi.
 - Be able to find and eleminate the false positives. 
-- More goals will come as I get more familiar with the topics. 
+- Try to implement the same concept Yanagi does with our own methods.
+- Use De Brujin Graph and how Titus uses them for the benefit of our research.
 
 -------------------------------------------------------------------------------------------
 ## Research 2
@@ -72,7 +73,20 @@ github: https://github.com/Hallech
 
 ## Research 3 (Spring 2019):
 
-### Week 5 & 6 (February 10, 2019 to February 23, 2019)
+### Week 9 & 10 (March 10, 2019 to March 23, 2019) :clock1:
+- I'm looking at the pipeline Titus used for constructing De Brujin Graphs.
+- With this we want to construct the graphs and see how we can eliminate false positives.
+- The first things I'm going to do is setting up the enviroment and getting familiar with
+  the process before going to the next step, which is finding how to delete these false
+  positives. 
+
+### Week 7 & 8 (February 24, 2019 to March 9) :clock1:
+- During this time I was working on the presentation of the Yanagi and Kalisto paper.
+- I did a PowerPoint explaining the most important details and during our Lab Meeting
+  we discussed it together and worked our way throught the pipeline.
+- After the presentation was done I discussed with my mentor what's the next step.
+
+### Week 5 & 6 (February 10, 2019 to February 23, 2019) :clock1:
 - After reading the papers I have a bit of more knowledge and the idea of how to start working
   with the research. Yanagi is a very extensive paper, I still have some doubts on how it works
    exactly.
@@ -80,7 +94,7 @@ github: https://github.com/Hallech
 - It's been a while since I worked in a bioinformatics research so I'm a bit lost again, I remember
   lots of things but some concepts are a bit confusing. 
 
-### Week 3 & 4 (January 26, 2019 to February 9, 2019)
+### Week 3 & 4 (January 26, 2019 to February 9, 2019) :clock1:
 - During this time I got sick so I got behind in my classes schedule. I had a lot of projects
   and homework to turn in so I did not get much time to work in the research. 
 - I have the two papers I'm going to start reading in order to design the project I'll be working 
