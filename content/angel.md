@@ -26,6 +26,14 @@ Tags:de-novo diffhash pepino erizo
 
 ## Spring 2019
 
+### Week 9:(18/03/19)-(22/03/19)
+- With escamron protocol and diffhash both executed to completion next we need to verify if diffhash actually found the differentially expressed sequences or not.
+- We will do reciprocal best blast hit on the data and well use a tool called 'dammit' https://github.com/dib-lab/dammit to do the it.
+- Dammit installation as specified by https://eel-pond.readthedocs.io/en/latest/5-annotating.html requires packages that are incompatible with each other through conda.
+- Installing through bioconda. Boquerons DNS is increasing enviroment solving for conda by a factor of several hours. Bioconda also takes significantly more than the average conda package channel. Got home and conda hasnt finished solving the enviroment. Friday morning, no lab meeting since its a day off. Conda hasn't finished, starting to losing hope.
+- Moved to hulk at 9:00 AM Friday, installation finished by 1:00 PM same day. Screw bioconda.
+- Next weeks goal is to do the comparison or atleast start it.
+
 ### Week 9:(11/03/19)-(15/03/19)
 - Since Trinity doesnt want to play ball I'll try getting diff hash working in boqueron.
 - Compiling R is a pain.
