@@ -49,3 +49,10 @@ github: <https://github.com/RLopez18>
 + Finished "The Cartoon Guide to Genetics" 
 + Studying for Abstract Algebras exam next week
 + Boqueron is tripping :cry: :cry: :cry:
+
+### Week Mar 25 - 30/2019
++ Started watching this bioinformatics introductory videos, they are pretty good. Here is the playlist link: https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA    Enjoy! :smile: 
+
+
+### Week April 1 - 5/2019
++ Preparing for a CIBI presentation on Thrusday...
