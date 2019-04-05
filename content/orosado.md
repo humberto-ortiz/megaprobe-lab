@@ -8,7 +8,7 @@ Tags: python, python3, kevlar, kmers, mapping-free, de-novo, variants, framework
 # Omar Rosado Ramírez
 
 ## Bio:
-    Full-time problem solver and computer sience student.
+    Full-time problem solver and computer science student.
 
 ## Contact info:
 - e-mail: <omar.rosado1@upr.edu>
@@ -36,6 +36,11 @@ Now you should be able to run the following command and get the manpage for kevl
 
 Once im done with the new readme, I will submit my first pull request to the official
 kevlar branch. 
+
+UPDATE: Started adding command details in manpage. It'll be a long man page, but will
+        include everything a user would need to work with kevlar ;
+
+UPDATE: Manpage almost done. A few commands and details missing before its complete ;
 
 To view these changes to kevlar, pull <a href='https://github.com/afrotonder/kevlar'>my branch </a> and enjoy.
 
