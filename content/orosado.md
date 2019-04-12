@@ -20,6 +20,26 @@ Learn some more python and submit at least 3 pull requests to the Kevlar project
   
 # Weekly UPDATES
 
+**<h3> WEEK 13: Abr8 - Abr12</h3>**
+
+This week i finished the manpage for the project. Some commands arrent specified in the 
+official documentation so you'll see some commands followed solely by ?? .
+
+Also, most commands dont have examples included. During my stay at the lab I will try to 
+add as many as I can understand. If you clone the project, you can tweak it yourself
+and add examples if you want to contribute. Remember that READMES, documentation, & HowTo's arrent a developers 
+favorite passtimes. We mostly develop, make code work, make code better and then ugh need to document.
+Contributing even as little as correcting grammar can take a load off of a developer or dev teams back.
+
+UPDATE: The new README is almost done. Hopefully my work is clear and removes all questions
+        from the road of a user. 
+
+UPDATE: I had some troubles running the kevlar Snakemake workflow on my regular laptop(old boi) 
+        so I have to test it on my mac.
+
+[Pull here](https://github.com/afrotonder/kevlar) to get kevlar with a complete man page and a new README.
+
+
 **<h3> WEEK 12: Abr1 - Abr5</h3>**
 
 Got the manpage for kevlar setup. Once the development environment has been setup, 
