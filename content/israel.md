@@ -19,6 +19,26 @@ Tags: de-novo research-pipeline causal-networks cybersec scuttlebutt metagenomic
 
 ##### After a failed attempt to fulfill my research goals during the last time, here we are again trying to make the world right once more. 
 
+
+### Week 13: (08-12/Apr)
+- Back at it right after the exams.
+- Got word of possible short reads incoming for the Holothuria Glaberrima Selenka.
+- Started working on a possible outline for the tech report.
+
+### Week 12: (01-05/Apr)
+- Studying hard for this week's exams, not much work done.
+
+### Week 11: (25-29/Mar)
+- Started reading up on the problem of the interpretation of alternative splicings when utilizing short reads and how this can be addressed by utilizing a hybrid approach that incorporates both short & long reads:
+    + In essence both short reads and long reads are combined to solve ambiguity by having sequences that contain all the region (specially at junctions sites where the exons are removed) with long reads and add robustness through higher sampling depth from short reads.
+    + [Yeast Whole Genome Sequencing with Nanopore & Illumina](https://f1000research.com/articles/6-618/v1)
+
+### Week 10: (18-22/Mar)
+- Read some and watched some videos about how Nanopore samples can be aligned.
+    + [Sequencing with Nanopore in General](https://nanoporetech.com/resource-centre/knowledge-exchange-cdna-sequencing-nanopore-technology?utm_content=87969313&utm_medium=social&utm_source=twitter&hss_channel=tw-37732219)
+    + [Structural Variations with Nanopore Data](https://nanoporetech.com/resource-centre/knowledge-exchange-exploring-structural-variation-nanopore-sequencing)
+
+
 ### Week 9: (11-15/Mar)
 - Too many evaluations this week, here's a list:
     + General Biology 1 - Exam
