@@ -20,6 +20,34 @@ Learn some more python and submit at least 3 pull requests to the Kevlar project
   
 # Weekly UPDATES
 
+**<h3> WEEK 14: Abr15 - Abr119</h3>**
+
+This week i focused on finishing the README and specifically running the kevlar Snakemake Workflow Mark I. 
+
+The kevlar snakemake workflow is the best and most productive way to use kevlar.
+This workflow runs the given genomic sequence through the whole kevlar project, running
+all commands listed in the kevlar-cli documentation .
+
+*Added the snakemake package to the command that installs all kevlar dependencies.
+
+Tested installing snakemake with pip and pip3. If you use pip, you will encounter the sad message below:
+
+    DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+    Collecting snakemake
+    Downloading https://files.pythonhosted.org/packages/e5/1a/0bede0c39c5a68ffa19c17c25e97cda08c7ffeef829477911309b6023c2d/snakemake-5.4.5.tar.gz (173kB)
+    100% |████████████████████████████████| 174kB 1.5MB/s 
+    Complete output from command python setup.py egg_info:
+    At least Python 3.5 is required.
+
+So to install snakemake you need to use pip3. Be encouraged to use python3 by default from now on so
+your projects dont break all of the sudden next year. XP
+
+UPDATE: Finished the new kevlar README. With this file, any new user should be able to install and 
+user kevlar without having to move arround much.
+
+Check out kevlars new [README](https://github.com/afrotonder/kevlar/blob/master/README.md)
+
+
 **<h3> WEEK 13: Abr8 - Abr12</h3>**
 
 This week i finished the manpage for the project. Some commands arrent specified in the 
