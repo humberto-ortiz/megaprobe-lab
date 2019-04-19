@@ -20,6 +20,54 @@ Learn some more python and submit at least 3 pull requests to the Kevlar project
   
 # Weekly UPDATES
 
+**<h3> WEEK 14: Abr15 - Abr119</h3>**
+
+This week i focused on finishing the README and specifically running the kevlar Snakemake Workflow Mark I. 
+
+The kevlar snakemake workflow is the best and most productive way to use kevlar.
+This workflow runs the given genomic sequence through the whole kevlar project, running
+all commands listed in the kevlar-cli documentation .
+
+*Added the snakemake package to the command that installs all kevlar dependencies.
+
+Tested installing snakemake with pip and pip3. If you use pip, you will encounter the sad message below:
+
+    DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+    Collecting snakemake
+    Downloading https://files.pythonhosted.org/packages/e5/1a/0bede0c39c5a68ffa19c17c25e97cda08c7ffeef829477911309b6023c2d/snakemake-5.4.5.tar.gz (173kB)
+    100% |████████████████████████████████| 174kB 1.5MB/s 
+    Complete output from command python setup.py egg_info:
+    At least Python 3.5 is required.
+
+So to install snakemake you need to use pip3. Be encouraged to use python3 by default from now on so
+your projects dont break all of the sudden next year. XP
+
+UPDATE: Finished the new kevlar README. With this file, any new user should be able to install and 
+user kevlar without having to move arround much.
+
+Check out kevlars new [README](https://github.com/afrotonder/kevlar/blob/master/README.md)
+
+
+**<h3> WEEK 13: Abr8 - Abr12</h3>**
+
+This week i finished the manpage for the project. Some commands arrent specified in the 
+official documentation so you'll see some commands followed solely by ?? .
+
+Also, most commands dont have examples included. During my stay at the lab I will try to 
+add as many as I can understand. If you clone the project, you can tweak it yourself
+and add examples if you want to contribute. Remember that READMES, documentation, & HowTo's arrent a developers 
+favorite passtimes. We mostly develop, make code work, make code better and then ugh need to document.
+Contributing even as little as correcting grammar can take a load off of a developer or dev teams back.
+
+UPDATE: The new README is almost done. Hopefully my work is clear and removes all questions
+        from the road of a user. 
+
+UPDATE: I had some troubles running the kevlar Snakemake workflow on my regular laptop(old boi) 
+        so I have to test it on my mac.
+
+[Pull here](https://github.com/afrotonder/kevlar) to get kevlar with a complete man page and a new README.
+
+
 **<h3> WEEK 12: Abr1 - Abr5</h3>**
 
 Got the manpage for kevlar setup. Once the development environment has been setup, 
