@@ -26,7 +26,37 @@ Tags:de-novo diffhash pepino erizo
 
 ## Spring 2019
 
-### Week 9:(18/03/19)-(22/03/19)
+
+### Status Update on the evolution of the proyect
+- Originally diffhash ran on a sample dataset which I believe was using the 22nd human chromosome then it:
+-- 1. Counted the kmer and wrote down how many times it appeared per file.
+-- 2. Did a statistical analisys on how often a kmer appeared or not in condition A and condition B
+-- 3. The output of the analisys is used to pull the reads containing the differentially expressed kmers.
+-- 4. Assemble the reads.
+
+- Step 1 and 2 were kept but optimized and generalized. The analisys can be tweaked to be more suited tom work with kmers. I have a suspicion that the analisys for kmers and whole reads might not really work for this properly.
+- Step 3 can be removed. The kmers are the information that we need to assemble. Atleast in principle. The functionality of switching on and off can and should be switched on and off in the run script, but that is future work.
+- Step 4 assembling was originally going to be done with Trinity but since these are very short reads Trinity doesnt work with these short reads. But Abyss does work with these short reads.
+- Step 5 Annoting to see whether or not a specific sequence is expressed or not.
+
+### Week 13:(8/04/19)-(12/04/19)
+- Abyss worked. I have a reconstructed sequence. Now I need to see wether or not it aligns to the secuence from the standard pipeline. Now to annotate with dammit.
+- dammit wont annotate the diffdata :(.
+
+### Week 12:(1/04/19)-(5/04/19)
+- Trinity wont play ball with the kmers.
+- Ive adjusted diffhash to accept a kmer size parameter. Ive also spruced up the code a bit. Julia still takes time to load heavy packages.
+- A size of 25 wont work either.
+- The kevlar paper uses Abyss https://github.com/bcgsc/abyss to assemle Ill look into using it instead.
+
+### Week 11:(25/03/19)-(29/03/19)
+- Now they tell me I cant annotate the raw reads.
+- I need to assemble the sequence from the diffhash output. Humberto recomends passing it through the pipeline like the normal data.
+- The data wont run through the pipeline. something about interweaving but nothing will budge.
+- The topic of the lab meeting "Kevlar" generates the target sequence from kmers instead of the normal reads. I could use this instead of the complete reads to assemble.
+- Ill see if trinity works with short reads.
+
+### Week 10:(18/03/19)-(22/03/19)
 - With escamron protocol and diffhash both executed to completion next we need to verify if diffhash actually found the differentially expressed sequences or not.
 - We will do reciprocal best blast hit on the data and well use a tool called 'dammit' https://github.com/dib-lab/dammit to do the it.
 - Dammit installation as specified by https://eel-pond.readthedocs.io/en/latest/5-annotating.html requires packages that are incompatible with each other through conda.
@@ -35,7 +65,7 @@ Tags:de-novo diffhash pepino erizo
 - Next weeks goal is to do the comparison or atleast start it.
 
 ### Week 9:(11/03/19)-(15/03/19)
-- Since Trinity doesnt want to play ball I'll try getting diff hash working in boqueron.
+- Since Trinity doesnt want to play ball I'll try getting diffhash working in boqueron.
 - Compiling R is a pain.
 - OK Trinity worked, dont ask me why cause I dont know why nor how but it works.
 - Next week to complete the protocol.
