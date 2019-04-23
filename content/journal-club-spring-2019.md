@@ -19,8 +19,11 @@ journal club presentations for this semester.
 | Mar 8 | Walter Baez | kalisto / Yanagi |
 | Mar 15 | Briknie / Omar | Kmers / Kevlar |
 | Mar 22 | | **Holiday (abolition of slavery)** |
-| Mar 29 | Humberto / Miguel | OMH / mapping |
-| Apr 5 | Heriberto | subspace |
+| Mar 29 | Humberto | OMH  |
+| Apr 5  |  Miguel | mapping |
+| Apr 12 | | **Postponed: UCSC Genome browser** |
+| Apr 19 | | **Spring break** |
+| Apr 26 | Heriberto | subspace |
 
 # Papers
 
