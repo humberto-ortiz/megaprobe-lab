@@ -20,7 +20,41 @@ Learn some more python and submit at least 3 pull requests to the Kevlar project
   
 # Weekly UPDATES
 
-**<h3> WEEK 14: Abr15 - Abr119</h3>**
+**<h3> WEEK 15: Abr22 - Abr26</h3>**
+
+Have been tweaking the README here and there. Fixed a few typos and added information that appears in certain
+parts of the official [kevlar documentation](https://kevlar.readthedocs.io).
+
+Since READMES should be precise, complete and not full of information that can misguide novice developers, 
+I created a separate markdown file for some [frequently asked questions](https://github.com/afrotonder/kevlar/kevlar-faq.md) 
+and another one which is an [offline version of the online documentation](https://github.com/afrotonder/kevlar/kevlar-cli-doc.md).
+
+
+Since I'm basicaly done organizing kevlars documentation and am only adding miscellaneous data,
+I moved to testing the app to add the missing examples from the manpage. 
+
+Running the Kevlar snakemake is the  simplest way to run kevlar. 
+
+I just deleted a directory called kevlar/kevlar/workflows/mark-I/Mask which contains the reference genome file used by kevlar (mask file).
+At the beginning, this directory wasnt available. I thought that deleting it and re-running make would create the folder again, 
+but that didnt happen. I created it by hand again and kevlar worked.
+
+TODO: Must find out how the Mask directory gets there and add it to the README.
+
+Ive been running kevlar from my personal laptop which is an old Asus with an i3 processor, 4GB RAM and an SSD. This should be enough for the
+Snakemake workflow, since the processing the example data downloaded in the README should be able to run on a laptop in less than 5 minutes 
+while consuming less than 200 Mb of RAM, as the [official docs say](https://kevlar.readthedocs.io/en/latest/quick-start.html), but it isnt.
+
+Although it runs without making my computer fan cry, it doesnt take 5 minutes. It stalled after approximately
+15 minutes running on my laptop and eventually froze the terminal. I use VSCode's integrated terminal(which is just running bash)
+to work so i never have to leave the workspace. This shouldnt be a problem. 
+
+TODO: Test the kevlar Snakemake workflow from my other two machines: one with an i5 processor, 8GB RAM and an SSD, and another one
+with an i7 processor, 8GB RAM and 🤮 an HDD. Will post the outcome. 
+
+
+
+**<h3> WEEK 14: Abr15 - Abr19</h3>**
 
 This week i focused on finishing the README and specifically running the kevlar Snakemake Workflow Mark I. 
 
