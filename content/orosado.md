@@ -20,6 +20,25 @@ Learn some more python and submit at least 3 pull requests to the Kevlar project
   
 # Weekly UPDATES
 
+**<h3> WEEK 16: Abr29 - May3</h3>**
+
+This week i tested kevlar on two of my machines. Although i got the project running on my low powered Asus,
+my Macbook is having problems running the kevlar snakemake workflow.
+
+The command shown in the README that installs all of kevlars dependencies fails when run on 
+macOS due to snakemake. Installing snakemake with pip and pip3 on macOS fail for some odd reason.
+
+After fiddling with the different python versions in the virtual environment and going through some errors, 
+i have concluded that kevlar will need some tuning for macOS. 
+
+Found some similar issues/solutions [here](https://github.com/googleapis/google-cloud-python/issues/3884), 
+[here](https://github.com/Thriftpy/thriftpy2/commit/fd274b90775f777c96e013837117b0fbd448799e), and
+[here](https://github.com/scikit-learn-contrib/py-earth/issues/191).
+
+The users claim the problem is related to the cython package. A possible fix might be to delete all python instances
+and only install python3.6, which i havent done.
+
+
 **<h3> WEEK 15: Abr22 - Abr26</h3>**
 
 Have been tweaking the README here and there. Fixed a few typos and added information that appears in certain
