@@ -20,6 +20,11 @@ Hi Im Louis Im a Computer Science undergraduate student. Im interested in the be
 
 ## Predicting cancer outcome using kmer differential expression
 
+### Week 15-18 (21-17/May)
+-Ran diffhash with the first 4 million lines of each sample
+-Identified kmers only present in the tumor sample
+-Calculated Fold Change from hashcounts (sumed 1 to every sample in order to eliminate the 0's in the divition)
+
 ### Week 11-14 (1-20/April)
 -Ran using duplicates of my own files (test) in order to have multilple samples of each condition (seems fine)
 -Ran using no duplicates (using test files). (This also seems fine, checked hashcounts and output fasta file)
