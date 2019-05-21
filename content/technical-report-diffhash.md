@@ -6,4 +6,4 @@ Tags: julia, Bioinformatics, k-mers, differential expression
 
 Angel Abdiel Sanquiche-Sanchez. (2019) 
 [Diffhash]({filename}/images/diffhash.pdf). 
-Megaprobe Technical Reports, San Juan, PR, May 16, 2019.
+Megaprobe Technical Reports, San Juan, PR, May 4, 2019.
