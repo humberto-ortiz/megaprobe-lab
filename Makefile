@@ -126,6 +126,22 @@ else
 	@echo 'Do make newpost NAME='"'"'Post Name'"'"
 endif
 
+newtr:
+ifdef NAME
+	echo "Title: Technical Report: $(NAME)" >  $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Category: Publications"              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Tags: "              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "[$(NAME)]({filename}/images/)"              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Megaprobe Technical Report. San Juan, PR. $(DATE)."  >> $(INPUTDIR)/$(SLUG).$(EXT)
+	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
+else
+	@echo 'Variable NAME is not defined.'
+	@echo 'Do make newtr NAME='"'"'Post Name'"'"
+endif
+
 editpost:
 ifdef NAME
 	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
