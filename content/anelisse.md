@@ -1,3 +1,9 @@
+Title: Anelisse Dominicci Maura
+Date: 2019-06-20
+Slug: anelisse
+Category: People
+Tags: bioinformatics, newbie, roble
+
 # Anelisse Dominicci Maura
 
 ## Contact info:
