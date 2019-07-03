@@ -269,7 +269,7 @@ do
   echo $baseR2
 
  # finally, run interleave-reads.py
-  ./interleave-reads.py -o ${base}.pe.qc.fq.gz ${baseR1}.qc.fq.gz ${baseR2}.qc.$
+  ./interleave-reads.py -o ${base}.pe.qc.fq.gz ${baseR1}.qc.fq.gz ${baseR2}.qc.fq.gz
 done
 ```
 - This way all the samples look the following way:
