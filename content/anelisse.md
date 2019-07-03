@@ -53,7 +53,7 @@ conda activate roble
 fastqc --threads=8 -outdir=trim *.qc.fq.gz
 ```
 -Then we run "MULTIQC" to see the general quality of all samples.
--We decided to do a trim with quality of 5. 
+-We decided to do a trim with quality of 5.
 -Also eliminating the adapters, since in the reports the quality said that there was an overrepresented sequence.
 ```
 #!/bin/bash
@@ -108,7 +108,7 @@ TGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
 >PrefixIndexR2rev
 ACACTCTTTCCCTACACGACGCTCTTCCGATCT
 ```
--When this was fianlly done, we run again the "FastQC" and the "MULTIQC" and the reports WERE GREAT!!!! so we decided to start doing the assemblies with 3 differents assemblers. 
+-When this was fianlly done, we run again the "FastQC" and the "MULTIQC" and the reports WERE GREAT!!!! so we decided to start doing the assemblies with 3 differents assemblers.
 -We used Megahit:
 ```
 #!/bin/bash
@@ -191,7 +191,7 @@ do
 # finally, run interleave-reads.py
   interleave-reads.py --no-reformat --gzip -o ${base}.pe.qc.fq.gz ${baseR1}.qc.$
 done
- 
+
 ```
 -So now we are waiting for that task to be over, to see if we can run the assemblers.
 -Also during the week we found the assemblies of the project, done by others persons in IMG.
