@@ -65,7 +65,8 @@ and the third sample:
 
 - So in order to fix this we downloaded khmer, and we went to khmer tools, and modified the script called "interleave-reads.py" as followed: 
 
-```#!/home/humberto/adominicci/miniconda3/envs/roble/bin/python
+```
+#!/home/humberto/adominicci/miniconda3/envs/roble/bin/python
 # This file is part of khmer, https://github.com/dib-lab/khmer/, and is
 # Copyright (C) 2011-2015, Michigan State University.
 # Copyright (C) 2015, The Regents of the University of California.
