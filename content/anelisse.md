@@ -8,6 +8,7 @@ Tags: bioinformatics, newbie, roble
 
 ## Contact info:
  - e-mail- <anelisse.dominicci@upr.edu>
+ - LinkedIn-  <https://www.linkedin.com/in/anelisse-dominicci-maura-386554189/>
 
 ## Bio:
 
@@ -31,6 +32,34 @@ Cabo Rojo, Guayama, Guánica,and Maricao,
 and from 3 different type of soil: volcanic, karst and serpentine.
 
 ## Weekly UPDATES
+### Week 6: (8-12, 7, 2019)
+
+- We completed the Replicathon, and what we did is in the following link:https://rpubs.com/essilena/512774
+- In the Replicathon with my partner Francisco Benitez, we created a copy of the repository of the Replicathon to ours and you can see it in the following link:https://github.com/essilena/PR2019replicathon 
+- I earn a certificate of Statement of Acomplishment to Introduction of R!!!!!  
+![Statement of Acomplishment, Introduction to R!]() <h4> Image taken from Data Camp <h4>
+- I practice through Data Camp the language R, to review what I had learn in the Workshops of the Software Carpentry the first week. All of this to be abble to apply it in the Data Reproducibility/Replicathon. 
+- I updated the Research Summary
+
+- We started with the Partition protocol, with the first step called: load-graph
+```
+#!/bin/bash
+#SBATCH --mem-per-cpu=15000
+#SBATCH --time=7-00:00:00
+#SBATCH --job-name=load-graph
+#SBATCH --mail-user=anelisse.dominicci@upr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+
+# Load project
+source /home/humberto/adominicci/miniconda3/etc/profile.d/conda.sh
+conda activate roble
+
+load-graph.py -k 25 -M 80G -T 32 roble SRR*.ka.fq
+```
+
+
 ### Week 5: (1-5, 7, 2019)
 - So the last command for interleave work, but when we try to run the script that we wrote to normalize it didnt recognized the samples as paired and neither the names of the files.
 -This is because at the beggining we did fastq-dump to the samples, except for the 3rd one we used the update of fastq-dump that is fasterq-dump, because we wanted to explore if it was much better and faster than fastq-dump. So the samples run with fastq-dump where called: 
