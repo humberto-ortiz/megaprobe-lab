@@ -32,6 +32,19 @@ Cabo Rojo, Guayama, Guánica,and Maricao,
 and from 3 different type of soil: volcanic, karst and serpentine.
 
 ## Weekly UPDATES
+### Week 7: (15-19, 7, 2019)
+
+- We are still waiting for the load graph finished.
+- Also, I got the opportunity to assist to a conference of how to do abstracts for poster and the submission of a papers.
+- I read a paper that could help us create a program to find bacteria’s that fix nitrogen in the soil. 
+      
+    Pierce, N. Tessa, et al. “Large-Scale Sequence Comparisons with Sourmash.” F1000Research, vol. 8, July 2019, p. 1006. DOI.org                  (Crossref), doi:10.12688/f1000research.19675.1.
+- I read another paper that could help us recreate the assemblies that we found in the IMG, to understand what they found.
+       
+     Yu, G., Smith, D. K., Zhu, H., Guan, Y. and Lam, T. T.-Y. (2017) ggtree: an r package for visualization and
+              annotation of phylogenetic trees with their covariates and other associated data. Methods Ecol Evol, 8: 28–36. doi:                     10.1111/2041-210X.12628
+- I took a workshop with: Taylor Baum, Josefina Correa Menendez and Hector De Jesus-Cortes, called: Brains, Minds, and Machines Workshop.
+
 ### Week 6: (8-12, 7, 2019)
 
 - We completed the Replicathon, and what we did is in the following link:https://rpubs.com/essilena/512774
