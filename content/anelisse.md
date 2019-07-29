@@ -47,8 +47,8 @@ and from 3 different type of soil: volcanic, karst and serpentine.
 
 ### Week 6: (8-12, 7, 2019)
 
-- We completed the Replicathon, and what we did is in the following link:https://rpubs.com/essilena/512774
-- In the Replicathon with my partner Francisco Benitez, we created a copy of the repository of the Replicathon to ours and you can see it in the following link:https://github.com/essilena/PR2019replicathon 
+- We completed the Replicathon, and what we did is in the following link: <https://rpubs.com/essilena/512774>
+- In the Replicathon with my partner Francisco Benitez, we created a copy of the repository of the Replicathon to ours and you can see it in the following link: <https://github.com/essilena/PR2019replicathon> 
 - I earn a certificate of Statement of Acomplishment to Introduction of R!!!!!  
 ![Statement of Acomplishment, Introduction to R]({filename}/images/certificate-introduction-to-R.png) 
 - I practice through Data Camp the language R, to review what I had learn in the Workshops of the Software Carpentry the first week. All of this to be abble to apply it in the Data Reproducibility/Replicathon. 
