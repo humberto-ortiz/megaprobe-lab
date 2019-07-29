@@ -32,6 +32,15 @@ Cabo Rojo, Guayama, Guánica,and Maricao,
 and from 3 different type of soil: volcanic, karst and serpentine.
 
 ## Weekly UPDATES
+### Week 8: (22-26, 7, 2019)
+- The load-graph script failed because it ran out of time.
+- As we need to have results for the presentation that I have to give about what this summer was done and what we have achieved, we gave it a stop. 
+- Therefore, we decided to export the data of the assemblies that we had found in IMG, and we decided to analyze them.
+- We used R to analize the data, we found 2 domains, 274 between phylums and orders, and 508 families.
+- We decide to took the 5 more represented family of each sample. We found out that the phylum that was more present in each sample was the Actinobacterias.
+- We did plot with ggtree and ghitmap to represnt our results. <https://github.com/essilena/Analyzing-Roble>
+- I did the presentation, with all we had done and all the results we got.
+
 ### Week 7: (15-19, 7, 2019)
 
 - We are still waiting for the load graph finished.
@@ -47,8 +56,8 @@ and from 3 different type of soil: volcanic, karst and serpentine.
 
 ### Week 6: (8-12, 7, 2019)
 
-- We completed the Replicathon, and what we did is in the following link:https://rpubs.com/essilena/512774
-- In the Replicathon with my partner Francisco Benitez, we created a copy of the repository of the Replicathon to ours and you can see it in the following link:https://github.com/essilena/PR2019replicathon 
+- We completed the Replicathon, and what we did is in the following link: <https://rpubs.com/essilena/512774>
+- In the Replicathon with my partner Francisco Benitez, we created a copy of the repository of the Replicathon to ours and you can see it in the following link: <https://github.com/essilena/PR2019replicathon> 
 - I earn a certificate of Statement of Acomplishment to Introduction of R!!!!!  
 ![Statement of Acomplishment, Introduction to R]({filename}/images/certificate-introduction-to-R.png) 
 - I practice through Data Camp the language R, to review what I had learn in the Workshops of the Software Carpentry the first week. All of this to be abble to apply it in the Data Reproducibility/Replicathon. 
