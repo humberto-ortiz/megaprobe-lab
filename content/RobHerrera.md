@@ -15,3 +15,10 @@ Week 1
 ======
 
 I have the read the following paper *Kevlar: A mapping-free framework for Accurate Discovery of de Novo Variants*
+
+Week 2
+======
+
+I have read and presented the following paper in journal club *De novo mutations in histone-modifying in congenital heart disease*
+
+I have created a rough draft of my semester plans, I will be using the *Technical Report: Cancer Detection from Kmers* by Louis Gil as my theoretical and methodological frame work. I will be using the following week in order to ascertain the data set that I will be using.
