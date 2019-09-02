@@ -25,3 +25,9 @@ in Biology and Computer Science.
 - Still don't know what project to join or do.
 - Also currently searching for a paper 
 - weekly update over. 
+
+### Week 3 :
+
+- Went to the lab meeting.
+- Couldn't do anything else do to personal matters.
+- Will try to catch on for next week. 
