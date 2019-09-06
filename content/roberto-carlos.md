@@ -7,7 +7,7 @@ Tags: DNA-seq, bioinformatics, diff-hash
   
 ## Short Biography
 
-My name is Roberto C. López Rivera, I was born and raised in San Juan Puerto Rico. I'm a computer science undergraduate student, I've began doing research with Humberto. This will be edited later on when I have cool things to say about myself.
+My name is Roberto C. López Rivera, I was born and raised in San Juan Puerto Rico. I'm a computer science undergraduate student, I began doing research with Humberto in January 25, 2019. This summer of 2019 I went to an internship in Pittsburgh as part of the iBRIC research program where I worked with Dr. Sofia triantafillou, PhD. Because I still didn't have much experience doing research she assigned me a proyect where I trained a logistic regression model to predict wheather or not a patient had diabetes by using his Bulk RNA-sequence. I'll leave the abstract of the project here below for you to read if you are interested. This semester I hope to learn more and finally be able to work in a real proyect along side Humberto and my other lab partners.   
 
 ## Additional Need-To-Know Information
 
@@ -29,6 +29,7 @@ github: <https://github.com/RLopez18>
   
   
 ## Status  
+### Semester 2018 January - May: 
 
 2019.28.01
 : Reading scientific journals for my lab meeting presentation feb 22,2019
@@ -57,3 +58,6 @@ github: <https://github.com/RLopez18>
 ### Week April 1 - 5/2019
 + Preparing for a CIBI presentation on Thrusday...
 + Still working on polyester...
+
+
+### Semester 2019 August - December
