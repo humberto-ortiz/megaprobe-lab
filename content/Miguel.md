@@ -25,3 +25,19 @@ in Biology and Computer Science.
 - Still don't know what project to join or do.
 - Also currently searching for a paper 
 - weekly update over. 
+
+### Week 3 :
+
+- Went to the lab meeting.
+- Couldn't do anything else do to personal matters.
+- Will try to catch on for next week. 
+
+### Week 4:
+- There was no lab meeting.
+- I finished reading week 2's assigned papers. 
+
+### Week 5:
+- Went to lab meeting. 
+- Haven't done anything lab related since I have a Lineal Algebra exam tuesday 17. Help me.
+- Still need to find a paper. Will work on that after tuesday.  
+
