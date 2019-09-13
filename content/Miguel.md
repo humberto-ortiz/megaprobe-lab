@@ -31,3 +31,12 @@ in Biology and Computer Science.
 - Went to the lab meeting.
 - Couldn't do anything else do to personal matters.
 - Will try to catch on for next week. 
+
+### Week 4:
+- There was no lab meeting.
+- I finished reading week 2's assigned papers. 
+
+### Week 5:
+- Went to lab meeting. 
+- Haven't done anything lab related since I have a Lineal Algebra exam tuesday 17. Help me. 
+
