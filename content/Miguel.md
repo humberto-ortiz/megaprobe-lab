@@ -38,5 +38,6 @@ in Biology and Computer Science.
 
 ### Week 5:
 - Went to lab meeting. 
-- Haven't done anything lab related since I have a Lineal Algebra exam tuesday 17. Help me. 
+- Haven't done anything lab related since I have a Lineal Algebra exam tuesday 17. Help me.
+- Still need to find a paper. Will work on that after tuesday.  
 
