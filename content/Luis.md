@@ -27,10 +27,19 @@ WORKDIR /home/docker
 
 #### Week 2: August 26, 2019 - August 30, 2019
 + Read the paper about "Gene expression inference with deep learning."
-+ Looked for different methods of Machine Learning related with gene expression
-+ Attend lab meeting for Roberto Herrera presentation on DeNovo Congenital Heart Disease
++ Looked for different methods of Machine Learning related with gene expression.
++ Attend lab meeting for Roberto Herrera presentation on DeNovo Congenital Heart Disease.
 
 #### Week 3: September 2, 2019 - September 6, 2019
-+ Continue working with the Gene expression paper
-+ Lab meeting cancel
++ Continue working with the Gene expression paper.
++ Lab meeting cancel.
 + Hopefully next week will start making the presentation of the paper. 
+
+#### Week 4: September 9, 2019 - September 13, 2019 
++ Finish reading the Gene expression paper.
++ Study for class exams didn't accomplish much for the research.
+
+#### Week 5: September 16, 2019 - September 20, 2019
++ Finish the presentation for the lab meeting.
++ Presented on friday.
++ Settle on new instructions to start looking for ways we can incorporate the paper results in our work. 
