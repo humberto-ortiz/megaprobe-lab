@@ -32,12 +32,19 @@ in Biology and Computer Science.
 - Couldn't do anything else do to personal matters.
 - Will try to catch on for next week. 
 
-### Week 4:
+### Week 4 :
+
 - There was no lab meeting.
 - I finished reading week 2's assigned papers. 
 
-### Week 5:
+### Week 5 :
+
 - Went to lab meeting. 
 - Haven't done anything lab related since I have a Lineal Algebra exam tuesday 17. Help me.
 - Still need to find a paper. Will work on that after tuesday.  
+
+### Week 6 : 
+
+- I read the paper "UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS"
+- Will read similar papers
 
