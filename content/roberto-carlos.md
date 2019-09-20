@@ -64,3 +64,6 @@ github: <https://github.com/RLopez18>
 
 
 ### Semester 2019 August - December
+
+## Week 16 - 20/2019
++ Reading the paper "Deep Learning to Analyze RNA-Seq Gene Expression Data". I'm making the presentation for next friday.
