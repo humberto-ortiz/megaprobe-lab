@@ -10,12 +10,14 @@ Author: Humberto Ortiz-Zuazaga
 We're meeting Fridays at 10:00 AM in the lab. Here's the schedule of
 journal club presentations for this semester.
 
-| Date   | Person          | Paper                              |
-|--------|-----------------|------------------------------------|
-| Aug 30 | Roberto Herrera | DeNovo Congenital Heart Disease    |
-| Sep 6  | Roberto Lopez   | Axolotl                            |
-| Sep 13 | Briknie Baez    | Deepfinder                         |
-| Sep 20 | Luis Mieses     | Gene experession                   |
+| Date   | Person          | Paper                           |
+|--------|-----------------|---------------------------------|
+| Aug 30 | Roberto Herrera | DeNovo Congenital Heart Disease |
+| Sep 6  | Roberto Lopez   | Axolotl                         |
+| Sep 13 | Briknie Baez    | Deepfinder                      |
+| Sep 20 | Luis Mieses     | Gene experession                |
+| Sep 27 | Roberto         | Deep learning RNA-seq           |
+| Oct 4  | Miguel          | denoising autoencoders          |
 
 # Papers
 
@@ -41,4 +43,18 @@ motif discovery, Biotechnology & Biotechnological Equipment, 32:3, 759-768, DOI:
 Gene expression
 : Chen, Yifei, Yi Li, Rajiv Narayan, Aravind Subramanian, and Xiaohui Xie. "Gene
 expression inference with deep learning." Bioinformatics 32, no. 12 (2016):
-1832-1839. <https://10.1093/bioinformatics/btw074>
+1832-1839. <https://dx.doi.org/10.1093/bioinformatics/btw074>
+
+Deep learning RNA-Seq
+: Urda, Daniel, Julio Montes-Torres, Fernando Moreno, Leonardo Franco, and José
+  M. Jerez. "Deep learning to analyze RNA-seq gene expression data." In
+  International Work-Conference on Artificial Neural Networks, pp. 50-59.
+  Springer, Cham, 2017.
+<https://core.ac.uk/download/pdf/132743527.pdf>
+
+Denoising autoencoders
+: Jie Tan, Matthew Ung, Chao Cheng, and Casey S Greene. Unsupervised feature
+  construc-tion and knowledge extraction from genome-wide assays of breast
+  cancer with denoising autoencoders. In Pacific Symposium on Biocomputing
+  Co-Chairs, pages 132–143. WorldScientific, 2014.
+<https://doi.org/10.1142/9789814644730_0014>
