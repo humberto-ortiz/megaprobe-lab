@@ -65,5 +65,10 @@ github: <https://github.com/RLopez18>
 
 ### Semester 2019 August - December
 
-## Week 16 - 20/2019
+## Week 16 - 20/Sep/2019
 + Reading the paper "Deep Learning to Analyze RNA-Seq Gene Expression Data". I'm making the presentation for next friday.
+
+## Week 23 - 27/Sep/2019
++ I presented the paper "Deep Learning to Analyze RNA-Seq Gene Expression Data". 
++ I started working in the DECEP, apperently I'm suppose to build an attendace app that works with qr codes. :cry:
++ I finally have a proyect! Replicate the paper that I presented and try to do a better job. 
