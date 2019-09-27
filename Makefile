@@ -134,7 +134,8 @@ ifdef NAME
 	echo "Category: Publications"              >> $(INPUTDIR)/$(SLUG).$(EXT)
 	echo "Tags: "              >> $(INPUTDIR)/$(SLUG).$(EXT)
 	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "[$(NAME)]({filename}/images/)"              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "Authors. (2019)"              >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo "[$(NAME)]({filename}/images/)."              >> $(INPUTDIR)/$(SLUG).$(EXT)
 	echo "Megaprobe Technical Report. San Juan, PR. $(DATE)."  >> $(INPUTDIR)/$(SLUG).$(EXT)
 	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
 else
