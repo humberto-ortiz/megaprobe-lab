@@ -13,11 +13,13 @@ journal club presentations for this semester.
 | Date   | Person          | Paper                           |
 |--------|-----------------|---------------------------------|
 | Aug 30 | Roberto Herrera | DeNovo Congenital Heart Disease |
-| Sep 6  | Roberto Lopez   | Axolotl                         |
+| Sep 6  |                 | **No meeting **                 |
 | Sep 13 | Briknie Baez    | Deepfinder                      |
 | Sep 20 | Luis Mieses     | Gene experession                |
 | Sep 27 | Roberto         | Deep learning RNA-seq           |
 | Oct 4  | Miguel          | denoising autoencoders          |
+| Oct 11 |                 | **BSides meeting**              |
+| Oct 18 | Briknie         | seq-seq-pan                     |
 
 # Papers
 
