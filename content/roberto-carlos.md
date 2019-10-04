@@ -71,4 +71,9 @@ github: <https://github.com/RLopez18>
 ## Week 23 - 27/Sep/2019
 + I presented the paper "Deep Learning to Analyze RNA-Seq Gene Expression Data". 
 + I started working in the DECEP, apperently I'm suppose to build an attendace app that works with qr codes. :cry:
-+ I finally have a proyect! Replicate the paper that I presented and try to do a better job. 
++ I finally have a proyect! Use the databases that were used in the paper that I presented and use the clinical data to train a DNN to be able to classify distant metastasis cancers.  <--- Bad explanation :smile: 
+
+## Week 30 - 4/Oct/2019
++ This week has been a hastle, I'm overwhelmed by my job and school work plus the lab work. So I decided to catch up with all of my school work and then focus on work-work and lab-work at the same time. So my priority is school-work this week.
++ I generated a self-signed SSL certificate for my app's page. :smile:
+
