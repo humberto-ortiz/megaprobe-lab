@@ -11,7 +11,7 @@ We're meeting Fridays at 10:00 AM in the lab. Here's the schedule of
 journal club presentations for this semester.
 
 | Date   | Person          | Paper                           |
-|--------+-----------------+---------------------------------|
+|--------|-----------------|---------------------------------|
 | Aug 30 | Roberto Herrera | DeNovo Congenital Heart Disease |
 | Sep 6  |                 | **No meeting**                  |
 | Sep 13 | Briknie Baez    | Deepfinder                      |
@@ -61,3 +61,8 @@ Denoising autoencoders
   cancer with denoising autoencoders. In Pacific Symposium on Biocomputing
   Co-Chairs, pages 132–143. WorldScientific, 2014.
 <https://doi.org/10.1142/9789814644730_0014>
+
+seq-seq-pan
+: Jandrasits, C., Dabrowski, P. W., Fuchs, S., & Renard, B. Y. (2018).
+seq-seq-pan: Building a computational pan-genome data structure on whole genome alignment. BMC genomics, 19(1), 47.
+https://doi.org/10.1186/s12864-017-4401-3
