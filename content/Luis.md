@@ -42,4 +42,27 @@ WORKDIR /home/docker
 #### Week 5: September 16, 2019 - September 20, 2019
 + Finish the presentation for the lab meeting.
 + Presented on friday.
-+ Settle on new instructions to start looking for ways we can incorporate the paper results in our work. 
++ Settle on new instructions to start looking for ways we can incorporate the paper results in our work.
+
+#### Week 6: September 23, 2019 - September 27, 2019
++ Didn't advance in regard with the research, was doing university work.
++ Attend lab meeting with Roberto presentation.
+
+#### Week 7: September 30, 2019 - October 4, 2019
++ Started downloading the D-GEX git project.
++ Working with the code, and requisities to replicate what they accomplish in the paper.
++ Attend lab meeting, Miguel presentation.
+
+### Week 8: October 7, 2019 - October 11, 2019
++ Attend BSidesPR Conference.
++ Lab meeting cancel.
+
+#### Week 9: October 14, 2019 - October 18, 2019
++ We attempt to install the new graphic card into Hulk but we failed.
++ We broked Hulk, waiting on new instructions from the professor.
++ Lab meeting cancel, professor had a meeting in medical science.
++ Still learning the paper code.
+
+
+
+
