@@ -1,6 +1,9 @@
 Title: Roberto J. Herrera
 Date: 2019-08-16
 Category: People
+
+email:roberto.herrera2@upr.edu
+
 Bio
 =====
 
