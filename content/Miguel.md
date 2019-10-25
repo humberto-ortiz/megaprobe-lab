@@ -23,8 +23,8 @@ in Biology and Computer Science.
 
 - Of three assigned papers I only read one. Will read the other two on the weekend
 - Still don't know what project to join or do.
-- Also currently searching for a paper 
-- weekly update over. 
+- Also currently searching for a paper. 
+- Weekly update over. 
 
 ### Week 3 :
 
@@ -45,6 +45,27 @@ in Biology and Computer Science.
 
 ### Week 6 : 
 
-- I read the paper "UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS"
-- Will read similar papers
+- I read the paper "UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS".
+- Will read similar papers.
+
+### Week 7 :
+- I gave a presentation about Denoisining Autoencoders.
+- Humberto assigned me to replicate the experiment.
+- Next week I've got two examens. 
+
+### Week 8 :
+- Didn't do much do to having two examens this week. 
+- Found some articles about autoencoders. 
+
+### Week 9 :
+- I started watching youtube videos about neural networks and how they work.
+- Found a video about Denoising autoencoders.
+- There was no lab meeting this week. 
+
+### Week 10 :
+- Went to lab meeting, Brikinie presented seq-seq pan.
+- Will start looking into the autoencoder project. 
+- Got tons of work to do. 
+
+
 
