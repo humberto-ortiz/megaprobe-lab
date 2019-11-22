@@ -63,6 +63,21 @@ WORKDIR /home/docker
 + Lab meeting cancel, professor had a meeting in medical science.
 + Still learning the paper code.
 
+#### Week 10: October 21, 2019 - October 25, 2019
++ Hulk was repaired and the professor gave me access to an account.
++ I went on a trip on Thursday 24 to Monday 28.
 
+#### Week 11: October 28, 2019 - November 1, 2019
++ I returned from a trip then went to SACNAS Conference.
+
+### Week 12: November 4, 2019 - November 8, 2019
++ Got back from SACNAS.
++ Attend lab meeting, professor asign Briknie to work with me.
++ Downloaded the data from the project and uploaded it to hulk.
+
+### Week 13: November 11, 2019 - November 15, 2019
++ Work on an environment in hulk to download all the packages.
++ Started debugging the files and tried to download the necessary libraries.
++ Working on some run time errors.
 
 
