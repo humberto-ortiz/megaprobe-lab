@@ -77,3 +77,6 @@ github: <https://github.com/RLopez18>
 + This week has been a hastle, I'm overwhelmed by my job and school work plus the lab work. So I decided to catch up with all of my school work and then focus on work-work and lab-work at the same time. So my priority is school-work this week.
 + I generated a self-signed SSL certificate for my app's page. :smile:
 
+## Weeks 18 - 27/Nov/2019
++ This past month I haven't really done much with the investigation project but, I've began to work on it. My progress up until now is that I'm cleaning the clinical data, and filtering it as well. That's about it. :smile: 
+
