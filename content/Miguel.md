@@ -67,5 +67,18 @@ in Biology and Computer Science.
 - Will start looking into the autoencoder project. 
 - Got tons of work to do. 
 
+### Week 11 \- 14:
+-
 
+### Week 12 :
+-
+
+### Week 13 :
+-
+
+### Week 14 :
+- 
+
+### Week 15 :
+- No lab meeting do to thanksgiving weekend 
 
