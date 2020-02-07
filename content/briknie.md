@@ -26,13 +26,17 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 
 ## Second Semester 2019-2020
 
+### Weekly UPDATES (LOADING, PLEASE WAIT...)
+
+#### Week 2: (3-7/Feb)
+- This week we were working on the abstract for the SIDIM that will take place on March 6, 2020 
+- We ran diffhash and started to read the code to see how we can implement the bloom filter and the count-min sketch. Hopefully we gonna have something more solid for next week. 
+
 #### Week 1: (27-31/Jan)
 - I had a meeting with Humberto Ortiz-Zuazaga, PhD, where we discussed the things we were going to be doing this semester.
-	- I'll be retaking the diffhash project but this time I'm going to be replacing the hash function that diffhash is currently using for a bloom filter (trying to take a probabilistic aproach to see if we can make some improvements)
+	- I'll be retaking the diffhash project but this time I'm going to be replacing the hash function that diffhash is currently using for a bloom filter and a count-min sketch (trying to take a probabilistic aproach to see if we can make some improvements)
 
 ## First Semester 2019-2020
-
-### Weekly UPDATES (LOADING, PLEASE WAIT...)
 
 #### Week 15-End: (Nov 25 - the end)
 - I am barely alive... I talked to Dr. Ortiz-Zuazaga about some problems I had with my schedule and the plan for the next semester. Hopefully I can do better next year :)
