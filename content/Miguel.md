@@ -67,5 +67,11 @@ in Biology and Computer Science.
 - Will start looking into the autoencoder project. 
 - Got tons of work to do. 
 
+### Week 11 \- 14:
+- Searched more information on neural networks and autoencoders and how they work and function.
+- Tried to download the programs needed for Theano. But had some trouble downloading the intstaller anaconda. It took quite more time that I anticipated but managed to download the programs.
+- Had quite a lot of work and exams.
 
+### Week 15 :
+- No lab meeting do to thanksgiving weekend 
 
