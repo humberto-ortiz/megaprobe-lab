@@ -24,9 +24,55 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 - Learn how to hack like Humberto
 - Learn how to juggle
 
+## Second Semester 2019-2020
+
+#### Week 1: (27-31/Jan)
+- I had a meeting with Humberto Ortiz-Zuazaga, PhD, where we discussed the things we were going to be doing this semester.
+	- I'll be retaking the diffhash project but this time I'm going to be replacing the hash function that diffhash is currently using for a bloom filter (trying to take a probabilistic aproach to see if we can make some improvements)
+
 ## First Semester 2019-2020
 
 ### Weekly UPDATES (LOADING, PLEASE WAIT...)
+
+#### Week 15-End: (Nov 25 - the end)
+- I am barely alive... I talked to Dr. Ortiz-Zuazaga about some problems I had with my schedule and the plan for the next semester. Hopefully I can do better next year :)
+
+#### Week 14-15: (18-22/Nov)
+- Dr. Ortiz-Zuazaga tried to help us resolve the compatibility problems with the required packages but we couldn't address the problem and run the program. 
+- Humberto Concluded that it was almost impossible to meet all the requirements for the preprocessing of D-GEX and we started the search for more papers on the same topic.  
+
+#### Week 13: (11-15/Nov)
+- Luis asked for the data to the scientist that published the paper and they answered super fast.
+- We tried to run the program from the GitHub repository of the project but we couldn't pass the preprocessing of D-GEX because of all the version issues
+
+#### Week 12: (4-8/Nov)
+- Back from SACNAS... I hace like 1Kw (Kilo works, it's a standard unit of measurement hehe)
+- Humberto assigned me to work with Luis since seq-seq-pan was a an already working program with little to improve (and that little required Java)
+
+#### Week 11: (28-1/Oct-Nov)
+- I went to the SACNAS Conference at Hawai'i
+	- __Note__: Dear Mega-Probers: If you have 7 classes, do not attend to any conference... it was a bad idea :)
+
+#### Week 10: (21-25/Oct)
+- Dr. Ortiz-Zuazaga Repaired Hulk!! \#hulkIsBiggerThanEver.
+- I was learning how to run the code from the seq-seq-pan github but I found some problems on the way
+- Learning how to use Mauve (a tool to plot the output of seq-seq-pan)
+- Presented the Seq-Seq-Pan paper with a live demo of the Mauve tool.
+
+#### Week 9: (14-18/Oct)
+- Dr. Ortiz-Zuazaga was trying to install a new graphic card into Hulk but so that we could implement a deep learning approach. However, there where compatibility problems with the old graphic and the newone.
+- \#hulkWasDown
+- Lab meeting canceled, professor had a meeting.
+
+#### Week 8: (7-11/Oct)
+- I was reading the seq-seq-pan paper to presented on the lab meeting.
+- Lab meeting was canceled due to BSidesPR Conference.
+
+#### Week 7: (30-4/Sep-Oct)
++ Didn't have the chance to work this week.
+
+#### Week 6: (23-27/Sep)
+- I went to the lab meeting to see Robertito's presentation, it was a very bad paper but Dr. Ortiz-Zuazaga got an idea out of it, so they are going to work on that
 
 #### Week 5: (16-20/Sep)
 - I found a program called Mauve that look's like a good tool for the idea of the Pan-genome
