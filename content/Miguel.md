@@ -77,6 +77,7 @@ in Biology and Computer Science.
 ### Week 15 :
 - No lab meeting do to thanksgiving weekend 
 
+
 ### Semester: January-May, 2020
 
 ### Week 1: (January 27 - February 1)
@@ -88,7 +89,7 @@ in Biology and Computer Science.
 
 ### Week 3: (February 9 - 15)
 - Finished writing the abstract.
-- 
+- Started setting up my PC with 
 
 ### Week 4: (February 16 - 22)
 
