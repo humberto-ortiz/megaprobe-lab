@@ -12,6 +12,8 @@ in Biology and Computer Science.
 
 ## Weekly Updates
 
+### Semester: August-December, 2019
+
 ### Week 1 : 
 
 - Finally i enrolled into the research course.
@@ -75,3 +77,31 @@ in Biology and Computer Science.
 ### Week 15 :
 - No lab meeting do to thanksgiving weekend 
 
+### Semester: January-May, 2020
+
+### Week 1: (January 27 - February 1)
+- Humberto greet us with the wonderful news we were going to SiDIM :'( .
+- Notified us that we had until February 15 to summit abstracts.
+
+### Week 2: (February 2 - 8)
+- Started writing the abstract with Roberto
+
+### Week 3: (February 9 - 15)
+- Finished writing the abstract.
+- 
+
+### Week 4: (February 16 - 22)
+
+### Week 5: (February 23 - 29)
+
+### Week 6: (March 1 - 7)
+
+### Week 7: (March 8 - 14)
+
+### Week 8: (March 8 - 14)
+
+### Week 9: (March 15 - 21)
+
+### Week 10: (March 22 - 28)
+
+### Week 11: (March 29 - April 4)
