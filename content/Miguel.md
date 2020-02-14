@@ -88,8 +88,9 @@ in Biology and Computer Science.
 - Started writing the abstract with Roberto
 
 ### Week 3: (February 9 - 15)
-- Finished writing the abstract.
-- Started setting up my PC with 
+- There was no lab meeting today.
+- Finished writing the abstract. Humberto approved.
+- Started setting up my PC with theano and related programs for the autoencoders. 
 
 ### Week 4: (February 16 - 22)
 
