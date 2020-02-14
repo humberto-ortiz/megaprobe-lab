@@ -80,4 +80,15 @@ WORKDIR /home/docker
 + Started debugging the files and tried to download the necessary libraries.
 + Working on some run time errors.
 
+### Weeks 14,15,16,17: November 18, 2019 - December13, 2019
++ We encounter errors that we could not solve.
++ We determine that we could not reproduce the paper project.
++ We will change the approach we take for the next semester project. 
+
+### Week 1 : February 3, 2020 - February 7, 2020
++ Talk to the professor and determine I'm going to take the diffhash project with Briknie.
++ We ran the diffhash code and started to read the papers from Angel and Roberto project. 
++ Hopefully this next week we can find a way to incorporate real data into the diffhash algorithm.
++ This week we also worked with the abstract for SIDIM that will take place on March 6, 2020. 
+
 
