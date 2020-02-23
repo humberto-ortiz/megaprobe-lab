@@ -93,7 +93,14 @@ in Biology and Computer Science.
 - Started setting up my PC with theano and related programs for the autoencoders. 
 
 ### Week 4: (February 16 - 22)
-
+- There was no lab meeting this week do to a two day machine learning in bioinformatics workshop.
+- I attended the workshop, althought I missed the first one and a half hour of the workshop do to a conflicting squedule with immunology class. In the workshop they disccused and work with:
+   - Random Forests
+   - Support Vector Machines
+   - Naive Beyes
+   - Cross validation
+   - Make synthetic datasets
+   
 ### Week 5: (February 23 - 29)
 
 ### Week 6: (March 1 - 7)
