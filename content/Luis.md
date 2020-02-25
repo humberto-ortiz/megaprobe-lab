@@ -91,4 +91,11 @@ WORKDIR /home/docker
 + Hopefully this next week we can find a way to incorporate real data into the diffhash algorithm.
 + This week we also worked with the abstract for SIDIM that will take place on March 6, 2020. 
 
+### Week 2 : February 10, 2020 - February 10, 2020
++ This week I didn't do much work in the lab since I was away on an Open House trip to the University of Colorado.
+
+### Week 3 : February 17, 2020 - February 21, 2020
++ Finally understood some of what the code was doing and what I needed to change.
++ Briknie helped me in how to manage real data and implementing it to the script.
++ Ran the script with what is suppose to be real data, don't yet understand the output of the program.
 
