@@ -7,10 +7,17 @@ Tags: coffee, naps
 
 # Bio:
 
-  - Likes to nap.
+  - Likes to nap. 
+  - Update: naps are a rare commodity now, due to lack of free time. 
+  
   - Gamer, from tabletop games to videogames.
+  - Update: unchanged.
+  
   - Learning the ways of Cybersecurity, taking naps in between.
+  - Update: Got a minor in Cybersecurity from the University of Puerto Rico, Rio Piedras Campus
+  
   - Coffee is life
+  - Update: Coffee is still life
   
 # Contact info:
 
@@ -18,9 +25,14 @@ Tags: coffee, naps
   
 # Research goals:
 
+  - Part 1
   - Monitor network flows and use machine learning to detect cyber attacks
   - Learn techniques to better monitor networks
   - Learn machine learning techniques
+  
+  - Part 2
+  - Use PCAs to analyze flow data, to then apply the subspace method to it.
+  - Apply results such that they can be combined with machine learning techneques
 
 # Weekly report:
 
@@ -80,3 +92,32 @@ Tags: coffee, naps
   - Finally processed the txt file and managed to get some structured results.
   - Can probably used the same method for other types of SiLK data. Need to test it out.
   - Elaborate on results here
+
+# Spring Semester 2019-2020 Reports
+## Week 1 (27/Ene/2020 - 31/Ene/2020):
+
+  - Humberto instilled fear in our lives by saying we have to present our research at the SIDIM 
+  - Re-read my technical report, turns out is kinda horrible.
+  
+## Week 2 (3/Feb/2020 - 7/Feb/2020):
+
+  - Started working on the abstract
+  - Compilers is the land of wizards and eldritch magic that is slipping between my fingers
+  
+## Week 3 (10/Feb/2020 - 14/Feb/2020):
+
+  - Abstract was submitted
+  - Compilers continue to reveals it's almost incomprehensable eldritch secrets. 
+  - "Confien en la recursion" by Humberto Ortiz, to explain compilers magic that happens
+  
+## Week 4 (17/Feb/2020 - 21/Feb/2020):
+
+  - Abstract was, regrettably, accepted to the SIDIM. 
+  - Compilers and Computer Graphics HW monopolized most of my time. Progress in research was none.
+  - JavaScript/HTML are terrible. Ocaml is picky in weird ways, that i don't understand very well.
+  
+## Week 5 (24/Feb/2020 - 28/Feb/2020):
+
+  - Started PCA tutorial, as they are needed for the subspace method. 
+  - Hit some embarrassing snags, when using silk pipeline in tech-report
+  - Eldritch secrets are slowly being revealed in Compilers
