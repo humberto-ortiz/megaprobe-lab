@@ -102,8 +102,13 @@ in Biology and Computer Science.
    - Make synthetic datasets
    
 ### Week 5: (February 23 - 29)
+- Couldn't work much on the project do to Inmunology exam and next week's supirior algebra exam.
 
 ### Week 6: (March 1 - 7)
+- Found a website with code for a denoising autoencoder using theano library. But there is no time to add it to the poster.
+- After SiDIM:
+   - Instead of focusing on trying to use the theano library I will open up to the Keras and Tenserflow library since they are more widely use and there are more tutorials and code using this libraries ( I know since I have have found more of these on my search for theano tutorials and code for denoising autoencoders). 
+   - I will start documenting better the articles I have read and used to understand and get into the field of neural networks and autoencoders.  
 
 ### Week 7: (March 8 - 14)
 
