@@ -36,7 +36,7 @@ the analysis is falling behind the production of data, and new
 techniques have to be devised. The following graph illustrates how
 sequencing has far outstripped computational capacity.
 
-![Cost per MB of sequence data]({filename}/images/costperMb2015_4.jpg)
+![Cost per MB of sequence data]({static}/images/costperMb2015_4.jpg)
 
 Wetterstrand KA. DNA Sequencing Costs: Data from the NHGRI Genome
 Sequencing Program (GSP) Available at:
@@ -49,7 +49,7 @@ programs construct k-mer or De Bruijn graphs. Here's an example graph
 for a simulated set of reads from a 1000 base pair sequence with some
 sequencing errors (red dots).
 
-![Small De Bruijn graph for 1000 base sequence]({filename}/images/contig-0.png)
+![Small De Bruijn graph for 1000 base sequence]({static}/images/contig-0.png)
 
 ## Probabilistic structures
 
@@ -62,7 +62,7 @@ The figure below represents a portion of a De Bruijn graph for a real
 data set from Nematostella Embryonic Transcriptome (Starlet sea
 anemone). <https://darchive.mblwhoilibrary.org/handle/1912/5613>
 
-![Bandage graph of velvet/oases output.]({filename}images/contigs_graph.png)
+![Bandage graph of velvet/oases output.]({static}images/contigs_graph.png)
 
 Some tools for hashing and probabilistic counting of k-mers have been
 implemented in the khmer-tools suite.

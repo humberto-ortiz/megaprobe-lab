@@ -8,4 +8,4 @@ Christopher De Jesús and Humberto Ortiz-Zuazaga (2016):
 SSH - Brute Force Detection using Bro Network
 inside a Vagrant Virtual Environment
 Technical report
-[available online]({filename}/images/Technical_Report__SSH_Detection_using_Bro_Network_inside_a_Vagrant_Virtual_Environment.pdf)
+[available online]({static}/images/Technical_Report__SSH_Detection_using_Bro_Network_inside_a_Vagrant_Virtual_Environment.pdf)

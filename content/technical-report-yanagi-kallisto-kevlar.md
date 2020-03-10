@@ -6,5 +6,5 @@ Tags: Bioinformatics, k-mers
 
 
 Walter Báez Laguna, Humberto Ortiz-Zuazaga. (2019)
-[Yanagi, Kallisto and Kevlar: Differential Expression Methods]({filename}/images/yanagi_kallisto_kevlar.pdf).
+[Yanagi, Kallisto and Kevlar: Differential Expression Methods]({static}/images/yanagi_kallisto_kevlar.pdf).
 Megaprobe Technical Reports, San Juan, PR, May 16, 2019.

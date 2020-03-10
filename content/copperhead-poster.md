@@ -7,7 +7,7 @@ Category: Publications
 Omar Rosado-Ramírez (2015): CopperHead: A New And Simple Solution To
 Sequence Assembly. Poster presented for Undergraduate Seminar (CCOM
 3982), May 11, San Juan, PR.
-[pdf]({filename}/images/CopperHeadPosterBest.pdf)
+[pdf]({static}/images/CopperHeadPosterBest.pdf)
 Retrieved 21:06, May
 26, 2015 (GMT)
 

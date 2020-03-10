@@ -5,5 +5,5 @@ Category: Publications
 Tags: Bioinformatics, Cancer, k-mers
 
 Louis Gil Acevedo and Humberto Ortiz-Zuazaga. (2019)
-[Cancer Detection from Kmers]({filename}/images/Kmer Cancer Detection.pdf).
+[Cancer Detection from Kmers]({static}/images/Kmer Cancer Detection.pdf).
 Megaprobe Technical Reports, San Juan, PR, May 21, 2019.

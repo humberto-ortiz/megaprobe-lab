@@ -7,4 +7,4 @@ Category: Publications
 Grace M. Rodríguez Gómez and Humberto Ortiz-Zuazaga (2016): Using
 Visualization to Improve Analysis of Anomaly Detection in IPv6
 Flows. Technical report
-[available online]({filename}/images/Using Visualization to Improve Analysis of Anomaly Detection in IPv6 Flows .pdf)
+[available online]({static}/images/Using Visualization to Improve Analysis of Anomaly Detection in IPv6 Flows .pdf)

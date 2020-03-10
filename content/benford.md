@@ -6,4 +6,4 @@ Category: Publications
 
 Colón-Rosado, Bianca; Ortiz-Zuazaga, Humberto (2016): Anomaly
 Detection in Network Flows: Benford’s Law. Technical report
-[available online]({filename}/images/technicalReportBianca2sem2016.pdf).
+[available online]({static}/images/technicalReportBianca2sem2016.pdf).

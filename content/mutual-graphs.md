@@ -6,4 +6,4 @@ Category: Publications
 
 Israel O. Dilán Pantojas and Humberto Ortiz-Zuazaga (2016): Analysis
 of Mutual’s output and some contributions. Technical report [available
-online]({filename}/images/Israel-Tech-repoedit.pdf).
+online]({static}/images/Israel-Tech-repoedit.pdf).

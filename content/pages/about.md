@@ -10,4 +10,4 @@ where a probe is a network flow or an individual network packet.
 Our mascot is [Mega Probe](http://boboiboy.wikia.com/wiki/Mega_Probe),
 a character in a Malasian animated series.
 
-![Image of MegaProbe robot]({filename}/images/k-logo-crop.png)
+![Image of MegaProbe robot]({static}/images/k-logo-crop.png)
