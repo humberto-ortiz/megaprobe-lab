@@ -99,3 +99,14 @@ WORKDIR /home/docker
 + Briknie helped me in how to manage real data and implementing it to the script.
 + Ran the script with what is suppose to be real data, don't yet understand the output of the program.
 
+### Week 4 : February 24, 2020 - February 28, 2020
++ Talk to the professor about the project, he explained that we needed to use the cucumber data for the diffhash.
++ The professor created a "data" directory in hulk so that we could transfer the data that we have so we don't ran out of memory
++ Change the working directory of the diffhash and ran the code.
++ The code finished running on Sunday March 1,2020 but it did not gave out the information we hope for.
++ No lab meeting on friday, the professor had a meeting
+
+### Week 5 : March 2, 2020 - March 6, 2020
++ Ran the code again, last time it took 4 days so we hoped that we would get some results before the poster presentation.
++ The program gave us the result we expected, and we finally started working on the poster.
++ Friday we presented at the SIDIM Conference, therefore no lab meeting. 
