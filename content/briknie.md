@@ -5,20 +5,19 @@ Slug: briknie
 Category: People
 Tags: bioinformatic, newbie, lab-guardian, butterflies
 
-# Briknie Báez Rodríguez
 # Contact Info
 - e-mail: briknie.baez@upr.edu
 - GitHub: https://github.com/sbriknie
 
 # Bio:
  - French Horn player 📯
- - Computer Science Student 
+ - Computer Science Student
  - Trying to learn new things every day
  - Someday I'll like to help people with the things I do    
 
 # Research Goals
 
-By being part of the MegapProbe Lab I aim to improve my research abilities and learn a new set of skills that will help me become better scientist.
+By being part of the MegaProbe Lab I aim to improve my research abilities and learn a new set of skills that will help me become better scientist.
 
 # Additional Goals
 - Learn how to hack like Humberto
@@ -28,9 +27,36 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 
 ### Weekly UPDATES (LOADING, PLEASE WAIT...)
 
-#### Week 2: (3-7/Feb)
-- This week we were working on the abstract for the SIDIM that will take place on March 6, 2020 
-- We ran diffhash and started to read the code to see how we can implement the bloom filter and the count-min sketch. Hopefully we gonna have something more solid for next week. 
+#### Week 8: (16-20/Mar)
+- COVID-19 IS OUT OF CONTROL!! (O.O)
+- There are rumors saying that the semester will end online...
+- We had a lab meeting through Mumble. (we just chatted with HOZ)
+
+#### Week 7: (09-13/Mar)
+- Mid-Terms are Coming!
+- I didn't do much this week
+- COVID-19 is getting out of control (e.e)
+
+#### Week 6: (02-06/Mar)
+- Hell week!!
+- I gave birth to a poster with the help of Luis.
+- We presented Diffhash for the first time at the SIDIM
+
+#### Week 5: (24-28/Feb)
+- I installed Probably.jl at Hulk (https://github.com/jakobnissen/Probably.jl)
+- Probably.jl was downgraded from version 1.0 to version 0.1
+  - We'll have to evaluate if this version suite our necessities
+
+#### Week 4: (17-21/Feb)
+- I was trying to understand the code of Probably.jl to see if I can implement it to diffhash
+
+#### Week 3: (10-14/Feb)
+- I helped Luis to understand how to manage real data on diffhash
+- Luis is going to run diffhash with the sea cucumber data
+
+#### Week 2: (03-07/Feb)
+- This week we were working on the abstract for the SIDIM that will take place on March 6, 2020
+- We ran diffhash and started to read the code to see how we can implement the count-min sketch. Hopefully we gonna have something more solid for next week
 
 #### Week 1: (27-31/Jan)
 - I had a meeting with Humberto Ortiz-Zuazaga, PhD, where we discussed the things we were going to be doing this semester.
@@ -42,18 +68,18 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 - I am barely alive... I talked to Dr. Ortiz-Zuazaga about some problems I had with my schedule and the plan for the next semester. Hopefully I can do better next year :)
 
 #### Week 14-15: (18-22/Nov)
-- Dr. Ortiz-Zuazaga tried to help us resolve the compatibility problems with the required packages but we couldn't address the problem and run the program. 
+- Dr. Ortiz-Zuazaga tried to help us resolve the compatibility problems with the required packages but we couldn't address the problem and run the program.
 - Humberto Concluded that it was almost impossible to meet all the requirements for the preprocessing of D-GEX and we started the search for more papers on the same topic.  
 
 #### Week 13: (11-15/Nov)
 - Luis asked for the data to the scientist that published the paper and they answered super fast.
 - We tried to run the program from the GitHub repository of the project but we couldn't pass the preprocessing of D-GEX because of all the version issues
 
-#### Week 12: (4-8/Nov)
+#### Week 12: (04-08/Nov)
 - Back from SACNAS... I hace like 1Kw (Kilo works, it's a standard unit of measurement hehe)
 - Humberto assigned me to work with Luis since seq-seq-pan was a an already working program with little to improve (and that little required Java)
 
-#### Week 11: (28-1/Oct-Nov)
+#### Week 11: (28-01/Oct-Nov)
 - I went to the SACNAS Conference at Hawai'i
 	- __Note__: Dear Mega-Probers: If you have 7 classes, do not attend to any conference... it was a bad idea :)
 
@@ -68,7 +94,7 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 - \#hulkWasDown
 - Lab meeting canceled, professor had a meeting.
 
-#### Week 8: (7-11/Oct)
+#### Week 8: (07-11/Oct)
 - I was reading the seq-seq-pan paper to presented on the lab meeting.
 - Lab meeting was canceled due to BSidesPR Conference.
 
@@ -81,11 +107,11 @@ By being part of the MegapProbe Lab I aim to improve my research abilities and l
 #### Week 5: (16-20/Sep)
 - I found a program called Mauve that look's like a good tool for the idea of the Pan-genome
 
-#### Week 4: (9-13/Sep)
+#### Week 4: (09-13/Sep)
 - I presented the Deepfinder paper in the Journal Club
 - I'm trying to find possibles ways to create the pan-genome of the butterflies
 
-#### Week 3: (2-6/Sep)
+#### Week 3: (02-06/Sep)
 - I started working with Steven Van Belleghem using butterfly data to create a Pan-genome
 - Lab metting cancelled
 
