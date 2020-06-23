@@ -8,7 +8,7 @@ Tags: bioinformatics, REU, IQ-BIO
 
 ## Contact info:
  - e-mail- <sergio.mares@okstate.edu>
- - LinkedIn-  <www.linkedin.com/in/sergio-mares>
+ - LinkedIn-  <https://www.linkedin.com/in/sergio-mares>
 
 ## Bio:
 After living in Mexico for 16 years, I had to leave my family behind to begin a new journey in the United States. 
@@ -31,9 +31,9 @@ and techniques must be developed to further the field. Recent advancements have 
 sequence analysis. k-mer analysis was developed to overcome time constraints of traditional assembly strategies (3).
 The purpose of this study is to explore the changes in composition of microbiota from previously published
 rhizosphere communities by k-mer based sequence analysis. It will consist of analyzing the metagenomic
-data from the Tabebuia heterophylla rhizosphere communities from different geological substrates.
+data from the _Tabebuia heterophylla_ rhizosphere communities from different geological substrates.
 This project hopes to find and provide further understanding of the key differences in the
-Tabebuia heterophylla rhizosphere communities.
+_Tabebuia heterophylla_ rhizosphere communities.
 
 
 ## Weekly UPDATES
