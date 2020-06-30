@@ -48,7 +48,7 @@ _Tabebuia heterophylla_ rhizosphere communities.
   - Download the files to used to test <https://www.ncbi.nlm.nih.gov/sra/?term=SRR492065> (SRR492065 and SRR492066)
   - Ran Trimmomatic with the files
   
- ```
+```
 (base) MBP-de-Sergio:~ sergiomares$ ssh smares@boqueron.hpcf.upr.edu
 smares@boqueron.hpcf.upr.edu's password: 
 Last login: Thu Jun 25 16:35:50 2020 from 74.195.246.210
@@ -83,8 +83,7 @@ Last login: Thu Jun 25 16:35:50 2020 from 74.195.246.210
   459  trimmomatic SE /home/humberto/smares/assembly/SRR492065.pe.qc.fq.gz OUT_SRR492056.pe.qc.fq.gz ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10 LEADING:2 TRAILING:2 SLIDINGWINDOW:4:2 MINLEN:25
   461  history | grep SRR492065
 (base) [smares@boqueron ~]$ 
-
- ```
+```
   
 ### Week 2: (8-12, 6, 2020)
   - Developed a plan for the project
