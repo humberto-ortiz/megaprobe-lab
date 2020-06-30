@@ -35,9 +35,9 @@ data from the _Tabebuia heterophylla_ rhizosphere communities from different geo
 This project hopes to find and provide further understanding of the key differences in the
 _Tabebuia heterophylla_ rhizosphere communities.
 
-1 Ortiz Y, Restrepo C, Vilanova-Cuevas B, Santiago-Valentin E, Tringe SG, Godoy-Vitorino F. 2020. Geology and climate influence rhizobiome composition of the phenotypically diverse tropical tree Tabebuia heterophylla. PLOS ONE 15:e0231083.
-2 Scholz MB, Lo C-C, Chain PS. 2012. Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis. Current Opinion in Biotechnology 23:9–15.
-3 Zhang Q, Pell J, Canino-Koning R, Howe AC, Brown CT. 2014. These Are Not the K-mers You Are Looking For: Efficient Online K-mer Counting Using a Probabilistic Data Structure. PLOS ONE 9:e101271.
+1. Ortiz Y, Restrepo C, Vilanova-Cuevas B, Santiago-Valentin E, Tringe SG, Godoy-Vitorino F. 2020. Geology and climate influence rhizobiome composition of the phenotypically diverse tropical tree Tabebuia heterophylla. PLOS ONE 15:e0231083.
+1. Scholz MB, Lo C-C, Chain PS. 2012. Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis. Current Opinion in Biotechnology 23:9–15.
+1. Zhang Q, Pell J, Canino-Koning R, Howe AC, Brown CT. 2014. These Are Not the K-mers You Are Looking For: Efficient Online K-mer Counting Using a Probabilistic Data Structure. PLOS ONE 9:e101271.
 
 
 
@@ -96,6 +96,7 @@ lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492065_2.fastq -> /home/h
 -rw-r--r-- 1 smares humberto  87946022 Jun 29 18:52 SRR492066.se.qc.fq.gz
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_1.fastq -> /home/humberto/smares/data/SRR492066_1.fastq
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_2.fastq -> /home/humberto/smares/data/SRR492066_2.fastq
+```
 
 ### Week 4: (22-26, 6, 2020)
 
