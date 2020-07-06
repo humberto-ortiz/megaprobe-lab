@@ -55,7 +55,7 @@ _Tabebuia heterophylla_ rhizosphere communities.
 - Running Digital Normalization
 - Partial Partitioning 
 
-- Completed the Quality Trumming and Filtering Sequences:
+- Completed the Quality Trimming and Filtering Sequences:
 
 ```
 (roble3) [smares@boqueron trim]$ trimmomatic PE ../SRR492065_?.fastq s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
@@ -104,7 +104,8 @@ lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492065_2.fastq -> /home/h
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_1.fastq -> /home/humberto/smares/data/SRR492066_1.fastq
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_2.fastq -> /home/humberto/smares/data/SRR492066_2.fastq
 ```
--- Completed the Running Digital Normalization: 
+-- Completed the Running Digital Normalization
+(Normalizing read coverage):
 
 ```
 normalize-by-median.py -k 20 -C 20 -N 4 -x 5e8 -p --savegraph normC20k20.kh *.pe.qc.fq.gz
@@ -129,7 +130,7 @@ gzip -9c SRR492065.pe.qc.fq.gz.keep.abundfilt.se.keep SRR492065.se.qc.fq.gz.keep
 Nothing was deleted past this point
 ```
 
---Ran (partially) Partitioning 
+--Ran (partially) Partitioning (Diving reads in disjoint sets that do not connect):
 
 ```
 ------
@@ -168,8 +169,10 @@ sweep-reads3.py -x 3e8 kak.group*.fq all.fq
 
   -- Realized I had to create a separate environment using Miniconda
   - Created Roble3 with the following packages: 
-    Packages: khmer trimmomatic fastx_toolkit sta-tools
+    Packages: khmer trimmomatic fastx_toolkit sta-tools (trimming reads of certain kinds of sequencing errors):
+    
   - Download the files to used to test <https://www.ncbi.nlm.nih.gov/sra/?term=SRR492065> (SRR492065 and SRR492066)
+  
 ```
 (base) MBP-de-Sergio:~ sergiomares$ ssh smares@boqueron.hpcf.upr.edu
 smares@boqueron.hpcf.upr.edu's password: 
