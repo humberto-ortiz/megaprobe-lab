@@ -24,4 +24,4 @@ If I edit your files after you do, you will need to pull my changes
 back into your repository. This will require two steps:
 [setting an upstream](https://help.github.com/articles/configuring-a-remote-for-a-fork)
 and
-[syncing your fork](https://help.github.com/articles/syncing-a-fork/).
+[syncing your fork](https://help.github.com/articles/syncing-a-fork/). Or, see [Rick Cogley's post](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/) to update a forked repository directly on github.
