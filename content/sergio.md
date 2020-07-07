@@ -169,7 +169,7 @@ sweep-reads3.py -x 3e8 kak.group*.fq all.fq
 
   -- Realized I had to create a separate environment using Miniconda
   - Created Roble3 with the following packages: 
-    Packages: khmer trimmomatic fastx_toolkit sta-tools (trimming reads of certain kinds of sequencing errors):
+    Packages: khmer trimmomatic fastx_toolkit sra-tools (trimming reads of certain kinds of sequencing errors):
     
   - Download the files to used to test <https://www.ncbi.nlm.nih.gov/sra/?term=SRR492065> (SRR492065 and SRR492066)
   
