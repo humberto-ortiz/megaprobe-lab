@@ -35,13 +35,15 @@ data from the _Tabebuia heterophylla_ rhizosphere communities from different geo
 This project hopes to find and provide further understanding of the key differences in the
 _Tabebuia heterophylla_ rhizosphere communities.
 
-1 Ortiz Y, Restrepo C, Vilanova-Cuevas B, Santiago-Valentin E, Tringe SG, Godoy-Vitorino F. 2020. Geology and climate influence rhizobiome composition of the phenotypically diverse tropical tree Tabebuia heterophylla. PLOS ONE 15:e0231083.
-2 Scholz MB, Lo C-C, Chain PS. 2012. Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis. Current Opinion in Biotechnology 23:9–15.
-3 Zhang Q, Pell J, Canino-Koning R, Howe AC, Brown CT. 2014. These Are Not the K-mers You Are Looking For: Efficient Online K-mer Counting Using a Probabilistic Data Structure. PLOS ONE 9:e101271.
+1. Ortiz Y, Restrepo C, Vilanova-Cuevas B, Santiago-Valentin E, Tringe SG, Godoy-Vitorino F. 2020. Geology and climate influence rhizobiome composition of the phenotypically diverse tropical tree Tabebuia heterophylla. PLOS ONE 15:e0231083.
+1. Scholz MB, Lo C-C, Chain PS. 2012. Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis. Current Opinion in Biotechnology 23:9–15.
+1. Zhang Q, Pell J, Canino-Koning R, Howe AC, Brown CT. 2014. These Are Not the K-mers You Are Looking For: Efficient Online K-mer Counting Using a Probabilistic Data Structure. PLOS ONE 9:e101271.
 
 
 
 ## Weekly UPDATES
+
+### Week 6 (06 7, 2020 - 13 7, 2020)
 
 
 ### Week 5: (29 6, 2020 - 3 7 2020)
@@ -49,6 +51,11 @@ _Tabebuia heterophylla_ rhizosphere communities.
 - Followed the procotol, but instead of using the Kalamazoo commands, I used the miniconda commands (Listed below)
 - 29/06/2020 - Google Meet with Dr. Ortiz-Zuazaga
 2:30 pm (CST)
+- Quality Trimming and Filtering
+- Running Digital Normalization
+- Partial Partitioning 
+
+- Completed the Quality Trimming and Filtering Sequences:
 
 ```
 (roble3) [smares@boqueron trim]$ trimmomatic PE ../SRR492065_?.fastq s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
@@ -96,14 +103,76 @@ lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492065_2.fastq -> /home/h
 -rw-r--r-- 1 smares humberto  87946022 Jun 29 18:52 SRR492066.se.qc.fq.gz
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_1.fastq -> /home/humberto/smares/data/SRR492066_1.fastq
 lrwxrwxrwx 1 smares humberto        44 Jun 29 16:09 SRR492066_2.fastq -> /home/humberto/smares/data/SRR492066_2.fastq
+```
+-- Completed the Running Digital Normalization
+(Normalizing read coverage):
+
+```
+normalize-by-median.py -k 20 -C 20 -N 4 -x 5e8 -p --savegraph normC20k20.kh *.pe.qc.fq.gz
+normalize-by-median.py -C 20 -s normC20k20.kh -l normC20k20.kh *.se.qc.fq.gz
+Error my trim data
+filter-abund.py -V normC20k20.kh *.keep
+for i in *.pe.qc.fq.gz.keep.abundfilt
+do
+   extract-paired-reads.py $i
+done
+
+Normalize down to C=5
+normalize-by-median.py -C 5 -k 20 -N 4 -x 5e8 -s normC5k20.kh -p *.pe.qc.fq.gz.keep.abundfilt.pe
+normalize-by-median.py -C 5 -s normC5k20.kh -l normC5k20.kh *.pe.qc.fq.gz.keep.abundfilt.se *.se.qc.fq.gz.keep.abundfilt
+Compress and combine the files
+gzip -9c SRR492065.pe.qc.fq.gz.keep.abundfilt.pe.keep > SRR492065.pe.kak.qc.fq.gz
+gzip -9c SRR492066.pe.qc.fq.gz.keep.abundfilt.pe.keep > SRR492066.pe.kak.qc.fq.gz
+and the single-ended files:
+gzip -9c SRR492066.pe.qc.fq.gz.keep.abundfilt.se.keep SRR492066.se.qc.fq.gz.keep.abundfilt.keep > SRR492066.se.kak.qc.fq.gz
+gzip -9c SRR492065.pe.qc.fq.gz.keep.abundfilt.se.keep SRR492065.se.qc.fq.gz.keep.abundfilt.keep > SRR492065.se.kak.qc.fq.gz
+ - not found
+Nothing was deleted past this point
+```
+
+--Ran (partially) Partitioning (Diving reads in disjoint sets that do not connect):
+
+```
+------
+SIMPLE PARTITIONING
+
+You will need the normC5k20.kh file from 2. Running digital normalization for this step. If you don’t have it, you can regenerate it like so:
+load-into-counting.py -k 20 -N 4 -x 5e8 normC5k20.kh *.qc.fq.gz
+do-partition.py -k 32 -x 1e9 --threads 4 kak *.kak.qc.fq.gz.abundfilt
+head SRR492065.se.kak.qc.fq.gz.abundfilt.part
+
+EXTRACTING THE PARTITIOONS INTO GROUPS
+extract-partitions.py -X 100000 kak *.part
+---
+Separating groups into PE and SE
+
+for i in kak*.fq
+do
+   extract-paired-reads.py $i
+   name=$(basename $i .fq)
+   mv ${name}.fq.pe ${name}.pe.fq
+   mv ${name}.fq.se ${name}.se.fq
+done
+
+gzip *.pe.fq *.se.fq
+----
+Reinflating partitions (optional)¶
+
+gunzip -c SRR49206?.?e.qc.fq.gz > all.fq
+sweep-reads3.py -x 3e8 kak.group*.fq all.fq
+
+(roble3) [smares@boqueron assembly]$ sweep-reads3.py
+-bash: sweep-reads3.py: command not found
+```
 
 ### Week 4: (22-26, 6, 2020)
 
   -- Realized I had to create a separate environment using Miniconda
   - Created Roble3 with the following packages: 
-    Packages: khmer trimmomatic fastx_toolkit sta-tools
+    Packages: khmer trimmomatic fastx_toolkit sra-tools (trimming reads of certain kinds of sequencing errors):
+    
   - Download the files to used to test <https://www.ncbi.nlm.nih.gov/sra/?term=SRR492065> (SRR492065 and SRR492066)
-
+  
 ```
 (base) MBP-de-Sergio:~ sergiomares$ ssh smares@boqueron.hpcf.upr.edu
 smares@boqueron.hpcf.upr.edu's password: 
