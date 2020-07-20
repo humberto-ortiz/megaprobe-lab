@@ -41,7 +41,7 @@ _Tabebuia heterophylla_ rhizosphere communities.
 
 ## Weekly UPDATES
 
-### Week 8 (13-17, 7, 2020)
+### Week 8 (20-24, 7, 2020)
 
 ```
 - Competed the Kalamazoo Protocol
@@ -53,7 +53,7 @@ _Tabebuia heterophylla_ rhizosphere communities.
 Final graph has 2156933 nodes and n50 of 23, max 682, total 26343081, using 0/15647163 reads
 (roble3) [smares@boqueron assembly]$ ls -al
 ```
-### Week 7: (20-24, 7, 2020)
+### Week 7: (13-17, 7, 2020)
 
 - Completed a presentation for this paper:
 https://academic.oup.com/gigascience/article/9/4/giaa028/5812700
