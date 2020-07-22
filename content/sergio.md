@@ -11,9 +11,7 @@ Tags: bioinformatics, REU, IQ-BIO
  - LinkedIn-  <https://www.linkedin.com/in/sergio-mares>
 
 ## Bio:
-After living in Mexico for 16 years, I had to leave my family behind to begin a new journey in the United States. 
-Now, as a microbiology and biochemistry student-researcher, I am continuing my path to provide assistance to the 
-communities that surround Oklahoma State University. Now, as part of the IQ BIO REU in the Univesristy of Puerto Rico Rio Piedras,
+Biochemistry student-researcher at Oklahoma State University. Now, as part of the IQ BIO REU in the Univesristy of Puerto Rico Rio Piedras,
 I will explore the tools and insights of bioinformatics and data analysis.
 
 ## Research Goals
@@ -43,7 +41,36 @@ _Tabebuia heterophylla_ rhizosphere communities.
 
 ## Weekly UPDATES
 
-### Week 6 (06 7, 2020 - 13 7, 2020)
+### Week 8 (20-24, 7, 2020)
+
+```
+- Competed the Kalamazoo Protocol
+- Finished the Assembly of the SRR... 65, 66 files 
+- Have the correct files in Boqueron
+
+[1100.300613] Writing into stats file results/stats.txt...
+[1113.346208] Writing into graph file results/LastGraph...
+Final graph has 2156933 nodes and n50 of 23, max 682, total 26343081, using 0/15647163 reads
+(roble3) [smares@boqueron assembly]$ ls -al
+```
+### Week 7: (13-17, 7, 2020)
+
+- Completed a presentation for this paper:
+https://academic.oup.com/gigascience/article/9/4/giaa028/5812700
+
+- Finished the Kalamazoo protocol.
+- Met with Dr. Humberto to talk about the next steps of the project
+     * We are meeting more constantly this week
+     * I am putting myself a goal to present papers to Humberto
+     * Complete a prototype next week
+
+
+### Week 6: (6-10, 7, 2020)
+
+- Hackathon Week
+- Completed a presentation for the Hackaton: 
+
+https://github.com/sermare/Presentations-University-PR-2020/blob/master/Hackaton%20Presentation%202020.pdf
 
 
 ### Week 5: (29 6, 2020 - 3 7 2020)
@@ -192,39 +219,6 @@ Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTG
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 
 Error: Unable to detect quality encoding <---- Descarge el archivo equivacado??
- ```
-Dr. Ortiz-Zuazaga recommended run this:
-
- ```
-(roble3) [smares@boqueron ~]$ history | grep SRR492065
-  133  java -jar /usr/local/bin/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/usr/local/share/adapters/TruSeq3-PE.fa:2:30:10
-  141  java -jar /home/humberto/smares/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
-  219  java -jar /home/humberto/smares/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
-  236  java -jar /home/humberto/smares/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
-  246  gzip -9c combined-trim.fq.pe > ../SRR492065.pe.qc.fq.gz
-  255  gzip -9c combined-trim.fq.pe > ../SRR492065.pe.qc.fq.gz
-  261  java -jar /home/humberto/smares/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
-  281  java -jar /home/humberto/smares/trimmomatic-0.30.jar PE ../SRR492065_?.fastq.gz s1_pe s1_se s2_pe s2_se ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10
-  308  curl -o https://storage.googleapis.com/sra-pub-src-14/SRR492065/1-74-11-repeat.1.txt.gz
-  314  ./fastq-dump -X 5 -Z SRR492065
-  349  fastq-dump.2 -X 5 -Z SRR492065
-  353  ./fastq-dump -X 5 -Z SRR492065
-  365  ./fastq-dump.2 -X 5 -Z SRR492065
-  366  ./fastq-load -X 5 -Z SRR492065
-  367  ./fastq-dump.2 -X 5 -Z SRR492065
-  376  ./fastq.dump -X 5 -Z SRR492065
-  379  SRR492065./fastq-dump -X 5 -Z SRR492065
-  380  ./fastq-dump -X 5 -Z SRR492065
-  382  ./fastq-dump -X 5 -Z SRR492065
-  386  ./fastq-dump -X 5 -Z SRR492065
-  389  fastq-dump -X 5 -Z SRR492065
-  390  fastq-dump SRR492065
-  447  SRR492065.pe.qc.fq.gz
-  448  trimmomatic SE /home/humberto/smares/assembly/SRR492065.pe.qc.fq.gz OUT_SRR492056.pe.qc.fq.gz ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:0:15 LEADING:2 TRAILING:2 SLIDINGWINDOW:4:2 MINLEN:25
-  449  trimmomatic SE /home/humberto/smares/assembly/SRR492065.pe.qc.fq.gz OUT_SRR492056.pe.qc.fq.gz ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10 LEADING:2 TRAILING:2 SLIDINGWINDOW:4:2 MINLEN:25
-  459  trimmomatic SE /home/humberto/smares/assembly/SRR492065.pe.qc.fq.gz OUT_SRR492056.pe.qc.fq.gz ILLUMINACLIP:/home/humberto/smares/adapters/TruSeq3-PE.fa:2:30:10 LEADING:2 TRAILING:2 SLIDINGWINDOW:4:2 MINLEN:25
-  461  history | grep SRR492065
-(base) [smares@boqueron ~]$ 
  ```
 
 ### Week 3: (15-19, 6, 2020)
