@@ -34,13 +34,13 @@ A technical report should at a minimum contain the following:
 1. Acknowledgments
 1. References
 
-## Veteran students
+## More experienced students
 
 If you have decent results, emphasize your new results, the methods
 you used, and enough introduction to comprehend the methods and
 results.
 
-## New students
+## New students in the lab
 
 If you are a new student in the lab, your technical report will
 probably be short on results. Do an introduction to the problem you
@@ -55,5 +55,5 @@ See the publications page on the megaprobe site to see example technical reports
 Every student in megaprobe lab should write a technical report every
 semester. Follow the above guidelines and examples to do a good job.
 
-[guide]: http://www.waikato.ac.nz/library/study/guides/write-scientific-reports
+[guide]: https://www.waikato.ac.nz/library/guidance/guides/write-scientific-reports
 [bianca]: https://groups.google.com/forum/#!msg/megaprobe-lab/7XulWBUJbuE/JKhsuyJ-DwAJ;context-place=forum/megaprobe-lab
