@@ -2,7 +2,7 @@ Title: Ian M. Pérez López\
 Date: 2023-10-17\
 Slug: ianperez5\
 Category: People\
-Tags: exploratory data analysis, single-cell genomics, dimensionality reduction\
+Tags: exploratory data analysis, single-cell genomics, dimensionality reduction
 
 # Ian M. Pérez López
 ## Contact info:
