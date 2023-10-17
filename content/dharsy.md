@@ -1,3 +1,9 @@
+Title: Dharsy D. Rodriguez Velazquez
+Date: 2023-10-217
+Slug: dharsy
+Category: People
+Tags: bioinformatics
+
 # Dharsy D. Rodriguez Velazquez
 ## Contact info:
 e-mail
