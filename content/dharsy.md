@@ -2,7 +2,7 @@ Title: Dharsy D. Rodriguez Velazquez
 Date: 2023-10-17
 Slug: dharsy
 Category: People
-Tags: bioinformatics
+Tags: bioinformatics, social sciences
 
 # Dharsy D. Rodriguez Velazquez
 ## Contact info:
