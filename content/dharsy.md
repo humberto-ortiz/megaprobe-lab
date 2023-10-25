@@ -35,13 +35,13 @@ bt.3192
 
 ## Weekly UPDATES
 June 5-9, 2023
-IDGeNe first meeting
-Meet & Greet All Summer Programs
-Workshop: Mindsets
-Workshop: Lab Etiquette and Lab Safety
-Workshop: Bioinformatics I and II
-Workshop: Software Carpentry 
-Workshop: Sexual Harrasment
-Mentoring: Dr. Adriana Baez
+ -IDGeNe first meeting
+ -Meet & Greet All Summer Programs
+ -Workshop: Mindsets
+ -Workshop: Lab Etiquette and Lab Safety
+ -Workshop: Bioinformatics I and II
+ -Workshop: Software Carpentry 
+ -Workshop: Sexual Harrasment
+ -Mentoring: Dr. Adriana Baez
 
 
