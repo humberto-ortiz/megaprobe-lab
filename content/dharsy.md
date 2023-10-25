@@ -8,7 +8,7 @@ Tags: bioinformatics
 ## Contact info:
 e-mail
 
-  - [dharsy.rodriguez@upr.edu]
+  - dharsy.rodriguez@upr.edu
 
 LinkedIn
 
@@ -34,4 +34,14 @@ bt.3192
 1. He D, Zakeri M, Sarkar H, Soneson C, Srivastava A, Patro R. (2022) Alevin-fry unlocks rapid, accurate and memory-frugal quantification of single-cell RNA-seq data. Nat Methods. Mar;19(3):316-322. doi: 10.1038/s41592-022-01408-3. Epub 2022 Mar 11. PMID: 35277707; PMCID: PMC8933848.
 
 ## Weekly UPDATES
+June 5-9, 2023
+IDGeNe first meeting
+Meet & Greet All Summer Programs
+Workshop: Mindsets
+Workshop: Lab Etiquette and Lab Safety
+Workshop: Bioinformatics I and II
+Workshop: Software Carpentry 
+Workshop: Sexual Harrasment
+Mentoring: Dr. Adriana Baez
+
 
