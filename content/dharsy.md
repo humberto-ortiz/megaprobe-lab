@@ -118,8 +118,8 @@ bt.3192
  -Galaxy Workshop “Genomics”
  -Genomics and Society Dr. Joseph Vogel Bounded Openness over Natural Information
  -Galaxy Workshop “Transcriptomics”
--Galaxy Workshop “Metagenomics”
-- Journal Club:Dr. Alfredo Ghezzi
+ -Galaxy Workshop “Metagenomics”
+ -Journal Club:Dr. Alfredo Ghezzi
 
 ### July 17-21, 2023
  -Meet the Mentors Dr. Josue Pérez Santiago
