@@ -270,21 +270,26 @@ nano align_data
 
 ### September 25-29, 2023 
 --Seminario Científico: "Phylogenomic tools to shed light on the evolution of ant-plant symbioses"
---
+--Seminario Científico: "Artificial Intelligence and Machine Learning applied to Biomedicine and Health Disparities Research"
  
-### October 2-6,2023  
+### October 2-6,2023
+--Seminario de Reclutamiento: UT Southwestern
 
 
 ### October 9-13,2023  
+--Taller | Conquista el Tiempo, Alivia la Ansiedad: Estrategias Universitarias Efectiva
+--Seminario de Reclutamiento: Gerstner Sloan Kettering Graduate School (GSK)
 
 
 ### October 16-20,2023  
 
 
 ### October 23-27,2023  
+--Seminario Científico: "Reconstituting human organogenesis and disease on microchips"
 
 
-### October 20- November 3,2023  
+### October 30- November 3,2023  
+--Seminario Científico: "Data Science"
 
 
 ### Novermber 6-10,2023  
