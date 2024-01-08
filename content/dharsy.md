@@ -322,32 +322,32 @@ nano align_data
 --MIT prework, documents and survey
 
 
-### January 1,2023: Introduction and Python Review 
+### January 1,2024: Introduction and Python Review 
  -Introduction and expectations with Mandana Sassanfar 
  -Magdalena Krubner "Review of pyhton basics"
  -Magdalena Krubner "Simple coding with python"
  
  
-### January 2,2023: Python Applications/Machine Learning 
+### January 2,2024: Python Applications/Machine Learning 
  -Review and discussion with Mandana Sassanfar
  -Hannah Jobs "Plotting and Curve fitting using python"
  -Lunch with faculty: Lindsay Case, Kristen Knouse, Sinisa Hvartin, Mehrdad Jazayeri,Francisco Sanchez, Brandon Weissbourd.
  -Taylor Baum "Matching Learning applications to studying the brain"
 
 
-### January 3,2023: Cognitive neuroscience/Signal Processing 
+### January 3,2024: Cognitive neuroscience/Signal Processing 
  -"Dr. Federico Claudi-Brain Computer interface theory and practice"
  -Lunch with faculty:Adam Martin, David Page, Eliezer Calo, Ed Boyden, Chris Burge, Matt VAnder Heiden.
  -"Taylor Baum-Signal processing applied to neuroscience"
  
-### January 4,2023: CRYO EM
+### January 4,2024: CRYO EM
  -Review and discussion with Mandana Sassanfar
  -Mary Ellen Wiltrout "MIT digital learning and on-line courses"
  -Joey Davis "Introduction to CryoEM"
  -Lunch with faculty: Joey Davis, Cathy Drennan, Becky Lamson, Amy Keating, Mark  Harnett, Erin Chen
  -Jooey Davis and Lab members "CryoEM Data processing and analysis"
  
-### January 5,2023:cognitive reuroscience/Lab Tours
+### January 5,2024:cognitive reuroscience/Lab Tours
  -Reiew and discussion with Mandana Sassanfar
  -Lecture:Professor Nancy Kanwisher, "Functional Imaging of the Human Brain"
  -Lunch with faculty: Steve Flavell, Nancy Kanwisher, Robert Desimone. 3 concurrent Tours, fMRI live demo with Steven Shannon, Athinoula, A. Martinos Imaging Center OR, Tour of MEG facilities with Dimitri Pantazi, CryoEM tour with Sarah Sterling.
@@ -355,16 +355,23 @@ nano align_data
  -Edit Abstract for march (SACNAS) and april (NHGRI)
 
 
-### January 6,2023:GENOMICS/GWAS/RNAseq
+### January 6,2024:GENOMICS/GWAS/RNAseq
  -Review and discussion with Mandana Sassanfar
  -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
  -Lunch with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
  -Notification to the Profesor about summer off-site programs
 
 
-### January 7,2023:GENOMICS/GWAS/RNAseq/Information Sessions
+### January 7,2024:GENOMICS/GWAS/RNAseq/Information Sessions
  -Kamal Maher, "Spatial gene expression patterns using python"
  -Grad students/Postbacs panel
 
+### January 8-12:
+--
 
+### January 15-19:
+
+### January 22-26:
+
+### January 29-2 February, 2024
  
