@@ -268,7 +268,6 @@ nano align_data
 
 
 
-
 ### September 18-22, 2023 
 --Graduate Fair 
 --Journal Club: "Dimensional reduction"
