@@ -231,10 +231,11 @@ nano align_data
 --Journal Club with Dr. José García-Arrarás at JGD-223
 
 
-### July 31- August 4, 3023
+### July 31- August 4, 2023
 --Lunch with Dr. Juan S. Ramírez-Lugo at CRiiAS
+--Site visit: Ebony Madden, Ph.D.Health Equity and Workforce Diversity Program Director National Human Genome Research Institute (NHGRI) 
 --Deliverable: DRAFT Presentation 
---Deliverable OFFICIAL Final presentation (https://drive.google.com/drive/u/1/folders/1uw_YQo_W6Ueb2WsL0qnU0iXnkolAEqDA)
+--Deliverable OFFICIAL Final presentation 
 --2023 SUMMER RESEARCH FEST 
 
 ### August 5-15
@@ -265,7 +266,7 @@ nano align_data
 
 
 ### September 18-22, 2023 
-
+--Graduate Fair 
 
 
 ### September 25-29, 2023 
@@ -277,7 +278,7 @@ nano align_data
 
 
 ### October 9-13,2023  
---Taller | Conquista el Tiempo, Alivia la Ansiedad: Estrategias Universitarias Efectiva
+--Taller: Conquista el Tiempo, Alivia la Ansiedad: Estrategias Universitarias Efectiva
 --Seminario de Reclutamiento: Gerstner Sloan Kettering Graduate School (GSK)
 
 
@@ -292,17 +293,17 @@ nano align_data
 --Seminario Científico: "Data Science"
 
 
-### Novermber 6-10,2023  
+### November 6-10,2023  
 
 
-### Novermber 13-17,2023
+### November 13-17,2023
 --Entrega de Progress Report/Informe de Progreso Verano 2023
 
 
-### Novermber 20-24,2023
+### November 20-24,2023
 
 
-### Novermber 27-December 1,2023
+### November 27-December 1,2023
 --Seminario Científico: "Cell Maps" Seminario Departamental de Biología Daniel Feliciano, Ph.D.
 --Seminario científico y de reclutamiento ofrecido por la Universidad de New Hampshire (UNH) 
 
@@ -314,9 +315,11 @@ nano align_data
 
 
 ### December 18-22,2023
+-Christmas Break
 
 
 ### December 25-29,2023
+--MIT prework, documents and survey
 
 
 ### January 1,2023: Introduction and Python Review 
