@@ -374,4 +374,39 @@ nano align_data
 ### January 22-26:
 
 ### January 29-2 February, 2024
+
+### February 5-9, 2024
+
+### February 12-16, 2024
+
+### February 19-24:
+
+### February 26-1 March 2024:
+
+### March 4-9
+-- SACANAS, Local Conference, UPRRP
+
+### March 11-15, 2024:
+
+### March 18-22, 2024:
+
+### March 25-29, 2024:
+
+### April 1-5, 2024:
+
+### April 8-12, 2024:
+
+### April 15-19, 2024:
+
+### April 22-26, 2024:
+
+### April 29-3 May, 2024
+
+### May 6-10, 2024:
+
+### May 13-17, 2024:
+
+### May 20-24, 2024:
+
+### May 27-31, 2024:
  
