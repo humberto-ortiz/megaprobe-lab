@@ -242,6 +242,8 @@ nano align_data
  -Summer Break
  
 ### August 16-18
+-- Research for summer programs off-site: NIH-SIP
+
  
 
 ### August 21-25, 2023
@@ -251,50 +253,55 @@ nano align_data
 
 
 ### August 28- September 1, 2023
+-- Journal Club: "Sparser" 
 
 
 
 ### September 4-8, 2023 
+--Journal Club: "Binarized"
 
 
 
 ### September 11-15, 2023 
---Online Seminario de Reclutamiento:Memorial Sloan Kettering Cancer Center (MSK)
---
+--Online Recruitment Seminar:Memorial Sloan Kettering Cancer Center (MSK)
+--Journal Club: "Noise"
 
 
 
 
 ### September 18-22, 2023 
 --Graduate Fair 
+--Journal Club: "Dimensional reduction"
 
 
 ### September 25-29, 2023 
---Seminario Científico: "Phylogenomic tools to shed light on the evolution of ant-plant symbioses"
---Seminario Científico: "Artificial Intelligence and Machine Learning applied to Biomedicine and Health Disparities Research"
+--Scientific Seminar: "Phylogenomic tools to shed light on the evolution of ant-plant symbioses"
+--Scientific Seminar: "Artificial Intelligence and Machine Learning applied to Biomedicine and Health Disparities Research"
+--Journal Club: "Stringtie"
  
 ### October 2-6,2023
---Seminario de Reclutamiento: UT Southwestern
+--Recruitment Seminar: UT Southwestern
 
 
 ### October 9-13,2023  
---Taller: Conquista el Tiempo, Alivia la Ansiedad: Estrategias Universitarias Efectiva
---Seminario de Reclutamiento: Gerstner Sloan Kettering Graduate School (GSK)
+--Workshop: Conquista el Tiempo, Alivia la Ansiedad: Estrategias Universitarias Efectiva
+--Recruitment Seminar: Gerstner Sloan Kettering Graduate School (GSK)
 
 
-### October 16-20,2023  
+### October 16-20,2023
+-Research for summer program off-site NSF/REU
 
 
 ### October 23-27,2023  
---Seminario Científico: "Reconstituting human organogenesis and disease on microchips"
+--Scientific Seminar: "Reconstituting human organogenesis and disease on microchips"
 
 
 ### October 30- November 3,2023  
---Seminario Científico: "Data Science"
+-- Scientific Seminar: "Data Science"
 
 
 ### November 6-10,2023  
-
+-- Research for summer program off-site The University of Oklahoma (SURP)
 
 ### November 13-17,2023
 --Entrega de Progress Report/Informe de Progreso Verano 2023
