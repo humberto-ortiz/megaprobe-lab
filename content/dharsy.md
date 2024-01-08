@@ -296,12 +296,17 @@ nano align_data
 
 
 ### Novermber 13-17,2023
+--Entrega de Progress Report/Informe de Progreso Verano 2023
 
 
 ### Novermber 20-24,2023
 
 
 ### Novermber 27-December 1,2023
+--Seminario Científico: "Cell Maps" Seminario Departamental de Biología Daniel Feliciano, Ph.D.
+--Seminario científico y de reclutamiento ofrecido por la Universidad de New Hampshire (UNH) 
+
+
 
 
 ### December 4-8,2023
@@ -343,6 +348,25 @@ nano align_data
  
 ### January 5,2023:cognitive reuroscience/Lab Tours
  -Reiew and discussion with Mandana Sassanfar
- -Lecture: 
+ -Lecture:Professor Nancy Kanwisher, "Functional Imaging of the Human Brain"
+ -Lunch with faculty: Steve Flavell, Nancy Kanwisher, Robert Desimone. 3 concurrent Tours, fMRI live demo with Steven Shannon, Athinoula, A. Martinos Imaging Center OR, Tour of MEG facilities with Dimitri Pantazi, CryoEM tour with Sarah Sterling.
+ -Bryan Medina "What makes music so memorable"
+
+
+### January 6,2023:GENOMICS/GWAS/RNAseq
+ -Review and discussion with Mandana Sassanfar
+ -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
+ -Lunh with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
+
+
+### January 6,2023:GENOMICS/GWAS/RNAseq
+ -Review and discussion with Mandana Sassanfar
+ -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
+ -Lunh with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
+ 
+### January 7,2023:GENOMICS/GWAS/RNAseq/Information Sessions
+ -Kamal Maher, "Spatial gene expression patterns using python"
+ -Grad students/Postbacs panel
+
 
  
