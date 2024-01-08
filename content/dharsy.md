@@ -94,9 +94,6 @@ IDGeNe first meeting
  -Taylor Baum"Machine Learning applications to studying the brain"
 
 
-
-
-
 ### January 3,2023:Cognitive Neuroscince/Signal Processing
  -Federico Claudi "Brain Computer Interfaces-theory&Practice"
  -Lunch with faculty: Adam Martin, David Page, Eliezer Calo, Ed Boyden, Chris Burge, Matt Vander Heiden.
@@ -120,7 +117,6 @@ IDGeNe first meeting
  -Review and discussion with Mandana Sassanfar
  -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
  -Lunh with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
-
 
 
 ### January 6,2023:GENOMICS/GWAS/RNAseq
