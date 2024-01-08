@@ -238,7 +238,7 @@ nano align_data
 --2023 SUMMER RESEARCH FEST 
 
 ### August 5-15
- -Break
+ -Summer Break
  
 ### August 16-18
  
