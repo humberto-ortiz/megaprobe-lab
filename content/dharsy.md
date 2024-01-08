@@ -82,49 +82,49 @@ IDGeNe first meeting
 ### December 25-31, 2023
  -MIT prework, Survey and documents
 
-### January 1,2023
+### January 1,2024
  -Introduction and expectations with Mandana Sassanfar
   -Magdalena Krubner "Review of python basics"
   -Magdalena Krubner "Simple coding with python"
 
-### January 2,2023: Python Applications/Machine Learning 
+### January 2,2024: Python Applications/Machine Learning 
  -Review and discussion with Mandana Sassanfar
  -Hannah JObs "PLotting and Curve fitting using python"
  -Lunch with faculty: Lindsay Case Kristen Knouse, Sinisa Hvartin, Mehrdad Jazayeri, Francisco Sanche, and Brandon Weissbourd.
  -Taylor Baum"Machine Learning applications to studying the brain"
 
 
-### January 3,2023:Cognitive Neuroscince/Signal Processing
+### January 3,2024:Cognitive Neuroscince/Signal Processing
  -Federico Claudi "Brain Computer Interfaces-theory&Practice"
  -Lunch with faculty: Adam Martin, David Page, Eliezer Calo, Ed Boyden, Chris Burge, Matt Vander Heiden.
  -Taylor Baum "Signal processing applied to neuroscience"
 
-## January 4,2023: CryoEM
+## January 4,2024: CryoEM
  -Review and discussion with Mandana Sassanfar
  -Mary Ellen Wiltrout "MIT digital learning and on-line courses"
  -Lecture: Professor Joey Davis, "Introduction to CryoEM"
  -Lunch with Faculty: Joey Davis, Cathy Drennan, Becky Lamson, Amy Keating, Mark Harnett, Erin Chen
  -Joey Davis and lab members "CryoEM Data processing and analysis"
 
-### January 5,2023:Cognitive neuroscience/ Lab Tours
+### January 5,2024:Cognitive neuroscience/ Lab Tours
  -Review and discussion with Mandana Sassanfar
  -Lecure: Professor Nancy Kanwisher, "Functional Imaging of the Human Brain"
  -Lunch with faculty: Steve Flavell, Nancy Kanwisher, Robert Desimone. 3 concurrent Tours, fMRI live demo with Steven Shannon, Athinoula, A. Martinos Imaging Center OR, Tour of MEG facilities with Dimitri Pantazi, CryoEM tour with Sarah Sterling.
  -Bryan Medina "What makes music so memorable"
 
 
-### January 6,2023:GENOMICS/GWAS/RNAseq
+### January 6,2024:GENOMICS/GWAS/RNAseq
  -Review and discussion with Mandana Sassanfar
  -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
  -Lunh with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
 
 
-### January 6,2023:GENOMICS/GWAS/RNAseq
+### January 6,2024:GENOMICS/GWAS/RNAseq
  -Review and discussion with Mandana Sassanfar
  -Lecture: Profesor Olivia Corradin, "Human genetics and genomic studies of disease"
  -Lunh with grad students and faculty: Olivia Corradin and Seychelle Vos,Giselle Valdes & Hannah Jacob "RNAseq Data analysis"
  
-### January 7,2023:GENOMICS/GWAS/RNAseq/Information Sessions
+### January 7,2024:GENOMICS/GWAS/RNAseq/Information Sessions
  -Kamal Maher, "Spatial gene expression patterns using python"
  -Grad students/Postbacs panel
 
