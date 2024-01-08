@@ -70,16 +70,29 @@ boq 2
 
 
 ### July 24-28,2023
+ --Lunch with Dr. José García-Arrarás  
+ --“How to prepare an Oral and Poster Presentations” with Dr. José García-Arrarás at CRiiAS (Bring a poster from your lab)
+--Techniques with Dr. José García-Arrarás at JGD-223
+--Grad students panel with Christian Del Valle 
+--Journal Club with Dr. José García-Arrarás at JGD-223
 
 ### July 31-August 4,2023
+--Lunch with Dr. Juan S. Ramírez-Lugo at CRiiAS
+--Deliverable: DRAFT Presentation 
+--Deliverable OFFICIAL Final presentation (https://drive.google.com/drive/u/1/folders/1uw_YQo_W6Ueb2WsL0qnU0iXnkolAEqDA)
+--2023 SUMMER RESEARCH FEST 
 
 ### August 14-18,2023
+--
 
 ### August 21-25,2023
+--
 
 ### August 28-1 September,2023
+--
 
 ### September 4-8,2023
+--
 
 ### September 11-15,2023
 
