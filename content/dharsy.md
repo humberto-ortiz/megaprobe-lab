@@ -244,6 +244,9 @@ nano align_data
  
 
 ### August 21-25, 2023
+--Presentaciones de los resultados obtenidos en la experiencia de verano off-site.Los estudiantes de segundo año en el programa presentarán la investigación realizada en su programa de verano (off-site). Presentarán 10 minutos c/u.
+
+--
 
 
 ### August 28- September 1, 2023
@@ -255,6 +258,8 @@ nano align_data
 
 
 ### September 11-15, 2023 
+--Online Seminario de Reclutamiento:Memorial Sloan Kettering Cancer Center (MSK)
+--
 
 
 
@@ -264,7 +269,8 @@ nano align_data
 
 
 ### September 25-29, 2023 
- 
+--Seminario Científico: "Phylogenomic tools to shed light on the evolution of ant-plant symbioses"
+--
  
 ### October 2-6,2023  
 
