@@ -376,6 +376,137 @@ nano align_data
 --
 
 ### January 15-19:
+--SACNAS abstract deadline
+--NHGRI avstract deadline
+--Oklahoma application submit
+--Python Workshop:
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents
+$ cd Data_1
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls
+beads.jpg        gaussian-original.png      sudoku.png
+board.jpg        maize-root-cluster.jpg     tree.jpg
+centers.txt      maize-roots-grayscale.jpg  trial-016.jpg
+chair.jpg        maize-seedlings.tif        trial-020.jpg
+colonies-01.tif  plant-seedling.jpg         trial-216.jpg
+colonies-02.tif  remote-control.jpg         trial-293.jpg
+colonies-03.tif  shapes-01.jpg              wellplate-01.jpg
+eight.tif        shapes-02.jpg              wellplate-02.tif
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls--l
+bash: ls--l: command not found
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls --l
+beads.jpg        gaussian-original.png      sudoku.png
+board.jpg        maize-root-cluster.jpg     tree.jpg
+centers.txt      maize-roots-grayscale.jpg  trial-016.jpg
+chair.jpg        maize-seedlings.tif        trial-020.jpg
+colonies-01.tif  plant-seedling.jpg         trial-216.jpg
+colonies-02.tif  remote-control.jpg         trial-293.jpg
+colonies-03.tif  shapes-01.jpg              wellplate-01.jpg
+eight.tif        shapes-02.jpg              wellplate-02.tif
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls -l
+total 32385
+-rw-r--r-- 1 dhars 197121  2363654 Jan 16 13:35 beads.jpg
+-rw-r--r-- 1 dhars 197121   119691 Jan 16 13:35 board.jpg
+-rw-r--r-- 1 dhars 197121      755 Jan 16 13:35 centers.txt
+-rw-r--r-- 1 dhars 197121  3217567 Jan 16 13:35 chair.jpg
+-rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-01.tif
+-rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-02.tif
+-rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-03.tif
+-rw-r--r-- 1 dhars 197121      424 Jan 16 13:35 eight.tif
+-rw-r--r-- 1 dhars 197121     9420 Jan 16 13:35 gaussian-original.png
+-rw-r--r-- 1 dhars 197121   192351 Jan 16 13:35 maize-root-cluster.jpg
+-rw-r--r-- 1 dhars 197121   125461 Jan 16 13:35 maize-roots-grayscale.jpg
+-rw-r--r-- 1 dhars 197121  1920216 Jan 16 13:35 maize-seedlings.tif
+-rw-r--r-- 1 dhars 197121   180733 Jan 16 13:35 plant-seedling.jpg
+-rw-r--r-- 1 dhars 197121   909352 Jan 16 13:35 remote-control.jpg
+-rw-r--r-- 1 dhars 197121   627450 Jan 16 13:35 shapes-01.jpg
+-rw-r--r-- 1 dhars 197121    30053 Jan 16 13:35 shapes-02.jpg
+-rw-r--r-- 1 dhars 197121    31065 Jan 16 13:35 sudoku.png
+-rw-r--r-- 1 dhars 197121   154344 Jan 16 13:35 tree.jpg
+-rw-r--r-- 1 dhars 197121  2941689 Jan 16 13:35 trial-016.jpg
+-rw-r--r-- 1 dhars 197121  3038165 Jan 16 13:35 trial-020.jpg
+-rw-r--r-- 1 dhars 197121  2642372 Jan 16 13:35 trial-216.jpg
+-rw-r--r-- 1 dhars 197121  2912210 Jan 16 13:35 trial-293.jpg
+-rw-r--r-- 1 dhars 197121   150771 Jan 16 13:35 wellplate-01.jpg
+-rw-r--r-- 1 dhars 197121 10711298 Jan 16 13:35 wellplate-02.tif
+
+-rw-r—r—1 significa los permisos, la memoria, la fecha y el nombre
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls -a
+./         board.jpg    colonies-01.tif  eight.tif               maize-roots-grayscale.jpg  remote-control.jpg  sudoku.png     trial-020.jpg  wellplate-01.jpg
+../        centers.txt  colonies-02.tif  gaussian-original.png   maize-seedlings.tif        shapes-01.jpg       tree.jpg       trial-216.jpg  wellplate-02.tif
+beads.jpg  chair.jpg    colonies-03.tif  maize-root-cluster.jpg  plant-seedling.jpg         shapes-02.jpg       trial-016.jpg  trial-293.jpg
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ ls -f
+./         board.jpg    colonies-01.tif  eight.tif               maize-roots-grayscale.jpg  remote-control.jpg  sudoku.png     trial-020.jpg  wellplate-01.jpg
+../        centers.txt  colonies-02.tif  gaussian-original.png   maize-seedlings.tif        shapes-01.jpg       tree.jpg       trial-216.jpg  wellplate-02.tif
+beads.jpg  chair.jpg    colonies-03.tif  maize-root-cluster.jpg  plant-seedling.jpg         shapes-02.jpg       trial-016.jpg  trial-293.jpg
+ 
+ls -a, significa mostrar los hidden folders
+cd ../ significa ir a home directory
+cd-  significa ir a home directory ultimo donde estabas
+../../ significa salir para ir al anterior 
+
+dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
+$ cd ../../../Dharsy/
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop
+$ mkdir datos_jupyter
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop
+$ ls
+ Firmas.docx  'GitHub Desktop.lnk'*  'Tera Term.lnk'*   datos_jupyter/   desktop.ini
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop
+$ ls -F
+ Firmas.docx  'GitHub Desktop.lnk'*  'Tera Term.lnk'*   datos_jupyter/   desktop.ini
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop
+$ cd datos_jupyter/
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
+$ curil -OJ https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
+bash: curil: command not found
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
+$ curl -OJ https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 38471  100 38471    0     0   134k      0 --:--:-- --:--:-- --:--:--  136k
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
+$ unzip https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
+unzip:  cannot find or open https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip, https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip.zip or https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip.ZIP.
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
+$ ls
+python-novice-gapminder-data.zip
+
+dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
+$ unzip python-novice-gapminder-data.zip
+Archive:  python-novice-gapminder-data.zip
+  inflating: data/gapminder_all.csv
+  inflating: data/gapminder_gdp_africa.csv
+  inflating: data/gapminder_gdp_americas.csv
+  inflating: data/gapminder_gdp_asia.csv
+  inflating: data/gapminder_gdp_europe.csv
+  inflating: data/gapminder_gdp_oceania.csv
+
+
+
+
 
 ### January 22-26:
 
