@@ -377,138 +377,368 @@ nano align_data
 
 ### January 15-19:
 --SACNAS abstract deadline
---NHGRI avstract deadline
+--NHGRI abstract deadline
 --Oklahoma application submit
---Python Workshop:
+--Python Workshop
+--Article:  "These Are Not etc..."
+--Starting Escambron Protocol 
 
-dhars@Dharsy MINGW64 ~/OneDrive/Documents
-$ cd Data_1
 
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls
-beads.jpg        gaussian-original.png      sudoku.png
-board.jpg        maize-root-cluster.jpg     tree.jpg
-centers.txt      maize-roots-grayscale.jpg  trial-016.jpg
-chair.jpg        maize-seedlings.tif        trial-020.jpg
-colonies-01.tif  plant-seedling.jpg         trial-216.jpg
-colonies-02.tif  remote-control.jpg         trial-293.jpg
-colonies-03.tif  shapes-01.jpg              wellplate-01.jpg
-eight.tif        shapes-02.jpg              wellplate-02.tif
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls--l
-bash: ls--l: command not found
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls --l
-beads.jpg        gaussian-original.png      sudoku.png
-board.jpg        maize-root-cluster.jpg     tree.jpg
-centers.txt      maize-roots-grayscale.jpg  trial-016.jpg
-chair.jpg        maize-seedlings.tif        trial-020.jpg
-colonies-01.tif  plant-seedling.jpg         trial-216.jpg
-colonies-02.tif  remote-control.jpg         trial-293.jpg
-colonies-03.tif  shapes-01.jpg              wellplate-01.jpg
-eight.tif        shapes-02.jpg              wellplate-02.tif
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls -l
-total 32385
--rw-r--r-- 1 dhars 197121  2363654 Jan 16 13:35 beads.jpg
--rw-r--r-- 1 dhars 197121   119691 Jan 16 13:35 board.jpg
--rw-r--r-- 1 dhars 197121      755 Jan 16 13:35 centers.txt
--rw-r--r-- 1 dhars 197121  3217567 Jan 16 13:35 chair.jpg
--rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-01.tif
--rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-02.tif
--rw-r--r-- 1 dhars 197121   278308 Jan 16 13:35 colonies-03.tif
--rw-r--r-- 1 dhars 197121      424 Jan 16 13:35 eight.tif
--rw-r--r-- 1 dhars 197121     9420 Jan 16 13:35 gaussian-original.png
--rw-r--r-- 1 dhars 197121   192351 Jan 16 13:35 maize-root-cluster.jpg
--rw-r--r-- 1 dhars 197121   125461 Jan 16 13:35 maize-roots-grayscale.jpg
--rw-r--r-- 1 dhars 197121  1920216 Jan 16 13:35 maize-seedlings.tif
--rw-r--r-- 1 dhars 197121   180733 Jan 16 13:35 plant-seedling.jpg
--rw-r--r-- 1 dhars 197121   909352 Jan 16 13:35 remote-control.jpg
--rw-r--r-- 1 dhars 197121   627450 Jan 16 13:35 shapes-01.jpg
--rw-r--r-- 1 dhars 197121    30053 Jan 16 13:35 shapes-02.jpg
--rw-r--r-- 1 dhars 197121    31065 Jan 16 13:35 sudoku.png
--rw-r--r-- 1 dhars 197121   154344 Jan 16 13:35 tree.jpg
--rw-r--r-- 1 dhars 197121  2941689 Jan 16 13:35 trial-016.jpg
--rw-r--r-- 1 dhars 197121  3038165 Jan 16 13:35 trial-020.jpg
--rw-r--r-- 1 dhars 197121  2642372 Jan 16 13:35 trial-216.jpg
--rw-r--r-- 1 dhars 197121  2912210 Jan 16 13:35 trial-293.jpg
--rw-r--r-- 1 dhars 197121   150771 Jan 16 13:35 wellplate-01.jpg
--rw-r--r-- 1 dhars 197121 10711298 Jan 16 13:35 wellplate-02.tif
-
--rw-r—r—1 significa los permisos, la memoria, la fecha y el nombre
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls -a
-./         board.jpg    colonies-01.tif  eight.tif               maize-roots-grayscale.jpg  remote-control.jpg  sudoku.png     trial-020.jpg  wellplate-01.jpg
-../        centers.txt  colonies-02.tif  gaussian-original.png   maize-seedlings.tif        shapes-01.jpg       tree.jpg       trial-216.jpg  wellplate-02.tif
-beads.jpg  chair.jpg    colonies-03.tif  maize-root-cluster.jpg  plant-seedling.jpg         shapes-02.jpg       trial-016.jpg  trial-293.jpg
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ ls -f
-./         board.jpg    colonies-01.tif  eight.tif               maize-roots-grayscale.jpg  remote-control.jpg  sudoku.png     trial-020.jpg  wellplate-01.jpg
-../        centers.txt  colonies-02.tif  gaussian-original.png   maize-seedlings.tif        shapes-01.jpg       tree.jpg       trial-216.jpg  wellplate-02.tif
-beads.jpg  chair.jpg    colonies-03.tif  maize-root-cluster.jpg  plant-seedling.jpg         shapes-02.jpg       trial-016.jpg  trial-293.jpg
- 
-ls -a, significa mostrar los hidden folders
-cd ../ significa ir a home directory
-cd-  significa ir a home directory ultimo donde estabas
-../../ significa salir para ir al anterior 
-
-dhars@Dharsy MINGW64 ~/OneDrive/Documents/Data_1
-$ cd ../../../Dharsy/
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop
-$ mkdir datos_jupyter
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop
-$ ls
- Firmas.docx  'GitHub Desktop.lnk'*  'Tera Term.lnk'*   datos_jupyter/   desktop.ini
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop
-$ ls -F
- Firmas.docx  'GitHub Desktop.lnk'*  'Tera Term.lnk'*   datos_jupyter/   desktop.ini
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop
-$ cd datos_jupyter/
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
-$ curil -OJ https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
-bash: curil: command not found
-
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
-$ curl -OJ https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
+login as: drodriguez1
+drodriguez1@boqueron.hpcf.upr.edu's password:
+Access denied
+drodriguez1@boqueron.hpcf.upr.edu's password:
+Last login: Thu Jan 18 12:24:32 2024 from 136.145.181.31
+(base) [drodriguez1@boqueron ~]$ cd $WORK
+(base) [drodriguez1@boqueron drodriguez1]$ ls
+af_home     data                 humberto         job.1894761.out      refs
+align       data_quant           job.1894760.err  multiqc_data
+align_data  fastqc               job.1894760.out  multiqc_report.html
+buildindex  human-2020-A_splici  job.1894761.err  pbmc1k_quant
+(base) [drodriguez1@boqueron drodriguez1]$ curl -O https://github.com/dib-lab/kh                             mer/tree/master/data
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100 38471  100 38471    0     0   134k      0 --:--:-- --:--:-- --:--:--  136k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Wa                             rning: Failed to create the file data
+  9  4567    9   405    0     0    801      0  0:00:05 --:--:--  0:00:05  2700
+curl: (23) Failed writing body (0 != 405)
+(base) [drodriguez1@boqueron drodriguez1]$ pip install khmer
 
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
-$ unzip https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
-unzip:  cannot find or open https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip, https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip.zip or https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip.ZIP.
+Collecting khmer
+  Downloading khmer-2.1.1-cp37-cp37m-manylinux1_x86_64.whl (11.5 MB)
+     |████████████████████████████████| 11.5 MB 829 kB/s
+Collecting screed>=1.0
+  Downloading screed-1.1.3.tar.gz (144 kB)
+     |████████████████████████████████| 144 kB 35.7 MB/s
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Collecting bz2file
+  Downloading bz2file-0.98.tar.gz (11 kB)
+Building wheels for collected packages: screed, bz2file
+  Building wheel for screed (PEP 517) ... done
+  Created wheel for screed: filename=screed-1.1.3-py2.py3-none-any.whl size=96016 sha256=6816a997dc0b7c85344fda7bb35ae62594f83e612acb6ac48bc3f0cd3b420144
+  Stored in directory: /home/humberto/drodriguez1/.cache/pip/wheels/b2/91/48/1a166ff196d74759328d2d1e74daa3e8989a279424e99a2a9d
+  Building wheel for bz2file (setup.py) ... done
+  Created wheel for bz2file: filename=bz2file-0.98-py3-none-any.whl size=6882 sha256=34e91244bb420673cdb11e9a92a189e56838c92aed3b09c6a0170a035481cea7
+  Stored in directory: /home/humberto/drodriguez1/.cache/pip/wheels/85/ce/8d/b5f76b602b16a8a39f2ded74189cf5f09fc4a87bea16c54a8b
+Successfully built screed bz2file
+Installing collected packages: screed, bz2file, khmer
+Successfully installed bz2file-0.98 khmer-2.1.1 screed-1.1.3
+(base) [drodriguez1@boqueron drodriguez1]$ pytest --pyargs khmer -m 'not known_failing and not jenkins and not huge and not linux'
+-bash: pytest: command not found
+(base) [drodriguez1@boqueron drodriguez1]$ curl -O https://github.com/dib-lab/khmer/tree/master/khmer
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+101  4479  101  4479    0     0   8715      0 --:--:-- --:--:-- --:--:-- 34190
+(base) [drodriguez1@boqueron drodriguez1]$ conda create -n khmers
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
 
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
-$ ls
-python-novice-gapminder-data.zip
 
-dhars@Dharsy MINGW64 ~/OneDrive/Desktop/datos_jupyter
-$ unzip python-novice-gapminder-data.zip
-Archive:  python-novice-gapminder-data.zip
-  inflating: data/gapminder_all.csv
-  inflating: data/gapminder_gdp_africa.csv
-  inflating: data/gapminder_gdp_americas.csv
-  inflating: data/gapminder_gdp_asia.csv
-  inflating: data/gapminder_gdp_europe.csv
-  inflating: data/gapminder_gdp_oceania.csv
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.3
+  latest version: 23.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
 
 
+
+## Package Plan ##
+
+  environment location: /home/humberto/drodriguez1/miniconda3/envs/khmers
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate khmers
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [drodriguez1@boqueron drodriguez1]$ conda activate kmers
+Could not find conda environment: kmers
+You can list all discoverable environments with `conda info --envs`.
+
+(base) [drodriguez1@boqueron drodriguez1]$ conda activate khmers
+(khmers) [drodriguez1@boqueron drodriguez1]$ pip install khmers
+ERROR: Could not find a version that satisfies the requirement khmers (from versions: none)
+ERROR: No matching distribution found for khmers
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls
+af_home     buildindex  fastqc               job.1894760.err  job.1894761.out  multiqc_report.html
+align       data        human-2020-A_splici  job.1894760.out  khmer            pbmc1k_quant
+align_data  data_quant  humberto             job.1894761.err  multiqc_data     refs
+(khmers) [drodriguez1@boqueron drodriguez1]$ pip install kmers
+Collecting kmers
+  Downloading kmers-0.2.1-py3-none-any.whl (5.9 kB)
+Collecting biopython
+  Downloading biopython-1.81.tar.gz (19.3 MB)
+     |████████████████████████████████| 19.3 MB 1.9 MB/s
+Collecting numpy
+  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     |████████████████████████████████| 15.7 MB 34.6 MB/s
+Building wheels for collected packages: biopython
+  Building wheel for biopython (setup.py) ... done
+  Created wheel for biopython: filename=biopython-1.81-cp37-cp37m-linux_x86_64.whl size=3009565 sha256=030e2435c57dd57859b3187f23e7bd5b02b2bfb979d891fd852db0912d33a7e1
+  Stored in directory: /home/humberto/drodriguez1/.cache/pip/wheels/02/c0/ad/b31c4b0d92571e9a91055bf96c89887cf3e31db3bc3bd0ca14
+Successfully built biopython
+Installing collected packages: numpy, biopython, kmers
+Successfully installed biopython-1.81 kmers-0.2.1 numpy-1.21.6
+(khmers) [drodriguez1@boqueron drodriguez1]$ curl-o https://github.com/dib-lab/khmer/tree/master/khmer
+-bash: curl-o: command not found
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls
+af_home     buildindex  fastqc               job.1894760.err  job.1894761.out  multiqc_report.html
+align       data        human-2020-A_splici  job.1894760.out  khmer            pbmc1k_quant
+align_data  data_quant  humberto             job.1894761.err  multiqc_data     refs
+(khmers) [drodriguez1@boqueron drodriguez1]$ cd $WORK khmer
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls
+af_home     buildindex  fastqc               job.1894760.err  job.1894761.out  multiqc_report.html
+align       data        human-2020-A_splici  job.1894760.out  khmer            pbmc1k_quant
+align_data  data_quant  humberto             job.1894761.err  multiqc_data     refs
+(khmers) [drodriguez1@boqueron drodriguez1]$ curl -o starcluster start -o -s 1 -i m2.2xlarge -n ami-999d49f0 pipeline
+
+curl: (6) Couldn't resolve host 'start'
+
+curl: (7) Failed to connect to 0.0.0.1: Invalid argument
+curl: (6) Couldn't resolve host 'm2.2xlarge'
+curl: (6) Couldn't resolve host 'ami-999d49f0'
+curl: (6) Couldn't resolve host 'pipeline'
+(khmers) [drodriguez1@boqueron drodriguez1]$ curl -o ami-999d49f0
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+(khmers) [drodriguez1@boqueron drodriguez1]$ curl -O http://public.ged.msu.edu.s3.amazonaws.com/2013-khmer-counting/2013-khmer-counting-data.tar.gz
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 5731M  100 5731M    0     0  14.6M      0  0:06:32  0:06:32 --:--:-- 17.3M
+(khmers) [drodriguez1@boqueron drodriguez1]$
+(khmers) [drodriguez1@boqueron drodriguez1]$ curl -O https://s3.amazonaws.com/public.ged.msu.edu/mrnaseq-subset.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+121   243    0   243    0     0    558      0 --:--:-- --:--:-- --:--:--  2858
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls -l
+total 5870669
+-rw-r--r-- 1 drodriguez1 humberto 6010092907 Jan 18 13:29 2013-khmer-counting-data.tar.gz
+drwxr-sr-x 3 drodriguez1 humberto       4096 Jul  5  2023 af_home
+-rwxr-xr-x 1 drodriguez1 humberto       1122 Jul  5  2023 align
+-rwxr-xr-x 1 drodriguez1 humberto       1115 Jul 17  2023 align_data
+-rw-r--r-- 1 drodriguez1 humberto        266 Jul 19  2023 buildindex
+drwxr-sr-x 2 drodriguez1 humberto       4096 Jul 17  2023 data
+drwxr-sr-x 3 drodriguez1 humberto       4096 Jul 17  2023 data_quant
+drwxr-sr-x 2 drodriguez1 humberto       4096 Jul  5  2023 fastqc
+drwxr-sr-x 4 drodriguez1 humberto       4096 Jul  4  2023 human-2020-A_splici
+drwxr-sr-x 2 drodriguez1 humberto      12288 Jul  5  2023 humberto
+-rw-r--r-- 1 drodriguez1 humberto         78 Jul  5  2023 job.1894760.err
+-rw-r--r-- 1 drodriguez1 humberto      13703 Jul  5  2023 job.1894760.out
+-rw-r--r-- 1 drodriguez1 humberto         78 Jul  5  2023 job.1894761.err
+-rw-r--r-- 1 drodriguez1 humberto       5237 Jul  5  2023 job.1894761.out
+-rw-r--r-- 1 drodriguez1 humberto       4479 Jan 18 12:58 khmer
+-rw-r--r-- 1 drodriguez1 humberto        243 Jan 18 13:32 mrnaseq-subset.tar
+drwxr-sr-x 2 drodriguez1 humberto       4096 Jul  3  2023 multiqc_data
+-rw-r--r-- 1 drodriguez1 humberto    1366899 Jul  3  2023 multiqc_report.html
+drwxr-sr-x 4 drodriguez1 humberto       4096 Jul  5  2023 pbmc1k_quant
+drwxr-sr-x 3 drodriguez1 humberto       4096 Jul  3  2023 refs
+(khmers) [drodriguez1@boqueron drodriguez1]$ tar xf 2013-khmer-counting-data.tar.gz
+(base) [drodriguez1@boqueron drodriguez1]$ conda activate khmers
 
 
 
 ### January 22-26:
+-- Course schedule to the director
+-- Continuing working with the Article: "These Are Not etc..." and Starting Escambron Protocol 
+
+
+login as: drodriguez1
+drodriguez1@boqueron.hpcf.upr.edu's password:
+Access denied
+drodriguez1@boqueron.hpcf.upr.edu's password:
+Last login: Thu Jan 18 15:00:45 2024 from 136.145.181.31
+(base) [drodriguez1@boqueron ~]$ conda activate khmers
+(khmers) [drodriguez1@boqueron ~]$ ls
+archivo_2
+buildindex.save
+buildindex.save.1
+dc_workshop
+miniconda3
+Miniconda3-latest-Linux-x86_64.sh
+Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+Miniconda3-py38_23.3.1-0-Linux-x86_64.sh
+miniconda.html
+nano.save
+nano.save.1
+SRR1032911_1.fastq
+SRR1032911_2.fastq
+(khmers) [drodriguez1@boqueron ~]$ ls
+archivo_2
+buildindex.save
+buildindex.save.1
+dc_workshop
+miniconda3
+Miniconda3-latest-Linux-x86_64.sh
+Miniconda3-py310_23.3.1-0-Linux-x86_64.sh
+Miniconda3-py38_23.3.1-0-Linux-x86_64.sh
+miniconda.html
+nano.save
+nano.save.1
+SRR1032911_1.fastq
+SRR1032911_2.fastq
+(khmers) [drodriguez1@boqueron ~]$ cd $WORK
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls
+=1.0                             fastqc               mrnaseq-subset.tar
+2013-khmer-counting-data.tar.gz  human-2020-A_splici  multiqc_data
+af_home                          humberto             multiqc_report.html
+align                            job.1894760.err      pbmc1k_quant
+align_data                       job.1894760.out      pipeline
+buildindex                       job.1894761.err      refs
+data                             job.1894761.out      WARNING:
+data_quant                       khmer
+(khmers) [drodriguez1@boqueron drodriguez1]$ tar tf 2013-khmer-counting-data.tar.gz
+pipeline/
+pipeline/iowa_prairie_0920.fa.1
+pipeline/iowa_prairie_0920.fa.2
+pipeline/iowa_prairie_0920.fa.3
+(khmers) [drodriguez1@boqueron drodriguez1]$ mkdir -p {WORK}/ quality
+(khmers) [drodriguez1@boqueron drodriguez1]$ cd $ {WORK}/ quality
+-bash: cd: $: No such file or directory
+(khmers) [drodriguez1@boqueron drodriguez1]$ ls
+=1.0                             human-2020-A_splici  multiqc_report.html
+2013-khmer-counting-data.tar.gz  humberto             pbmc1k_quant
+af_home                          job.1894760.err      pipeline
+align                            job.1894760.out      quality
+align_data                       job.1894761.err      refs
+buildindex                       job.1894761.out      WARNING:
+data                             khmer                {WORK}
+data_quant                       mrnaseq-subset.tar
+fastqc                           multiqc_data
+(khmers) [drodriguez1@boqueron drodriguez1]$ cd quality
+(khmers) [drodriguez1@boqueron quality]$ ls
+(khmers) [drodriguez1@boqueron quality]$ ln -fs /work/humberto/drodriguez1/2013-khmer-counting-data.tar.gz/*.fastq.gz.
+(khmers) [drodriguez1@boqueron quality]$ l
+-bash: l: command not found
+(khmers) [drodriguez1@boqueron pipeline]$ ls
+ecoliMG1655.fa   iowa_prairie_0920.fa.1  iowa_prairie_0920.fa.4  quality
+ecoli_ref.fastq  iowa_prairie_0920.fa.2  iowa_prairie_0920.fa.5
+*.fastqc.gz,     iowa_prairie_0920.fa.3  MH0001.trimmed.fa
+(khmers) [drodriguez1@boqueron pipeline]$ rm \*.fastqc.gz\,
+(khmers) [drodriguez1@boqueron pipeline]$ rmdir quality
+(khmers) [drodriguez1@boqueron drodriguez1]$ module  load fastqc
+(khmers) [drodriguez1@boqueron drodriguez1]$ fastqc *.fastq.gz
+Skipping '*.fastq.gz' which didn't exist, or couldn't be read
+(khmers) [drodriguez1@boqueron drodriguez1]$ cd quality
+(khmers) [drodriguez1@boqueron quality]$ ln -fs ${WORK}/pipeline/*fa^C
+(khmers) [drodriguez1@boqueron quality]$ ls
+(khmers) [drodriguez1@boqueron quality]$ ls ../pipeline
+ecoliMG1655.fa          iowa_prairie_0920.fa.2  iowa_prairie_0920.fa.5
+ecoli_ref.fastq         iowa_prairie_0920.fa.3  MH0001.trimmed.fa
+iowa_prairie_0920.fa.1  iowa_prairie_0920.fa.4
+(khmers) [drodriguez1@boqueron quality]$  ln -fs ${WORK}/pipeline/*fa
+(khmers) [drodriguez1@boqueron quality]$ ls ../pipeline -l
+total 16204776
+-rw-r--r-- 1 drodriguez1 humberto    4706054 Jul 25  2013 ecoliMG1655.fa
+-rw-r--r-- 1 drodriguez1 humberto 1141494078 Jun 28  2013 ecoli_ref.fastq
+-rw-r--r-- 1 drodriguez1 humberto 1085661175 Jun 24  2013 iowa_prairie_0920.fa.1
+-rw-r--r-- 1 drodriguez1 humberto 2169950952 Jun 24  2013 iowa_prairie_0920.fa.2
+-rw-r--r-- 1 drodriguez1 humberto 3137253948 Jun 24  2013 iowa_prairie_0920.fa.3
+-rw-r--r-- 1 drodriguez1 humberto 4049116668 Jun 24  2013 iowa_prairie_0920.fa.4
+-rw-r--r-- 1 drodriguez1 humberto 5005467903 Jun 24  2013 iowa_prairie_0920.fa.5
+lrwxrwxrwx 1 drodriguez1 humberto         50 Jan 22 12:34 MH0001.trimmed.fa -> /                             work/humberto/drodriguez1/pipeline/ecoliMG1655.fa
+(khmers) [drodriguez1@boqueron quality]$  ln -fs ${WORK}/pipeline/*.fa.* .
+(khmers) [drodriguez1@boqueron quality]$ ls
+iowa_prairie_0920.fa.1  iowa_prairie_0920.fa.3  iowa_prairie_0920.fa.5
+iowa_prairie_0920.fa.2  iowa_prairie_0920.fa.4
+(khmers) [drodriguez1@boqueron quality]$ ls -l
+total 0
+lrwxrwxrwx 1 drodriguez1 humberto 58 Jan 22 12:37 iowa_prairie_0920.fa.1 -> /wor                             k/humberto/drodriguez1/pipeline/iowa_prairie_0920.fa.1
+lrwxrwxrwx 1 drodriguez1 humberto 58 Jan 22 12:37 iowa_prairie_0920.fa.2 -> /wor                             k/humberto/drodriguez1/pipeline/iowa_prairie_0920.fa.2
+lrwxrwxrwx 1 drodriguez1 humberto 58 Jan 22 12:37 iowa_prairie_0920.fa.3 -> /wor                             k/humberto/drodriguez1/pipeline/iowa_prairie_0920.fa.3
+lrwxrwxrwx 1 drodriguez1 humberto 58 Jan 22 12:37 iowa_prairie_0920.fa.4 -> /wor                             k/humberto/drodriguez1/pipeline/iowa_prairie_0920.fa.4
+lrwxrwxrwx 1 drodriguez1 humberto 58 Jan 22 12:37 iowa_prairie_0920.fa.5 -> /wor                             k/humberto/drodriguez1/pipeline/iowa_prairie_0920.fa.5
+(khmers) [drodriguez1@boqueron quality]$ module load fastqc
+(khmers) [drodriguez1@boqueron quality]$ fastqc *.fastq.gz
+Skipping '*.fastq.gz' which didn't exist, or couldn't be read
+(khmers) [drodriguez1@boqueron quality]$ fastqc *.fa.*
+Failed to process iowa_prairie_0920.fa.1
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start wit                             h '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunne                             r.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.jav                             a:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:3                             16)
+Failed to process iowa_prairie_0920.fa.2
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start wit                             h '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunne                             r.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.jav                             a:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:3                             16)
+Failed to process iowa_prairie_0920.fa.3
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start wit                             h '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunne                             r.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.jav                             a:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:3                             16)
+Failed to process iowa_prairie_0920.fa.4
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start wit                             h '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunne                             r.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.jav                             a:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:3                             16)
+Failed to process iowa_prairie_0920.fa.5
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start wit                             h '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(Sequen                             ceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunne                             r.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.jav                             a:121)
+(khmers) [drodriguez1@boqueron quality]$ less iowa_prairie_0920.fa.1
+>1461:1:1:1627:2143/2
+TCAGCTCGATTTGAAGTTCGCCCTGGTTCGGCGTCAGGACGATGGCGTCGATGAGGCCTCGAAGCGCCTCAGACGCTTCCGTGCG
+>1461:1:1:1540:2176/1
+TGGAGGAGCAGAACCTGGTGAGCTTTGAACGGGAAACCGACTCCCGGGGGAAAGGGAGCGTCGTC
+>1461:1:1:1352:2135/2
+AGCTGCCGTGCCTGCGCGGGCGAGATGTCGGATCCTGAATTCAAATACCGCGTCCTCTGGCCGTGCGGCAGTCCTTGGCG
+>1461:1:1:1593:2140/1
+GAGCCGCCTCCCGCTCGTCCCCGCGATCCCCGCCTTCCCGGGGACAAAAGCGGGGACCCGGATTTGCAAGCATCC
+>1461:1:1:2062:2174/1
+ACAAAGGCACTGGCCATTGCATTGCCGGCGAGGTCCGTGACCCCGGTGCTAATCGTGGCG
+>1461:1:1:3340:2123/1
+GCACAGATAATTTTGCCGGCCTTTCATCAACGCTGCTTCAAACTCGACTGGCAG
+>1461:1:1:2959:2028/1
+AACGACAAAAAGCCAAAAATAGAAACCGCCGTCGACGACATTGGTCGTGGAGCTCATCCCAAGTTCTACGAGTTGGTGTCCCAGAGCGAGTTGG
+>1461:1:1:2843:2136/1
+ACCTCGTAACGCCGGGCCTCCTCCGCCGGTTTCGGACGGGCCGCGACAGCCAGGCCGAAGCGTTCCCGGGCGGCGACCCAGTCGCCCGTGGCCTCCGCGA
+>1461:1:1:3109:2162/2
+AGCGCAGAACGCGCCAAAGCCAGACAAGCCGATGATCACTCCGAACCCCGACGGGACCTTCACGGCTCAAAAGCAGCCGAAGGATGCCAAGGCCAAGGCG
+>1461:1:1:2710:2196/1
+GGGAACAAGGTGATGGCTTACTTCGAGCGCCTCTGATCGGCGCGCCCTACGCCGCCTCGCGCTCCGGCACCTTCACCGCCGCGAGCG
+>1461:1:1:4205:2141/1
+GGCCTGTACGCGATGAGGTCGCCGCGCTCGCGGCGCTTCGGGGTCATCCTGATCGCGACCGGGCTCGTGTGGTCGCTGACCGCGTTCGGTGAGTCGTCCG
+>1461:1:1:3666:2093/1
+GTGATCAAGCCCATGGCGGTGTCGTCGAACTTCGGGTCGC
+>1461:1:1:4271:2210/2
+TGTCCTATCTGATCGACCCGCACACGCCGAAAAACGACGGCACCTTTCGGCCGATCGAGGTCATCGCCAAGCCCGGCACCGTGGTCTGGGCCAACC
+>1461:1:1:3877:2185/1
+
 
 ### January 29-2 February, 2024
 
