@@ -192,6 +192,62 @@ Solving environment: done
 refdata-gex-GRCh38-2020-A
 Collecting package metadata (current_repodata.json): done
 
+Last login: Thu Jul 3 13:02:07 2023 from 136.145.181.31
+(base) drodriguez1@hulk:~$ pwd
+/home/drodriguez1
+(base) drodriguez1@hulk:~$ ls
+ af_home
+ align_data
+ align_data.save
+'Bioinformatic of gene expression.Rproj'
+ buildindex
+ data
+ data_quant
+ fastqc
+'*.fastq.gz'
+ fix-names.R
+ human-2020-A_splici
+ install.R
+ load-af-data.R
+ miniconda3
+ mrnaseq-subset.tar
+ Mytest
+ neuvos
+ newfiles
+ nombre-nuevo
+ nombres
+ nuevo
+ pbmc1k_quant
+ R
+ refdata-gex-GRCh38-2020-A
+ scrEXT001_hg19_S9_L008_I1_001.fastq.gz
+ snap
+(base) drodriguez1@hulk:~$ cd refdata-gex-GRCh38-2020-A/
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A$ ls
+fasta  genes  pickle  reference.json  star
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A$ cd fasta
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A/fasta$ ls
+genome.fa  genome.fa.fai
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A/fasta$ cd genes
+-bash: cd: genes: No such file or directory
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A/fasta$ cd ../genes
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A/genes$ ls
+genes.gtf
+(base) drodriguez1@hulk:~/refdata-gex-GRCh38-2020-A/genes$ less genes.gtf
+##description: evidence-based annotation of the human genome (GRCh38), version 32 (Ensembl 98)
+##provider: GENCODE
+##contact: gencode-help@ebi.ac.uk
+##format: gtf
+##date: 2019-09-05
+chr1    HAVANA  gene    29554   31109   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; level 2; hgnc_id "HGNC:52482"; tag "ncRNA_host"; havana_gene "OTTHUMG00000000959.2";
+chr1    HAVANA  transcript      29554   31097   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000473358"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-202"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "dotter_confirmed"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002840.1";
+chr1    HAVANA  exon    29554   30039   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000473358"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-202"; exon_number 1; exon_id "ENSE00001947070"; exon_version "1"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "dotter_confirmed"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002840.1";
+chr1    HAVANA  exon    30564   30667   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000473358"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-202"; exon_number 2; exon_id "ENSE00001922571"; exon_version "1"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "dotter_confirmed"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002840.1";
+chr1    HAVANA  exon    30976   31097   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000473358"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-202"; exon_number 3; exon_id "ENSE00001827679"; exon_version "1"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "dotter_confirmed"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002840.1";
+chr1    HAVANA  transcript      30267   31109   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000469289"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-201"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002841.2";
+chr1    HAVANA  exon    30267   30667   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000469289"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-201"; exon_number 1; exon_id "ENSE00001841699"; exon_version "1"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002841.2";
+chr1    HAVANA  exon    30976   31109   .       +       .       gene_id "ENSG00000243485"; gene_version "5"; transcript_id "ENST00000469289"; transcript_version "1"; gene_type "lncRNA"; gene_name "MIR1302-2HG"; transcript_type "lncRNA"; transcript_name "MIR1302-2HG-201"; exon_number 2; exon_id "ENSE00001890064"; exon_version "1"; level 2; transcript_support_level "5"; hgnc_id "HGNC:52482"; tag "not_best_in_genome_evidence"; tag "basic"; havana_gene "OTTHUMG00000000959.2"; havana_transcript "OTTHUMT00000002841.2";
+chr1    HAVANA  gene    34554   36081   .       -       .       gene_id "ENSG00000237613"; gene_version "2"; gene_type "lncRNA"; genes.gtf
 
  
 ### July 10-14
