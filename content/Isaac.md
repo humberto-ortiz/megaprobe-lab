@@ -19,6 +19,7 @@ Besides computer science and programming, I enjoy watching and playing soccer, a
 - Contribute to the land of Programming Languages
 - Understand and apply Type Theory
 - Understand Homotopy Type Theory
+- Find the Fourth Futamura Projection :laughing:
 
 ## Research Description
 
@@ -29,4 +30,7 @@ The hope is that the type checker can later be extended to the semantics of a ge
 ### Week 1: (10-14, 3, 2025)
 - Developed scanner for the Language (partially, but mostly completed).
 - Developed a small parser combinator library in order to reuse it whenever language is extended.
-- Developed small weakest-precondition evaluator
+- Develop scanner for RAISE in Scheme.
+- Implement some parser combinators in Scheme.
+- Reading The Seasoned Schemer up to chapter (1)6.
+- Discuss with professor focus on evaluating S-Expressions to develop AST subset and evaluator.
