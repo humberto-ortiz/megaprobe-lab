@@ -24,3 +24,9 @@ Besides computer science and programming, I enjoy watching and playing soccer, a
 
 My research consists of implementing a type checker and interpreter for the RAISE Specification Language (RSL).
 The hope is that the type checker can later be extended to the semantics of a general purpose language.
+
+## Weekly UPDATES
+### Week 1: (10-14, 3, 2025)
+- Developed scanner for the Language (partially, but mostly completed).
+- Developed a small parser combinator library in order to reuse it whenever language is extended.
+- Developed small weakest-precondition evaluator
