@@ -34,3 +34,14 @@ The hope is that the type checker can later be extended to the semantics of a ge
 - Implement some parser combinators in Scheme.
 - Reading The Seasoned Schemer up to chapter (1)6.
 - Discuss with professor focus on evaluating S-Expressions to develop AST subset and evaluator.
+
+### Week 2: (17-21, 3, 2025)
+- Read an axiomatic basis for Computer Programming
+- Read on semantics of programming languages
+- Started developing the Weakest Precondition (Predicate Calculus)
+
+### Week 3: (24-28, 3, 2025)
+- Developed weakest precondition for skip, abort, sequence, and if expressions
+- Gave presentation of updates
+- Decided to pursue on proving a 2 line program using weakest precondition
+- Keep developing scanner for the language
