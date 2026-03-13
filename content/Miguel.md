@@ -110,12 +110,56 @@ in Biology and Computer Science.
    - Instead of focusing on trying to use the theano library I will open up to the Keras and Tenserflow library since they are more widely use and there are more tutorials and code using this libraries ( I know since I have have found more of these on my search for theano tutorials and code for denoising autoencoders). 
    - I will start documenting better the articles I have read and used to understand and get into the field of neural networks and autoencoders.  
 
-### Week 7: (March 8 - 14)
+---
 
-### Week 8: (March 8 - 14)
+### Semester: January-May, 2026
 
-### Week 9: (March 15 - 21)
+### Overview:
+Filler 
 
-### Week 10: (March 22 - 28)
+### Week 1: January 14 - 16
+- Start of new semester
 
-### Week 11: (March 29 - April 4)
+### Week 2: Junuary 19 - 23
+- Reorganized the lab. 
+- Was given the papers:
+   - Single-cell biological network inference using heterogeneous graph transformers.
+   - Scanpy: large-scale single-cell gene expresion data analysis.
+
+### Week 3: January 26 - 30
+- Read the papers from week 2.
+- Found the papers:
+   - Epigenetics: The Science of Change (https://pmc.ncbi.nlm.nih.gov/articles/PMC1392256/)
+   - The Changing Concept of Epigenetics. (https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1749-6632.2002.tb04913.x?casa_token=O-3Qko62Wr8AAAAA%3AIBarO4wOs6VJ1-EtKveCwL4TNNM4FQJxh1ZN0i52F84DY5rt_2PAXfmvIgTgtfX5ihDI2vw85pe4Fi8)
+   - Single-cell sequencing to multi-omics: technologies and applications (https://link.springer.com/article/10.1186/s40364-024-00643-4)
+   - Artificial Intelligence (AI)-Based Systems Biology Approaches in Multi-Omics Data Analysis of Cancer (https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.588221/full)
+   - Revolutionizing multi-omics analysis with artificial intelligence and data processing (https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70002)
+
+### Week 4: February 2 - 6
+- Read the Epigenetics papers, which helped me understand the scope and focus of the field. 
+- Read Accelerating single-cell genomic analysis with gpu's paper. 
+
+### Week 5: February 9 - 13
+- Created a Notebooklm entry with all the papers that I read so far. 
+- Found and read the paper "Single-cell sequencing to multi-omics: technologies and applications." (https://link.springer.com/article/10.1186/s40364-024-00643-4). Really good paper that introduces multi-omics, what it encompases,  the type of data that is used and analysed, the 
+
+### Week 6: February 16 - 20
+- Got Assigned the paper DeepMAPS
+- Started working on technical report for DeepMAPS
+- Went to HPCF
+
+### Week 7: 23 - 27
+- Finished the technical report.
+- Technical report presentation 
+
+### Week 8: 2 - 6
+- Did not gave the presentation, did not assist to the unversity this week
+
+
+### Week 9: 9 - 13
+- Worked to get up to date with university homework
+- Will look into online courses for machine learning, AI, etc. to get myself more familiarized with a more hands on aproach for this project. I have an O'Reilly book for machine learning using Scikit-Learn, Keras and TensorFlow. Gonna start there. 
+- Will look into graph transformers vs standard statical models vs convolutional neural networks. 
+- Will get more hands on with DeepMAPS 
+
+
