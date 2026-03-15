@@ -44,3 +44,8 @@ semantics and dataflow semantics.
 
 - Finished evaluator for basic PL needs
 - Added simple bioinformatics (DNA, RNA types, and transcribe and reverse_complement functions)
+
+### Week 4: (9-13, 3, 2026)
+
+- Made some FFI from Apache Arrow to El MegaProbe Language
+- Able to read a csv file, create a dataframe and print it
